@@ -15,25 +15,8 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.1 } },
 };
 
-function CrowdBar({ level }) {
-  const pct = (level / 3) * 100;
-  const colors = {
-    1: "#4ade80",
-    2: "var(--sand)",
-    3: "var(--coral)",
-  };
-  return (
-    <div className="crowd-bar" style={{ width: "80px" }}>
-      <div
-        className="crowd-bar-fill"
-        style={{ width: `${pct}%`, background: colors[level] }}
-      />
-    </div>
-  );
-}
-
-export function BeachCard({
-  beach,
+export function LocationCard({
+  location,
   onImageClick,
   compact = false,
   contentOnly = false,
@@ -46,24 +29,24 @@ export function BeachCard({
     <div className={`${padding} flex flex-col ${gap} flex-1`}>
       {/* Thumbnail + content row */}
       <div className="flex gap-4">
-        {beach.photo && (
+        {location.photo && (
           <img
-            src={beach.photo}
-            alt={beach.name}
+            src={location.photo}
+            alt={location.name}
             {...(!compact && {
-              onClick: () => onImageClick?.(beach.photo, beach.name),
+              onClick: () => onImageClick?.(location.photo, location.name),
               onKeyDown: (e) => {
                 if (e.key === "Enter" || e.key === " ") {
                   e.preventDefault();
-                  onImageClick?.(beach.photo, beach.name);
+                  onImageClick?.(location.photo, location.name);
                 }
               },
               role: "button",
               tabIndex: 0,
-              "aria-label": `View full size photo of ${beach.name}`,
+              "aria-label": `View full size photo of ${location.name}`,
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
-            className="rounded-xl object-cover flex-shrink-0"
+            className="rounded-xl object-cover shrink-0"
             style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
           />
         )}
@@ -78,7 +61,7 @@ export function BeachCard({
                   fontWeight: 600,
                 }}
               >
-                {beach.name}
+                {location.name}
               </h3>
               <div className="flex items-center gap-1.5 mt-1">
                 <MapPin size={12} color="var(--coral)" />
@@ -90,11 +73,11 @@ export function BeachCard({
                     fontFamily: "var(--font-mono)",
                   }}
                 >
-                  {beach.location}
+                  {location.location}
                 </span>
               </div>
               <a
-                href={getGoogleMapsUrl(beach.name, beach.location)}
+                href={getGoogleMapsUrl(location.name, location.location)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
@@ -104,10 +87,10 @@ export function BeachCard({
                   fontFamily: "var(--font-mono)",
                   textDecoration: "underline",
                 }}
-                aria-label={`${t("beaches.viewOnMap")} - ${beach.name}`}
+                aria-label={`${t("locations.viewOnMap")} - ${location.name}`}
               >
                 <ExternalLink size={12} />
-                {t("beaches.viewOnMap")}
+                {t("locations.viewOnMap")}
               </a>
             </div>
           </div>
@@ -123,14 +106,14 @@ export function BeachCard({
           flex: 1,
         }}
       >
-        {beach.desc}
+        {location.desc}
       </p>
 
-      <div
-        className="rounded-xl p-4 flex flex-col gap-3"
-        style={{ background: "var(--mist)" }}
-      >
-        <div>
+      {location.highlights && (
+        <div
+          className="rounded-xl p-4"
+          style={{ background: "var(--mist)" }}
+        >
           <span
             className="text-xs uppercase tracking-widest block mb-1"
             style={{
@@ -140,7 +123,7 @@ export function BeachCard({
               letterSpacing: "0.12em",
             }}
           >
-            {t("beaches.bestFor")}
+            {t("locations.highlights")}
           </span>
           <p
             style={{
@@ -150,24 +133,10 @@ export function BeachCard({
               lineHeight: 1.5,
             }}
           >
-            {beach.bestFor}
+            {location.highlights}
           </p>
         </div>
-        <div>
-          <span
-            className="text-xs uppercase tracking-widest block mb-1.5"
-            style={{
-              fontFamily: "var(--font-mono)",
-              color: "var(--ocean)",
-              opacity: 0.6,
-              letterSpacing: "0.12em",
-            }}
-          >
-            {t("beaches.crowdLevel")}
-          </span>
-          <CrowdBar level={beach.crowd} />
-        </div>
-      </div>
+      )}
     </div>
   );
 
@@ -190,20 +159,20 @@ export function BeachCard({
   );
 }
 
-export default function BeachGuide() {
+export default function LocationsGuide() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
   const [lightbox, setLightbox] = useState({ url: null, alt: "" });
 
-  const beaches = t("beaches.list", { returnObjects: true });
+  const locations = t("locations.list", { returnObjects: true });
 
   return (
     <section
-      id="beaches"
+      id="locations"
       ref={ref}
       className="py-24 px-6"
-      style={{ background: "var(--mist)" }}
+      style={{ background: "var(--ivory)" }}
     >
       <div className="max-w-6xl mx-auto">
         <motion.div
@@ -221,7 +190,7 @@ export default function BeachGuide() {
                 opacity: 0.6,
               }}
             >
-              Sun & Sand
+              {t("locations.label")}
             </span>
             <h2
               className="font-display mb-4"
@@ -233,7 +202,7 @@ export default function BeachGuide() {
                 lineHeight: 1.1,
               }}
             >
-              {t("beaches.title")}
+              {t("locations.title")}
             </h2>
             <p
               style={{
@@ -244,16 +213,16 @@ export default function BeachGuide() {
                 lineHeight: 1.7,
               }}
             >
-              {t("beaches.subtitle")}
+              {t("locations.subtitle")}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.isArray(beaches) &&
-              beaches.map((beach) => (
-                <BeachCard
-                  key={beach.name}
-                  beach={beach}
+            {Array.isArray(locations) &&
+              locations.map((location) => (
+                <LocationCard
+                  key={location.name}
+                  location={location}
                   onImageClick={(photo, name) =>
                     setLightbox({ url: photo, alt: name })
                   }

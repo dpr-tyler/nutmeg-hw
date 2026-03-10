@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { X } from 'lucide-react'
 import { BeachCard } from './BeachGuide'
 import { FoodCard } from './FoodGuide'
+import { LocationCard } from './LocationsGuide'
 
 const priceColor = {
   '$': 'var(--sand)',
@@ -68,6 +69,14 @@ export default function EntityPopover({ entity, onClose }) {
             {entity.type === 'beach' && (
               <BeachCard
                 beach={entity.data}
+                compact
+                contentOnly
+                onImageClick={() => {}}
+              />
+            )}
+            {entity.type === 'location' && (
+              <LocationCard
+                location={entity.data}
                 compact
                 contentOnly
                 onImageClick={() => {}}

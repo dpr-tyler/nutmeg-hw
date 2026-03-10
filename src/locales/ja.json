@@ -3,6 +3,7 @@
     "overview": "概要",
     "itinerary": "旅程",
     "beaches": "ビーチ",
+    "locations": "スポット",
     "food": "グルメ",
     "tips": "旅のヒント"
   },
@@ -87,13 +88,13 @@
       },
       {
         "day": "5日目",
-        "title": "ダイヤモンドヘッド & チャイナタウン",
+        "title": "ダイヤモンドヘッド & ワイキキ",
         "focus": "文化",
         "budget": "$$",
         "morning": "ダイヤモンドヘッドのクレーターハイク（往復約2.6km、入場$5）。早朝6時開場、涼しい時間帯がベスト。ワイキキと東部オアフを一望できます。",
-        "afternoon": "チャイナタウンへ。ヌウアヌ通りのアートギャラリー、ホノルル美術館（任意）、活気あるケカウリケ通りのマーケットを散策。",
-        "evening": "チャイナタウングルメ巡り：「ラッキーベリー」でラーメン、「リブストック・タバーン」でクラフトカクテル、または「フィート」でオアフ産食材の上質な料理を。",
-        "tip": "ホノルル美術館は毎月第1日曜日が無料入場日。旅程に合わせられれば一石二鳥です。"
+        "afternoon": "ワイキキでリラックス。ビーチタイム、泳ぎ、日光浴、またはウォーターフロント散歩。ワイキキビーチウォークのロイズでランチ。",
+        "evening": "アラモアナセンター。ハワイ最大のオープンエアモール、350以上のショップとレストラン。夕日を眺めながらウォーターフロントでディナー。",
+        "tip": "アラモアナセンターは無料駐車場あり、ワイキキから車で近い。海側から夕日が美しい。"
       },
       {
         "day": "6日目",
@@ -183,6 +184,71 @@
         "difficulty": "Easy",
         "desc": "貿易風が吹き抜ける2マイルの弧状白砂ビーチ。地元の人々とウォータースポーツファンに愛されています。駐車場完備。",
         "photo": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=80&h=80&fit=crop&crop=center&auto=format"
+      }
+    ]
+  },
+  "locations": {
+    "label": "探索",
+    "title": "スポット & アトラクション",
+    "subtitle": "旅程に登場するランドマーク、ショップ、体験スポットをご紹介。",
+    "viewOnMap": "地図で見る",
+    "highlights": "見どころ",
+    "list": [
+      {
+        "name": "アラモアナセンター",
+        "aliases": ["アラモアナ", "Ala Moana Center"],
+        "location": "ホノルル",
+        "desc": "ハワイ最大のオープンエアモール。350以上のショップとレストラン。無料駐車場、ワイキキから車で近い。海側から夕日が美しい。",
+        "highlights": "ショッピング、ダイニング、夕日、無料駐車",
+        "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "マツモト・シェイブアイス",
+        "aliases": ["マツモト", "マツモトのシェイブアイス", "Matsumoto Shave Ice"],
+        "location": "ハレイワ、ノースショア",
+        "desc": "1951年創業のノースショアの名店。定番のシェイブアイスとトロピカルフレーバー。行列覚悟で。近くの青木も同品質で待ち時間短め。",
+        "highlights": "シェイブアイス、ノースショアの定番",
+        "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "ドール・プランテーション",
+        "aliases": ["ドール", "Dole Plantation"],
+        "location": "ワヒアワ",
+        "desc": "パイナップル迷路、観光列車、トロピカルガーデン。ノースショア帰りにH-1海岸ルートで立ち寄り。ギフトショップでパイナップルお土産。",
+        "highlights": "パイナップル迷路、列車ツアー、ガーデン",
+        "photo": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "ダイヤモンドヘッド",
+        "aliases": ["Diamond Head"],
+        "location": "ホノルル",
+        "desc": "象徴的なクレーターハイク、往復約2.6km、入場$5。6時開場。早朝が涼しく光もベスト。ワイキキと東部オアフを360度一望。",
+        "highlights": "ハイキング、パノラマ、日の出・夕日",
+        "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "クアロア・ランチ",
+        "aliases": ["クアロア", "Kualoa Ranch"],
+        "location": "カネオヘ",
+        "desc": "映画・TVの撮影地（ジュラシック・パーク、ロスト）。ATVや乗馬ツアーでドラマチックな渓谷を巡る。人気時間帯は事前予約を。",
+        "highlights": "ATVツアー、乗馬、映画ロケ地、渓谷",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "ヌウアヌ・パリ展望台",
+        "aliases": ["パリ展望台", "ヌウアヌパリ", "Nu'uanu Pali Lookout"],
+        "location": "ウィンドワード・オアフ",
+        "desc": "パリ・ハイウェイからのウィンドワード絶景。歴史的な戦いの舞台。風が強いので帽子に注意。オアフ屈指の絶景ポイント。",
+        "highlights": "パノラマ、パリハイウェイ、ウィンドワード",
+        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "アロハスタジアム・スワップミート",
+        "aliases": ["アロハスタジアム", "スワップミート", "Aloha Stadium Swap Meet"],
+        "location": "ハラワ",
+        "desc": "ハワイ最大のフリーマーケット。土日開催。お土産、地元クラフト、マカダミアナッツ、コナコーヒー。多くの店舗は現金推奨。",
+        "highlights": "お土産、地元クラフト、週末のみ",
+        "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
       }
     ]
   },

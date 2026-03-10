@@ -3,6 +3,7 @@
     "overview": "Overview",
     "itinerary": "Itinerary",
     "beaches": "Beaches",
+    "locations": "Locations",
     "food": "Food",
     "tips": "Tips"
   },
@@ -87,13 +88,13 @@
       },
       {
         "day": "Day 05",
-        "title": "Diamond Head & Chinatown",
+        "title": "Diamond Head & Waikiki",
         "focus": "Culture",
         "budget": "$$",
         "morning": "Hike Diamond Head crater (1.6 miles round trip, $5/person). Go early. Open at 6am, best light and cooler temperatures. 360-degree views of Waikiki and southeast Oahu.",
-        "afternoon": "Drive to Chinatown. Explore the art galleries along Nuuanu Avenue, the Honolulu Museum of Art (optional), and the lively Kekaulike Street market.",
-        "evening": "Chinatown food crawl: Lucky Belly for ramen, Livestock Tavern for craft cocktails, or Fete for upscale local fare.",
-        "tip": "The Honolulu Museum of Art is free on the first Sunday of each month. Worth timing your trip around if possible."
+        "afternoon": "Relax in Waikiki. Beach time, swim, sunbathe, or stroll the waterfront. Roy's at Waikiki Beach Walk for lunch.",
+        "evening": "Ala Moana Center. Hawaii's largest open-air mall with 350+ shops and restaurants. Sunset views, dinner at one of the waterfront options.",
+        "tip": "Ala Moana Center has free parking and is a short drive from Waikiki. Great sunset from the makai side."
       },
       {
         "day": "Day 06",
@@ -183,6 +184,71 @@
         "difficulty": "Easy",
         "desc": "A 2-mile crescent of white sand with consistent trade winds. Popular with locals and watersport enthusiasts. Parking available.",
         "photo": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=80&h=80&fit=crop&crop=center&auto=format"
+      }
+    ]
+  },
+  "locations": {
+    "label": "Explore",
+    "title": "Locations & Attractions",
+    "subtitle": "Landmarks, shops, and experiences from your itinerary.",
+    "viewOnMap": "View on map",
+    "highlights": "Highlights",
+    "list": [
+      {
+        "name": "Ala Moana Center",
+        "aliases": ["Ala Moana"],
+        "location": "Honolulu",
+        "desc": "Hawaii's largest open-air mall with 350+ shops and restaurants. Free parking, short drive from Waikiki. Great sunset views from the makai side.",
+        "highlights": "Shopping, dining, sunset views, free parking",
+        "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Matsumoto Shave Ice",
+        "aliases": ["Matsumoto's", "Matsumoto"],
+        "location": "Haleiwa, North Shore",
+        "desc": "North Shore institution since 1951. Classic shave ice with tropical flavors. Expect a line—Aoki's nearby offers same quality with shorter wait.",
+        "highlights": "Shave ice, North Shore staple, tropical flavors",
+        "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Dole Plantation",
+        "aliases": ["Dole"],
+        "location": "Wahiawa",
+        "desc": "Pineapple maze, scenic train tour, and tropical garden. Stop on the H-1 coastal route back from North Shore. Gift shop for pineapple treats.",
+        "highlights": "Pineapple maze, train tour, garden, gift shop",
+        "photo": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Diamond Head",
+        "aliases": [],
+        "location": "Honolulu",
+        "desc": "Iconic crater hike, 1.6 miles round trip, $5/person. Open at 6am. Go early for best light and cooler temps. 360-degree views of Waikiki and southeast Oahu.",
+        "highlights": "Hiking, panoramic views, sunrise/sunset",
+        "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Kualoa Ranch",
+        "aliases": ["Kualoa"],
+        "location": "Kaneohe",
+        "desc": "Movie and TV filming location (Jurassic Park, Lost). ATV and horseback tours through dramatic valleys. Book ahead for popular time slots.",
+        "highlights": "ATV tours, horseback, movie sites, valley views",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Nu'uanu Pali Lookout",
+        "aliases": ["Pali Lookout", "Nuuanu Pali"],
+        "location": "Windward Oahu",
+        "desc": "Panoramic windward views from the Pali Highway. Historic battle site. Often windy—hold onto your hat. One of Oahu's most dramatic viewpoints.",
+        "highlights": "Panoramic views, Pali Highway, windward coast",
+        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Aloha Stadium Swap Meet",
+        "aliases": ["Aloha Stadium", "Swap Meet"],
+        "location": "Halawa",
+        "desc": "Hawaii's largest flea market. Saturdays and Sundays. Souvenirs, local crafts, macadamia nuts, Kona coffee. Cash preferred at many stalls.",
+        "highlights": "Souvenirs, local crafts, gifts, weekend only",
+        "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
       }
     ]
   },

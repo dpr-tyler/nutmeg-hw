@@ -32,6 +32,7 @@ export default function Nav() {
   const links = [
     { key: 'nav.itinerary', href: '#itinerary' },
     { key: 'nav.beaches', href: '#beaches' },
+    { key: 'nav.locations', href: '#locations' },
     { key: 'nav.food', href: '#food' },
     { key: 'nav.tips', href: '#tips' },
   ]

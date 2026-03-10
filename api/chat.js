@@ -29,7 +29,7 @@ ITINERARY OVERVIEW:
 - Day 2: East Side: Hanauma Bay snorkeling (book online, $25/person, arrive by 7am), Lanikai Beach, Kailua lunch at Kalapawai
 - Day 3: Food Day: KCC Farmers Market (Sat 7-11am), Leonard's Malasadas, Pig & The Lady dinner in Chinatown
 - Day 4: North Shore: Waimea Bay, Haleiwa town, Giovanni's Shrimp Truck
-- Day 5: Diamond Head hike + Chinatown culture + art galleries
+- Day 5: Diamond Head hike + Waikiki afternoon relax + Ala Moana Center evening
 - Day 6: Windward Coast: Kualoa Ranch, Kaneohe Bay sandbar, Nu'uanu Pali Lookout
 - Day 7: Relaxed farewell: last beach, Alan Wong's or Mariposa dinner
 
@@ -49,7 +49,7 @@ const SYSTEM_PROMPT_JA = `あなたはオアフ島（ハワイ）に詳しい親
 - 2日目: イーストサイド：ハナウマ湾シュノーケリング（オンライン予約必須、$25/人、7時着推奨）、ラニカイビーチ、カラパワイでランチ
 - 3日目: グルメの日：KCCファーマーズマーケット（土曜7-11時）、レナードのマラサダ、チャイナタウンのピッグ&ザ・レディでディナー
 - 4日目: ノースショア：ワイメアベイ、ハレイワタウン、ジョバンニズ・シュリンプ・トラック
-- 5日目: ダイヤモンドヘッドハイク＋チャイナタウン文化・ギャラリー
+- 5日目: ダイヤモンドヘッドハイク＋ワイキキ午後のんびり＋アラモアナセンター夕方
 - 6日目: ウィンドワードコースト：クアロアランチ、カネオヘ湾砂洲、ヌウアヌ・パリ展望台
 - 7日目: のんびりお別れ：最後のビーチ、アラン・ウォンズまたはマリポサでディナー
 

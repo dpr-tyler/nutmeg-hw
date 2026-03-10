@@ -92,7 +92,7 @@ export default function PracticalTips() {
       id="tips"
       ref={ref}
       className="py-24 px-6"
-      style={{ background: "var(--mist)" }}
+      style={{ background: "var(--ivory)" }}
     >
       <div className="max-w-4xl mx-auto">
         <motion.div

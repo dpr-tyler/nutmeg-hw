@@ -226,7 +226,7 @@ export default function FoodGuide() {
       id="food"
       ref={ref}
       className="py-24 px-6"
-      style={{ background: "var(--ivory)" }}
+      style={{ background: "var(--mist)" }}
     >
       <div className="max-w-6xl mx-auto">
         <motion.div

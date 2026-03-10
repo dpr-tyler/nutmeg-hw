@@ -1,9 +1,9 @@
 /**
- * Builds a flat list of entities (beaches + food) from locale data for matching in itinerary text.
- * Each entity has: { id, name, type: 'beach'|'food', data, searchTerms }
+ * Builds a flat list of entities (beaches + food + locations) from locale data for matching in itinerary text.
+ * Each entity has: { id, name, type: 'beach'|'food'|'location', data, searchTerms }
  * searchTerms = [name, ...aliases] - all strings that can match in text
  */
-export function buildEntityRegistry(beaches, foodItems) {
+export function buildEntityRegistry(beaches, foodItems, locations) {
   const entities = []
 
   if (Array.isArray(beaches)) {
@@ -39,6 +39,22 @@ export function buildEntityRegistry(beaches, foodItems) {
           searchTerms,
         })
       }
+    }
+  }
+
+  if (Array.isArray(locations)) {
+    for (const loc of locations) {
+      const searchTerms = [loc.name]
+      if (loc.aliases && Array.isArray(loc.aliases)) {
+        searchTerms.push(...loc.aliases)
+      }
+      entities.push({
+        id: `location:${loc.name}`,
+        name: loc.name,
+        type: 'location',
+        data: loc,
+        searchTerms,
+      })
     }
   }
 
