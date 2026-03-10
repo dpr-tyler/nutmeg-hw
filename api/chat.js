@@ -35,14 +35,14 @@ ITINERARY OVERVIEW:
 - Day 2: Rest day Waikiki: Leonard's/Aloh Health Bar, beach, Waiola shave ice, Ke Kai Catamaran sunset sail
 - Day 3: Manoa Falls, Koko Head Cafe brunch, Leonard's/Liliha/Waiola, Kakaako murals and Ward Village, Merriman's Honolulu dinner
 - Day 4: Diamond Head hike (6 AM, book ahead $5/person + $10 parking), KCC Farmers Market or Kaimuki, The Pig and The Lady dinner
-- Day 5: Hanauma Bay snorkeling (reservations at web5.hnl.info, 2 days ahead at 7 AM HST, $25 + $3 parking, closed Mon/Tue), North Shore: Laniakea turtles, Haleiwa, Giovanni's Shrimp Truck, Waimea Bay, Haleiwa Joe's dinner
+- Day 5: Hanauma Bay snorkeling (reservations online, 2 days ahead at 7 AM HST, $25 + $3 parking, closed Mon/Tue), North Shore: Laniakea turtles, Haleiwa, Giovanni's Shrimp Truck, Waimea Bay, Haleiwa Joe's dinner
 - Day 6: Pali Lookout, Ho'omaluhia Botanical Garden, Kailua (Kalapawai lunch, Kailua Beach, Lanikai), Haleiwa Joe's Kaneohe
 - Day 7: Kualoa Ranch (UTV/zipline), Waimanalo Beach, farewell dinner at Azure or Duke's Waikiki
 
 KEY PRACTICAL INFO:
 - Rent a car at HNL airport (essential for exploring beyond Waikiki)
 - Parking: municipal lots $1-2/hr in Waikiki vs $35+ hotel valet; North Shore lots fill by 9am weekends
-- Diamond Head and Hanauma Bay: advance reservations required (Hanauma opens 2 days ahead at 7 AM HST at web5.hnl.info, closed Mon/Tue)
+- Diamond Head and Hanauma Bay: advance reservations required (Hanauma opens 2 days ahead at 7 AM HST online, closed Mon/Tue)
 - Kualoa Ranch: book UTV/zipline tours weeks ahead in peak season
 - Merriman's Honolulu in Kakaako: reservations via OpenTable; Azure closed Mon/Tue
 - Reef-safe sunscreen (zinc oxide/titanium dioxide) required by Hawaii law
