@@ -56,7 +56,7 @@ export default async function handler(req, res) {
 
   try {
     const completion = await client.chat.completions.create({
-      model: 'gpt-4o-mini',
+      model: 'gpt-5-nano',
       messages: [
         { role: 'system', content: systemPrompt },
         ...messages.slice(-10), // Keep last 10 messages for context
