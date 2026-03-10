@@ -69,7 +69,7 @@ export default function Hero() {
           variants={itemVariants}
           className="font-display text-white mb-6 leading-none"
           style={{
-            fontFamily: "var(--font-display)",
+            fontFamily: isJa ? '"Noto Serif JP", "Yu Mincho", serif' : "var(--font-display)",
             fontSize: "clamp(3rem, 7vw, 5rem)",
             fontWeight: isJa ? 500 : 300,
             letterSpacing: "-0.02em",

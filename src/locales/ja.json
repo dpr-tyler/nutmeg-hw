@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "オアフ島で過ごす1週間",
-    "subtitle": "にぎわいも自然も楽しめるオアフを、\nふたり旅にちょうどいいリズムで。",
+    "subtitle": "豊かな自然溢れるオアフを、ふたり旅にちょうどいいリズムで。",
     "cta": "ガイドを読む"
   },
   "overview": {
@@ -102,7 +102,7 @@
         "focus": "自然",
         "budget": "$$",
         "morning": "Pali Highway を越えて、まずは Nu'uanu Pali Lookout へ。風はかなり強いですが、そのぶん景色の迫力は格別です。続いて Ho'omaluhia Botanical Garden へ向かえば、湖とコオラウ山脈がつくる静かな景色に気持ちがほどけます。入場無料で、通常は木曜休園です。",
-        "afternoon": "ランチは Kailua の Kalapawai Market で軽やかに。そのあとは Kailua Beach Park で白い砂浜とターコイズの海を楽しみ、時間と体力に余裕があれば Lanikai Beach まで足を延ばしましょう。条件が良ければ、近くでカヤックを借りて Mokulua Islands 方面へ向かうのも気持ちのいい選択です。",
+        "afternoon": "ランチは Kailua の Kalapawai Market で軽やかに。そのあとは Kailua Beach Park で白い砂浜とエメラルドブルーの海を楽しみ、時間と体力に余裕があれば Lanikai Beach まで足を延ばしましょう。気候が良ければ、近くでカヤックを借りて Mokulua Islands 方面へ向かうのも気持ちのいい選択です。",
         "evening": "夕食は Buzz's Original Steakhouse へ。1962年創業の家族経営で、ステーキもシーフードも安定感があります。バー利用なら比較的入りやすいですが、週末にテーブル席を狙うなら事前連絡がおすすめです。",
         "tip": "Kailua Beach は午前の遅い時間になる前に着くと駐車しやすめです。Lanikai Beach は Mokulua Drive 沿いの路上駐車のみなので、標識をよく確認しておきましょう。"
       },
@@ -150,7 +150,7 @@
         "bestFor": "モクルア諸島へのカヤック、ウィンドサーフィン、長い散歩",
         "crowd": 1,
         "difficulty": "Easy",
-        "desc": "約2マイルにわたって白砂が続く、開放感たっぷりのビーチ。ターコイズの海と安定した貿易風が心地よく、条件が良ければ近くから Mokulua Islands 方面へのカヤックも楽しめます。",
+        "desc": "約2マイルにわたって白砂が続く、開放感たっぷりのビーチ。エメラルドブルーの海と安定した貿易風が心地よく、気候が良ければ近くから Mokulua Islands 方面へのカヤックも楽しめます。",
         "photo": "/images/kailua-beach-park.jpg"
       },
       {
@@ -269,7 +269,7 @@
             "the Mokulua Islands"
           ],
           "location": "Kailua Bay, Windward Oahu",
-          "desc": "Lanikai Beach の沖に浮かぶ2つの小島、Moku Nui と Moku Iki。どちらも海鳥保護区で、上陸できるのは Moku Nui のみです。Kailua Beach Park や Lanikai から、条件が良ければカヤックで片道30〜45分ほど。",
+          "desc": "Lanikai Beach の沖に浮かぶ2つの小島、Moku Nui と Moku Iki。どちらも海鳥保護区で、上陸できるのは Moku Nui のみです。Kailua Beach Park や Lanikai から、気候が良ければカヤックで片道30〜45分ほど。",
           "highlights": "カヤック目的地、海鳥保護区、Moku Nui の砂浜、絶景トレイル",
           "photo": "/images/mokulua-islands.jpg"
         },
@@ -502,7 +502,7 @@
     "title": "旅のヒント",
     "subtitle": "一週間を心地よく回るために、先に知っておくと助かることをまとめました。",
     "footerMessage": "Mahalo. オアフでの一週間が、思い出深い旅になりますように。",
-    "footerByline": "Taira Matsuzaki",
+    "footerByline": "松崎平より",
     "items": [
       {
         "icon": "Car",
