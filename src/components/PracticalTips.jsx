@@ -94,20 +94,6 @@ export default function PracticalTips() {
       className="py-24 px-6"
       style={{ background: "var(--mist)" }}
     >
-      {/* Wave top */}
-      <div className="wave-divider -mt-24" style={{ marginBottom: "-2px" }}>
-        <svg
-          viewBox="0 0 1440 80"
-          preserveAspectRatio="none"
-          style={{ height: "80px", width: "100%" }}
-        >
-          <path
-            d="M0,60 C480,10 960,80 1440,30 L1440,0 L0,0 Z"
-            fill="var(--ivory)"
-          />
-        </svg>
-      </div>
-
       <div className="max-w-4xl mx-auto">
         <motion.div
           variants={stagger}

@@ -1,7 +1,13 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { UtensilsCrossed, Star, MapPin, ExternalLink } from "lucide-react";
+import {
+  UtensilsCrossed,
+  Star,
+  MapPin,
+  ExternalLink,
+  Lightbulb,
+} from "lucide-react";
 import { getGoogleMapsUrl } from "../utils/mapsUrl";
 import ImageLightbox from "./ImageLightbox";
 
@@ -16,9 +22,9 @@ const stagger = {
 };
 
 const priceColor = {
-  $: "var(--sand)",
-  $$: "var(--ocean)",
-  $$$: "var(--coral)",
+  $: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
+  $$: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
+  $$$: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
 };
 
 export function FoodCard({
@@ -83,8 +89,9 @@ export function FoodCard({
                 <span
                   className="text-xs px-2 py-0.5 rounded-full budget-pill"
                   style={{
-                    background: `${priceColor[item.price]}18`,
-                    color: priceColor[item.price],
+                    background:
+                      priceColor[item.price]?.bg ?? "rgba(0,0,0,0.08)",
+                    color: priceColor[item.price]?.fg ?? "var(--ink)",
                   }}
                 >
                   {item.price}
@@ -128,34 +135,21 @@ export function FoodCard({
 
       <div className="rounded-xl p-4" style={{ background: "var(--mist)" }}>
         <div className="flex items-start gap-2">
-          <Star
+          <Lightbulb
             size={13}
             color="var(--sand)"
             style={{ flexShrink: 0, marginTop: 2 }}
           />
-          <div>
-            <span
-              className="text-xs uppercase tracking-widest block mb-1"
-              style={{
-                fontFamily: "var(--font-mono)",
-                color: "var(--sand)",
-                letterSpacing: "0.12em",
-                opacity: 0.8,
-              }}
-            >
-              {t("food.whyGo")}
-            </span>
-            <p
-              style={{
-                fontSize: "0.85rem",
-                color: "var(--ink)",
-                opacity: 0.75,
-                lineHeight: 1.65,
-              }}
-            >
-              {item.whyGo}
-            </p>
-          </div>
+          <p
+            style={{
+              fontSize: "0.85rem",
+              color: "var(--ink)",
+              opacity: 0.75,
+              lineHeight: 1.65,
+            }}
+          >
+            {item.whyGo}
+          </p>
         </div>
       </div>
     </>
@@ -234,20 +228,6 @@ export default function FoodGuide() {
       className="py-24 px-6"
       style={{ background: "var(--ivory)" }}
     >
-      {/* Wave top */}
-      <div className="wave-divider -mt-24" style={{ marginBottom: "-2px" }}>
-        <svg
-          viewBox="0 0 1440 80"
-          preserveAspectRatio="none"
-          style={{ height: "80px", width: "100%" }}
-        >
-          <path
-            d="M0,40 C360,0 1080,80 1440,20 L1440,0 L0,0 Z"
-            fill="var(--mist)"
-          />
-        </svg>
-      </div>
-
       <div className="max-w-6xl mx-auto">
         <motion.div
           variants={stagger}

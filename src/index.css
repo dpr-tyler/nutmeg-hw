@@ -54,13 +54,6 @@ body {
   border-radius: 3px;
 }
 
-/* Wave divider */
-.wave-divider {
-  overflow: hidden;
-  line-height: 0;
-  display: block;
-}
-
 /* Budget pill */
 .budget-pill {
   font-family: var(--font-mono);
