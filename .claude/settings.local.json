@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(CLAUDE_PLUGIN_ROOT=\"/Users/tyler/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.0\" && $CLAUDE_PLUGIN_ROOT/lib/brainstorm-server/start-server.sh --project-dir /Users/tyler/nutmeg-hw)",
+      "Bash(sleep 4 && CLAUDE_PLUGIN_ROOT=\"/Users/tyler/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.0\" && $CLAUDE_PLUGIN_ROOT/lib/brainstorm-server/start-server.sh --project-dir /Users/tyler/nutmeg-hw 2>&1)",
+      "Bash(CLAUDE_PLUGIN_ROOT=\"/Users/tyler/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.0\")",
+      "Read(//Users/tyler/nutmeg-hw/$CLAUDE_PLUGIN_ROOT/lib/**)",
+      "Bash(CLAUDE_PLUGIN_ROOT=\"/Users/tyler/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.0\" && $CLAUDE_PLUGIN_ROOT/lib/brainstorm-server/start-server.sh --project-dir /Users/tyler/nutmeg-hw 2>&1)",
+      "Bash(git check-ignore:*)",
+      "Bash(echo \".worktrees\" >> /Users/tyler/nutmeg-hw/.gitignore && git add .gitignore && git commit -m \"Add .worktrees to .gitignore\")",
+      "Bash(git worktree:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git merge:*)",
+      "Bash(git branch:*)"
+    ]
+  }
+}
