@@ -104,7 +104,7 @@ export default async function handler(req, res) {
   const systemPrompt = lang === "ja" ? SYSTEM_PROMPT_JA : SYSTEM_PROMPT_EN;
 
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 9_000);
+  const timeoutId = setTimeout(() => controller.abort(), 25_000);
 
   try {
     const completion = await client.chat.completions.create(
@@ -123,7 +123,7 @@ export default async function handler(req, res) {
     return res.status(200).json({ reply });
   } catch (err) {
     clearTimeout(timeoutId);
-    if (err.name === "AbortError")
+    if (err.name === "APIUserAbortError" || err.name === "AbortError")
       return res.status(504).json({ error: "Request timed out" });
     console.error("OpenAI error:", err);
     return res.status(500).json({ error: "Failed to generate response" });
