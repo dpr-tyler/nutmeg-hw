@@ -15,12 +15,6 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.08 } },
 }
 
-const budgetColors = {
-  '$': { bg: 'rgba(198,169,107,0.15)', text: 'var(--sand)' },
-  '$$': { bg: 'rgba(27,79,107,0.12)', text: 'var(--ocean)' },
-  '$$$': { bg: 'rgba(217,107,79,0.12)', text: 'var(--coral)' },
-}
-
 function TimeBlock({ icon: Icon, label, content, onEntityClick }) {
   return (
     <div className="flex gap-4">
@@ -50,8 +44,6 @@ function TimeBlock({ icon: Icon, label, content, onEntityClick }) {
 
 function DayCard({ day, isOpen, onToggle, onEntityClick }) {
   const { t } = useTranslation()
-  const budget = day.budget || '$$'
-  const budgetStyle = budgetColors[budget] || budgetColors['$$']
 
   return (
     <div
@@ -90,12 +82,6 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
               {day.title}
             </h3>
             <div className="flex items-center gap-3 mt-1">
-              <span
-                className="text-xs px-2.5 py-0.5 rounded-full budget-pill"
-                style={{ background: budgetStyle.bg, color: budgetStyle.text }}
-              >
-                {budget}
-              </span>
               <span
                 className="text-xs"
                 style={{ color: 'var(--ink)', opacity: 0.45, fontFamily: 'var(--font-mono)' }}
