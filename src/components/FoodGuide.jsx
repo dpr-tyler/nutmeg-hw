@@ -1,30 +1,36 @@
-import { useRef, useState } from 'react'
-import { motion, useInView } from 'framer-motion'
-import { useTranslation } from 'react-i18next'
-import { UtensilsCrossed, Star, MapPin, ExternalLink } from 'lucide-react'
-import { getGoogleMapsUrl } from '../utils/mapsUrl'
-import ImageLightbox from './ImageLightbox'
+import { useRef, useState } from "react";
+import { motion, useInView } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { UtensilsCrossed, Star, MapPin, ExternalLink } from "lucide-react";
+import { getGoogleMapsUrl } from "../utils/mapsUrl";
+import ImageLightbox from "./ImageLightbox";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
-}
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
 
 const stagger = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.09 } },
-}
+};
 
 const priceColor = {
-  '$': 'var(--sand)',
-  '$$': 'var(--ocean)',
-  '$$$': 'var(--coral)',
-}
+  $: "var(--sand)",
+  $$: "var(--ocean)",
+  $$$: "var(--coral)",
+};
 
-export function FoodCard({ item, accent, onImageClick, compact = false, contentOnly = false }) {
-  const { t } = useTranslation()
-  const padding = compact ? 'p-4' : 'p-6'
-  const gap = compact ? 'gap-3' : 'gap-4'
+export function FoodCard({
+  item,
+  accent,
+  onImageClick,
+  compact = false,
+  contentOnly = false,
+}) {
+  const { t } = useTranslation();
+  const padding = compact ? "p-4" : "p-6";
+  const gap = compact ? "gap-3" : "gap-4";
 
   const content = (
     <>
@@ -35,11 +41,16 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
             alt={item.name}
             {...(!compact && {
               onClick: () => onImageClick?.(item.photo, item.name),
-              onKeyDown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick?.(item.photo, item.name) } },
-              role: 'button',
+              onKeyDown: (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  onImageClick?.(item.photo, item.name);
+                }
+              },
+              role: "button",
               tabIndex: 0,
-              'aria-label': `View full size photo of ${item.name}`,
-              style: { width: 72, height: 72, cursor: 'zoom-in' },
+              "aria-label": `View full size photo of ${item.name}`,
+              style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
             className="rounded-xl object-cover flex-shrink-0"
             style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
@@ -50,12 +61,23 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
             <div className="flex-1">
               <h4
                 className="font-display text-lg leading-snug"
-                style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
+                style={{
+                  fontFamily: "var(--font-display)",
+                  color: "var(--ink)",
+                  fontWeight: 600,
+                }}
               >
                 {item.name}
               </h4>
               <div className="flex items-center gap-2 mt-1">
-                <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
+                <span
+                  style={{
+                    fontSize: "0.78rem",
+                    color: "var(--ink)",
+                    opacity: 0.5,
+                    fontFamily: "var(--font-mono)",
+                  }}
+                >
                   {item.type}
                 </span>
                 <span
@@ -71,7 +93,14 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
               {item.location && (
                 <div className="flex items-center gap-1.5 mt-1">
                   <MapPin size={12} color="var(--coral)" />
-                  <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
+                  <span
+                    style={{
+                      fontSize: "0.78rem",
+                      color: "var(--ink)",
+                      opacity: 0.5,
+                      fontFamily: "var(--font-mono)",
+                    }}
+                  >
                     {item.location}
                   </span>
                 </div>
@@ -81,43 +110,61 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
-                style={{ fontSize: '0.8rem', color: 'var(--ocean)', fontFamily: 'var(--font-mono)', textDecoration: 'underline' }}
-                aria-label={`${t('food.viewOnMap')} - ${item.name}`}
+                style={{
+                  fontSize: "0.8rem",
+                  color: "var(--ocean)",
+                  fontFamily: "var(--font-mono)",
+                  textDecoration: "underline",
+                }}
+                aria-label={`${t("food.viewOnMap")} - ${item.name}`}
               >
                 <ExternalLink size={12} />
-                {t('food.viewOnMap')}
+                {t("food.viewOnMap")}
               </a>
             </div>
           </div>
         </div>
       </div>
 
-      <div
-        className="rounded-xl p-4"
-        style={{ background: 'var(--mist)' }}
-      >
+      <div className="rounded-xl p-4" style={{ background: "var(--mist)" }}>
         <div className="flex items-start gap-2">
-          <Star size={13} color="var(--sand)" style={{ flexShrink: 0, marginTop: 2 }} />
+          <Star
+            size={13}
+            color="var(--sand)"
+            style={{ flexShrink: 0, marginTop: 2 }}
+          />
           <div>
             <span
               className="text-xs uppercase tracking-widest block mb-1"
-              style={{ fontFamily: 'var(--font-mono)', color: 'var(--sand)', letterSpacing: '0.12em', opacity: 0.8 }}
+              style={{
+                fontFamily: "var(--font-mono)",
+                color: "var(--sand)",
+                letterSpacing: "0.12em",
+                opacity: 0.8,
+              }}
             >
-              {t('food.whyGo')}
+              {t("food.whyGo")}
             </span>
-            <p style={{ fontSize: '0.85rem', color: 'var(--ink)', opacity: 0.75, lineHeight: 1.65 }}>
+            <p
+              style={{
+                fontSize: "0.85rem",
+                color: "var(--ink)",
+                opacity: 0.75,
+                lineHeight: 1.65,
+              }}
+            >
               {item.whyGo}
             </p>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 
-  const wrapperClass = `${padding} flex flex-col ${gap}`
+  const wrapperClass = `${padding} flex flex-col ${gap}`;
 
   if (contentOnly) {
-    return <div className={wrapperClass}>{content}</div>
+    return <div className={wrapperClass}>{content}</div>;
   }
 
   return (
@@ -125,18 +172,18 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
       variants={compact ? {} : fadeUp}
       className={`rounded-2xl ${wrapperClass}`}
       style={{
-        background: 'white',
-        border: '1px solid rgba(27,79,107,0.08)',
-        boxShadow: '0 2px 10px rgba(0,0,0,0.04)',
+        background: "white",
+        border: "1px solid rgba(27,79,107,0.08)",
+        boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
       }}
     >
       {content}
     </motion.div>
-  )
+  );
 }
 
 function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   return (
     <div className="mb-16">
       <div className="flex items-center gap-3 mb-6">
@@ -148,7 +195,11 @@ function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
         </div>
         <h3
           className="font-display text-2xl"
-          style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
+          style={{
+            fontFamily: "var(--font-display)",
+            color: "var(--ink)",
+            fontWeight: 600,
+          }}
         >
           {t(labelKey)}
         </h3>
@@ -156,32 +207,44 @@ function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {items.map((item) => (
-          <FoodCard key={item.name} item={item} accent={accent} onImageClick={onImageClick} />
+          <FoodCard
+            key={item.name}
+            item={item}
+            accent={accent}
+            onImageClick={onImageClick}
+          />
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 export default function FoodGuide() {
-  const { t } = useTranslation()
-  const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-80px' })
-  const [lightbox, setLightbox] = useState({ url: null, alt: '' })
+  const { t } = useTranslation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const [lightbox, setLightbox] = useState({ url: null, alt: "" });
 
-  const foodItems = t('food.items', { returnObjects: true })
+  const foodItems = t("food.items", { returnObjects: true });
 
   return (
     <section
       id="food"
       ref={ref}
       className="py-24 px-6"
-      style={{ background: 'var(--ivory)' }}
+      style={{ background: "var(--ivory)" }}
     >
       {/* Wave top */}
-      <div className="wave-divider -mt-24" style={{ marginBottom: '-2px' }}>
-        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style={{ height: '80px', width: '100%' }}>
-          <path d="M0,40 C360,0 1080,80 1440,20 L1440,0 L0,0 Z" fill="var(--mist)" />
+      <div className="wave-divider -mt-24" style={{ marginBottom: "-2px" }}>
+        <svg
+          viewBox="0 0 1440 80"
+          preserveAspectRatio="none"
+          style={{ height: "80px", width: "100%" }}
+        >
+          <path
+            d="M0,40 C360,0 1080,80 1440,20 L1440,0 L0,0 Z"
+            fill="var(--mist)"
+          />
         </svg>
       </div>
 
@@ -189,29 +252,41 @@ export default function FoodGuide() {
         <motion.div
           variants={stagger}
           initial="hidden"
-          animate={inView ? 'visible' : 'hidden'}
+          animate={inView ? "visible" : "hidden"}
         >
           <motion.div variants={fadeUp} className="mb-16 text-center">
             <span
               className="inline-block text-xs tracking-widest uppercase mb-4"
-              style={{ fontFamily: 'var(--font-mono)', color: 'var(--coral)', letterSpacing: '0.2em' }}
+              style={{
+                fontFamily: "var(--font-mono)",
+                color: "var(--coral)",
+                letterSpacing: "0.2em",
+              }}
             >
               Eat & Drink
             </span>
             <h2
               className="font-display mb-4"
               style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+                fontFamily: "var(--font-display)",
+                fontSize: "clamp(2rem, 5vw, 3.5rem)",
                 fontWeight: 300,
-                color: 'var(--ocean)',
+                color: "var(--ocean)",
                 lineHeight: 1.1,
               }}
             >
-              {t('food.title')}
+              {t("food.title")}
             </h2>
-            <p style={{ color: 'var(--ink)', opacity: 0.6, maxWidth: '520px', margin: '0 auto', lineHeight: 1.7 }}>
-              {t('food.subtitle')}
+            <p
+              style={{
+                color: "var(--ink)",
+                opacity: 0.6,
+                maxWidth: "520px",
+                margin: "0 auto",
+                lineHeight: 1.7,
+              }}
+            >
+              {t("food.subtitle")}
             </p>
           </motion.div>
 
@@ -222,32 +297,38 @@ export default function FoodGuide() {
                 items={foodItems.localGems || []}
                 accent="var(--sand)"
                 icon={Star}
-                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
+                onImageClick={(photo, name) =>
+                  setLightbox({ url: photo, alt: name })
+                }
               />
               <FoodCategory
                 labelKey="food.splurge"
                 items={foodItems.splurge || []}
                 accent="var(--coral)"
                 icon={UtensilsCrossed}
-                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
+                onImageClick={(photo, name) =>
+                  setLightbox({ url: photo, alt: name })
+                }
               />
               <FoodCategory
                 labelKey="food.casual"
                 items={foodItems.casual || []}
                 accent="var(--ocean)"
                 icon={MapPin}
-                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
+                onImageClick={(photo, name) =>
+                  setLightbox({ url: photo, alt: name })
+                }
               />
             </div>
           )}
         </motion.div>
       </div>
       <ImageLightbox
-        src={lightbox.url || ''}
+        src={lightbox.url || ""}
         alt={lightbox.alt}
         isOpen={!!lightbox.url}
-        onClose={() => setLightbox({ url: null, alt: '' })}
+        onClose={() => setLightbox({ url: null, alt: "" })}
       />
     </section>
-  )
+  );
 }

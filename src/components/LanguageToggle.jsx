@@ -18,7 +18,7 @@ export default function LanguageToggle() {
         background: 'rgba(255,255,255,0.1)',
         fontFamily: 'var(--font-mono)',
         letterSpacing: '0.05em',
-        fontSize: '0.75rem',
+        fontSize: '0.875rem',
       }}
       aria-label="Toggle language"
     >

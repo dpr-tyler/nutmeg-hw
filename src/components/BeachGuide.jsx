@@ -1,148 +1,208 @@
-import { useRef, useState } from 'react'
-import { motion, useInView } from 'framer-motion'
-import { useTranslation } from 'react-i18next'
-import { MapPin, ExternalLink } from 'lucide-react'
-import { getGoogleMapsUrl } from '../utils/mapsUrl'
-import ImageLightbox from './ImageLightbox'
+import { useRef, useState } from "react";
+import { motion, useInView } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { MapPin, ExternalLink } from "lucide-react";
+import { getGoogleMapsUrl } from "../utils/mapsUrl";
+import ImageLightbox from "./ImageLightbox";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
-}
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
 
 const stagger = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.1 } },
-}
+};
 
 function CrowdBar({ level }) {
-  const pct = (level / 3) * 100
+  const pct = (level / 3) * 100;
   const colors = {
-    1: '#4ade80',
-    2: 'var(--sand)',
-    3: 'var(--coral)',
-  }
+    1: "#4ade80",
+    2: "var(--sand)",
+    3: "var(--coral)",
+  };
   return (
-    <div className="crowd-bar" style={{ width: '80px' }}>
+    <div className="crowd-bar" style={{ width: "80px" }}>
       <div
         className="crowd-bar-fill"
         style={{ width: `${pct}%`, background: colors[level] }}
       />
     </div>
-  )
+  );
 }
 
-export function BeachCard({ beach, onImageClick, compact = false, contentOnly = false }) {
-  const { t } = useTranslation()
-  const difficultyLabel = beach.difficulty === 'Easy' ? t('beaches.easy') : t('beaches.moderate')
-  const padding = compact ? 'p-4' : 'p-6'
-  const gap = compact ? 'gap-3' : 'gap-4'
+export function BeachCard({
+  beach,
+  onImageClick,
+  compact = false,
+  contentOnly = false,
+}) {
+  const { t } = useTranslation();
+  const difficultyLabel =
+    beach.difficulty === "Easy" ? t("beaches.easy") : t("beaches.moderate");
+  const padding = compact ? "p-4" : "p-6";
+  const gap = compact ? "gap-3" : "gap-4";
 
   const content = (
     <div className={`${padding} flex flex-col ${gap} flex-1`}>
-        {/* Thumbnail + content row */}
-        <div className="flex gap-4">
-          {beach.photo && (
-            <img
-              src={beach.photo}
-              alt={beach.name}
-              {...(!compact && {
-                onClick: () => onImageClick?.(beach.photo, beach.name),
-                onKeyDown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick?.(beach.photo, beach.name) } },
-                role: 'button',
-                tabIndex: 0,
-                'aria-label': `View full size photo of ${beach.name}`,
-                style: { width: 72, height: 72, cursor: 'zoom-in' },
-              })}
-              className="rounded-xl object-cover flex-shrink-0"
-              style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
-            />
-          )}
-          <div className="flex-1">
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <h3
-                  className="font-display text-xl leading-snug"
-                  style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
-                >
-                  {beach.name}
-                </h3>
-                <div className="flex items-center gap-1.5 mt-1">
-                  <MapPin size={12} color="var(--coral)" />
-                  <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
-                    {beach.location}
-                  </span>
-                </div>
-                <a
-                  href={getGoogleMapsUrl(beach.name, beach.location)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
-                  style={{ fontSize: '0.8rem', color: 'var(--ocean)', fontFamily: 'var(--font-mono)', textDecoration: 'underline' }}
-                  aria-label={`${t('beaches.viewOnMap')} - ${beach.name}`}
-                >
-                  <ExternalLink size={12} />
-                  {t('beaches.viewOnMap')}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <p style={{ color: 'var(--ink)', opacity: 0.72, fontSize: '0.875rem', lineHeight: 1.7, flex: 1 }}>
-          {beach.desc}
-        </p>
-
-        <div
-          className="rounded-xl p-4 flex flex-col gap-3"
-          style={{ background: 'var(--mist)' }}
-        >
-          <div>
-            <span
-              className="text-xs uppercase tracking-widest block mb-1"
-              style={{ fontFamily: 'var(--font-mono)', color: 'var(--ocean)', opacity: 0.6, letterSpacing: '0.12em' }}
-            >
-              {t('beaches.bestFor')}
-            </span>
-            <p style={{ fontSize: '0.82rem', color: 'var(--ink)', opacity: 0.75, lineHeight: 1.5 }}>
-              {beach.bestFor}
-            </p>
-          </div>
-          <div className="flex items-center justify-between">
+      {/* Thumbnail + content row */}
+      <div className="flex gap-4">
+        {beach.photo && (
+          <img
+            src={beach.photo}
+            alt={beach.name}
+            {...(!compact && {
+              onClick: () => onImageClick?.(beach.photo, beach.name),
+              onKeyDown: (e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  onImageClick?.(beach.photo, beach.name);
+                }
+              },
+              role: "button",
+              tabIndex: 0,
+              "aria-label": `View full size photo of ${beach.name}`,
+              style: { width: 72, height: 72, cursor: "zoom-in" },
+            })}
+            className="rounded-xl object-cover flex-shrink-0"
+            style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
+          />
+        )}
+        <div className="flex-1">
+          <div className="flex items-start justify-between gap-3">
             <div>
-              <span
-                className="text-xs uppercase tracking-widest block mb-1.5"
-                style={{ fontFamily: 'var(--font-mono)', color: 'var(--ocean)', opacity: 0.6, letterSpacing: '0.12em' }}
-              >
-                {t('beaches.crowdLevel')}
-              </span>
-              <CrowdBar level={beach.crowd} />
-            </div>
-            <div className="text-right">
-              <span
-                className="text-xs uppercase tracking-widest block mb-1"
-                style={{ fontFamily: 'var(--font-mono)', color: 'var(--ocean)', opacity: 0.6, letterSpacing: '0.12em' }}
-              >
-                {t('beaches.difficulty')}
-              </span>
-              <span
-                className="text-xs px-2 py-0.5 rounded-full"
+              <h3
+                className="font-display text-xl leading-snug"
                 style={{
-                  background: beach.difficulty === 'Easy' ? 'rgba(74,222,128,0.15)' : 'rgba(198,169,107,0.15)',
-                  color: beach.difficulty === 'Easy' ? '#16a34a' : 'var(--sand)',
-                  fontFamily: 'var(--font-mono)',
+                  fontFamily: "var(--font-display)",
+                  color: "var(--ink)",
+                  fontWeight: 600,
                 }}
               >
-                {difficultyLabel}
-              </span>
+                {beach.name}
+              </h3>
+              <div className="flex items-center gap-1.5 mt-1">
+                <MapPin size={12} color="var(--coral)" />
+                <span
+                  style={{
+                    fontSize: "0.78rem",
+                    color: "var(--ink)",
+                    opacity: 0.5,
+                    fontFamily: "var(--font-mono)",
+                  }}
+                >
+                  {beach.location}
+                </span>
+              </div>
+              <a
+                href={getGoogleMapsUrl(beach.name, beach.location)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
+                style={{
+                  fontSize: "0.8rem",
+                  color: "var(--ocean)",
+                  fontFamily: "var(--font-mono)",
+                  textDecoration: "underline",
+                }}
+                aria-label={`${t("beaches.viewOnMap")} - ${beach.name}`}
+              >
+                <ExternalLink size={12} />
+                {t("beaches.viewOnMap")}
+              </a>
             </div>
           </div>
         </div>
       </div>
-  )
+
+      <p
+        style={{
+          color: "var(--ink)",
+          opacity: 0.72,
+          fontSize: "0.875rem",
+          lineHeight: 1.7,
+          flex: 1,
+        }}
+      >
+        {beach.desc}
+      </p>
+
+      <div
+        className="rounded-xl p-4 flex flex-col gap-3"
+        style={{ background: "var(--mist)" }}
+      >
+        <div>
+          <span
+            className="text-xs uppercase tracking-widest block mb-1"
+            style={{
+              fontFamily: "var(--font-mono)",
+              color: "var(--ocean)",
+              opacity: 0.6,
+              letterSpacing: "0.12em",
+            }}
+          >
+            {t("beaches.bestFor")}
+          </span>
+          <p
+            style={{
+              fontSize: "0.82rem",
+              color: "var(--ink)",
+              opacity: 0.75,
+              lineHeight: 1.5,
+            }}
+          >
+            {beach.bestFor}
+          </p>
+        </div>
+        <div className="flex items-center justify-between">
+          <div>
+            <span
+              className="text-xs uppercase tracking-widest block mb-1.5"
+              style={{
+                fontFamily: "var(--font-mono)",
+                color: "var(--ocean)",
+                opacity: 0.6,
+                letterSpacing: "0.12em",
+              }}
+            >
+              {t("beaches.crowdLevel")}
+            </span>
+            <CrowdBar level={beach.crowd} />
+          </div>
+          <div className="text-right">
+            <span
+              className="text-xs uppercase tracking-widest block mb-1"
+              style={{
+                fontFamily: "var(--font-mono)",
+                color: "var(--ocean)",
+                opacity: 0.6,
+                letterSpacing: "0.12em",
+              }}
+            >
+              {t("beaches.difficulty")}
+            </span>
+            <span
+              className="text-xs px-2 py-0.5 rounded-full"
+              style={{
+                background:
+                  beach.difficulty === "Easy"
+                    ? "rgba(74,222,128,0.15)"
+                    : "rgba(198,169,107,0.15)",
+                color: beach.difficulty === "Easy" ? "#16a34a" : "var(--sand)",
+                fontFamily: "var(--font-mono)",
+              }}
+            >
+              {difficultyLabel}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 
   if (contentOnly) {
-    return content
+    return content;
   }
 
   return (
@@ -150,32 +210,49 @@ export function BeachCard({ beach, onImageClick, compact = false, contentOnly = 
       variants={compact ? {} : fadeUp}
       className="rounded-2xl overflow-hidden flex flex-col"
       style={{
-        background: 'white',
-        border: '1px solid rgba(27,79,107,0.08)',
-        boxShadow: '0 2px 12px rgba(0,0,0,0.05)',
+        background: "white",
+        border: "1px solid rgba(27,79,107,0.08)",
+        boxShadow: "0 2px 12px rgba(0,0,0,0.05)",
       }}
     >
       {/* Color bar accent */}
-      <div style={{ height: '4px', background: 'linear-gradient(90deg, var(--ocean), var(--sand))' }} />
+      <div
+        style={{
+          height: "4px",
+          background: "linear-gradient(90deg, var(--ocean), var(--sand))",
+        }}
+      />
       {content}
     </motion.div>
-  )
+  );
 }
 
 export default function BeachGuide() {
-  const { t } = useTranslation()
-  const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-80px' })
-  const [lightbox, setLightbox] = useState({ url: null, alt: '' })
+  const { t } = useTranslation();
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const [lightbox, setLightbox] = useState({ url: null, alt: "" });
 
-  const beaches = t('beaches.list', { returnObjects: true })
+  const beaches = t("beaches.list", { returnObjects: true });
 
   return (
-    <section id="beaches" ref={ref} className="py-24 px-6" style={{ background: 'var(--mist)' }}>
+    <section
+      id="beaches"
+      ref={ref}
+      className="py-24 px-6"
+      style={{ background: "var(--mist)" }}
+    >
       {/* Wave top */}
-      <div className="wave-divider -mt-24" style={{ marginBottom: '-2px' }}>
-        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style={{ height: '80px', width: '100%' }}>
-          <path d="M0,20 C480,80 960,0 1440,40 L1440,0 L0,0 Z" fill="var(--ivory)" />
+      <div className="wave-divider -mt-24" style={{ marginBottom: "-2px" }}>
+        <svg
+          viewBox="0 0 1440 80"
+          preserveAspectRatio="none"
+          style={{ height: "80px", width: "100%" }}
+        >
+          <path
+            d="M0,20 C480,80 960,0 1440,40 L1440,0 L0,0 Z"
+            fill="var(--ivory)"
+          />
         </svg>
       </div>
 
@@ -183,49 +260,65 @@ export default function BeachGuide() {
         <motion.div
           variants={stagger}
           initial="hidden"
-          animate={inView ? 'visible' : 'hidden'}
+          animate={inView ? "visible" : "hidden"}
         >
           <motion.div variants={fadeUp} className="mb-16 text-center">
             <span
               className="inline-block text-xs tracking-widest uppercase mb-4"
-              style={{ fontFamily: 'var(--font-mono)', color: 'var(--ocean)', letterSpacing: '0.2em', opacity: 0.6 }}
+              style={{
+                fontFamily: "var(--font-mono)",
+                color: "var(--ocean)",
+                letterSpacing: "0.2em",
+                opacity: 0.6,
+              }}
             >
               Sun & Sand
             </span>
             <h2
               className="font-display mb-4"
               style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+                fontFamily: "var(--font-display)",
+                fontSize: "clamp(2rem, 5vw, 3.5rem)",
                 fontWeight: 300,
-                color: 'var(--ocean)',
+                color: "var(--ocean)",
                 lineHeight: 1.1,
               }}
             >
-              {t('beaches.title')}
+              {t("beaches.title")}
             </h2>
-            <p style={{ color: 'var(--ink)', opacity: 0.6, maxWidth: '520px', margin: '0 auto', lineHeight: 1.7 }}>
-              {t('beaches.subtitle')}
+            <p
+              style={{
+                color: "var(--ink)",
+                opacity: 0.6,
+                maxWidth: "520px",
+                margin: "0 auto",
+                lineHeight: 1.7,
+              }}
+            >
+              {t("beaches.subtitle")}
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.isArray(beaches) && beaches.map((beach) => (
-              <BeachCard
-                key={beach.name}
-                beach={beach}
-                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
-              />
-            ))}
+            {Array.isArray(beaches) &&
+              beaches.map((beach) => (
+                <BeachCard
+                  key={beach.name}
+                  beach={beach}
+                  onImageClick={(photo, name) =>
+                    setLightbox({ url: photo, alt: name })
+                  }
+                />
+              ))}
           </div>
         </motion.div>
       </div>
       <ImageLightbox
-        src={lightbox.url || ''}
+        src={lightbox.url || ""}
         alt={lightbox.alt}
         isOpen={!!lightbox.url}
-        onClose={() => setLightbox({ url: null, alt: '' })}
+        onClose={() => setLightbox({ url: null, alt: "" })}
       />
     </section>
-  )
+  );
 }
