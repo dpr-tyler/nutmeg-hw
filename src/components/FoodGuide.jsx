@@ -51,10 +51,13 @@ export function FoodCard({
               role: "button",
               tabIndex: 0,
               "aria-label": t("ui.aria.viewFullSizePhoto", { name: item.name }),
-              style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
             className="rounded-2xl object-cover flex-shrink-0"
-            style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
+            style={{
+              width: compact ? 56 : 72,
+              height: compact ? 56 : 72,
+              ...(!compact && onImageClick && { cursor: "pointer" }),
+            }}
           />
         )}
         <div className="flex-1">
