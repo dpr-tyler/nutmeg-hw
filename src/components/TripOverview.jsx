@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { Sun, Plane, MapPin, Building } from 'lucide-react'
+import { Sun, MapPin, Building } from 'lucide-react'
 import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
@@ -12,34 +12,6 @@ const fadeUp = {
 const stagger = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.12 } },
-}
-
-function InfoCard({ icon: Icon, title, children, delay = 0 }) {
-  return (
-    <motion.div
-      variants={fadeUp}
-      className="rounded-2xl p-7 flex flex-col gap-4"
-      style={{ background: 'var(--mist)', border: '1px solid rgba(27,79,107,0.08)' }}
-    >
-      <div
-        className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
-        style={{ background: 'rgba(27,79,107,0.1)' }}
-      >
-        <Icon size={22} color="var(--ocean)" strokeWidth={1.5} />
-      </div>
-      <div>
-        <h3
-          className="font-display text-xl mb-2"
-          style={{ fontFamily: 'var(--font-display)', color: 'var(--ocean)', fontWeight: 600 }}
-        >
-          {title}
-        </h3>
-        <p style={{ color: 'var(--ink)', opacity: 0.75, lineHeight: 1.7, fontSize: '0.9rem' }}>
-          {children}
-        </p>
-      </div>
-    </motion.div>
-  )
 }
 
 function NeighborhoodCard({ name, desc, index, photo, onImageClick }) {
@@ -134,16 +106,6 @@ export default function TripOverview() {
               {t('overview.title')}
             </h2>
           </motion.div>
-
-          {/* Info cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <InfoCard icon={Sun} title={t('overview.bestTime.title')}>
-              {t('overview.bestTime.body')}
-            </InfoCard>
-            <InfoCard icon={Plane} title={t('overview.getting.title')}>
-              {t('overview.getting.body')}
-            </InfoCard>
-          </div>
 
           {/* Neighborhoods */}
           <motion.div variants={fadeUp} className="mb-8">

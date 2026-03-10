@@ -163,9 +163,10 @@ export default function Itinerary() {
   const { t } = useTranslation()
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
-  const [openDay, setOpenDay] = useState(0)
-
   const days = t('itinerary.days', { returnObjects: true })
+  const [openDays, setOpenDays] = useState(() =>
+    Array.isArray(days) ? new Set(days.map((_, i) => i)) : new Set()
+  )
 
   return (
     <section
@@ -216,8 +217,15 @@ export default function Itinerary() {
               <motion.div key={i} variants={fadeUp}>
                 <DayCard
                   day={day}
-                  isOpen={openDay === i}
-                  onToggle={() => setOpenDay(openDay === i ? null : i)}
+                  isOpen={openDays.has(i)}
+                  onToggle={() =>
+                    setOpenDays((prev) => {
+                      const next = new Set(prev)
+                      if (next.has(i)) next.delete(i)
+                      else next.add(i)
+                      return next
+                    })
+                  }
                 />
               </motion.div>
             ))}
