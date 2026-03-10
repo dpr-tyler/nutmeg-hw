@@ -139,7 +139,7 @@
         "crowd": 3,
         "difficulty": "Easy",
         "desc": "誰もが知る絵葉書のビーチ。穏やかな波で初心者にも最適。観光地らしさはあるものの、黄金色の夕暮れ時は格別の美しさ。",
-        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+        "photo": "/images/waikiki-beach.jpg"
       },
       {
         "name": "ラニカイビーチ",
@@ -148,7 +148,7 @@
         "crowd": 2,
         "difficulty": "Easy",
         "desc": "サラサラの白砂と信じられないほど青い海。設備なし。必要なものは全て持参で。全米屈指の美しさと称される隠れた名ビーチ。",
-        "photo": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
+        "photo": "/images/lanikai-beach.jpg"
       },
       {
         "name": "ハナウマ湾",
@@ -158,7 +158,7 @@
         "crowd": 3,
         "difficulty": "Easy",
         "desc": "古代の噴火口の中にある保護された海洋保護区。世界レベルのシュノーケリングスポット。チケットはオンラインで事前予約必須。",
-        "photo": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=80&h=80&fit=crop&crop=center&auto=format"
+        "photo": "/images/hanauma-bay.jpg"
       },
       {
         "name": "ワイメアベイ",
@@ -168,7 +168,7 @@
         "crowd": 2,
         "difficulty": "Moderate",
         "desc": "季節によって全く異なる表情を見せるドラマチックな湾。6〜9月は穏やかで遊泳可能、10〜4月は20〜30フィートの巨大波が押し寄せます。",
-        "photo": "https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=80&h=80&fit=crop&crop=center&auto=format"
+        "photo": "/images/waimea-bay.jpg"
       },
       {
         "name": "サンセットビーチ",
@@ -186,7 +186,7 @@
         "crowd": 1,
         "difficulty": "Easy",
         "desc": "貿易風が吹き抜ける2マイルの弧状白砂ビーチ。地元の人々とウォータースポーツファンに愛されています。駐車場完備。",
-        "photo": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=80&h=80&fit=crop&crop=center&auto=format"
+        "photo": "/images/kailua-beach-park.jpg"
       }
     ]
   },
@@ -207,7 +207,7 @@
           "location": "4204 Diamond Head Rd, Honolulu",
           "desc": "象徴的なクレーターハイク、往復約2.6km、入場$5。6時開場。早朝が涼しく光もベスト。ワイキキと東部オアフを360度一望。事前オンライン予約必須。",
           "highlights": "ハイキング、パノラマ、軍用トンネル、日の出",
-          "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/diamond-head.jpg"
         },
         {
           "name": "ヌウアヌ・パリ展望台",
@@ -216,7 +216,7 @@
           "mapUrl": "https://maps.app.goo.gl/TD4QxpF2V2QF3VrU9",
           "desc": "パリ・ハイウェイからのウィンドワード絶景。1795年カメハメハ大王のオアフ征服の歴史的戦場。常に強風なので帽子やバッグに注意。駐車料金あり。",
           "highlights": "パノラマ、コオラウ山脈、ウィンドワード、歴史",
-          "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/nu'uanu-pali-lookout.jpg"
         },
         {
           "name": "ホオマルヒア植物園",
@@ -224,7 +224,7 @@
           "location": "45-680 Luluku Rd, Kaneohe",
           "desc": "約160ヘクタールの植物園。湖とコオラウ山脈を背景にした絶景が広がります。無料入場。島内でも屈指の撮影スポット。通常木曜定休。",
           "highlights": "無料入場、コオラウ山脈の眺め、湖、散策、写真撮影",
-          "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/ho'omaluhia-botanical-garden.jpg"
         },
         {
           "name": "マノア・フォールズ・トレイル",
@@ -233,7 +233,7 @@
           "mapUrl": "https://maps.app.goo.gl/JBX3Run2kWq5HYtQ7",
           "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、入場無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
           "highlights": "熱帯雨林ハイク、滝、入場無料、早朝がおすすめ",
-          "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/manoa-falls-trail.jpg"
         },
         {
           "name": "カカアコ・ウォーターフロント・パーク",
@@ -241,7 +241,7 @@
           "location": "102 Ohe St, Honolulu",
           "desc": "カカアコの海沿いにある無料の公園。広々とした芝生、遊具、遮るもののない太平洋の眺め。壁画やギャラリーを楽しんだ後のひと休みに最適。",
           "highlights": "無料入場、海の眺め、芝生広場、ウォーターフロント",
-          "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/kakaako-waterfront-park.jpg"
         },
         {
           "name": "モクルア諸島",
@@ -249,7 +249,7 @@
           "location": "Kailua Bay, Windward Oahu",
           "desc": "ラニカイビーチ沖に浮かぶ2つの小さな離島（モクヌイとモクイキ）。どちらも海鳥の保護区。モクヌイには砂浜と景観トレイルがあります。カイルアビーチまたはラニカイからカヤックで約30〜45分。",
           "highlights": "カヤック、海鳥保護区、モクヌイの砂浜と景観トレイル",
-          "photo": "https://images.unsplash.com/photo-1559827260-d66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/mokulua-islands.jpg"
         }
       ],
       "experiences": [
@@ -260,7 +260,7 @@
           "mapUrl": "https://maps.app.goo.gl/2VWkFMHRCrzZN1oi8",
           "desc": "映画・TVの撮影地（ジュラシック・パーク、ロスト、ゴジラ）。UTVラプターツアー、ジップライン、映画ロケ地ツアーで緑豊かな渓谷を巡る。人気時間帯は早めの事前予約を。",
           "highlights": "UTVツアー、ジップライン、映画ロケ地、渓谷の絶景",
-          "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/kualoa-ranch.jpg"
         },
         {
           "name": "ケ・カイ・カタマラン",
@@ -269,7 +269,7 @@
           "location": "2335 Kalakaua Ave, Honolulu",
           "desc": "ワイキキの夕日カタマランクルーズ。17時チェックイン、17時30分出発、90分間のクルーズ。ドリンク無料。ウミガメやイルカの目撃多数。出発30分前には必ずチェックインを。毎日運航。",
           "highlights": "サンセットセール、無料ドリンク、ウミガメ・イルカ遭遇、毎日出航",
-          "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/ke-kai-catamaran-waikiki-sunset-sail.jpg"
         },
         {
           "name": "ロイヤルハワイアンホテル",
@@ -277,7 +277,7 @@
           "location": "2259 Kalakaua Ave, Honolulu",
           "desc": "太平洋のピンクの宮殿。1927年築の歴史的ランドマーク、スペイン・モーロ風建築。アズール・レストラン（水〜日ディナー）とマイタイバー（毎日営業）を擁し、ワイキキビーチの最前線に位置。",
           "highlights": "歴史的ホテル、アズール・レストラン、マイタイバー、オーシャンフロント",
-          "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/royal-hawaiian-hotel.jpg"
         }
       ],
       "shopping": [
@@ -288,7 +288,7 @@
           "mapUrl": "https://maps.app.goo.gl/bpDVqdVK3hZE84Nn9",
           "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ワイキキの人気店が軒を連ねる。",
           "highlights": "ショッピング、ダイニング、ライブ音楽、ウォーターフロント散策",
-          "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/waikiki-beach-walk.jpg"
         },
         {
           "name": "SALTアット・アワー・カカアコ",
@@ -296,7 +296,7 @@
           "location": "691 Auahi St, Honolulu",
           "desc": "カカアコのブティック、ギャラリー、レストランが集まるショッピング＆ダイニングハブ。地元ブランドが揃うウォーカブルなアーツ地区の中心。壁画アートも必見。",
           "highlights": "ブティック、ギャラリー、ダイニング、ストリートアート",
-          "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/SALT-at-Our-Kakaako.jpg"
         },
         {
           "name": "ワード・ビレッジ",
@@ -304,7 +304,7 @@
           "location": "1240 Ala Moana Blvd, Honolulu",
           "desc": "カカアコの洗練されたウォーカブル複合施設。上質なレストラン、ブティック、ウォード・エンタテインメント・センターが揃う。アーツ地区とウォーターフロントをつなぐハブ。",
           "highlights": "ブティック、ダイニング、ウォード・エンタテインメント・センター、カカアコ・アーツ地区",
-          "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/ward-village.jpg"
         }
       ]
     }
@@ -337,7 +337,7 @@
           "price": "$",
           "location": "933 Kapahulu Ave, Honolulu",
           "whyGo": "1952年創業。ポルトガル風ドーナツ「マラサダ」は数分おきに揚げたてが登場。シナモンシュガーをまぶしてどうぞ。",
-          "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/leonard's-bakery.jpg"
         },
         {
           "name": "ジョバンニズ・シュリンプ・トラック",
@@ -345,7 +345,7 @@
           "price": "$",
           "location": "66-472 Kamehameha Hwy, Haleiwa",
           "whyGo": "ノースショアで最初のシュリンプトラック。ガーリックバターエビとライスの組み合わせ。オアフを語る上で欠かせない一軒。",
-          "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/giovanni's-shrimp-truck.jpg"
         },
         {
           "name": "ワイオラ・シェイブアイス",
@@ -382,7 +382,7 @@
           "price": "$$$",
           "location": "3650 Waialae Ave, Kaimuki",
           "whyGo": "シェフ・アンドリュー・レのチャイナタウンの名店。フォー・フレンチディップ、ベトナム風カルボナーラなど独創性が光ります。要予約。",
-          "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/the-pig and-the-lady.jpg"
         },
         {
           "name": "アラン・ウォンズ",
@@ -417,7 +417,7 @@
           "price": "$",
           "location": "306 S Kalaheo Ave, Kailua",
           "whyGo": "カイルアで最も愛されている地元のデリ。サンドイッチ、地元のコーヒー、そして生き生きとしたコミュニティの雰囲気。",
-          "photo": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/kalapawai-market.jpg"
         },
         {
           "name": "リリハ・ベーカリー",
@@ -425,7 +425,7 @@
           "price": "$",
           "location": "515 N Kuakini St, Honolulu",
           "whyGo": "24時間営業。シャンティリークリームを詰めたココパフは人生を変える美味しさ。カウンター席のみ。それがまた趣ある佇まい。",
-          "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/liliha-bakery.jpg"
         },
         {
           "name": "オーバーイージー",
@@ -443,7 +443,7 @@
           "price": "$$",
           "location": "1120 12th Ave, Honolulu",
           "whyGo": "リー・アン・ウォンシェフの島風ブランチスポット。地元の味を活かした独創的な料理。",
-          "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
+          "photo": "/images/koko-head-cafe.jpg"
         },
         {
           "name": "ロイズ",

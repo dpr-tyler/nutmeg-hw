@@ -128,7 +128,13 @@ export function FoodCard({
         </div>
       </div>
 
-      <div className="rounded-2xl p-4" style={{ background: "var(--mist-card)", border: "1px solid var(--mist-card-border)" }}>
+      <div
+        className="rounded-2xl p-4"
+        style={{
+          background: "var(--mist-card)",
+          border: "1px solid var(--mist-card-border)",
+        }}
+      >
         <div className="flex items-start gap-2">
           <Lightbulb
             size={13}

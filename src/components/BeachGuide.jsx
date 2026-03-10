@@ -94,7 +94,9 @@ export function BeachCard({
                 </span>
               </div>
               <a
-                href={beach.mapUrl || getGoogleMapsUrl(beach.name, beach.location)}
+                href={
+                  beach.mapUrl || getGoogleMapsUrl(beach.name, beach.location)
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
@@ -128,7 +130,10 @@ export function BeachCard({
 
       <div
         className="rounded-2xl p-4 flex flex-col gap-3"
-        style={{ background: "var(--mist-card)", border: "1px solid var(--mist-card-border)" }}
+        style={{
+          background: "var(--mist-card)",
+          border: "1px solid var(--mist-card-border)",
+        }}
       >
         <div>
           <span

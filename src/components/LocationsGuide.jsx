@@ -77,7 +77,10 @@ export function LocationCard({
                 </span>
               </div>
               <a
-                href={location.mapUrl || getGoogleMapsUrl(location.name, location.location)}
+                href={
+                  location.mapUrl ||
+                  getGoogleMapsUrl(location.name, location.location)
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
