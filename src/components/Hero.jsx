@@ -70,7 +70,7 @@ export default function Hero() {
           className="font-display text-white mb-6 leading-none"
           style={{
             fontFamily: isJa ? '"Noto Serif JP", "Yu Mincho", serif' : "var(--font-display)",
-            fontSize: "clamp(3rem, 7vw, 5rem)",
+            fontSize: isJa ? "clamp(3rem, 7vw, 4.25rem)" : "clamp(3rem, 7vw, 5rem)",
             fontWeight: isJa ? 500 : 300,
             letterSpacing: "-0.02em",
             lineHeight: 1.05,
