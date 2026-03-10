@@ -2,12 +2,12 @@ import OpenAI from "openai";
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-const ALLOWED_ORIGINS = new Set([
-  "https://nutmeg-hw.vercel.app",
-  "http://localhost:5173",
-  "http://localhost:5174",
-  "http://localhost:3000",
-]);
+function isAllowedOrigin(origin) {
+  if (!origin) return true; // server-to-server / curl
+  if (/^https?:\/\/localhost(:\d+)?$/.test(origin)) return true;
+  if (/^https:\/\/[a-z0-9-]+\.vercel\.app$/.test(origin)) return true;
+  return false;
+}
 
 const rateLimitMap = new Map();
 const RATE_WINDOW = 60_000;
@@ -85,7 +85,7 @@ const SYSTEM_PROMPT_JA = `あなたはオアフ島（ハワイ）に詳しい親
 
 export default async function handler(req, res) {
   const origin = req.headers.origin || "";
-  if (origin && !ALLOWED_ORIGINS.has(origin)) {
+  if (origin && !isAllowedOrigin(origin)) {
     return res.status(403).json({ error: "Forbidden" });
   }
   res.setHeader("Access-Control-Allow-Origin", origin || "*");
