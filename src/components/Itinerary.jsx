@@ -2,6 +2,8 @@ import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { Lightbulb, ChevronDown, Sunrise, Sun, Moon } from 'lucide-react'
+import LinkableContent from './LinkableContent'
+import EntityPopover from './EntityPopover'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -19,7 +21,7 @@ const budgetColors = {
   '$$$': { bg: 'rgba(217,107,79,0.12)', text: 'var(--coral)' },
 }
 
-function TimeBlock({ icon: Icon, label, content }) {
+function TimeBlock({ icon: Icon, label, content, onEntityClick }) {
   return (
     <div className="flex gap-4">
       <div className="flex flex-col items-center pt-1">
@@ -39,14 +41,14 @@ function TimeBlock({ icon: Icon, label, content }) {
           {label}
         </span>
         <p style={{ color: 'var(--ink)', opacity: 0.8, lineHeight: 1.75, fontSize: '0.9rem' }}>
-          {content}
+          <LinkableContent text={content} onEntityClick={onEntityClick} />
         </p>
       </div>
     </div>
   )
 }
 
-function DayCard({ day, isOpen, onToggle }) {
+function DayCard({ day, isOpen, onToggle, onEntityClick }) {
   const { t } = useTranslation()
   const budget = day.budget || '$$'
   const budgetStyle = budgetColors[budget] || budgetColors['$$']
@@ -128,9 +130,9 @@ function DayCard({ day, isOpen, onToggle }) {
               style={{ borderTop: '1px solid rgba(27,79,107,0.06)' }}
             >
               <div className="pt-6">
-                <TimeBlock icon={Sunrise} label={t('itinerary.morning')} content={day.morning} />
-                <TimeBlock icon={Sun} label={t('itinerary.afternoon')} content={day.afternoon} />
-                <TimeBlock icon={Moon} label={t('itinerary.evening')} content={day.evening} />
+                <TimeBlock icon={Sunrise} label={t('itinerary.morning')} content={day.morning} onEntityClick={onEntityClick} />
+                <TimeBlock icon={Sun} label={t('itinerary.afternoon')} content={day.afternoon} onEntityClick={onEntityClick} />
+                <TimeBlock icon={Moon} label={t('itinerary.evening')} content={day.evening} onEntityClick={onEntityClick} />
 
                 {/* Local tip */}
                 <div
@@ -146,7 +148,7 @@ function DayCard({ day, isOpen, onToggle }) {
                       {t('itinerary.localTip')}
                     </span>
                     <p style={{ color: 'var(--ink)', opacity: 0.75, fontSize: '0.85rem', lineHeight: 1.7 }}>
-                      {day.tip}
+                      <LinkableContent text={day.tip} onEntityClick={onEntityClick} />
                     </p>
                   </div>
                 </div>
@@ -167,6 +169,7 @@ export default function Itinerary() {
   const [openDays, setOpenDays] = useState(() =>
     Array.isArray(days) ? new Set(days.map((_, i) => i)) : new Set()
   )
+  const [popoverEntity, setPopoverEntity] = useState(null)
 
   return (
     <section
@@ -226,12 +229,14 @@ export default function Itinerary() {
                       return next
                     })
                   }
+                  onEntityClick={setPopoverEntity}
                 />
               </motion.div>
             ))}
           </motion.div>
         </motion.div>
       </div>
+      <EntityPopover entity={popoverEntity} onClose={() => setPopoverEntity(null)} />
     </section>
   )
 }

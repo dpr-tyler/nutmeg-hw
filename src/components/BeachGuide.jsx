@@ -31,13 +31,15 @@ function CrowdBar({ level }) {
   )
 }
 
-function BeachCard({ beach, onImageClick }) {
+export function BeachCard({ beach, onImageClick, compact = false }) {
   const { t } = useTranslation()
   const difficultyLabel = beach.difficulty === 'Easy' ? t('beaches.easy') : t('beaches.moderate')
+  const padding = compact ? 'p-4' : 'p-6'
+  const gap = compact ? 'gap-3' : 'gap-4'
 
   return (
     <motion.div
-      variants={fadeUp}
+      variants={compact ? {} : fadeUp}
       className="rounded-2xl overflow-hidden flex flex-col"
       style={{
         background: 'white',
@@ -48,20 +50,23 @@ function BeachCard({ beach, onImageClick }) {
       {/* Color bar accent */}
       <div style={{ height: '4px', background: 'linear-gradient(90deg, var(--ocean), var(--sand))' }} />
 
-      <div className="p-6 flex flex-col gap-4 flex-1">
+      <div className={`${padding} flex flex-col ${gap} flex-1`}>
         {/* Thumbnail + content row */}
         <div className="flex gap-4">
           {beach.photo && (
             <img
               src={beach.photo}
               alt={beach.name}
-              onClick={() => onImageClick(beach.photo, beach.name)}
-              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick(beach.photo, beach.name) } }}
-              role="button"
-              tabIndex={0}
-              aria-label={`View full size photo of ${beach.name}`}
+              {...(!compact && {
+                onClick: () => onImageClick?.(beach.photo, beach.name),
+                onKeyDown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick?.(beach.photo, beach.name) } },
+                role: 'button',
+                tabIndex: 0,
+                'aria-label': `View full size photo of ${beach.name}`,
+                style: { width: 72, height: 72, cursor: 'zoom-in' },
+              })}
               className="rounded-xl object-cover flex-shrink-0"
-              style={{ width: 72, height: 72, cursor: 'zoom-in' }}
+              style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
             />
           )}
           <div className="flex-1">

@@ -20,12 +20,15 @@ const priceColor = {
   '$$$': 'var(--coral)',
 }
 
-function FoodCard({ item, accent, onImageClick }) {
+export function FoodCard({ item, accent, onImageClick, compact = false }) {
   const { t } = useTranslation()
+  const padding = compact ? 'p-4' : 'p-6'
+  const gap = compact ? 'gap-3' : 'gap-4'
+
   return (
     <motion.div
-      variants={fadeUp}
-      className="rounded-2xl p-6 flex flex-col gap-4"
+      variants={compact ? {} : fadeUp}
+      className={`rounded-2xl ${padding} flex flex-col ${gap}`}
       style={{
         background: 'white',
         border: '1px solid rgba(27,79,107,0.08)',
@@ -37,13 +40,16 @@ function FoodCard({ item, accent, onImageClick }) {
           <img
             src={item.photo}
             alt={item.name}
-            onClick={() => onImageClick(item.photo, item.name)}
-            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick(item.photo, item.name) } }}
-            role="button"
-            tabIndex={0}
-            aria-label={`View full size photo of ${item.name}`}
+            {...(!compact && {
+              onClick: () => onImageClick?.(item.photo, item.name),
+              onKeyDown: (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick?.(item.photo, item.name) } },
+              role: 'button',
+              tabIndex: 0,
+              'aria-label': `View full size photo of ${item.name}`,
+              style: { width: 72, height: 72, cursor: 'zoom-in' },
+            })}
             className="rounded-xl object-cover flex-shrink-0"
-            style={{ width: 72, height: 72, cursor: 'zoom-in' }}
+            style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
           />
         )}
         <div className="flex-1">

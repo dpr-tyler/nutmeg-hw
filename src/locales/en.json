@@ -198,6 +198,7 @@
       "localGems": [
         {
           "name": "Tamura's Fine Wine & Liquors",
+          "aliases": ["Tamura's"],
           "type": "Poke",
           "price": "$",
           "whyGo": "Counterintuitively, a liquor store with Oahu's best poke counter. Build your own bowl with ultra-fresh ahi.",
@@ -205,6 +206,7 @@
         },
         {
           "name": "Leonard's Bakery",
+          "aliases": ["Leonard's", "Leonard's Malasadas"],
           "type": "Malasadas & Pastries",
           "price": "$",
           "whyGo": "Since 1952. The malasadas (Portuguese doughnuts) come out fresh every few minutes. Get them plain and cinnamon-sugared.",
@@ -235,6 +237,7 @@
         },
         {
           "name": "Alan Wong's",
+          "aliases": ["Alan Wong's Restaurant"],
           "type": "Hawaii Regional",
           "price": "$$$",
           "whyGo": "The godfather of Hawaii Regional Cuisine. Classic, refined, impeccably sourced. A true milestone dining experience.",
