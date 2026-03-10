@@ -8,10 +8,11 @@ export function buildEntityRegistry(beaches, foodItems, locations) {
 
   if (Array.isArray(beaches)) {
     for (const beach of beaches) {
-      const searchTerms = [beach.name]
+      let searchTerms = [beach.name]
       if (beach.aliases && Array.isArray(beach.aliases)) {
         searchTerms.push(...beach.aliases)
       }
+      searchTerms = [...searchTerms].sort((a, b) => b.length - a.length)
       entities.push({
         id: `beach:${beach.name}`,
         name: beach.name,
@@ -27,10 +28,11 @@ export function buildEntityRegistry(beaches, foodItems, locations) {
     for (const cat of categories) {
       const items = foodItems[cat] || []
       for (const item of items) {
-        const searchTerms = [item.name]
+        let searchTerms = [item.name]
         if (item.aliases && Array.isArray(item.aliases)) {
           searchTerms.push(...item.aliases)
         }
+        searchTerms = [...searchTerms].sort((a, b) => b.length - a.length)
         entities.push({
           id: `food:${item.name}`,
           name: item.name,
@@ -44,10 +46,11 @@ export function buildEntityRegistry(beaches, foodItems, locations) {
 
   if (Array.isArray(locations)) {
     for (const loc of locations) {
-      const searchTerms = [loc.name]
+      let searchTerms = [loc.name]
       if (loc.aliases && Array.isArray(loc.aliases)) {
         searchTerms.push(...loc.aliases)
       }
+      searchTerms = [...searchTerms].sort((a, b) => b.length - a.length)
       entities.push({
         id: `location:${loc.name}`,
         name: loc.name,
