@@ -9,9 +9,10 @@ import {
   ShieldCheck,
   Package,
   Plane,
+  Calendar,
 } from "lucide-react";
 
-const ICONS = { Car, MapPin, CreditCard, Sun, ShieldCheck, Package, Plane };
+const ICONS = { Car, MapPin, CreditCard, Sun, ShieldCheck, Package, Plane, Calendar };
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },

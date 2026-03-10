@@ -1,119 +1,132 @@
-import OpenAI from 'openai'
+import OpenAI from "openai";
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
+const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const ALLOWED_ORIGINS = new Set([
-  'https://nutmeg-hw.vercel.app',
-  'http://localhost:5173',
-  'http://localhost:5174',
-])
+  "https://nutmeg-hw.vercel.app",
+  "http://localhost:5173",
+  "http://localhost:5174",
+]);
 
-const rateLimitMap = new Map()
-const RATE_WINDOW = 60_000
-const RATE_MAX = 10
+const rateLimitMap = new Map();
+const RATE_WINDOW = 60_000;
+const RATE_MAX = 10;
 
 function isRateLimited(ip) {
-  const now = Date.now()
-  const recent = (rateLimitMap.get(ip) || []).filter(t => t > now - RATE_WINDOW)
-  if (recent.length >= RATE_MAX) { rateLimitMap.set(ip, recent); return true }
-  recent.push(now)
-  rateLimitMap.set(ip, recent)
-  if (rateLimitMap.size > 1000) rateLimitMap.clear()
-  return false
+  const now = Date.now();
+  const recent = (rateLimitMap.get(ip) || []).filter(
+    (t) => t > now - RATE_WINDOW,
+  );
+  if (recent.length >= RATE_MAX) {
+    rateLimitMap.set(ip, recent);
+    return true;
+  }
+  recent.push(now);
+  rateLimitMap.set(ip, recent);
+  if (rateLimitMap.size > 1000) rateLimitMap.clear();
+  return false;
 }
 
 const SYSTEM_PROMPT_EN = `You are a friendly, knowledgeable personal travel guide for Oahu, Hawaii. You are helping a couple in their 30s from Los Angeles on their first full week in Oahu. You have deep knowledge of the following itinerary and all practical details about the island.
 
 ITINERARY OVERVIEW:
-- Day 1: Arrival + Waikiki: check in, beach, sunset, Azure at Royal Hawaiian Hotel dinner
-- Day 2: East Side: Hanauma Bay snorkeling (book online, $25/person, arrive by 7am), Lanikai Beach, Kailua lunch at Kalapawai
-- Day 3: Food Day: KCC Farmers Market (Sat 7-11am), Leonard's Malasadas, Pig & The Lady dinner in Chinatown
-- Day 4: North Shore: Waimea Bay, Haleiwa town, Giovanni's Shrimp Truck
-- Day 5: Diamond Head hike + Waikiki afternoon relax + Ala Moana Center evening
-- Day 6: Windward Coast: Kualoa Ranch, Kaneohe Bay sandbar, Nu'uanu Pali Lookout
-- Day 7: Relaxed farewell: last beach, Alan Wong's or Mariposa dinner
+- Day 1: Arrival & Waikiki: check in, beach, Duke's Waikiki dinner (huli huli chicken, Hula Pie)
+- Day 2: Diamond Head hike (6 AM, book ahead $5/person + $10 parking) + Waikiki afternoon + Ke Kai Catamaran sunset sail
+- Day 3: Manoa Falls, Koko Head Cafe brunch, Leonard's/Liliha/Waiola, Chinatown stroll, Senia dinner
+- Day 4: North Shore: Shark's Cove snorkeling, Laniakea (turtles), Haleiwa, Seven Brothers, Waimea Bay, Turtle Bay sunset
+- Day 5: Pali Lookout, Ho'omaluhia Botanical Garden, Kailua (Kalapawai lunch, Kailua Beach), Haleiwa Joe's or Tikis
+- Day 6: Kualoa Ranch (UTV/zipline), Waimanalo Beach, Haleiwa Joe's Kaneohe, Nico's Kailua, or East Side Bar & Grill
+- Day 7: Last beach, shopping (Swap Meet/ABC), farewell dinner at Tikis or Azure/Mariposa
 
 KEY PRACTICAL INFO:
 - Rent a car at HNL airport (essential for exploring beyond Waikiki)
-- Parking: municipal lots $1-2/hr in Waikiki; most North Shore beaches free but arrive by 9am weekends
-- Reef-safe sunscreen (zinc oxide) required by Hawaii law (no oxybenzone/octinoxate)
-- Hanauma Bay: reserve tickets at dlnr.hawaii.gov well in advance
+- Parking: municipal lots $1-2/hr in Waikiki vs $35+ hotel valet; North Shore lots fill by 9am weekends
+- Diamond Head and Hanauma Bay: advance reservations required (Hanauma opens 48hr ahead at 7 AM HST)
+- Kualoa Ranch: book UTV/zipline tours weeks ahead in peak season
+- Senia closed Sun/Mon; Azure closed Mon/Tue
+- Reef-safe sunscreen (zinc oxide/titanium dioxide) required by Hawaii law
 - Language: communicate in clear, warm, conversational English
 
-Be helpful, concise, and genuine. Never make up information you're not sure about; say you're not certain and suggest they verify locally. Avoid bullet point overload; prefer natural sentences. Don't use emojis.`
+Be helpful, concise, and genuine. Never make up information you're not sure about; say you're not certain and suggest they verify locally. Avoid bullet point overload; prefer natural sentences. Don't use emojis.`;
 
 const SYSTEM_PROMPT_JA = `あなたはオアフ島（ハワイ）に詳しい親切な旅行ガイドです。ロサンゼルス在住の30代のカップルが初めてオアフに1週間滞在するサポートをしています。以下の旅程と島に関する詳細情報に基づいてアドバイスしてください。
 
 旅程の概要：
-- 1日目: 到着＆ワイキキ：チェックイン、ビーチ、夕日、ロイヤルハワイアンホテルのアズールでディナー
-- 2日目: イーストサイド：ハナウマ湾シュノーケリング（オンライン予約必須、$25/人、7時着推奨）、ラニカイビーチ、カラパワイでランチ
-- 3日目: グルメの日：KCCファーマーズマーケット（土曜7-11時）、レナードのマラサダ、チャイナタウンのピッグ&ザ・レディでディナー
-- 4日目: ノースショア：ワイメアベイ、ハレイワタウン、ジョバンニズ・シュリンプ・トラック
-- 5日目: ダイヤモンドヘッドハイク＋ワイキキ午後のんびり＋アラモアナセンター夕方
-- 6日目: ウィンドワードコースト：クアロアランチ、カネオヘ湾砂洲、ヌウアヌ・パリ展望台
-- 7日目: のんびりお別れ：最後のビーチ、アラン・ウォンズまたはマリポサでディナー
+- 1日目: 到着＆ワイキキ：チェックイン、ビーチ、デュークス・ワイキキでディナー
+- 2日目: ダイヤモンドヘッドハイク（6時、事前予約必須）＋ワイキキ午後＋ケカイ・カタマラン夕日クルーズ
+- 3日目: マノア・フォールズ、ココヘッド・カフェでブランチ、レナード/リリハ/ワイオラ、チャイナタウン散策、セニアでディナー
+- 4日目: ノースショア：シャークス・コーブでシュノーケリング、ラニアケア（ウミガメ）、ハレイワ、セブン・ブラザーズ、ワイメアベイ、タートルベイで夕日
+- 5日目: パリ展望台、ホオマルヒア植物園、カイルア（カラパワイでランチ、カイルアビーチ）、ハレイワ・ジョーズまたはティキス
+- 6日目: クアロアランチ（UTV/ジップライン）、ワイマナロビーチ、ハレイワ・ジョーズ・カネオヘ、ニコス・カイルア、またはイーストサイド・バー＆グリルでディナー
+- 7日目: 最後のビーチ、ショッピング（スワップミート/ABC）、ティキスまたはアズール/マリポサでお別れディナー
 
 重要な実用情報：
 - HNL空港でレンタカーを借りること（ワイキキ以外を回るには必須）
 - 駐車場：ワイキキの市営は$1-2/時間。ノースショアは週末9時前着推奨
-- ハワイ州法によりリーフセーフ（酸化亜鉛系）日焼け止め使用義務あり
-- ハナウマ湾：dlnr.hawaii.govで事前予約必須
+- ダイヤモンドヘッド・ハナウマ湾：事前予約必須（ハナウマは48時間前7時HSTから）
+- クアロアランチ：ピーク時は数週間前予約推奨
+- セニアは日・月休業、アズールは月・火休業
+- ハワイ州法によりリーフセーフ（酸化亜鉛/酸化チタン系）日焼け止め使用義務あり
 
-日本語で丁寧に、でも親しみやすいトーンでお答えください。確信のないことは正直に伝え、現地確認を勧めてください。絵文字は使わないでください。`
+日本語で丁寧に、でも親しみやすいトーンでお答えください。確信のないことは正直に伝え、現地確認を勧めてください。絵文字は使わないでください。`;
 
 export default async function handler(req, res) {
-  const origin = req.headers.origin || ''
+  const origin = req.headers.origin || "";
   if (origin && !ALLOWED_ORIGINS.has(origin)) {
-    return res.status(403).json({ error: 'Forbidden' })
+    return res.status(403).json({ error: "Forbidden" });
   }
-  res.setHeader('Access-Control-Allow-Origin', origin || '*')
+  res.setHeader("Access-Control-Allow-Origin", origin || "*");
 
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' })
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const ip = req.headers['x-forwarded-for']?.split(',')[0].trim() || req.socket?.remoteAddress || 'unknown'
+  const ip =
+    req.headers["x-forwarded-for"]?.split(",")[0].trim() ||
+    req.socket?.remoteAddress ||
+    "unknown";
   if (isRateLimited(ip)) {
-    return res.status(429).json({ error: 'Too many requests' })
+    return res.status(429).json({ error: "Too many requests" });
   }
 
-  const { messages = [], lang = 'en' } = req.body
+  const { messages = [], lang = "en" } = req.body;
 
   if (!messages || !Array.isArray(messages)) {
-    return res.status(400).json({ error: 'Invalid messages' })
+    return res.status(400).json({ error: "Invalid messages" });
   }
 
-  const lastUser = [...messages].reverse().find(m => m.role === 'user')
+  const lastUser = [...messages].reverse().find((m) => m.role === "user");
   if (lastUser && lastUser.content.length > 500) {
-    return res.status(400).json({ error: 'Message too long' })
+    return res.status(400).json({ error: "Message too long" });
   }
 
-  const systemPrompt = lang === 'ja' ? SYSTEM_PROMPT_JA : SYSTEM_PROMPT_EN
+  const systemPrompt = lang === "ja" ? SYSTEM_PROMPT_JA : SYSTEM_PROMPT_EN;
 
-  const controller = new AbortController()
-  const timeoutId = setTimeout(() => controller.abort(), 9_000)
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 9_000);
 
   try {
     const completion = await client.chat.completions.create(
       {
-        model: 'gpt-5-nano',
+        model: "gpt-5-nano",
         messages: [
-          { role: 'system', content: systemPrompt },
+          { role: "system", content: systemPrompt },
           ...messages.slice(-10), // Keep last 10 messages for context
         ],
         max_tokens: 600,
         temperature: 0.7,
       },
-      { signal: controller.signal }
-    )
-    clearTimeout(timeoutId)
+      { signal: controller.signal },
+    );
+    clearTimeout(timeoutId);
 
-    const reply = completion.choices[0]?.message?.content || ''
-    return res.status(200).json({ reply })
+    const reply = completion.choices[0]?.message?.content || "";
+    return res.status(200).json({ reply });
   } catch (err) {
-    clearTimeout(timeoutId)
-    if (err.name === 'AbortError') return res.status(504).json({ error: 'Request timed out' })
-    console.error('OpenAI error:', err)
-    return res.status(500).json({ error: 'Failed to generate response' })
+    clearTimeout(timeoutId);
+    if (err.name === "AbortError")
+      return res.status(504).json({ error: "Request timed out" });
+    console.error("OpenAI error:", err);
+    return res.status(500).json({ error: "Failed to generate response" });
   }
 }

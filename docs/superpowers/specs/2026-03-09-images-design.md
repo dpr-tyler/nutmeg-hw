@@ -7,9 +7,9 @@ Add Unsplash photos to three card-based sections of the Oahu travel guide, with 
 
 ## Sections Getting Images
 
-1. **BeachGuide** — 6 beach cards
-2. **FoodGuide** — food item cards (all food entries)
-3. **TripOverview** — 3 neighborhood cards
+1. **BeachGuide**: 6 beach cards
+2. **FoodGuide**: food item cards (all food entries)
+3. **TripOverview**: 3 neighborhood cards
 
 The Hero section is intentionally excluded.
 
@@ -76,9 +76,9 @@ Representative items get food-specific Unsplash photos (shrimp, shave ice, poke,
 
 ## Files to Modify
 
-- `src/components/BeachGuide.jsx` — add thumbnail to each beach card
-- `src/components/FoodGuide.jsx` — add thumbnail to each food item card
-- `src/components/TripOverview.jsx` — add thumbnail to each neighborhood card
-- `src/components/ImageLightbox.jsx` — **new file**, shared lightbox component
-- `src/App.jsx` — may need lightbox portal if using app-level state
-- `.gitignore` — add `.superpowers/`
+- `src/components/BeachGuide.jsx`: add thumbnail to each beach card
+- `src/components/FoodGuide.jsx`: add thumbnail to each food item card
+- `src/components/TripOverview.jsx`: add thumbnail to each neighborhood card
+- `src/components/ImageLightbox.jsx`: **new file**, shared lightbox component
+- `src/App.jsx`: may need lightbox portal if using app-level state
+- `.gitignore`: add `.superpowers/`

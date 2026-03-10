@@ -199,6 +199,10 @@ function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
         </h3>
         <div className="flex-1 h-px" style={{ background: `${accent}20` }} />
       </div>
+      <div
+        className="mb-6 h-px w-full"
+        style={{ background: "rgba(27,79,107,0.12)" }}
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {items.map((item) => (
           <FoodCard

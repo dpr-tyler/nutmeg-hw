@@ -54,7 +54,7 @@
         "morning": "HNLに到着後、レンタカーを受け取りワイキキのホテルへチェックイン。身支度を整えてから近くを散策しましょう。",
         "afternoon": "ワイキキビーチを端から端まで歩き、サーフボードをレンタルするか地元のビーチボーイからレッスンを受けてみましょう。",
         "evening": "ビーチで夕日を眺め、その後ロイヤルハワイアンホテルの「アズール・レストラン」へ。オーシャンフロントの上質なディナーを。要事前予約。",
-        "tip": "カパフル通りの市営駐車場は1時間$1。ホテルのバレーパーキング（$35以上）より断然お得です。"
+        "tip": "デュークスのバー席は予約不可—砂の上で席を確保したいなら早めに、または夕日後の落ち着いた時間帯を狙いましょう。"
       },
       {
         "day": "2日目",
@@ -68,13 +68,13 @@
       },
       {
         "day": "3日目",
-        "title": "グルメの一日",
+        "title": "熱帯雨林とグルメ",
         "focus": "グルメ",
         "budget": "$$$",
-        "morning": "KCCファーマーズマーケット（土曜7〜11時）。マウイオニオンチップス、新鮮なヤシの実ジュースを堪能。その後レナードのマラサダ。シナモンシュガーをまぶしたホカホカのドーナツを。",
-        "afternoon": "ホノルルのリリハベーカリーでココパフ（シャンティリークリーム入りのシュー）を。地元の梅干しキャンディ店やマツモトのシェイブアイスも外せません。",
+        "morning": "マノア・フォールズ・トレイル。鬱蒼とした熱帯雨林を歩き、滝まで（往復約2.6km、無料）。8時前着で涼しく人も少ない。虫除け必須。ハイク後はココヘッド・カフェでブランチ（リー・アン・ウォンシェフの島風スタイル、8時開店、平日は予約不要）。",
+        "afternoon": "レナードのマラサダ（毎日営業、現金のみ（シナモンシュガーをまぶしたホカホカを））。リリハベーカリーで有名なココパフ。ワイオラ・シェイブアイスか島津ストアで本格的な地元のシェイブアイス。ディナー前にチャイナタウンを散策。",
         "evening": "チャイナタウンの「ザ・ピッグ・アンド・ザ・レディ」でディナー。ベトナム料理にインスパイアされた独創的な料理が人気。要予約。",
-        "tip": "レナードは現金のみで、常に行列があります。開店直後に行くのが賢明。揚げたてのタイミングを逃さないで。"
+        "tip": "マノア・フォールズは雨後ぬかるみやすい（グリップのある靴で）。レナードは現金のみ。午前中は開店直後のラッシュより行列が短い。"
       },
       {
         "day": "4日目",
@@ -103,7 +103,7 @@
         "budget": "$$",
         "morning": "パリ・ハイウェイでコオラウ山脈を越え、ヌウアヌ・パリ展望台から絶景を。クアロア・ランチでATVや乗馬ツアーも可能。",
         "afternoon": "カアアワの地元レストランでランチ後、カネオヘ湾へ。干潮時には砂洲に上陸（カヤックまたはツアーボートが必要）。",
-        "evening": "コオラウ山脈を縦断するH-3でワイキキへ帰還。アメリカで最も美しいハイウェイのひとつ。カイムキエリアでディナーも良い選択肢。",
+        "evening": "ウィンドワード側でディナーを。カネオヘのハレイワ・ジョーズはハイク・ガーデンズにあり、コオラウ山脈の眺めと鯉の池が魅力。毎晩16〜21時営業。カイルアのニコス・カイルアはホノルル魚市場直送の新鮮なシーフード、火〜日17〜21時。カジュアルな地元の雰囲気ならカネオヘのイーストサイド・バー＆グリル：ポケナチョス、プレフ・ショートリブ、ハッピーアワー14〜18時。",
         "tip": "カネオヘ湾の砂洲ツアーは夏場すぐ満員になります。ヘエイア・ケア小型ボート港近くのオペレーターに数日前から予約を。"
       },
       {
@@ -204,7 +204,11 @@
       },
       {
         "name": "マツモト・シェイブアイス",
-        "aliases": ["マツモト", "マツモトのシェイブアイス", "Matsumoto Shave Ice"],
+        "aliases": [
+          "マツモト",
+          "マツモトのシェイブアイス",
+          "Matsumoto Shave Ice"
+        ],
         "location": "ハレイワ、ノースショア",
         "desc": "1951年創業のノースショアの名店。定番のシェイブアイスとトロピカルフレーバー。行列覚悟で。近くの青木も同品質で待ち時間短め。",
         "highlights": "シェイブアイス、ノースショアの定番",
@@ -244,11 +248,55 @@
       },
       {
         "name": "アロハスタジアム・スワップミート",
-        "aliases": ["アロハスタジアム", "スワップミート", "Aloha Stadium Swap Meet"],
+        "aliases": [
+          "アロハスタジアム",
+          "スワップミート",
+          "Aloha Stadium Swap Meet"
+        ],
         "location": "ハラワ",
         "desc": "ハワイ最大のフリーマーケット。土日開催。お土産、地元クラフト、マカダミアナッツ、コナコーヒー。多くの店舗は現金推奨。",
         "highlights": "お土産、地元クラフト、週末のみ",
         "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "ロイヤルハワイアンホテル",
+        "aliases": ["Royal Hawaiian Hotel", "Royal Hawaiian", "ロイヤルハワイアン"],
+        "location": "ワイキキ",
+        "desc": "太平洋のピンクの宮殿。1927年築の歴史的ランドマーク、スペイン・モーロ風建築。アズール・レストランを擁し、ワイキキビーチの最前線に位置。",
+        "highlights": "歴史的ホテル、オーシャンフロント・ダイニング、ワイキキの象徴",
+        "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "マノア・フォールズ・トレイル",
+        "aliases": ["Manoa Falls Trail", "Manoa Falls", "マノア・フォールズ"],
+        "location": "マノア渓谷、ホノルル",
+        "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
+        "highlights": "熱帯雨林ハイク、滝、ファミリー向け",
+        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "ワイキキビーチウォーク",
+        "aliases": ["Waikiki Beach Walk", "Beach Walk", "ビーチウォーク"],
+        "location": "ワイキキ",
+        "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ロイズなどワイキキの人気店が並ぶ。",
+        "highlights": "ショッピング、ダイニング、ウォーターフロント散策",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "コオラウ山脈",
+        "aliases": ["Ko'olau Mountains", "Ko'olau", "Ko'olau range", "コオラウ"],
+        "location": "ウィンドワード・オアフ",
+        "desc": "オアフのウィンドワード側を形作るドラマチックな緑の断崖。パリ・ハイウェイとH-3が山脈を貫き、アメリカで最も美しいドライブルートのひとつ。霧に包まれた峰と緑の渓谷。",
+        "highlights": "絶景ドライブ、断崖、ウィンドワードの眺望",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "カネオヘ湾",
+        "aliases": ["Kaneohe Bay", "Kaneohe Bay sandbar", "カネオヘ湾砂洲"],
+        "location": "ウィンドワード・オアフ",
+        "desc": "干潮時に現れる有名な砂洲がある保護された湾。ヘエイア・ケア小型ボート港からカヤックまたはツアーボートで。砂洲ツアーは夏場すぐ満員（事前予約を）。",
+        "highlights": "砂洲、カヤック、シュノーケリング、干潮",
+        "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
       }
     ]
   },
@@ -289,6 +337,24 @@
           "location": "ノースショア",
           "whyGo": "ノースショアで最初のシュリンプトラック。ガーリックバターエビとライスの組み合わせ。オアフを語る上で欠かせない一軒。",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ワイオラ・シェイブアイス",
+          "aliases": ["Waiola Shave Ice", "Waiola", "ワイオラ"],
+          "type": "シェイブアイス",
+          "price": "$",
+          "location": "ホノルル",
+          "whyGo": "1940年創業の本格派シェイブアイス。細かくふわふわの氷にトロピカルフレーバー。地元にも観光客にも愛されるホノルルの名店。",
+          "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "島津ストア",
+          "aliases": ["Shimazu Store", "Shimazu", "シマヅ"],
+          "type": "シェイブアイス",
+          "price": "$",
+          "location": "ホノルル",
+          "whyGo": "ホノルルの定番シェイブアイス店。大盛り、地元のフレーバーコンボ、本格ハワイアンおやつ体験。無駄のない、美味しい氷。",
+          "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
       "splurge": [
@@ -316,6 +382,15 @@
           "location": "ホノルル",
           "whyGo": "ハワイ・リージョナル・キュイジーヌの開拓者。クラシックで洗練され、素材の調達にこだわった、まさにマイルストーンと呼べる食体験。",
           "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "マリポサ",
+          "aliases": ["Mariposa"],
+          "type": "ファインダイニング",
+          "price": "$$$",
+          "location": "ニーマンマーカス・アラモアナ、ホノルル",
+          "whyGo": "ニーマンマーカス内の洗練されたオープンエア・ダイニング。アラモアナを眺めるハワイ・リージョナル・キュイジーヌ。お別れディナーや特別な日に。",
+          "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
       "casual": [
@@ -342,6 +417,51 @@
           "location": "ホノルル",
           "whyGo": "24時間営業。シャンティリークリームを詰めたココパフは人生を変える美味しさ。カウンター席のみ。それがまた趣ある佇まい。",
           "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "オーバーイージー",
+          "aliases": ["Over Easy"],
+          "type": "朝食 & ブランチ",
+          "price": "$$",
+          "location": "カイルア",
+          "whyGo": "カイルアで人気の朝食スポット。クリエイティブな卵料理、地元食材、リラックスした雰囲気。ラニカイやカイルアビーチの朝の後に最適。",
+          "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ココヘッド・カフェ",
+          "aliases": ["Koko Head Cafe", "Koko Head", "ココヘッド"],
+          "type": "ブランチ",
+          "price": "$$",
+          "location": "ホノルル",
+          "whyGo": "リー・アン・ウォンシェフの島風ブランチスポット。8時開店。平日は予約不要。地元の味を活かした独創的な料理。",
+          "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ロイズ",
+          "aliases": ["Roy's", "ロイズ"],
+          "type": "ハワイアン・フュージョン",
+          "price": "$$",
+          "location": "ワイキキビーチウォーク",
+          "whyGo": "ロイ・ヤマグチのハワイアン・フュージョンがワイキキビーチウォークに。シーフードと島の味わいが絶品。ランチもディナーもおすすめ。",
+          "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "シュリンプ・シャック",
+          "aliases": ["Shrimp Shack", "シュリンプシャック"],
+          "type": "エビのプレート",
+          "price": "$",
+          "location": "カアアワ",
+          "whyGo": "ウィンドワードコーストの路傍の地元エビスポット。新鮮なガーリックエビとライス、カアアワののんびりした雰囲気。クアロア行き帰りに立ち寄りたい。",
+          "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "アンティ・パッツ",
+          "aliases": ["Aunty Pat's", "Aunty Pat", "アンティパット"],
+          "type": "地元プレートランチ",
+          "price": "$",
+          "location": "カアアワ",
+          "whyGo": "ウィンドワードコーストの本格地元スポット。プレートランチ、ハワイアン定番、心からのアロハ。カアアワの常連に愛される名店。",
+          "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ]
     }
