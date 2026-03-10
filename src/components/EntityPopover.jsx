@@ -69,6 +69,7 @@ export default function EntityPopover({ entity, onClose }) {
               <BeachCard
                 beach={entity.data}
                 compact
+                contentOnly
                 onImageClick={() => {}}
               />
             )}
@@ -77,6 +78,7 @@ export default function EntityPopover({ entity, onClose }) {
                 item={entity.data}
                 accent={getAccentForFood(entity.data)}
                 compact
+                contentOnly
                 onImageClick={() => {}}
               />
             )}

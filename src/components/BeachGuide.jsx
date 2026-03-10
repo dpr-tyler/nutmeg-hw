@@ -31,26 +31,14 @@ function CrowdBar({ level }) {
   )
 }
 
-export function BeachCard({ beach, onImageClick, compact = false }) {
+export function BeachCard({ beach, onImageClick, compact = false, contentOnly = false }) {
   const { t } = useTranslation()
   const difficultyLabel = beach.difficulty === 'Easy' ? t('beaches.easy') : t('beaches.moderate')
   const padding = compact ? 'p-4' : 'p-6'
   const gap = compact ? 'gap-3' : 'gap-4'
 
-  return (
-    <motion.div
-      variants={compact ? {} : fadeUp}
-      className="rounded-2xl overflow-hidden flex flex-col"
-      style={{
-        background: 'white',
-        border: '1px solid rgba(27,79,107,0.08)',
-        boxShadow: '0 2px 12px rgba(0,0,0,0.05)',
-      }}
-    >
-      {/* Color bar accent */}
-      <div style={{ height: '4px', background: 'linear-gradient(90deg, var(--ocean), var(--sand))' }} />
-
-      <div className={`${padding} flex flex-col ${gap} flex-1`}>
+  const content = (
+    <div className={`${padding} flex flex-col ${gap} flex-1`}>
         {/* Thumbnail + content row */}
         <div className="flex gap-4">
           {beach.photo && (
@@ -145,6 +133,25 @@ export function BeachCard({ beach, onImageClick, compact = false }) {
           </div>
         </div>
       </div>
+  )
+
+  if (contentOnly) {
+    return content
+  }
+
+  return (
+    <motion.div
+      variants={compact ? {} : fadeUp}
+      className="rounded-2xl overflow-hidden flex flex-col"
+      style={{
+        background: 'white',
+        border: '1px solid rgba(27,79,107,0.08)',
+        boxShadow: '0 2px 12px rgba(0,0,0,0.05)',
+      }}
+    >
+      {/* Color bar accent */}
+      <div style={{ height: '4px', background: 'linear-gradient(90deg, var(--ocean), var(--sand))' }} />
+      {content}
     </motion.div>
   )
 }

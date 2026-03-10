@@ -20,21 +20,13 @@ const priceColor = {
   '$$$': 'var(--coral)',
 }
 
-export function FoodCard({ item, accent, onImageClick, compact = false }) {
+export function FoodCard({ item, accent, onImageClick, compact = false, contentOnly = false }) {
   const { t } = useTranslation()
   const padding = compact ? 'p-4' : 'p-6'
   const gap = compact ? 'gap-3' : 'gap-4'
 
-  return (
-    <motion.div
-      variants={compact ? {} : fadeUp}
-      className={`rounded-2xl ${padding} flex flex-col ${gap}`}
-      style={{
-        background: 'white',
-        border: '1px solid rgba(27,79,107,0.08)',
-        boxShadow: '0 2px 10px rgba(0,0,0,0.04)',
-      }}
-    >
+  const content = (
+    <>
       <div className="flex items-start gap-3">
         {item.photo && (
           <img
@@ -105,6 +97,26 @@ export function FoodCard({ item, accent, onImageClick, compact = false }) {
           </div>
         </div>
       </div>
+    </>
+  )
+
+  const wrapperClass = `${padding} flex flex-col ${gap}`
+
+  if (contentOnly) {
+    return <div className={wrapperClass}>{content}</div>
+  }
+
+  return (
+    <motion.div
+      variants={compact ? {} : fadeUp}
+      className={`rounded-2xl ${wrapperClass}`}
+      style={{
+        background: 'white',
+        border: '1px solid rgba(27,79,107,0.08)',
+        boxShadow: '0 2px 10px rgba(0,0,0,0.04)',
+      }}
+    >
+      {content}
     </motion.div>
   )
 }
