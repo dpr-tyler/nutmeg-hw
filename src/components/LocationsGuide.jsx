@@ -46,7 +46,7 @@ export function LocationCard({
               "aria-label": `View full size photo of ${location.name}`,
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
-            className="rounded-xl object-cover shrink-0"
+            className="rounded-2xl object-cover shrink-0"
             style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
           />
         )}
@@ -110,10 +110,7 @@ export function LocationCard({
       </p>
 
       {location.highlights && (
-        <div
-          className="rounded-xl p-4"
-          style={{ background: "var(--mist)" }}
-        >
+        <div className="rounded-2xl p-4" style={{ background: "var(--mist)" }}>
           <span
             className="text-xs uppercase tracking-widest block mb-1"
             style={{
@@ -147,7 +144,7 @@ export function LocationCard({
   return (
     <motion.div
       variants={compact ? {} : fadeUp}
-      className="rounded-2xl overflow-hidden flex flex-col"
+      className="rounded-3xl overflow-hidden flex flex-col"
       style={{
         background: "white",
         border: "1px solid rgba(27,79,107,0.08)",

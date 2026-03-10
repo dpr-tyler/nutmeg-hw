@@ -61,7 +61,7 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
 
   return (
     <div
-      className="rounded-2xl overflow-hidden"
+      className="rounded-3xl overflow-hidden"
       style={{
         background: "white",
         border: "1px solid rgba(27,79,107,0.1)",
@@ -149,7 +149,7 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
 
                 {/* Local tip */}
                 <div
-                  className="flex gap-3 p-4 rounded-xl mt-2"
+                  className="flex gap-3 p-4 rounded-2xl mt-2"
                   style={{
                     background: "rgba(198,169,107,0.1)",
                     border: "1px solid rgba(198,169,107,0.2)",

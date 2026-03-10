@@ -58,7 +58,7 @@ export function FoodCard({
               "aria-label": `View full size photo of ${item.name}`,
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
-            className="rounded-xl object-cover flex-shrink-0"
+            className="rounded-2xl object-cover flex-shrink-0"
             style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
           />
         )}
@@ -133,7 +133,7 @@ export function FoodCard({
         </div>
       </div>
 
-      <div className="rounded-xl p-4" style={{ background: "var(--mist)" }}>
+      <div className="rounded-2xl p-4" style={{ background: "var(--mist)" }}>
         <div className="flex items-start gap-2">
           <Lightbulb
             size={13}
@@ -164,7 +164,7 @@ export function FoodCard({
   return (
     <motion.div
       variants={compact ? {} : fadeUp}
-      className={`rounded-2xl ${wrapperClass}`}
+      className={`rounded-3xl ${wrapperClass}`}
       style={{
         background: "white",
         border: "1px solid rgba(27,79,107,0.08)",
@@ -182,7 +182,7 @@ function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
     <div className="mb-16">
       <div className="flex items-center gap-3 mb-6">
         <div
-          className="w-8 h-8 rounded-lg flex items-center justify-center"
+          className="w-8 h-8 rounded-xl flex items-center justify-center"
           style={{ background: `${accent}15` }}
         >
           <Icon size={16} color={accent} strokeWidth={1.5} />

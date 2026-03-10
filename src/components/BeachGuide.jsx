@@ -63,7 +63,7 @@ export function BeachCard({
               "aria-label": `View full size photo of ${beach.name}`,
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
-            className="rounded-xl object-cover flex-shrink-0"
+            className="rounded-2xl object-cover flex-shrink-0"
             style={{ width: compact ? 56 : 72, height: compact ? 56 : 72 }}
           />
         )}
@@ -127,7 +127,7 @@ export function BeachCard({
       </p>
 
       <div
-        className="rounded-xl p-4 flex flex-col gap-3"
+        className="rounded-2xl p-4 flex flex-col gap-3"
         style={{ background: "var(--mist)" }}
       >
         <div>
@@ -178,7 +178,7 @@ export function BeachCard({
   return (
     <motion.div
       variants={compact ? {} : fadeUp}
-      className="rounded-2xl overflow-hidden flex flex-col"
+      className="rounded-3xl overflow-hidden flex flex-col"
       style={{
         background: "white",
         border: "1px solid rgba(27,79,107,0.08)",

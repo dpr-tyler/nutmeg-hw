@@ -12,7 +12,16 @@ import {
   Calendar,
 } from "lucide-react";
 
-const ICONS = { Car, MapPin, CreditCard, Sun, ShieldCheck, Package, Plane, Calendar };
+const ICONS = {
+  Car,
+  MapPin,
+  CreditCard,
+  Sun,
+  ShieldCheck,
+  Package,
+  Plane,
+  Calendar,
+};
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -29,22 +38,22 @@ function TipCard({ item }) {
   return (
     <motion.div
       variants={fadeUp}
-      className="flex gap-5 p-6 rounded-2xl"
+      className="flex flex-col gap-4 p-6 rounded-3xl"
       style={{
         background: "white",
         border: "1px solid rgba(27,79,107,0.08)",
         boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
       }}
     >
-      <div
-        className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5"
-        style={{ background: "rgba(27,79,107,0.08)" }}
-      >
-        <Icon size={20} color="var(--ocean)" strokeWidth={1.5} />
-      </div>
-      <div>
+      <div className="flex gap-5 items-center">
+        <div
+          className="w-11 h-11 rounded-2xl flex items-center justify-center shrink-0"
+          style={{ background: "rgba(27,79,107,0.08)" }}
+        >
+          <Icon size={20} color="var(--ocean)" strokeWidth={1.5} />
+        </div>
         <h4
-          className="font-display text-lg mb-2"
+          className="font-display text-lg"
           style={{
             fontFamily: "var(--font-display)",
             color: "var(--ink)",
@@ -53,17 +62,17 @@ function TipCard({ item }) {
         >
           {item.title}
         </h4>
-        <p
-          style={{
-            color: "var(--ink)",
-            opacity: 0.72,
-            fontSize: "0.875rem",
-            lineHeight: 1.75,
-          }}
-        >
-          {item.body}
-        </p>
       </div>
+      <p
+        style={{
+          color: "var(--ink)",
+          opacity: 0.72,
+          fontSize: "0.875rem",
+          lineHeight: 1.75,
+        }}
+      >
+        {item.body}
+      </p>
     </motion.div>
   );
 }
