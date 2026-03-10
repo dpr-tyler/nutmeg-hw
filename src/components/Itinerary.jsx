@@ -176,15 +176,8 @@ export default function Itinerary() {
       id="itinerary"
       ref={ref}
       className="py-24 px-6"
-      style={{ background: 'var(--mist)' }}
+      style={{ background: 'var(--ivory)' }}
     >
-      {/* Top wave */}
-      <div className="wave-divider -mt-24 mb-0" style={{ marginBottom: '-2px' }}>
-        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style={{ height: '80px', width: '100%' }}>
-          <path d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0 Z" fill="var(--ivory)" />
-        </svg>
-      </div>
-
       <div className="max-w-3xl mx-auto">
         <motion.div
           variants={stagger}

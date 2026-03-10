@@ -14,7 +14,6 @@ export default function Nav() {
   }, [])
 
   const links = [
-    { key: 'nav.overview', href: '#overview' },
     { key: 'nav.itinerary', href: '#itinerary' },
     { key: 'nav.beaches', href: '#beaches' },
     { key: 'nav.food', href: '#food' },

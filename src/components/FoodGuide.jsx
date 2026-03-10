@@ -150,12 +150,12 @@ export default function FoodGuide() {
       id="food"
       ref={ref}
       className="py-24 px-6"
-      style={{ background: 'var(--mist)' }}
+      style={{ background: 'var(--ivory)' }}
     >
       {/* Wave top */}
       <div className="wave-divider -mt-24" style={{ marginBottom: '-2px' }}>
         <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style={{ height: '80px', width: '100%' }}>
-          <path d="M0,40 C360,0 1080,80 1440,20 L1440,0 L0,0 Z" fill="var(--ivory)" />
+          <path d="M0,40 C360,0 1080,80 1440,20 L1440,0 L0,0 Z" fill="var(--mist)" />
         </svg>
       </div>
 

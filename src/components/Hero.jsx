@@ -100,7 +100,7 @@ export default function Hero() {
 
         <motion.a
           variants={itemVariants}
-          href="#overview"
+          href="#itinerary"
           className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-medium transition-all duration-300 hover:gap-3"
           style={{
             background: 'var(--coral)',

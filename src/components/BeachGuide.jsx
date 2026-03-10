@@ -158,11 +158,11 @@ export default function BeachGuide() {
   const beaches = t('beaches.list', { returnObjects: true })
 
   return (
-    <section id="beaches" ref={ref} className="py-24 px-6" style={{ background: 'var(--ivory)' }}>
+    <section id="beaches" ref={ref} className="py-24 px-6" style={{ background: 'var(--mist)' }}>
       {/* Wave top */}
       <div className="wave-divider -mt-24" style={{ marginBottom: '-2px' }}>
         <svg viewBox="0 0 1440 80" preserveAspectRatio="none" style={{ height: '80px', width: '100%' }}>
-          <path d="M0,20 C480,80 960,0 1440,40 L1440,0 L0,0 Z" fill="var(--mist)" />
+          <path d="M0,20 C480,80 960,0 1440,40 L1440,0 L0,0 Z" fill="var(--ivory)" />
         </svg>
       </div>
 
