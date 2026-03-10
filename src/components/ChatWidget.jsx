@@ -103,6 +103,19 @@ export default function ChatWidget() {
               aria-label="Open chat"
             >
               <MessageCircle size={24} color="white" />
+              {!greeted && (
+                <motion.span
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  className="absolute -top-0.5 -right-0.5 w-5 h-5 rounded-full flex items-center justify-center text-xs font-semibold text-white"
+                  style={{
+                    background: "#dc2626",
+                    boxShadow: "0 1px 4px rgba(0,0,0,0.2)",
+                  }}
+                >
+                  1
+                </motion.span>
+              )}
               {/* Pulse ring */}
               <motion.div
                 className="absolute inset-0 rounded-full"
