@@ -52,7 +52,7 @@
         "budget": "$$",
         "morning": "Arrive at HNL, collect your rental car, and check into your Waikiki hotel. Freshen up and orient yourself.",
         "afternoon": "Walk the length of Waikiki Beach, rent a surfboard or take a lesson from a beach boy. Swim in the calm, warm waters.",
-        "evening": "Watch the sunset from the beach, then head to Nobu Honolulu for refined Japanese-Peruvian cuisine. Reserve well in advance.",
+        "evening": "Watch the sunset from the beach, then head to Azure Restaurant at the Royal Hawaiian Hotel for refined oceanfront fine dining. Reserve well in advance.",
         "tip": "The municipal lot on Kapahulu Ave offers $1/hour parking near Waikiki, far cheaper than hotel valet."
       },
       {
@@ -227,11 +227,12 @@
       ],
       "splurge": [
         {
-          "name": "Nobu Honolulu",
-          "type": "Japanese-Peruvian",
+          "name": "Azure Restaurant",
+          "aliases": ["Azure"],
+          "type": "Fine Dining",
           "price": "$$$",
-          "location": "Honolulu",
-          "whyGo": "The Oahu outpost of Nobu's legendary global empire. Miso-glazed black cod and yellowtail jalapeño are essential orders.",
+          "location": "Royal Hawaiian Hotel, Waikiki",
+          "whyGo": "World-class fine dining at the Royal Hawaiian Hotel. Oceanfront views, Spanish-Moorish architecture, and a refined dinner menu. Reserve for Wed–Sun evenings.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
