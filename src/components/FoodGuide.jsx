@@ -38,6 +38,10 @@ function FoodCard({ item, accent, onImageClick }) {
             src={item.photo}
             alt={item.name}
             onClick={() => onImageClick(item.photo, item.name)}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick(item.photo, item.name) } }}
+            role="button"
+            tabIndex={0}
+            aria-label={`View full size photo of ${item.name}`}
             className="rounded-xl object-cover flex-shrink-0"
             style={{ width: 72, height: 72, cursor: 'zoom-in' }}
           />
@@ -119,8 +123,8 @@ function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
         <div className="flex-1 h-px" style={{ background: `${accent}20` }} />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {items.map((item, i) => (
-          <FoodCard key={i} item={item} accent={accent} onImageClick={onImageClick} />
+        {items.map((item) => (
+          <FoodCard key={item.name} item={item} accent={accent} onImageClick={onImageClick} />
         ))}
       </div>
     </div>

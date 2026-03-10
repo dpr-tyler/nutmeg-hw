@@ -63,6 +63,10 @@ function NeighborhoodCard({ name, desc, index, photo, onImageClick }) {
           src={photo}
           alt={name}
           onClick={() => onImageClick(photo, name)}
+          onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick(photo, name) } }}
+          role="button"
+          tabIndex={0}
+          aria-label={`View full size photo of ${name}`}
           className="rounded-xl object-cover"
           style={{ width: 72, height: 72, cursor: 'zoom-in' }}
         />

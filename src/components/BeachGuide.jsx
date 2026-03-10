@@ -56,6 +56,10 @@ function BeachCard({ beach, onImageClick }) {
               src={beach.photo}
               alt={beach.name}
               onClick={() => onImageClick(beach.photo, beach.name)}
+              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onImageClick(beach.photo, beach.name) } }}
+              role="button"
+              tabIndex={0}
+              aria-label={`View full size photo of ${beach.name}`}
               className="rounded-xl object-cover flex-shrink-0"
               style={{ width: 72, height: 72, cursor: 'zoom-in' }}
             />
@@ -188,9 +192,9 @@ export default function BeachGuide() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.isArray(beaches) && beaches.map((beach, i) => (
+            {Array.isArray(beaches) && beaches.map((beach) => (
               <BeachCard
-                key={i}
+                key={beach.name}
                 beach={beach}
                 onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
               />

@@ -13,13 +13,16 @@ export default function ImageLightbox({ src, alt, isOpen, onClose }) {
     <AnimatePresence>
       {isOpen && (
         <motion.div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Image viewer"
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
           onClick={onClose}
           style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.85)',
                    display: 'flex', alignItems: 'center', justifyContent: 'center',
                    zIndex: 9999, cursor: 'zoom-out' }}
         >
-          <button onClick={onClose} style={{ position: 'absolute', top: 20, right: 24,
+          <button aria-label="Close" onClick={onClose} style={{ position: 'absolute', top: 20, right: 24,
             background: 'none', border: 'none', color: 'white', fontSize: '1.5rem',
             cursor: 'pointer', lineHeight: 1 }}>✕</button>
 
