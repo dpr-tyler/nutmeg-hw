@@ -175,6 +175,16 @@ export default function PracticalTips() {
         >
           Mahalo. Enjoy your week in paradise.
         </p>
+        <p
+          className="font-display text-base mt-2"
+          style={{
+            fontFamily: "var(--font-display)",
+            color: "var(--ocean)",
+            opacity: 0.8,
+          }}
+        >
+          Curated by Taira Matsuzaki
+        </p>
       </motion.div>
     </section>
   );

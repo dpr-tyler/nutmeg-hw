@@ -184,6 +184,15 @@
         "difficulty": "Easy",
         "desc": "One of Oahu's longest and less-crowded beaches. Soft sand, clear water, and a stunning Ko'olau mountain backdrop. A favorite of locals with a more low-key vibe than Waikiki or many North Shore spots.",
         "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Laniakea Beach",
+        "location": "61-676 Kamehameha Hwy, Haleiwa",
+        "bestFor": "Sea turtle sightings, wildlife photography, North Shore",
+        "crowd": 2,
+        "difficulty": "Easy",
+        "desc": "Famous North Shore beach where Hawaiian green sea turtles often haul out on the sand to rest. Volunteer groups help educate visitors and keep everyone at a respectful distance. A memorable and reliable wildlife encounter.",
+        "photo": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=80&h=80&fit=crop&crop=center&auto=format"
       }
     ]
   },
@@ -233,14 +242,6 @@
         "desc": "Popular Waikiki sunset catamaran. Boards at 5 PM, departs at 5:30 PM, runs 90 minutes with complimentary drinks. Sea turtles and dolphins are frequently spotted. Check in at least 30 minutes early or you may lose your reservation. Operates daily.",
         "highlights": "Sunset sail, complimentary drinks, turtle and dolphin sightings, daily departures",
         "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Laniakea Beach",
-        "aliases": [],
-        "location": "61-676 Kamehameha Hwy, Haleiwa",
-        "desc": "Famous North Shore beach where Hawaiian green sea turtles often haul out on the sand to rest. Volunteer groups help educate visitors and keep everyone at a respectful distance. A memorable and reliable wildlife encounter.",
-        "highlights": "Sea turtle sightings, volunteers, North Shore, wildlife",
-        "photo": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Manoa Falls Trail",
