@@ -1,19 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --ocean: #1B4F6B;
-  --ivory: #F5EFE0;
-  --coral: #D96B4F;
-  --sand: #C6A96B;
-  --ink: #1A1A1A;
-  --mist: #EBF4F7;
+  --ocean: #1b4f6b;
+  --ivory: #f5efe0;
+  --coral: #d96b4f;
+  --sand: #c6a96b;
+  --ink: #1a1a1a;
+  --mist: #ebf4f7;
 
-  --font-display: 'Cormorant Garamond', 'Georgia', serif;
-  --font-body: 'DM Sans', system-ui, sans-serif;
-  --font-mono: 'DM Mono', monospace;
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", monospace;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 

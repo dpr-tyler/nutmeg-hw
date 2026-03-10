@@ -39,8 +39,6 @@ export function BeachCard({
   contentOnly = false,
 }) {
   const { t } = useTranslation();
-  const difficultyLabel =
-    beach.difficulty === "Easy" ? t("beaches.easy") : t("beaches.moderate");
   const padding = compact ? "p-4" : "p-6";
   const gap = compact ? "gap-3" : "gap-4";
 
@@ -155,47 +153,19 @@ export function BeachCard({
             {beach.bestFor}
           </p>
         </div>
-        <div className="flex items-center justify-between">
-          <div>
-            <span
-              className="text-xs uppercase tracking-widest block mb-1.5"
-              style={{
-                fontFamily: "var(--font-mono)",
-                color: "var(--ocean)",
-                opacity: 0.6,
-                letterSpacing: "0.12em",
-              }}
-            >
-              {t("beaches.crowdLevel")}
-            </span>
-            <CrowdBar level={beach.crowd} />
-          </div>
-          <div className="text-right">
-            <span
-              className="text-xs uppercase tracking-widest block mb-1"
-              style={{
-                fontFamily: "var(--font-mono)",
-                color: "var(--ocean)",
-                opacity: 0.6,
-                letterSpacing: "0.12em",
-              }}
-            >
-              {t("beaches.difficulty")}
-            </span>
-            <span
-              className="text-xs px-2 py-0.5 rounded-full"
-              style={{
-                background:
-                  beach.difficulty === "Easy"
-                    ? "rgba(74,222,128,0.15)"
-                    : "rgba(198,169,107,0.15)",
-                color: beach.difficulty === "Easy" ? "#16a34a" : "var(--sand)",
-                fontFamily: "var(--font-mono)",
-              }}
-            >
-              {difficultyLabel}
-            </span>
-          </div>
+        <div>
+          <span
+            className="text-xs uppercase tracking-widest block mb-1.5"
+            style={{
+              fontFamily: "var(--font-mono)",
+              color: "var(--ocean)",
+              opacity: 0.6,
+              letterSpacing: "0.12em",
+            }}
+          >
+            {t("beaches.crowdLevel")}
+          </span>
+          <CrowdBar level={beach.crowd} />
         </div>
       </div>
     </div>
