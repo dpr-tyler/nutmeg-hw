@@ -1,6 +1,8 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import LinkableContent from "./LinkableContent";
+import EntityPopover from "./EntityPopover";
 import {
   Car,
   MapPin,
@@ -33,7 +35,7 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.09 } },
 };
 
-function TipCard({ item }) {
+function TipCard({ item, onEntityClick }) {
   const Icon = ICONS[item.icon] || Package;
   return (
     <motion.div
@@ -70,7 +72,7 @@ function TipCard({ item }) {
           lineHeight: 1.75,
         }}
       >
-        {item.body}
+        <LinkableContent text={item.body} onEntityClick={onEntityClick} />
       </p>
     </motion.div>
   );
@@ -80,6 +82,7 @@ export default function PracticalTips() {
   const { t } = useTranslation();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
+  const [popoverEntity, setPopoverEntity] = useState(null);
 
   const items = t("tips.items", { returnObjects: true });
   const overviewItems = [
@@ -147,11 +150,13 @@ export default function PracticalTips() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {allItems.map((item, i) => (
-              <TipCard key={i} item={item} />
+              <TipCard key={i} item={item} onEntityClick={setPopoverEntity} />
             ))}
           </div>
         </motion.div>
       </div>
+
+      <EntityPopover entity={popoverEntity} onClose={() => setPopoverEntity(null)} />
 
       {/* Footer */}
       <motion.div
@@ -173,7 +178,7 @@ export default function PracticalTips() {
             fontStyle: "italic",
           }}
         >
-          Mahalo. Enjoy your week in paradise.
+          {t("tips.footerMessage")}
         </p>
         <p
           className="font-display text-base mt-2"
@@ -183,7 +188,7 @@ export default function PracticalTips() {
             opacity: 0.8,
           }}
         >
-          Curated by Taira Matsuzaki
+          {t("tips.footerByline")}
         </p>
       </motion.div>
     </section>

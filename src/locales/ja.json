@@ -499,8 +499,10 @@
     }
   },
   "tips": {
-    "title": "実用ヒント",
+    "title": "旅のアドバイス",
     "subtitle": "島での1週間をスムーズに楽しむための大事なポイント。",
+    "footerMessage": "Mahalo. ハワイで過ごす一週間をお楽しみください。",
+    "footerByline": "松崎平より",
     "items": [
       {
         "icon": "Car",
