@@ -265,14 +265,6 @@ export default function LocationsGuide() {
                 }
               />
               <LocationCategory
-                title={t("locations.experiences")}
-                items={locationItems.experiences || []}
-                accent="var(--sand)"
-                onImageClick={(photo, name) =>
-                  setLightbox({ url: photo, alt: name })
-                }
-              />
-              <LocationCategory
                 title={t("locations.shopping")}
                 items={locationItems.shopping || []}
                 accent="var(--coral)"

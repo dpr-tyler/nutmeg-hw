@@ -204,11 +204,10 @@
   "locations": {
     "label": "Explore",
     "title": "Locations and Attractions",
-    "subtitle": "Landmarks, shops, and experiences from your itinerary.",
+    "subtitle": "Landmarks and shops from your itinerary.",
     "viewOnMap": "View on map",
     "highlights": "Highlights",
     "nature": "Nature & Outdoors",
-    "experiences": "Experiences",
     "shopping": "Shopping & Neighborhoods",
     "items": {
       "nature": [
@@ -261,9 +260,7 @@
           "desc": "Two small offshore islands (Moku Nui and Moku Iki) sitting just off Lanikai Beach. Both are state seabird sanctuaries. Moku Nui has a sandy beach and a short trail with sweeping views; Moku Iki is closed to visitors. Reach them by kayak from Kailua Beach Park or Lanikai in good conditions (typically 30–45 minutes each way).",
           "highlights": "Kayak destination, seabird sanctuary, sandy beach on Moku Nui, scenic trail",
           "photo": "/images/mokulua-islands.jpg"
-        }
-      ],
-      "experiences": [
+        },
         {
           "name": "Kualoa Ranch",
           "aliases": ["Kualoa"],
@@ -281,14 +278,6 @@
           "desc": "Popular Waikiki sunset catamaran. Boards at 5 PM, departs at 5:30 PM, runs 90 minutes with complimentary drinks. Sea turtles and dolphins are frequently spotted. Check in at least 30 minutes early or you may lose your reservation. Operates daily.",
           "highlights": "Sunset sail, complimentary drinks, turtle and dolphin sightings, daily departures",
           "photo": "/images/ke-kai-catamaran-waikiki-sunset-sail.jpg"
-        },
-        {
-          "name": "Royal Hawaiian Hotel",
-          "aliases": ["Royal Hawaiian"],
-          "location": "2259 Kalakaua Ave, Honolulu",
-          "desc": "The historic Pink Palace of the Pacific, opened in 1927. Spanish-Moorish architecture, lush courtyards, and prime oceanfront real estate on Waikiki Beach. Home to Azure Restaurant (Wednesday through Sunday evenings) and the legendary Mai Tai Bar, open daily.",
-          "highlights": "Historic hotel, Azure restaurant, Mai Tai Bar, oceanfront, Waikiki landmark",
-          "photo": "/images/royal-hawaiian-hotel.jpg"
         }
       ],
       "shopping": [
@@ -316,6 +305,14 @@
           "desc": "A master-planned urban neighborhood in Kakaako developed by Howard Hughes Corporation. Opened in phases from 2016, it features luxury residences alongside curated retail, restaurants, and the Ward Entertainment Center. A walkable hub connecting Kakaako's arts district to the waterfront.",
           "highlights": "Boutiques, dining, Ward Entertainment Center, Kakaako arts district",
           "photo": "/images/ward-village.jpg"
+        },
+        {
+          "name": "Royal Hawaiian Hotel",
+          "aliases": ["Royal Hawaiian"],
+          "location": "2259 Kalakaua Ave, Honolulu",
+          "desc": "The historic Pink Palace of the Pacific, opened in 1927. Spanish-Moorish architecture, lush courtyards, and prime oceanfront real estate on Waikiki Beach. Home to Azure Restaurant (Wednesday through Sunday evenings) and the legendary Mai Tai Bar, open daily.",
+          "highlights": "Historic hotel, Azure restaurant, Mai Tai Bar, oceanfront, Waikiki landmark",
+          "photo": "/images/royal-hawaiian-hotel.jpg"
         }
       ]
     }
@@ -342,31 +339,31 @@
           "photo": "/images/leonard's-bakery.jpg"
         },
         {
-          "name": "Island Vintage Shave Ice",
-          "aliases": ["Island Vintage"],
-          "type": "Shave Ice",
+          "name": "Kalapawai Market",
+          "aliases": [],
+          "type": "Deli and Market",
           "price": "$",
-          "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
-          "whyGo": "Premium shave ice in the heart of Waikiki. Natural fruit flavors, housemade syrups, and toppings like azuki beans, mochi balls, and li hing powder. A beloved stop after a beach day.",
-          "photo": "/images/island-vintage-shave-ice.jpg"
+          "location": "306 S Kalaheo Ave, Kailua",
+          "whyGo": "Kailua's beloved neighborhood deli and general store. Excellent sandwiches, coffee, and grab-and-go items. Perfect before or after Kailua Beach.",
+          "photo": "/images/kalapawai-market.jpg"
         },
         {
-          "name": "Giovanni's Shrimp Truck",
-          "aliases": ["Giovanni's"],
-          "type": "Shrimp Plate",
+          "name": "Liliha Bakery",
+          "aliases": [],
+          "type": "Bakery and Diner",
           "price": "$",
-          "location": "66-472 Kamehameha Hwy, Haleiwa",
-          "whyGo": "The original North Shore shrimp truck since 1993. Garlic shrimp plates over rice. Expect lines at peak lunch.",
-          "photo": "/images/giovanni's-shrimp-truck.jpg"
+          "location": "515 N Kuakini St, Honolulu",
+          "whyGo": "Classic local bakery-diner famous for coco puffs, choux pastry filled with Chantilly cream. Counter seating captures a genuinely local feel. A good stop for late-night cravings or an early breakfast.",
+          "photo": "/images/liliha-bakery.jpg"
         },
         {
-          "name": "Aloh Health Bar and Cafe",
-          "aliases": ["Aloh", "Aloh Health Bar", "Aloh Cafe"],
-          "type": "Acai Bowls and Healthy Eats",
-          "price": "$",
-          "location": "407 Seaside Ave, Waikiki",
-          "whyGo": "Plant-based cafe praised for its acai bowls, matcha lattes, avocado toast, juices, and coffee. A good morning stop before a beach day.",
-          "photo": "/images/aloh-health-bar-and-cafe.jpg"
+          "name": "Buzz's Original Steakhouse",
+          "aliases": ["Buzz's"],
+          "type": "Steakhouse and Seafood",
+          "price": "$$",
+          "location": "413 Kawailoa Rd, Kailua",
+          "whyGo": "A beloved Kailua institution since 1962, steps from Lanikai Beach. Family-owned for over six decades, known for prime steaks, fresh local seafood, and strong mai tais. The bar area is walk-in; tables fill quickly, especially on weekends. Open daily for lunch and dinner.",
+          "photo": "/images/buzz's-original-steakhouse.jpg"
         }
       ],
       "splurge": [
@@ -409,24 +406,6 @@
           "photo": "/images/duke's-waikiki.jpg"
         },
         {
-          "name": "Kalapawai Market",
-          "aliases": [],
-          "type": "Deli and Market",
-          "price": "$",
-          "location": "306 S Kalaheo Ave, Kailua",
-          "whyGo": "Kailua's beloved neighborhood deli and general store. Excellent sandwiches, coffee, and grab-and-go items. Perfect before or after Kailua Beach.",
-          "photo": "/images/kalapawai-market.jpg"
-        },
-        {
-          "name": "Liliha Bakery",
-          "aliases": [],
-          "type": "Bakery and Diner",
-          "price": "$",
-          "location": "515 N Kuakini St, Honolulu",
-          "whyGo": "Classic local bakery-diner famous for coco puffs, choux pastry filled with Chantilly cream. Counter seating captures a genuinely local feel. A good stop for late-night cravings or an early breakfast.",
-          "photo": "/images/liliha-bakery.jpg"
-        },
-        {
           "name": "Koko Head Cafe",
           "aliases": ["Koko Head"],
           "type": "Brunch",
@@ -445,13 +424,31 @@
           "photo": "/images/haleiwa-joe's.jpg"
         },
         {
-          "name": "Buzz's Original Steakhouse",
-          "aliases": ["Buzz's"],
-          "type": "Steakhouse and Seafood",
-          "price": "$$",
-          "location": "413 Kawailoa Rd, Kailua",
-          "whyGo": "A beloved Kailua institution since 1962, steps from Lanikai Beach. Family-owned for over six decades, known for prime steaks, fresh local seafood, and strong mai tais. The bar area is walk-in; tables fill quickly, especially on weekends. Open daily for lunch and dinner.",
-          "photo": "/images/buzz's-original-steakhouse.jpg"
+          "name": "Island Vintage Shave Ice",
+          "aliases": ["Island Vintage"],
+          "type": "Shave Ice",
+          "price": "$",
+          "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
+          "whyGo": "Premium shave ice in the heart of Waikiki. Natural fruit flavors, housemade syrups, and toppings like azuki beans, mochi balls, and li hing powder. A beloved stop after a beach day.",
+          "photo": "/images/island-vintage-shave-ice.jpg"
+        },
+        {
+          "name": "Giovanni's Shrimp Truck",
+          "aliases": ["Giovanni's"],
+          "type": "Shrimp Plate",
+          "price": "$",
+          "location": "66-472 Kamehameha Hwy, Haleiwa",
+          "whyGo": "The original North Shore shrimp truck since 1993. Garlic shrimp plates over rice. Expect lines at peak lunch.",
+          "photo": "/images/giovanni's-shrimp-truck.jpg"
+        },
+        {
+          "name": "Aloh Health Bar and Cafe",
+          "aliases": ["Aloh", "Aloh Health Bar", "Aloh Cafe"],
+          "type": "Acai Bowls and Healthy Eats",
+          "price": "$",
+          "location": "407 Seaside Ave, Waikiki",
+          "whyGo": "Plant-based cafe praised for its acai bowls, matcha lattes, avocado toast, juices, and coffee. A good morning stop before a beach day.",
+          "photo": "/images/aloh-health-bar-and-cafe.jpg"
         }
       ]
     }

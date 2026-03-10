@@ -10,7 +10,6 @@ export default function LinkableContent({ text, onEntityClick }) {
   const locationItems = t('locations.items', { returnObjects: true }) || {}
   const locations = [
     ...(locationItems.nature || []),
-    ...(locationItems.experiences || []),
     ...(locationItems.shopping || []),
   ]
 

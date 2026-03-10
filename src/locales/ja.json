@@ -206,11 +206,10 @@
   "locations": {
     "label": "見る",
     "title": "注目スポット",
-    "subtitle": "旅程に登場するランドマーク、ショップ、体験スポットをまとめました。",
+    "subtitle": "旅程に登場するランドマークとショップをまとめました。",
     "viewOnMap": "地図で見る",
     "highlights": "見どころ",
     "nature": "自然・アウトドア",
-    "experiences": "体験",
     "shopping": "ショッピング・街歩き",
     "items": {
       "nature": [
@@ -273,9 +272,7 @@
           "desc": "Lanikai Beach の沖に浮かぶ2つの小島、Moku Nui と Moku Iki。どちらも州指定の海鳥保護区で、Moku Nui には砂浜と絶景が楽しめる短いトレイルがあります。Moku Iki は立ち入り不可。Kailua Beach Park や Lanikai から、好条件ならカヤックで片道30〜45分ほどです。",
           "highlights": "カヤック目的地、海鳥保護区、Moku Nui の砂浜、絶景トレイル",
           "photo": "/images/mokulua-islands.jpg"
-        }
-      ],
-      "experiences": [
+        },
         {
           "name": "Kualoa Ranch",
           "aliases": [
@@ -299,16 +296,6 @@
           "desc": "ワイキキで人気のサンセットカタマラン。17時乗船開始、17時30分出航、所要90分でドリンク付き。ウミガメやイルカが見られることも多く、出航30分前までのチェックインが必要です。毎日運航しています。",
           "highlights": "サンセットクルーズ、無料ドリンク、ウミガメ・イルカ、毎日運航",
           "photo": "/images/ke-kai-catamaran-waikiki-sunset-sail.jpg"
-        },
-        {
-          "name": "Royal Hawaiian Hotel",
-          "aliases": [
-            "Royal Hawaiian"
-          ],
-          "location": "2259 Kalakaua Ave, Honolulu",
-          "desc": "1927年開業の歴史あるホテルで、『太平洋のピンクパレス』として知られるワイキキの象徴。スペイン・モーロ風建築、美しい中庭、そしてビーチ最前列の立地が魅力です。Azure Restaurant は水曜から日曜の夜営業、伝説的な Mai Tai Bar は毎日営業しています。",
-          "highlights": "歴史的ホテル、Azure Restaurant、Mai Tai Bar、オーシャンフロント、ワイキキの象徴",
-          "photo": "/images/royal-hawaiian-hotel.jpg"
         }
       ],
       "shopping": [
@@ -340,6 +327,16 @@
           "desc": "Howard Hughes Corporation によって開発された、カカアコの計画都市型エリア。2016年以降段階的に整備され、高級レジデンスとともに、厳選されたショップ、レストラン、Ward Entertainment Center を備えています。カカアコのアート地区と海辺をつなぐ歩きやすい拠点です。",
           "highlights": "ブティック、食事、Ward Entertainment Center、カカアコのアート地区",
           "photo": "/images/ward-village.jpg"
+        },
+        {
+          "name": "Royal Hawaiian Hotel",
+          "aliases": [
+            "Royal Hawaiian"
+          ],
+          "location": "2259 Kalakaua Ave, Honolulu",
+          "desc": "1927年開業の歴史あるホテルで、『太平洋のピンクパレス』として知られるワイキキの象徴。スペイン・モーロ風建築、美しい中庭、そしてビーチ最前列の立地が魅力です。Azure Restaurant は水曜から日曜の夜営業、伝説的な Mai Tai Bar は毎日営業しています。",
+          "highlights": "歴史的ホテル、Azure Restaurant、Mai Tai Bar、オーシャンフロント、ワイキキの象徴",
+          "photo": "/images/royal-hawaiian-hotel.jpg"
         }
       ]
     }
@@ -369,39 +366,33 @@
           "photo": "/images/leonard's-bakery.jpg"
         },
         {
-          "name": "Island Vintage Shave Ice",
-          "aliases": [
-            "Island Vintage"
-          ],
-          "type": "シェイブアイス",
+          "name": "Kalapawai Market",
+          "aliases": [],
+          "type": "デリとマーケット",
           "price": "$",
-          "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
-          "whyGo": "ワイキキ中心部で楽しめる上質なシェイブアイス。自然なフルーツフレーバー、自家製シロップ、あずきやもち、リヒンパウダーなどのトッピングが魅力です。ビーチ帰りの立ち寄り先として人気です。",
-          "photo": "/images/island-vintage-shave-ice.jpg"
+          "location": "306 S Kalaheo Ave, Kailua",
+          "whyGo": "Kailua で愛される地元のデリ兼ゼネラルストア。サンドイッチ、コーヒー、持ち帰りやすい軽食が充実していて、Kailua Beach の前後にぴったりです。",
+          "photo": "/images/kalapawai-market.jpg"
         },
         {
-          "name": "Giovanni's Shrimp Truck",
-          "aliases": [
-            "Giovanni's"
-          ],
-          "type": "シュリンププレート",
+          "name": "Liliha Bakery",
+          "aliases": [],
+          "type": "ベーカリーとダイナー",
           "price": "$",
-          "location": "66-472 Kamehameha Hwy, Haleiwa",
-          "whyGo": "1993年創業、ノースショア元祖のシュリンプトラック。ガーリックシュリンププレートとライスの定番コンビが味わえます。ランチのピーク時は行列覚悟です。",
-          "photo": "/images/giovanni's-shrimp-truck.jpg"
+          "location": "515 N Kuakini St, Honolulu",
+          "whyGo": "ココパフで有名な、地元定番のベーカリー兼ダイナー。シュー生地にシャンティリークリームを詰めた名物は必食。カウンター席ならではのローカル感があり、夜食にも朝食にもおすすめです。",
+          "photo": "/images/liliha-bakery.jpg"
         },
         {
-          "name": "Aloh Health Bar and Cafe",
+          "name": "Buzz's Original Steakhouse",
           "aliases": [
-            "Aloh",
-            "Aloh Health Bar",
-            "Aloh Cafe"
+            "Buzz's"
           ],
-          "type": "アサイーボウルとヘルシーフード",
-          "price": "$",
-          "location": "407 Seaside Ave, Waikiki",
-          "whyGo": "アサイーボウル、抹茶ラテ、アボカドトースト、ジュース、コーヒーで評判のプラントベース系カフェ。ビーチ前の朝ごはんにぴったりです。",
-          "photo": "/images/aloh-health-bar-and-cafe.jpg"
+          "type": "ステーキハウスとシーフード",
+          "price": "$$",
+          "location": "413 Kawailoa Rd, Kailua",
+          "whyGo": "1962年創業、Lanikai Beach のすぐそばにある Kailua の名物店。60年以上続く家族経営で、上質なステーキ、新鮮な地元シーフード、力強いマイタイで知られています。バーエリアはウォークイン可ですが、テーブル席は特に週末すぐ埋まります。毎日ランチとディナー営業です。",
+          "photo": "/images/buzz's-original-steakhouse.jpg"
         }
       ],
       "splurge": [
@@ -450,24 +441,6 @@
           "photo": "/images/duke's-waikiki.jpg"
         },
         {
-          "name": "Kalapawai Market",
-          "aliases": [],
-          "type": "デリとマーケット",
-          "price": "$",
-          "location": "306 S Kalaheo Ave, Kailua",
-          "whyGo": "Kailua で愛される地元のデリ兼ゼネラルストア。サンドイッチ、コーヒー、持ち帰りやすい軽食が充実していて、Kailua Beach の前後にぴったりです。",
-          "photo": "/images/kalapawai-market.jpg"
-        },
-        {
-          "name": "Liliha Bakery",
-          "aliases": [],
-          "type": "ベーカリーとダイナー",
-          "price": "$",
-          "location": "515 N Kuakini St, Honolulu",
-          "whyGo": "ココパフで有名な、地元定番のベーカリー兼ダイナー。シュー生地にシャンティリークリームを詰めた名物は必食。カウンター席ならではのローカル感があり、夜食にも朝食にもおすすめです。",
-          "photo": "/images/liliha-bakery.jpg"
-        },
-        {
           "name": "Koko Head Cafe",
           "aliases": [
             "Koko Head"
@@ -488,15 +461,39 @@
           "photo": "/images/haleiwa-joe's.jpg"
         },
         {
-          "name": "Buzz's Original Steakhouse",
+          "name": "Island Vintage Shave Ice",
           "aliases": [
-            "Buzz's"
+            "Island Vintage"
           ],
-          "type": "ステーキハウスとシーフード",
-          "price": "$$",
-          "location": "413 Kawailoa Rd, Kailua",
-          "whyGo": "1962年創業、Lanikai Beach のすぐそばにある Kailua の名物店。60年以上続く家族経営で、上質なステーキ、新鮮な地元シーフード、力強いマイタイで知られています。バーエリアはウォークイン可ですが、テーブル席は特に週末すぐ埋まります。毎日ランチとディナー営業です。",
-          "photo": "/images/buzz's-original-steakhouse.jpg"
+          "type": "シェイブアイス",
+          "price": "$",
+          "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
+          "whyGo": "ワイキキ中心部で楽しめる上質なシェイブアイス。自然なフルーツフレーバー、自家製シロップ、あずきやもち、リヒンパウダーなどのトッピングが魅力です。ビーチ帰りの立ち寄り先として人気です。",
+          "photo": "/images/island-vintage-shave-ice.jpg"
+        },
+        {
+          "name": "Giovanni's Shrimp Truck",
+          "aliases": [
+            "Giovanni's"
+          ],
+          "type": "シュリンププレート",
+          "price": "$",
+          "location": "66-472 Kamehameha Hwy, Haleiwa",
+          "whyGo": "1993年創業、ノースショア元祖のシュリンプトラック。ガーリックシュリンププレートとライスの定番コンビが味わえます。ランチのピーク時は行列覚悟です。",
+          "photo": "/images/giovanni's-shrimp-truck.jpg"
+        },
+        {
+          "name": "Aloh Health Bar and Cafe",
+          "aliases": [
+            "Aloh",
+            "Aloh Health Bar",
+            "Aloh Cafe"
+          ],
+          "type": "アサイーボウルとヘルシーフード",
+          "price": "$",
+          "location": "407 Seaside Ave, Waikiki",
+          "whyGo": "アサイーボウル、抹茶ラテ、アボカドトースト、ジュース、コーヒーで評判のプラントベース系カフェ。ビーチ前の朝ごはんにぴったりです。",
+          "photo": "/images/aloh-health-bar-and-cafe.jpg"
         }
       ]
     }
