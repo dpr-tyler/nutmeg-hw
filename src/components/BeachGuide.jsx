@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { Waves, MapPin } from 'lucide-react'
+import { MapPin } from 'lucide-react'
 import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
@@ -72,12 +72,6 @@ export function BeachCard({ beach, onImageClick, compact = false, contentOnly = 
                     {beach.location}
                   </span>
                 </div>
-              </div>
-              <div
-                className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
-                style={{ background: 'rgba(27,79,107,0.08)' }}
-              >
-                <Waves size={18} color="var(--ocean)" strokeWidth={1.5} />
               </div>
             </div>
           </div>

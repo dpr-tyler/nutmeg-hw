@@ -68,12 +68,6 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
                 </span>
               </div>
             </div>
-            <div
-              className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
-              style={{ background: `${accent}12` }}
-            >
-              <UtensilsCrossed size={15} color={accent} strokeWidth={1.5} />
-            </div>
           </div>
         </div>
       </div>
