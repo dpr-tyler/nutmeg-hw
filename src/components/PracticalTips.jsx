@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { Car, MapPin, CreditCard, Sun, ShieldCheck, Package, Plane } from 'lucide-react'
 
-const ICONS = { Car, MapPin, CreditCard, Sun, ShieldCheck, Package }
+const ICONS = { Car, MapPin, CreditCard, Sun, ShieldCheck, Package, Plane }
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -13,34 +13,6 @@ const fadeUp = {
 const stagger = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.09 } },
-}
-
-function InfoCard({ icon: Icon, title, children }) {
-  return (
-    <motion.div
-      variants={fadeUp}
-      className="rounded-2xl p-7 flex flex-col gap-4"
-      style={{ background: 'var(--mist)', border: '1px solid rgba(27,79,107,0.08)' }}
-    >
-      <div
-        className="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
-        style={{ background: 'rgba(27,79,107,0.1)' }}
-      >
-        <Icon size={22} color="var(--ocean)" strokeWidth={1.5} />
-      </div>
-      <div>
-        <h3
-          className="font-display text-xl mb-2"
-          style={{ fontFamily: 'var(--font-display)', color: 'var(--ocean)', fontWeight: 600 }}
-        >
-          {title}
-        </h3>
-        <p style={{ color: 'var(--ink)', opacity: 0.75, lineHeight: 1.7, fontSize: '0.9rem' }}>
-          {children}
-        </p>
-      </div>
-    </motion.div>
-  )
 }
 
 function TipCard({ item }) {
@@ -82,6 +54,11 @@ export default function PracticalTips() {
   const inView = useInView(ref, { once: true, margin: '-80px' })
 
   const items = t('tips.items', { returnObjects: true })
+  const overviewItems = [
+    { icon: 'Sun', title: t('overview.bestTime.title'), body: t('overview.bestTime.body') },
+    { icon: 'Plane', title: t('overview.getting.title'), body: t('overview.getting.body') },
+  ]
+  const allItems = [...overviewItems, ...(Array.isArray(items) ? items : [])]
 
   return (
     <section id="tips" ref={ref} className="py-24 px-6" style={{ background: 'var(--mist)' }}>
@@ -123,18 +100,9 @@ export default function PracticalTips() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {Array.isArray(items) && items.map((item, i) => (
+            {allItems.map((item, i) => (
               <TipCard key={i} item={item} />
             ))}
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-            <InfoCard icon={Sun} title={t('overview.bestTime.title')}>
-              {t('overview.bestTime.body')}
-            </InfoCard>
-            <InfoCard icon={Plane} title={t('overview.getting.title')}>
-              {t('overview.getting.body')}
-            </InfoCard>
           </div>
         </motion.div>
       </div>
