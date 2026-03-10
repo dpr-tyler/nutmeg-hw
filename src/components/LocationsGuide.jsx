@@ -43,7 +43,7 @@ export function LocationCard({
               },
               role: "button",
               tabIndex: 0,
-              "aria-label": `View full size photo of ${location.name}`,
+              "aria-label": t("ui.aria.viewFullSizePhoto", { name: location.name }),
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
             className="rounded-2xl object-cover shrink-0"

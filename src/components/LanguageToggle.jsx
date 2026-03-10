@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
 export default function LanguageToggle() {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const isJa = i18n.language === 'ja'
 
   const toggle = () => {
@@ -20,7 +20,7 @@ export default function LanguageToggle() {
         letterSpacing: '0.05em',
         fontSize: '0.875rem',
       }}
-      aria-label="Toggle language"
+      aria-label={t('ui.aria.toggleLanguage')}
     >
       <span style={{ opacity: isJa ? 0.5 : 1 }}>EN</span>
       <span style={{ opacity: 0.4, margin: '0 2px' }}>/</span>

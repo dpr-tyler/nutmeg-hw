@@ -82,7 +82,7 @@ export default function Nav() {
               type="button"
               onClick={() => setMobileMenuOpen(true)}
               className="md:hidden p-2 text-white hover:text-white/80 transition-colors"
-              aria-label="Open menu"
+              aria-label={t('ui.aria.openMenu')}
             >
               <Menu size={24} strokeWidth={1.5} />
             </button>
@@ -97,7 +97,7 @@ export default function Nav() {
               key="mobile-overlay"
               role="dialog"
               aria-modal="true"
-              aria-label="Navigation menu"
+              aria-label={t('ui.aria.navigationMenu')}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -123,7 +123,7 @@ export default function Nav() {
                   type="button"
                   onClick={closeMenu}
                   className="p-2 text-white hover:text-white/80 transition-colors"
-                  aria-label="Close menu"
+                  aria-label={t('ui.aria.closeMenu')}
                 >
                   <X size={24} strokeWidth={1.5} />
                 </button>

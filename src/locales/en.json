@@ -502,5 +502,25 @@
     "limitReached": "You've reached the session limit. Please refresh to start a new conversation.",
     "cooldown": "Please wait a moment before sending another message.",
     "rateLimited": "Too many requests. Please wait a minute and try again."
+  },
+  "ui": {
+    "sectionEyebrows": {
+      "itinerary": "Day by Day",
+      "beaches": "Sun & Sand",
+      "food": "Eat & Drink",
+      "tips": "Essentials"
+    },
+    "aria": {
+      "openChat": "Open chat",
+      "closeChat": "Close chat",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "navigationMenu": "Navigation menu",
+      "toggleLanguage": "Toggle language",
+      "close": "Close",
+      "imageViewer": "Image viewer",
+      "viewDetails": "View details for {{name}}",
+      "viewFullSizePhoto": "View full size photo of {{name}}"
+    }
   }
 }

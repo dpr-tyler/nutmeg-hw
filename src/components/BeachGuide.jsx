@@ -60,7 +60,7 @@ export function BeachCard({
               },
               role: "button",
               tabIndex: 0,
-              "aria-label": `View full size photo of ${beach.name}`,
+              "aria-label": t("ui.aria.viewFullSizePhoto", { name: beach.name }),
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
             className="rounded-2xl object-cover flex-shrink-0"
@@ -224,7 +224,7 @@ export default function BeachGuide() {
                 letterSpacing: "0.2em",
               }}
             >
-              Sun & Sand
+              {t("ui.sectionEyebrows.beaches")}
             </span>
             <h2
               className="font-display mb-4"

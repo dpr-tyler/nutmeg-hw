@@ -50,7 +50,7 @@ export function FoodCard({
               },
               role: "button",
               tabIndex: 0,
-              "aria-label": `View full size photo of ${item.name}`,
+              "aria-label": t("ui.aria.viewFullSizePhoto", { name: item.name }),
               style: { width: 72, height: 72, cursor: "zoom-in" },
             })}
             className="rounded-2xl object-cover flex-shrink-0"
@@ -241,7 +241,7 @@ export default function FoodGuide() {
                 letterSpacing: "0.2em",
               }}
             >
-              Eat & Drink
+              {t("ui.sectionEyebrows.food")}
             </span>
             <h2
               className="font-display mb-4"

@@ -100,7 +100,7 @@ export default function ChatWidget() {
                 boxShadow: "0 4px 24px rgba(217,107,79,0.45)",
                 border: "none",
               }}
-              aria-label="Open chat"
+              aria-label={t("ui.aria.openChat")}
             >
               <MessageCircle size={24} color="white" />
               {!greeted && (
@@ -174,7 +174,7 @@ export default function ChatWidget() {
                     border: "none",
                     padding: 0,
                   }}
-                  aria-label="Close chat"
+                  aria-label={t("ui.aria.closeChat")}
                 >
                   <X size={18} />
                 </button>

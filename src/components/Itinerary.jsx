@@ -232,7 +232,7 @@ export default function Itinerary() {
                 letterSpacing: "0.2em",
               }}
             >
-              Day by Day
+              {t("ui.sectionEyebrows.itinerary")}
             </span>
             <h2
               className="font-display mb-4"

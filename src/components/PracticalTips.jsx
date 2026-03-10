@@ -121,7 +121,7 @@ export default function PracticalTips() {
                 letterSpacing: "0.2em",
               }}
             >
-              Essentials
+              {t("ui.sectionEyebrows.tips")}
             </span>
             <h2
               className="font-display mb-4"

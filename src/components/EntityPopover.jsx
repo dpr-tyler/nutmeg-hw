@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { BeachCard } from "./BeachGuide";
 import { FoodCard } from "./FoodGuide";
 import { LocationCard } from "./LocationsGuide";
@@ -16,6 +17,8 @@ function getAccentForFood(item) {
 }
 
 export default function EntityPopover({ entity, onClose }) {
+  const { t } = useTranslation();
+
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.key === "Escape") onClose();
@@ -59,7 +62,7 @@ export default function EntityPopover({ entity, onClose }) {
             type="button"
             onClick={onClose}
             className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full flex items-center justify-center hover:bg-black/5 transition-colors"
-            aria-label="Close"
+            aria-label={t("ui.aria.close")}
             style={{ color: "var(--ink)" }}
           >
             <X size={20} strokeWidth={1.5} />

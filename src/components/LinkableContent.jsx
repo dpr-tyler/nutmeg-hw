@@ -47,7 +47,7 @@ export default function LinkableContent({ text, onEntityClick }) {
               font: 'inherit',
               textDecoration: 'none',
             }}
-            aria-label={`View details for ${entity.name}`}
+            aria-label={t('ui.aria.viewDetails', { name: entity.name })}
           >
             {matchedText}
           </button>
