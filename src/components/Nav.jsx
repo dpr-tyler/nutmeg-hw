@@ -5,7 +5,8 @@ import { Menu, X } from 'lucide-react'
 import LanguageToggle from './LanguageToggle'
 
 export default function Nav() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isJa = i18n.language === 'ja'
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -54,7 +55,7 @@ export default function Nav() {
           <a
             href="#hero"
             className="font-display text-white text-4xl tracking-wide shrink-0"
-            style={{ fontFamily: 'var(--font-display)', letterSpacing: '0.05em' }}
+            style={{ fontFamily: isJa ? '"Cormorant Garamond", "Georgia", serif' : 'var(--font-display)', letterSpacing: '0.05em' }}
           >
             Oahu
           </a>

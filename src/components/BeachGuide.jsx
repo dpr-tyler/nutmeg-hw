@@ -40,7 +40,7 @@ export function BeachCard({
 }) {
   const { t } = useTranslation();
   const padding = compact ? "p-4" : "p-6";
-  const gap = compact ? "gap-3" : "gap-4";
+  const gap = compact ? "gap-5" : "gap-4";
 
   const content = (
     <div className={`${padding} flex flex-col ${gap} flex-1`}>
@@ -129,7 +129,7 @@ export function BeachCard({
       </p>
 
       <div
-        className="rounded-2xl p-4 flex flex-col gap-3"
+        className="rounded-2xl p-4 flex flex-col gap-4"
         style={{
           background: "var(--mist-card)",
           border: "1px solid var(--mist-card-border)",

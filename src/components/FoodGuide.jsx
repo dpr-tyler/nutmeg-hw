@@ -31,7 +31,7 @@ export function FoodCard({
 }) {
   const { t } = useTranslation();
   const padding = compact ? "p-4" : "p-6";
-  const gap = compact ? "gap-3" : "gap-4";
+  const gap = compact ? "gap-5" : "gap-4";
 
   const content = (
     <>
