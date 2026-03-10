@@ -182,9 +182,8 @@ export default function LocationsGuide() {
               className="inline-block text-xs tracking-widest uppercase mb-4"
               style={{
                 fontFamily: "var(--font-mono)",
-                color: "var(--ocean)",
+                color: "var(--coral)",
                 letterSpacing: "0.2em",
-                opacity: 0.6,
               }}
             >
               {t("locations.label")}

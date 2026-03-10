@@ -115,7 +115,7 @@ export default function PracticalTips() {
               className="inline-block text-xs tracking-widest uppercase mb-4"
               style={{
                 fontFamily: "var(--font-mono)",
-                color: "var(--sand)",
+                color: "var(--coral)",
                 letterSpacing: "0.2em",
               }}
             >
@@ -170,7 +170,7 @@ export default function PracticalTips() {
           style={{
             fontFamily: "var(--font-display)",
             color: "var(--ocean)",
-            opacity: 0.5,
+            opacity: 0.9,
             fontStyle: "italic",
           }}
         >
