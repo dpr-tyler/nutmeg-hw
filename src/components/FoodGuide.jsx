@@ -1,7 +1,8 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { UtensilsCrossed, Star, MapPin } from 'lucide-react'
+import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -19,7 +20,7 @@ const priceColor = {
   '$$$': 'var(--coral)',
 }
 
-function FoodCard({ item, accent }) {
+function FoodCard({ item, accent, onImageClick }) {
   const { t } = useTranslation()
   return (
     <motion.div
@@ -31,34 +32,47 @@ function FoodCard({ item, accent }) {
         boxShadow: '0 2px 10px rgba(0,0,0,0.04)',
       }}
     >
-      <div className="flex items-start justify-between gap-3">
+      <div className="flex items-start gap-3">
+        {item.photo && (
+          <img
+            src={item.photo}
+            alt={item.name}
+            onClick={() => onImageClick(item.photo, item.name)}
+            className="rounded-xl object-cover flex-shrink-0"
+            style={{ width: 72, height: 72, cursor: 'zoom-in' }}
+          />
+        )}
         <div className="flex-1">
-          <h4
-            className="font-display text-lg leading-snug"
-            style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
-          >
-            {item.name}
-          </h4>
-          <div className="flex items-center gap-2 mt-1">
-            <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
-              {item.type}
-            </span>
-            <span
-              className="text-xs px-2 py-0.5 rounded-full budget-pill"
-              style={{
-                background: `${priceColor[item.price]}18`,
-                color: priceColor[item.price],
-              }}
+          <div className="flex items-start justify-between gap-3">
+            <div className="flex-1">
+              <h4
+                className="font-display text-lg leading-snug"
+                style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
+              >
+                {item.name}
+              </h4>
+              <div className="flex items-center gap-2 mt-1">
+                <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
+                  {item.type}
+                </span>
+                <span
+                  className="text-xs px-2 py-0.5 rounded-full budget-pill"
+                  style={{
+                    background: `${priceColor[item.price]}18`,
+                    color: priceColor[item.price],
+                  }}
+                >
+                  {item.price}
+                </span>
+              </div>
+            </div>
+            <div
+              className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
+              style={{ background: `${accent}12` }}
             >
-              {item.price}
-            </span>
+              <UtensilsCrossed size={15} color={accent} strokeWidth={1.5} />
+            </div>
           </div>
-        </div>
-        <div
-          className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
-          style={{ background: `${accent}12` }}
-        >
-          <UtensilsCrossed size={15} color={accent} strokeWidth={1.5} />
         </div>
       </div>
 
@@ -85,7 +99,7 @@ function FoodCard({ item, accent }) {
   )
 }
 
-function FoodCategory({ labelKey, items, accent, icon: Icon }) {
+function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
   const { t } = useTranslation()
   return (
     <div className="mb-16">
@@ -106,7 +120,7 @@ function FoodCategory({ labelKey, items, accent, icon: Icon }) {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {items.map((item, i) => (
-          <FoodCard key={i} item={item} accent={accent} />
+          <FoodCard key={i} item={item} accent={accent} onImageClick={onImageClick} />
         ))}
       </div>
     </div>
@@ -117,6 +131,7 @@ export default function FoodGuide() {
   const { t } = useTranslation()
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
+  const [lightbox, setLightbox] = useState({ url: null, alt: '' })
 
   const foodItems = t('food.items', { returnObjects: true })
 
@@ -171,23 +186,32 @@ export default function FoodGuide() {
                 items={foodItems.localGems || []}
                 accent="var(--sand)"
                 icon={Star}
+                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
               />
               <FoodCategory
                 labelKey="food.splurge"
                 items={foodItems.splurge || []}
                 accent="var(--coral)"
                 icon={UtensilsCrossed}
+                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
               />
               <FoodCategory
                 labelKey="food.casual"
                 items={foodItems.casual || []}
                 accent="var(--ocean)"
                 icon={MapPin}
+                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
               />
             </div>
           )}
         </motion.div>
       </div>
+      <ImageLightbox
+        src={lightbox.url || ''}
+        alt={lightbox.alt}
+        isOpen={!!lightbox.url}
+        onClose={() => setLightbox({ url: null, alt: '' })}
+      />
     </section>
   )
 }

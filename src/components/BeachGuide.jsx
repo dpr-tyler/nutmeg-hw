@@ -1,7 +1,8 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { Waves, MapPin } from 'lucide-react'
+import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -30,7 +31,7 @@ function CrowdBar({ level }) {
   )
 }
 
-function BeachCard({ beach }) {
+function BeachCard({ beach, onImageClick }) {
   const { t } = useTranslation()
   const difficultyLabel = beach.difficulty === 'Easy' ? t('beaches.easy') : t('beaches.moderate')
 
@@ -48,26 +49,40 @@ function BeachCard({ beach }) {
       <div style={{ height: '4px', background: 'linear-gradient(90deg, var(--ocean), var(--sand))' }} />
 
       <div className="p-6 flex flex-col gap-4 flex-1">
-        <div className="flex items-start justify-between gap-3">
-          <div>
-            <h3
-              className="font-display text-xl leading-snug"
-              style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
-            >
-              {beach.name}
-            </h3>
-            <div className="flex items-center gap-1.5 mt-1">
-              <MapPin size={12} color="var(--coral)" />
-              <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
-                {beach.location}
-              </span>
+        {/* Thumbnail + content row */}
+        <div className="flex gap-4">
+          {beach.photo && (
+            <img
+              src={beach.photo}
+              alt={beach.name}
+              onClick={() => onImageClick(beach.photo, beach.name)}
+              className="rounded-xl object-cover flex-shrink-0"
+              style={{ width: 72, height: 72, cursor: 'zoom-in' }}
+            />
+          )}
+          <div className="flex-1">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <h3
+                  className="font-display text-xl leading-snug"
+                  style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
+                >
+                  {beach.name}
+                </h3>
+                <div className="flex items-center gap-1.5 mt-1">
+                  <MapPin size={12} color="var(--coral)" />
+                  <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
+                    {beach.location}
+                  </span>
+                </div>
+              </div>
+              <div
+                className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
+                style={{ background: 'rgba(27,79,107,0.08)' }}
+              >
+                <Waves size={18} color="var(--ocean)" strokeWidth={1.5} />
+              </div>
             </div>
-          </div>
-          <div
-            className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
-            style={{ background: 'rgba(27,79,107,0.08)' }}
-          >
-            <Waves size={18} color="var(--ocean)" strokeWidth={1.5} />
           </div>
         </div>
 
@@ -129,6 +144,7 @@ export default function BeachGuide() {
   const { t } = useTranslation()
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
+  const [lightbox, setLightbox] = useState({ url: null, alt: '' })
 
   const beaches = t('beaches.list', { returnObjects: true })
 
@@ -173,11 +189,21 @@ export default function BeachGuide() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {Array.isArray(beaches) && beaches.map((beach, i) => (
-              <BeachCard key={i} beach={beach} />
+              <BeachCard
+                key={i}
+                beach={beach}
+                onImageClick={(photo, name) => setLightbox({ url: photo, alt: name })}
+              />
             ))}
           </div>
         </motion.div>
       </div>
+      <ImageLightbox
+        src={lightbox.url || ''}
+        alt={lightbox.alt}
+        isOpen={!!lightbox.url}
+        onClose={() => setLightbox({ url: null, alt: '' })}
+      />
     </section>
   )
 }

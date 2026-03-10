@@ -135,7 +135,8 @@
         "bestFor": "Swimming, surfing lessons, sunset strolls",
         "crowd": 3,
         "difficulty": "Easy",
-        "desc": "The iconic postcard beach. Calm, protected waters ideal for beginners. Touristy but undeniably beautiful at golden hour."
+        "desc": "The iconic postcard beach. Calm, protected waters ideal for beginners. Touristy but undeniably beautiful at golden hour.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Lanikai Beach",
@@ -143,7 +144,8 @@
         "bestFor": "Swimming, kayaking to the Mokulua Islands",
         "crowd": 2,
         "difficulty": "Easy",
-        "desc": "Powdery white sand and impossibly blue water. No facilities — bring everything you need. One of the most beautiful beaches in the US."
+        "desc": "Powdery white sand and impossibly blue water. No facilities — bring everything you need. One of the most beautiful beaches in the US.",
+        "photo": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Hanauma Bay",
@@ -151,7 +153,8 @@
         "bestFor": "Snorkeling, marine life, sea turtles",
         "crowd": 3,
         "difficulty": "Easy",
-        "desc": "A protected marine sanctuary in an ancient volcanic crater. World-class snorkeling. Reserve tickets online — they sell out fast."
+        "desc": "A protected marine sanctuary in an ancient volcanic crater. World-class snorkeling. Reserve tickets online — they sell out fast.",
+        "photo": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Waimea Bay",
@@ -159,7 +162,8 @@
         "bestFor": "Jumping from the rock (summer), wave watching (winter)",
         "crowd": 2,
         "difficulty": "Moderate",
-        "desc": "Dramatic bay that transforms completely by season. Calm and swimmable June–September; enormous surf October–April."
+        "desc": "Dramatic bay that transforms completely by season. Calm and swimmable June–September; enormous surf October–April.",
+        "photo": "https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Sunset Beach",
@@ -167,7 +171,8 @@
         "bestFor": "Sunsets, big wave spectating, photography",
         "crowd": 1,
         "difficulty": "Easy",
-        "desc": "The longest natural beach on Oahu, famous for its legendary winter swells. The golden hour light here is extraordinary."
+        "desc": "The longest natural beach on Oahu, famous for its legendary winter swells. The golden hour light here is extraordinary.",
+        "photo": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Kailua Beach",
@@ -175,7 +180,8 @@
         "bestFor": "Windsurfing, kiteboarding, long walks",
         "crowd": 1,
         "difficulty": "Easy",
-        "desc": "A 2-mile crescent of white sand with consistent trade winds. Popular with locals and watersport enthusiasts. Parking available."
+        "desc": "A 2-mile crescent of white sand with consistent trade winds. Popular with locals and watersport enthusiasts. Parking available.",
+        "photo": "https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=80&h=80&fit=crop&crop=center&auto=format"
       }
     ]
   },
@@ -194,19 +200,22 @@
           "name": "Tamura's Fine Wine & Liquors",
           "type": "Poke",
           "price": "$",
-          "whyGo": "Counterintuitively, a liquor store with Oahu's best poke counter. Build your own bowl with ultra-fresh ahi."
+          "whyGo": "Counterintuitively, a liquor store with Oahu's best poke counter. Build your own bowl with ultra-fresh ahi.",
+          "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Leonard's Bakery",
           "type": "Malasadas & Pastries",
           "price": "$",
-          "whyGo": "Since 1952. The malasadas (Portuguese doughnuts) come out fresh every few minutes. Get them plain and cinnamon-sugared."
+          "whyGo": "Since 1952. The malasadas (Portuguese doughnuts) come out fresh every few minutes. Get them plain and cinnamon-sugared.",
+          "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Giovanni's Shrimp Truck",
           "type": "Shrimp Plate",
           "price": "$",
-          "whyGo": "The original North Shore shrimp truck. Garlic butter shrimp with rice. Everyone who's been to Oahu has eaten here."
+          "whyGo": "The original North Shore shrimp truck. Garlic butter shrimp with rice. Everyone who's been to Oahu has eaten here.",
+          "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
       "splurge": [
@@ -214,19 +223,22 @@
           "name": "Nobu Honolulu",
           "type": "Japanese-Peruvian",
           "price": "$$$",
-          "whyGo": "The Oahu outpost of Nobu's legendary global empire. Miso-glazed black cod and yellowtail jalapeño are essential orders."
+          "whyGo": "The Oahu outpost of Nobu's legendary global empire. Miso-glazed black cod and yellowtail jalapeño are essential orders.",
+          "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "The Pig & The Lady",
           "type": "Vietnamese-Inspired",
           "price": "$$$",
-          "whyGo": "Chef Andrew Le's Chinatown institution. Pho French dip, Vietnamese carbonara, and a wine list that surprises. Book ahead."
+          "whyGo": "Chef Andrew Le's Chinatown institution. Pho French dip, Vietnamese carbonara, and a wine list that surprises. Book ahead.",
+          "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Alan Wong's",
           "type": "Hawaii Regional",
           "price": "$$$",
-          "whyGo": "The godfather of Hawaii Regional Cuisine. Classic, refined, impeccably sourced. A true milestone dining experience."
+          "whyGo": "The godfather of Hawaii Regional Cuisine. Classic, refined, impeccably sourced. A true milestone dining experience.",
+          "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
       "casual": [
@@ -234,19 +246,22 @@
           "name": "KCC Farmers Market",
           "type": "Market",
           "price": "$",
-          "whyGo": "Saturday mornings only. Maui onion chips, fresh coconuts, lilikoi curd, and the best people-watching in Honolulu."
+          "whyGo": "Saturday mornings only. Maui onion chips, fresh coconuts, lilikoi curd, and the best people-watching in Honolulu.",
+          "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Kalapawai Market",
           "type": "Deli & Market",
           "price": "$",
-          "whyGo": "Kailua's beloved neighborhood deli. Excellent sandwiches, local coffee, and the energy of a real community gathering spot."
+          "whyGo": "Kailua's beloved neighborhood deli. Excellent sandwiches, local coffee, and the energy of a real community gathering spot.",
+          "photo": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Liliha Bakery",
           "type": "Bakery & Diner",
           "price": "$",
-          "whyGo": "Open 24 hours. The coco puffs (choux filled with Chantilly cream) are life-changing. Counter seating only — that's the charm."
+          "whyGo": "Open 24 hours. The coco puffs (choux filled with Chantilly cream) are life-changing. Counter seating only — that's the charm.",
+          "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ]
     }

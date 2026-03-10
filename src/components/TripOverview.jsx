@@ -1,7 +1,8 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { Sun, Plane, MapPin, Building } from 'lucide-react'
+import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -41,7 +42,7 @@ function InfoCard({ icon: Icon, title, children, delay = 0 }) {
   )
 }
 
-function NeighborhoodCard({ name, desc, index }) {
+function NeighborhoodCard({ name, desc, index, photo, onImageClick }) {
   const colors = ['var(--ocean)', 'var(--coral)', 'var(--sand)']
   return (
     <motion.div
@@ -57,6 +58,15 @@ function NeighborhoodCard({ name, desc, index }) {
         className="w-8 h-1 rounded-full"
         style={{ background: colors[index] }}
       />
+      {photo && (
+        <img
+          src={photo}
+          alt={name}
+          onClick={() => onImageClick(photo, name)}
+          className="rounded-xl object-cover"
+          style={{ width: 72, height: 72, cursor: 'zoom-in' }}
+        />
+      )}
       <h4
         className="font-display text-lg"
         style={{ fontFamily: 'var(--font-display)', color: 'var(--ink)', fontWeight: 600 }}
@@ -74,6 +84,13 @@ export default function TripOverview() {
   const { t } = useTranslation()
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
+  const [lightbox, setLightbox] = useState({ url: null, alt: '' })
+
+  const neighborhoodPhotos = {
+    waikiki: 'https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?w=80&h=80&fit=crop&auto=format',
+    kailua: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=80&h=80&fit=crop&auto=format',
+    northShore: 'https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=80&h=80&fit=crop&auto=format',
+  }
 
   const neighborhoods = [
     { key: 'waikiki', icon: Building },
@@ -142,12 +159,20 @@ export default function TripOverview() {
                   name={t(`overview.neighborhoods.${key}.name`)}
                   desc={t(`overview.neighborhoods.${key}.desc`)}
                   index={i}
+                  photo={neighborhoodPhotos[key]}
+                  onImageClick={(url, alt) => setLightbox({ url, alt })}
                 />
               ))}
             </div>
           </motion.div>
         </motion.div>
       </div>
+      <ImageLightbox
+        src={lightbox.url || ''}
+        alt={lightbox.alt}
+        isOpen={!!lightbox.url}
+        onClose={() => setLightbox({ url: null, alt: '' })}
+      />
     </section>
   )
 }
