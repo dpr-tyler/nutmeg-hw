@@ -63,7 +63,7 @@
         "budget": "$",
         "morning": "Sleep in and take your time. Pick up fresh malasadas from Leonard's Bakery or grab an acai bowl from Aloh Health Bar on Seaside Ave. No agenda today.",
         "afternoon": "Spend the afternoon at Waikiki Beach at your own pace. Swim, rent a paddleboard, grab a shave ice from Island Vintage Shave Ice in Waikiki, or simply find a spot in the shade. Browse the Waikiki Beach Walk shops if you feel like moving around.",
-        "evening": "Catch the Ke Kai Catamaran sunset sail from Waikiki Beach. Check-in is at 5 PM with a 5:30 PM departure, and the sail runs 90 minutes. Drinks are complimentary. Dolphin and sea turtle sightings are common. A great low-key date night on the water.",
+        "evening": "Catch the Ke Kai Catamaran sunset sail from Waikiki Beach. Check-in is at 5 PM with a 5:30 PM departure, and the sail runs 90 minutes. Drinks are complimentary. Dolphin and sea turtle sightings are common. A perfect evening on the water.",
         "tip": "Book the Ke Kai sail a few days ahead, especially for weekend slots. The boat departs from the beach in front of Duke's Restaurant at the Outrigger Waikiki. Check in 30 minutes before departure or you may lose your spot."
       },
       {
@@ -113,7 +113,7 @@
         "budget": "$",
         "morning": "Manoa Falls Trail for a final rainforest hike. The parking lot (Paradise Park) opens at 8 AM with a $7 fee; free street parking is available on Waakaua Street if arriving early. About 1.6 miles round trip through lush jungle, taking 1 to 1.5 hours. Bring bug spray and shoes with traction, as the trail can be muddy. After the hike, grab brunch at Koko Head Cafe in Kaimuki (about 10 minutes away). Open Mon-Thu from 8 AM, Fri-Sun from 7 AM.",
         "afternoon": "Back to the hotel to pack and check out. Low-key afternoon in Waikiki if time allows. Head to HNL at least 2.5 hours before your domestic flight.",
-        "evening": "Safe travels. You are on the plane home.",
+        "evening": "Safe travels. A week well spent.",
         "tip": "Manoa Falls parking opens at 8 AM. Go early before the heat and crowds build. Plan to be at HNL 2.5 hours before departure. Return your rental car before the terminal."
       }
     ]
@@ -222,7 +222,7 @@
         "name": "Ho'omaluhia Botanical Garden",
         "aliases": ["Hoomaluhia"],
         "location": "45-680 Luluku Rd, Kaneohe",
-        "desc": "A roughly 400-acre botanical garden with a lake and a jaw-dropping Ko'olau mountain backdrop. Free entry. One of the most photogenic spots on the island for quiet walks and photos. Typically closed Thursdays.",
+        "desc": "A roughly 400-acre botanical garden with a lake and a dramatic Ko'olau mountain backdrop. Free entry. One of the most photogenic spots on the island for quiet walks and photos. Typically closed Thursdays.",
         "highlights": "Free entry, Ko'olau backdrop, lake, scenic walks, photography",
         "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
       },
@@ -294,7 +294,7 @@
         "name": "Mokulua Islands",
         "aliases": ["Na Mokulua", "the Mokulua Islands"],
         "location": "Kailua Bay, Windward Oahu",
-        "desc": "Two small offshore islands — Moku Nui and Moku Iki — sitting just off Lanikai Beach. Both are state seabird sanctuaries. Moku Nui has a sandy beach and a short trail with sweeping views; Moku Iki is closed to visitors. Reach them by kayak from Kailua Beach Park or Lanikai in good conditions (typically 30–45 minutes each way).",
+        "desc": "Two small offshore islands (Moku Nui and Moku Iki) sitting just off Lanikai Beach. Both are state seabird sanctuaries. Moku Nui has a sandy beach and a short trail with sweeping views; Moku Iki is closed to visitors. Reach them by kayak from Kailua Beach Park or Lanikai in good conditions (typically 30–45 minutes each way).",
         "highlights": "Kayak destination, seabird sanctuary, sandy beach on Moku Nui, scenic trail",
         "photo": "https://images.unsplash.com/photo-1559827260-d66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
       }
@@ -347,7 +347,7 @@
           "type": "Hawaii Regional Cuisine",
           "price": "$$$",
           "location": "1108 Auahi St, Kakaako, Honolulu",
-          "whyGo": "Farm-to-table Hawaii Regional Cuisine in a neighborhood bistro. Honolulu Magazine Best Oahu Restaurant. Open daily 11 AM to 9 PM. Happy hour 3 to 5 PM. Reservations recommended. Free parking at Ward Village garages.",
+          "whyGo": "Farm-to-table Hawaii Regional Cuisine in a neighborhood bistro. Named Honolulu Magazine's Best Oahu Restaurant. Open daily 11 AM to 9 PM. Happy hour 3 to 5 PM. Reservations recommended. Free parking at Ward Village garages.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
@@ -365,7 +365,7 @@
           "type": "Modern Vietnamese",
           "price": "$$",
           "location": "3650 Waialae Ave, Kaimuki",
-          "whyGo": "Chef Andrew Le's celebrated modern Vietnamese restaurant, now in a bright new Kaimuki space (moved from Chinatown in 2025). The pho French dip, ahi tataki toast, and Le fried chicken wings are iconic. Lunch Wednesday through Sunday, dinner Tuesday through Saturday. Closed Mondays. Reservations strongly recommended.",
+          "whyGo": "Chef Andrew Le's celebrated modern Vietnamese restaurant, now in a bright new Kaimuki space (moved from Chinatown in 2025). The pho French dip, ahi tataki toast, and Le fried chicken wings are essential. Lunch Wednesday through Sunday, dinner Tuesday through Saturday. Closed Mondays. Reservations strongly recommended.",
           "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
@@ -429,7 +429,7 @@
   },
   "tips": {
     "title": "Practical Tips",
-    "subtitle": "Everything you need for a smooth, stress-free week on the island.",
+    "subtitle": "Essential knowledge for a seamless week on the island.",
     "items": [
       {
         "icon": "Car",
@@ -439,7 +439,7 @@
       {
         "icon": "MapPin",
         "title": "Parking Strategy",
-        "body": "Waikiki's municipal and public lots are your best friend at $1 to $2 per hour versus $35 or more for hotel valet. On the North Shore, beach lots often fill by late morning. Arrive early and avoid leaving valuables in the car. Lanikai has limited street parking only along Mokulua Drive with signed restrictions."
+        "body": "Waikiki's municipal and public lots offer good value at $1 to $2 per hour, compared to $35 or more for hotel valet. On the North Shore, beach lots often fill by late morning. Arrive early and avoid leaving valuables in the car. Lanikai has limited street parking only along Mokulua Drive with signed restrictions."
       },
       {
         "icon": "Calendar",
@@ -469,7 +469,7 @@
     "send": "Send",
     "thinking": "Thinking...",
     "error": "Something went wrong. Please try again.",
-    "greeting": "Hi! I'm your personal Oahu guide. Ask me anything about your trip: beaches, restaurants, logistics, or local tips.",
+    "greeting": "I'm your Oahu guide. Ask me anything about your trip: beaches, restaurants, logistics, or local tips.",
     "tooLong": "Message is too long (max 500 characters).",
     "limitReached": "You've reached the session limit. Please refresh to start a new conversation.",
     "cooldown": "Please wait a moment before sending another message.",
