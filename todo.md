@@ -8,3 +8,5 @@ update system prompt with latest data
 disable UI while chat is responding
 
 card image hover state
+
+Island Vintage Shave Ice card and popover

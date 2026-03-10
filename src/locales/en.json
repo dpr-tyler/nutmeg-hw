@@ -20,7 +20,7 @@
     },
     "getting": {
       "title": "Getting There from LA",
-      "body": "Direct flights from LAX to HNL take about 5.5 hours. Hawaiian Airlines, Alaska Airlines, and other major carriers offer frequent nonstops. Book 6 to 8 weeks ahead for the best fares, often around $300 to $500 round trip in shoulder seasons."
+      "body": "Direct flights from LAX to HNL airport take about 5.5 hours. Hawaiian Airlines, Alaska Airlines, and other major carriers offer frequent nonstops. Book 6 to 8 weeks ahead for the best fares, often around $300 to $500 round trip in shoulder seasons."
     },
     "neighborhoods": {
       "title": "Where to Stay",
@@ -44,14 +44,14 @@
     "morning": "Morning",
     "afternoon": "Afternoon",
     "evening": "Evening",
-    "localTip": "Local Tip",
+    "localTip": "Pro Tip",
     "days": [
       {
         "day": "Day 01",
         "title": "Arrival in Waikiki",
         "focus": "Beach",
         "budget": "$$",
-        "morning": "Arrive at HNL, collect your rental car, and check into your Waikiki hotel. Freshen up, unpack, and take a short walk around the neighborhood to get your bearings.",
+        "morning": "Arrive at HNL airport, collect your rental car, and check into your Waikiki hotel. Freshen up, unpack, and take a short walk around the neighborhood to get your bearings.",
         "afternoon": "Walk the length of Waikiki Beach, rent a surfboard or take a lesson from a beach boy. Swim in the calm, warm waters and ease into island time.",
         "evening": "Watch the sunset from the sand or from the seawall near Royal Hawaiian, then head to Duke's Waikiki for dinner right on the beach. Open daily, and bar seating is usually available without a reservation.",
         "tip": "Duke's doesn't take reservations for bar seating. Arrive before sunset for the best chance at a table right on the sand."
@@ -73,7 +73,7 @@
         "budget": "$$",
         "morning": "Head to Kualoa Ranch, a famous filming location for Jurassic Park, Lost, and many others. Book a UTV Raptor tour, movie sites tour, or zipline combo for a half-day in the valley. The scenery is lush and dramatic, and popular time slots often book up well in advance.",
         "afternoon": "Drive south along the coast to Waimanalo Beach Park, one of Oahu's longest and less-crowded beaches. Enjoy soft sand and a Ko'olau mountain backdrop. A great spot to bodyboard or simply decompress before heading back.",
-        "evening": "Dinner at Roy's Hawaii Kai. Roy Yamaguchi's original Hawaiian fusion restaurant with Maunalua Bay views. Open daily 4:30 PM to 9 PM (9:30 PM Fri-Sat). Happy hour 4:30 to 5:30 PM Mon-Thu. Reservations recommended. Located on the drive back to Waikiki from Waimanalo, about 20 minutes from the beach.",
+        "evening": "Dinner at Roy's Hawaii Kai. Roy Yamaguchi's original Hawaiian fusion restaurant with Maunalua Bay views. Reservations recommended. Located on the drive back to Waikiki from Waimanalo, about 20 minutes from the beach.",
         "tip": "Kualoa Ranch tours sell out weeks ahead, book online early. Roy's takes reservations and they go fast for weekend evenings. Hawaii Kai is about 30 minutes from Waikiki."
       },
       {
@@ -83,7 +83,7 @@
         "budget": "$$",
         "morning": "Hike Diamond Head crater at 6 AM, before the heat and crowds arrive. The 1.6-mile round trip passes through old military tunnels and ends with panoramic summit views of Waikiki and the Pacific. Book tickets online in advance ($5 per person plus $10 parking). The park opens at 6 AM. After the hike, head toward Kakaako.",
         "afternoon": "Explore Kakaako, Honolulu's arts and culture hub. Stop by Liliha Bakery for the legendary coco puffs. Walk the mural-lined streets, browse SALT at Our Kakaako and Ward Village for boutiques and galleries, and take in the waterfront at Kakaako Waterfront Park.",
-        "evening": "Dinner at The Pig and The Lady in Kaimuki at Civil Beat Plaza. Chef Andrew Le's celebrated modern Vietnamese restaurant moved here from Chinatown in late 2025. The pho French dip, ahi tataki toast, and Le fried chicken wings are must-orders. Lunch Wednesday through Sunday, dinner Tuesday through Saturday from 5 PM. Closed Mondays. Reservations strongly recommended.",
+        "evening": "Dinner at The Pig and The Lady in Kaimuki at Civil Beat Plaza. The pho French dip, ahi tataki toast, and Le fried chicken wings are must-orders. Reservations strongly recommended.",
         "tip": "Diamond Head tickets sell out, so book online before your trip. Kakaako is about 15 minutes from Waikiki by car. The Pig and The Lady is very popular and reservations can be hard to secure on short notice: book as far ahead as you can."
       },
       {
@@ -91,10 +91,10 @@
         "title": "Hanauma Bay and North Shore",
         "focus": "Beach",
         "budget": "$",
-        "morning": "Start at Hanauma Bay Nature Preserve for snorkeling in a protected marine sanctuary. Reservations are required and open two days in advance at 7 AM HST. They often sell out within minutes. Entry is $25 per person plus $3 parking (cash only). The bay is open Wednesday through Sunday, 6:45 AM to 4 PM with last entry at 1:30 PM. Closed Mondays and Tuesdays. Arrive early for parking. All visitors watch a mandatory reef education video before entering.",
-        "afternoon": "Drive north to Laniakea Beach, where Hawaiian green sea turtles often come ashore to rest. Volunteers are on-site daily to educate visitors and keep everyone at a respectful distance. Then explore Haleiwa town for surf shops and murals. Stop at Giovanni's Shrimp Truck for garlic shrimp plates over rice. The original North Shore shrimp truck since 1993, open daily 10:30 AM to 5 PM at the Haleiwa location. Expect lines at peak lunch. Finish with a swim or wave watching at Waimea Bay depending on the season.",
-        "evening": "Dinner at Haleiwa Joe's on the North Shore for fresh seafood in a relaxed, waterfront setting. Open daily from 4:30 PM Monday through Thursday and from 11 AM Friday through Sunday. No reservations taken, so arrive early to avoid a wait.",
-        "tip": "Book Hanauma Bay reservations as soon as the window opens, two days before your visit. North Shore parking lots at Laniakea and Waimea Bay can fill by 9 AM on weekends. Arrive early and never leave valuables visible in your car."
+        "morning": "Start at Hanauma Bay Nature Preserve for snorkeling in a protected marine sanctuary. Reservations are required and open two days in advance at 7 AM HST. They often sell out within minutes. Arrive early for parking. All visitors watch a mandatory reef education video before entering.",
+        "afternoon": "Drive north to Laniakea Beach, where Hawaiian green sea turtles often come ashore to rest. Volunteers are on-site daily to educate visitors and keep everyone at a respectful distance. Then explore Haleiwa town for surf shops and murals. Stop at Giovanni's Shrimp Truck for garlic shrimp plates over rice. The original North Shore shrimp truck since 1993. Expect lines at peak lunch. Finish with a swim or wave watching at Waimea Bay depending on the season.",
+        "evening": "Dinner at Haleiwa Joe's on the North Shore for fresh seafood in a relaxed, waterfront setting. No reservations taken, so arrive early to avoid a wait.",
+        "tip": "Book Hanauma Bay reservations as soon as the window opens, two days before your visit. North Shore parking lots at Laniakea Beach and Waimea Bay can fill by 9 AM on weekends. Arrive early and never leave valuables visible in your car."
       },
       {
         "day": "Day 06",
@@ -104,17 +104,17 @@
         "morning": "Drive the Pali Highway through the Ko'olau Mountains and stop at Nu'uanu Pali Lookout. The wind is intense and the views of the windward coast are incredible. Continue to Ho'omaluhia Botanical Garden, about 400 acres of landscaped grounds and a lake with a dramatic Ko'olau backdrop. Entry is free. Note: typically closed on Thursdays.",
         "afternoon": "Head into Kailua town for lunch at Kalapawai Market, then spend the afternoon at Kailua Beach Park, a long crescent of powdery sand and turquoise water. Before heading back, drive or walk south a short distance to Lanikai Beach, one of the most beautiful and least-crowded stretches of sand in the state. You can also rent kayaks nearby and paddle out toward the Mokulua Islands if conditions allow.",
         "evening": "Dinner at Buzz's Original Steakhouse, a family-owned Kailua landmark since 1962. Steaks, fresh seafood, and excellent mai tais. Open daily for lunch and dinner. The bar area is walk-in; call ahead for a table.",
-        "tip": "Aim to reach Kailua Beach before late morning for easier parking. Lanikai has street parking only along Mokulua Drive with posted restrictions. For kayaking to the Mokulua Islands, check wind and surf conditions with the rental shop before heading out. Ho'omaluhia is closed Thursdays. Buzz's fills up fast on weekends, so call ahead if you want a table."
+        "tip": "Aim to reach Kailua Beach before late morning for easier parking. Lanikai Beach has street parking only along Mokulua Drive with posted restrictions. For kayaking to the Mokulua Islands, check wind and surf conditions with the rental shop before heading out. Ho'omaluhia Botanical Garden is closed Thursdays. Buzz's fills up fast on weekends, so call ahead if you want a table."
       },
       {
         "day": "Day 07",
         "title": "Rainforest Morning and Departure",
         "focus": "Nature",
         "budget": "$",
-        "morning": "Manoa Falls Trail for a final rainforest hike. The parking lot (Paradise Park) opens at 8 AM with a $7 fee; free street parking is available on Waakaua Street if arriving early. About 1.6 miles round trip through lush jungle, taking 1 to 1.5 hours. Bring bug spray and shoes with traction, as the trail can be muddy. After the hike, grab brunch at Koko Head Cafe in Kaimuki (about 10 minutes away). Open Mon-Thu from 8 AM, Fri-Sun from 7 AM.",
-        "afternoon": "Back to the hotel to pack and check out. Low-key afternoon in Waikiki if time allows. Head to HNL at least 2.5 hours before your domestic flight.",
+        "morning": "Manoa Falls Trail for a final rainforest hike. The parking lot (Paradise Park) opens at 8 AM with a $7 fee (free street parking is available on Waakaua Street if arriving early). About 1.6 miles round trip through lush jungle, taking 1 to 1.5 hours. Bring bug spray and shoes with traction, as the trail can be muddy. After the hike, grab brunch at Koko Head Cafe in Kaimuki (about 10 minutes away).",
+        "afternoon": "Back to the hotel to pack and check out. Low-key afternoon in Waikiki if time allows. Head to HNL airport at least 2.5 hours before your domestic flight.",
         "evening": "Safe travels. A week well spent.",
-        "tip": "Manoa Falls parking opens at 8 AM. Go early before the heat and crowds build. Plan to be at HNL 2.5 hours before departure. Return your rental car before the terminal."
+        "tip": "Manoa Falls parking opens at 8 AM. Go early before the heat and crowds build. Plan to be at HNL airport 2.5 hours before departure. Return your rental car before the terminal."
       }
     ]
   },
@@ -142,6 +142,7 @@
       },
       {
         "name": "Kailua Beach Park",
+        "aliases": ["Kailua Beach"],
         "location": "526 Kawailoa Rd, Kailua",
         "bestFor": "Kayaking to Mokulua Islands, windsurfing, long walks",
         "crowd": 1,
@@ -332,12 +333,21 @@
           "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
+          "name": "Island Vintage Shave Ice",
+          "aliases": ["Island Vintage"],
+          "type": "Shave Ice",
+          "price": "$",
+          "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
+          "whyGo": "Premium shave ice in the heart of Waikiki. Natural fruit flavors, housemade syrups, and toppings like azuki beans, mochi balls, and li hing powder. A beloved stop after a beach day.",
+          "photo": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
           "name": "Giovanni's Shrimp Truck",
           "aliases": ["Giovanni's"],
           "type": "Shrimp Plate",
           "price": "$",
           "location": "66-472 Kamehameha Hwy, Haleiwa",
-          "whyGo": "The original North Shore shrimp truck since 1993. Garlic shrimp plates over rice. Haleiwa location at 66-472 Kamehameha Hwy (across from McDonald's), open daily 10:30 AM to 5 PM. Kahuku location 10:30 AM to 6:30 PM. Expect lines at peak lunch.",
+          "whyGo": "The original North Shore shrimp truck since 1993. Garlic shrimp plates over rice. Expect lines at peak lunch.",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
@@ -346,7 +356,7 @@
           "type": "Acai Bowls and Healthy Eats",
           "price": "$",
           "location": "407 Seaside Ave, Waikiki",
-          "whyGo": "Plant-based cafe praised for its acai bowls, matcha lattes, avocado toast, juices, and coffee. A good morning stop before a beach day. Open daily 6:30 AM to 10 PM.",
+          "whyGo": "Plant-based cafe praised for its acai bowls, matcha lattes, avocado toast, juices, and coffee. A good morning stop before a beach day.",
           "photo": "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
@@ -357,7 +367,7 @@
           "type": "Hawaii Regional Cuisine",
           "price": "$$$",
           "location": "1108 Auahi St, Kakaako, Honolulu",
-          "whyGo": "Farm-to-table Hawaii Regional Cuisine in a neighborhood bistro. Named Honolulu Magazine's Best Oahu Restaurant. Open daily 11 AM to 9 PM. Happy hour 3 to 5 PM. Reservations recommended. Free parking at Ward Village garages.",
+          "whyGo": "Farm-to-table Hawaii Regional Cuisine in a neighborhood bistro. Named Honolulu Magazine's Best Oahu Restaurant. Reservations recommended. Free parking at Ward Village garages.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
@@ -366,7 +376,7 @@
           "type": "Hawaiian Fusion",
           "price": "$$$",
           "location": "6600 Kalanianaole Hwy, Honolulu",
-          "whyGo": "Roy Yamaguchi's original Hawaiian fusion restaurant, opened in 1988. Situated on Maunalua Bay in Hawaii Kai, about 20 minutes from Waikiki on the drive back from Waimanalo. Known for signature dishes like misoyaki butterfish and blackened ahi, with an extensive wine list. Open daily for dinner from 4:30 PM (to 9 PM, 9:30 PM Fri–Sat). Happy hour Mon–Thu 4:30–5:30 PM. Reservations recommended.",
+          "whyGo": "Roy Yamaguchi's original Hawaiian fusion restaurant, opened in 1988. Situated on Maunalua Bay in Hawaii Kai, about 20 minutes from Waikiki on the drive back from Waimanalo. Known for signature dishes like misoyaki butterfish and blackened ahi, with an extensive wine list. Reservations recommended.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
@@ -413,7 +423,7 @@
           "type": "Brunch",
           "price": "$$",
           "location": "1120 12th Ave, Kaimuki, Honolulu",
-          "whyGo": "Chef Lee Anne Wong's island-style brunch spot. Known for creative dishes like Breakfast Bibimbap and Cornflake French Toast. Open Monday through Thursday 8 AM to 2 PM, Friday through Sunday from 7 AM to 2 PM. Also open for dinner Friday through Monday, 5 to 9 PM.",
+          "whyGo": "Chef Lee Anne Wong's island-style brunch spot. Known for creative dishes like Breakfast Bibimbap and Cornflake French Toast.",
           "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
@@ -422,7 +432,7 @@
           "type": "Seafood and Hawaiian",
           "price": "$$",
           "location": "66-011 Kamehameha Hwy, Haleiwa",
-          "whyGo": "Two locations: the North Shore spot overlooks Haleiwa harbor, and the Kaneohe location sits inside Haiku Gardens with koi ponds and Ko'olau mountain views. Fresh fish, hearty portions, relaxed vibe. North Shore opens at 4:30 PM daily. Kaneohe opens at 4 PM daily. No reservations taken at either location.",
+          "whyGo": "Two locations: the North Shore spot overlooks Haleiwa harbor, and the Kaneohe location sits inside Haiku Gardens with koi ponds and Ko'olau mountain views. Fresh fish, hearty portions, relaxed vibe. No reservations taken at either location.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {

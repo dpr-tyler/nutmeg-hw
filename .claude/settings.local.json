@@ -12,7 +12,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git merge:*)",
-      "Bash(git branch:*)"
+      "Bash(git branch:*)",
+      "Bash(find /Users/tyler/nutmeg-hw/src -type f \\\\\\( -name \"*.jsx\" -o -name \"*.json\" \\\\\\) 2>/dev/null | sort)",
+      "Bash(git -C /Users/tyler/nutmeg-hw log --oneline -20)"
     ]
   }
 }

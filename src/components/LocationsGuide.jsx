@@ -112,7 +112,10 @@ export function LocationCard({
       {location.highlights && (
         <div
           className="rounded-2xl p-4"
-          style={{ background: "var(--mist-card)", border: "1px solid var(--mist-card-border)" }}
+          style={{
+            background: "var(--mist-card)",
+            border: "1px solid var(--mist-card-border)",
+          }}
         >
           <span
             className="text-xs uppercase tracking-widest block mb-1"

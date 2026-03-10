@@ -7,7 +7,12 @@ export default function LinkableContent({ text, onEntityClick }) {
 
   const beaches = t('beaches.list', { returnObjects: true })
   const foodItems = t('food.items', { returnObjects: true })
-  const locations = t('locations.list', { returnObjects: true })
+  const locationItems = t('locations.items', { returnObjects: true }) || {}
+  const locations = [
+    ...(locationItems.nature || []),
+    ...(locationItems.experiences || []),
+    ...(locationItems.shopping || []),
+  ]
 
   const segments = useMemo(() => {
     const entities = buildEntityRegistry(beaches, foodItems, locations)
