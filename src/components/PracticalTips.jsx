@@ -154,7 +154,7 @@ export default function PracticalTips() {
           className="font-display text-xl"
           style={{ fontFamily: 'var(--font-display)', color: 'var(--ocean)', opacity: 0.5, fontStyle: 'italic' }}
         >
-          Mahalo — enjoy your week in paradise.
+          Mahalo. Enjoy your week in paradise.
         </p>
       </motion.div>
     </section>
