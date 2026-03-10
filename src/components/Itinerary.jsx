@@ -30,7 +30,7 @@ function TimeBlock({ icon: Icon, label, content, onEntityClick }) {
       <div className="pb-6">
         <span
           className="text-xs uppercase tracking-widest block mb-2"
-          style={{ fontFamily: 'var(--font-mono)', color: 'var(--sand)', letterSpacing: '0.15em' }}
+          style={{ fontFamily: 'var(--font-mono)', color: 'var(--sand-dark)', letterSpacing: '0.15em' }}
         >
           {label}
         </span>
@@ -67,7 +67,7 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
             style={{
               fontFamily: 'var(--font-mono)',
               color: 'var(--ocean)',
-              opacity: 0.5,
+              opacity: 0.75,
               letterSpacing: '0.15em',
               minWidth: '4rem',
             }}
@@ -125,11 +125,11 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
                   className="flex gap-3 p-4 rounded-xl mt-2"
                   style={{ background: 'rgba(198,169,107,0.1)', border: '1px solid rgba(198,169,107,0.2)' }}
                 >
-                  <Lightbulb size={16} color="var(--sand)" strokeWidth={1.5} style={{ flexShrink: 0, marginTop: 2 }} />
+                  <Lightbulb size={16} color="var(--sand-dark)" strokeWidth={1.5} style={{ flexShrink: 0, marginTop: 2 }} />
                   <div>
                     <span
                       className="text-xs uppercase tracking-widest block mb-1"
-                      style={{ fontFamily: 'var(--font-mono)', color: 'var(--sand)', letterSpacing: '0.15em' }}
+                      style={{ fontFamily: 'var(--font-mono)', color: 'var(--sand-dark)', letterSpacing: '0.15em' }}
                     >
                       {t('itinerary.localTip')}
                     </span>
