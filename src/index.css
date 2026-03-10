@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --ocean: #1B4F6B;
+  --ivory: #F5EFE0;
+  --coral: #D96B4F;
+  --sand: #C6A96B;
+  --ink: #1A1A1A;
+  --mist: #EBF4F7;
+
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background-color: var(--ivory);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Display font utility */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-accent {
+  font-family: var(--font-mono);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ivory);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--sand);
+  border-radius: 3px;
+}
+
+/* Wave divider */
+.wave-divider {
+  overflow: hidden;
+  line-height: 0;
+  display: block;
+}
+
+/* Budget pill */
+.budget-pill {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+/* Crowd level bar */
+.crowd-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: #e0d5c5;
+  overflow: hidden;
+}
+
+.crowd-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--ocean);
+}

@@ -1,0 +1,298 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "itinerary": "Itinerary",
+    "beaches": "Beaches",
+    "food": "Food",
+    "tips": "Tips"
+  },
+  "hero": {
+    "title": "Your Week in Oahu",
+    "subtitle": "A curated journey through Hawaii's most vibrant island — crafted for two.",
+    "cta": "Explore the Guide"
+  },
+  "overview": {
+    "title": "Trip Overview",
+    "bestTime": {
+      "title": "Best Time to Visit",
+      "body": "April–June and September–November offer ideal weather — warm, dry, and fewer crowds. Avoid December holidays if you want affordable rates."
+    },
+    "getting": {
+      "title": "Getting There from LA",
+      "body": "Direct flights from LAX take about 5.5 hours. Hawaiian Airlines and Alaska Airlines offer frequent nonstops. Book 6–8 weeks ahead for best fares ($300–$500 round trip)."
+    },
+    "neighborhoods": {
+      "title": "Where to Stay",
+      "waikiki": {
+        "name": "Waikiki",
+        "desc": "Convenient, lively, walkable — ideal for first-timers. Great beach access and restaurant scene."
+      },
+      "kailua": {
+        "name": "Kailua",
+        "desc": "Charming small-town feel on the windward side. Local boutiques, quieter beaches, authentic Oahu."
+      },
+      "northShore": {
+        "name": "North Shore",
+        "desc": "Surfer culture, farm-to-table food, dramatic scenery. Best in winter for big waves."
+      }
+    }
+  },
+  "itinerary": {
+    "title": "7-Day Itinerary",
+    "subtitle": "A carefully paced week balancing beach time, local food, and authentic discovery.",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "localTip": "Local Tip",
+    "days": [
+      {
+        "day": "Day 01",
+        "title": "Arrival & Waikiki",
+        "focus": "Beach",
+        "budget": "$$",
+        "morning": "Arrive at HNL, collect your rental car, and check into your Waikiki hotel. Freshen up and orient yourself.",
+        "afternoon": "Walk the length of Waikiki Beach, rent a surfboard or take a lesson from a beach boy. Swim in the calm, warm waters.",
+        "evening": "Watch the sunset from the beach, then head to Nobu Honolulu for refined Japanese-Peruvian cuisine — reserve well in advance.",
+        "tip": "The municipal lot on Kapahulu Ave offers $1/hour parking near Waikiki — far cheaper than hotel valet."
+      },
+      {
+        "day": "Day 02",
+        "title": "East Side Beaches",
+        "focus": "Beach",
+        "budget": "$",
+        "morning": "Arrive at Hanauma Bay by 7am (it sells out by 9am). Reserve tickets online in advance ($25/person). Snorkel with sea turtles and colorful reef fish.",
+        "afternoon": "Drive north to Lanikai Beach — consistently ranked one of America's best. Soft white sand, calm turquoise water. Grab lunch in Kailua town at Kalapawai Market.",
+        "evening": "Explore Kailua's boutique shops, then dine casually at Over Easy or pick up poke from Tamura's Fine Wine & Liquors.",
+        "tip": "Lanikai has no public parking lot — park on Mokulua Drive and walk the short path through private yards (it's legal, they're used to it)."
+      },
+      {
+        "day": "Day 03",
+        "title": "Food Day",
+        "focus": "Food",
+        "budget": "$$$",
+        "morning": "KCC Farmers Market (7am–11am, Saturdays only — plan accordingly). The best local produce, Maui onion chips, fresh coconut water. Then Leonard's Malasadas — get them hot, rolled in cinnamon sugar.",
+        "afternoon": "Explore Honolulu's Little Italy of Asia — Liliha Bakery for coco puffs, crack seed stores, and local shave ice at Matsumoto's (or the lesser-known Aoki's, same quality, shorter line).",
+        "evening": "Dinner at The Pig & The Lady in Chinatown — inventive Vietnamese-inspired cuisine that's become a Honolulu institution. Reservation required.",
+        "tip": "Leonard's is cash only and always has a line. Get there right when they open — the wait is worth it but the fresh-from-fryer window closes fast."
+      },
+      {
+        "day": "Day 04",
+        "title": "North Shore",
+        "focus": "Beach",
+        "budget": "$",
+        "morning": "Drive the H-2 north. Stop at Waimea Bay — in summer it's a calm, swimmable bay; jump off the famous rock. If visiting November–April, watch massive 20-30ft waves from shore.",
+        "afternoon": "Haleiwa town: browse surf shops, galleries, art murals. Lunch at Giovanni's Shrimp Truck — the original, the legend. Garlic shrimp with two scoops of rice.",
+        "evening": "Sunset from Sunset Beach. Drive back via the H-1 coastal route, stopping at Dole Plantation if it's still open.",
+        "tip": "North Shore parking lots fill up by 9am on weekends. Arrive early or use the shuttle from Haleiwa town center."
+      },
+      {
+        "day": "Day 05",
+        "title": "Diamond Head & Chinatown",
+        "focus": "Culture",
+        "budget": "$$",
+        "morning": "Hike Diamond Head crater (1.6 miles round trip, $5/person). Go early — open at 6am, best light and cooler temperatures. 360-degree views of Waikiki and southeast Oahu.",
+        "afternoon": "Drive to Chinatown. Explore the art galleries along Nuuanu Avenue, the Honolulu Museum of Art (optional), and the lively Kekaulike Street market.",
+        "evening": "Chinatown food crawl: Lucky Belly for ramen, Livestock Tavern for craft cocktails, or Fete for upscale local fare.",
+        "tip": "The Honolulu Museum of Art is free on the first Sunday of each month — worth timing your trip around if possible."
+      },
+      {
+        "day": "Day 06",
+        "title": "Windward Coast",
+        "focus": "Nature",
+        "budget": "$$",
+        "morning": "Drive the Pali Highway through dramatic Ko'olau Mountains. Stop at the Nu'uanu Pali Lookout for panoramic windward views. Continue to Kualoa Ranch — optional ATV or horseback tour.",
+        "afternoon": "Lunch at Kaaawa's local spots — Shrimp Shack or Aunty Pat's. Continue along the coast to Kaneohe Bay. Visit the sandbar at low tide (kayak or tour boat required).",
+        "evening": "Return via the H-3 — one of the most scenic highways in America, cutting through the Ko'olau range. Dinner back in Waikiki or Kaimuki.",
+        "tip": "Kaneohe Bay sandbar tours book out quickly in summer. Reserve a few days ahead via the local operators near He'eia Kea Small Boat Harbor."
+      },
+      {
+        "day": "Day 07",
+        "title": "Relaxed Farewell",
+        "focus": "Beach",
+        "budget": "$$$",
+        "morning": "One last morning on your favorite beach. No agenda — just soak it in. Pick up final gifts at Aloha Stadium Swap Meet (Saturdays and Sundays) or Waikiki ABC Stores for macadamia nuts and Kona coffee.",
+        "afternoon": "Drop off rental car, check bags at hotel if needed, allow extra time for HNL's security lines (can be long).",
+        "evening": "Farewell dinner: Alan Wong's Restaurant (classic Hawaii Regional Cuisine, make reservations well ahead) or Mariposa at Neiman Marcus Ala Moana for a refined, open-air goodbye.",
+        "tip": "HNL airport security can take 45–60 minutes during peak hours. Add a full 2.5 hours before domestic departures."
+      }
+    ]
+  },
+  "beaches": {
+    "title": "Beach Guide",
+    "subtitle": "Oahu's best shores — ranked, described, and honestly evaluated.",
+    "bestFor": "Best For",
+    "crowdLevel": "Crowd Level",
+    "difficulty": "Difficulty",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "easy": "Easy",
+    "moderate": "Moderate",
+    "list": [
+      {
+        "name": "Waikiki Beach",
+        "location": "Honolulu",
+        "bestFor": "Swimming, surfing lessons, sunset strolls",
+        "crowd": 3,
+        "difficulty": "Easy",
+        "desc": "The iconic postcard beach. Calm, protected waters ideal for beginners. Touristy but undeniably beautiful at golden hour."
+      },
+      {
+        "name": "Lanikai Beach",
+        "location": "Kailua",
+        "bestFor": "Swimming, kayaking to the Mokulua Islands",
+        "crowd": 2,
+        "difficulty": "Easy",
+        "desc": "Powdery white sand and impossibly blue water. No facilities — bring everything you need. One of the most beautiful beaches in the US."
+      },
+      {
+        "name": "Hanauma Bay",
+        "location": "East Honolulu",
+        "bestFor": "Snorkeling, marine life, sea turtles",
+        "crowd": 3,
+        "difficulty": "Easy",
+        "desc": "A protected marine sanctuary in an ancient volcanic crater. World-class snorkeling. Reserve tickets online — they sell out fast."
+      },
+      {
+        "name": "Waimea Bay",
+        "location": "North Shore",
+        "bestFor": "Jumping from the rock (summer), wave watching (winter)",
+        "crowd": 2,
+        "difficulty": "Moderate",
+        "desc": "Dramatic bay that transforms completely by season. Calm and swimmable June–September; enormous surf October–April."
+      },
+      {
+        "name": "Sunset Beach",
+        "location": "North Shore",
+        "bestFor": "Sunsets, big wave spectating, photography",
+        "crowd": 1,
+        "difficulty": "Easy",
+        "desc": "The longest natural beach on Oahu, famous for its legendary winter swells. The golden hour light here is extraordinary."
+      },
+      {
+        "name": "Kailua Beach",
+        "location": "Kailua",
+        "bestFor": "Windsurfing, kiteboarding, long walks",
+        "crowd": 1,
+        "difficulty": "Easy",
+        "desc": "A 2-mile crescent of white sand with consistent trade winds. Popular with locals and watersport enthusiasts. Parking available."
+      }
+    ]
+  },
+  "food": {
+    "title": "Food Guide",
+    "subtitle": "From truck-side garlic shrimp to refined tasting menus — Oahu's culinary range is extraordinary.",
+    "localGems": "Local Gems",
+    "splurge": "Splurge-Worthy",
+    "casual": "Can't-Miss Casual",
+    "whyGo": "Why Go",
+    "price": "Price",
+    "type": "Type",
+    "items": {
+      "localGems": [
+        {
+          "name": "Tamura's Fine Wine & Liquors",
+          "type": "Poke",
+          "price": "$",
+          "whyGo": "Counterintuitively, a liquor store with Oahu's best poke counter. Build your own bowl with ultra-fresh ahi."
+        },
+        {
+          "name": "Leonard's Bakery",
+          "type": "Malasadas & Pastries",
+          "price": "$",
+          "whyGo": "Since 1952. The malasadas (Portuguese doughnuts) come out fresh every few minutes. Get them plain and cinnamon-sugared."
+        },
+        {
+          "name": "Giovanni's Shrimp Truck",
+          "type": "Shrimp Plate",
+          "price": "$",
+          "whyGo": "The original North Shore shrimp truck. Garlic butter shrimp with rice. Everyone who's been to Oahu has eaten here."
+        }
+      ],
+      "splurge": [
+        {
+          "name": "Nobu Honolulu",
+          "type": "Japanese-Peruvian",
+          "price": "$$$",
+          "whyGo": "The Oahu outpost of Nobu's legendary global empire. Miso-glazed black cod and yellowtail jalapeño are essential orders."
+        },
+        {
+          "name": "The Pig & The Lady",
+          "type": "Vietnamese-Inspired",
+          "price": "$$$",
+          "whyGo": "Chef Andrew Le's Chinatown institution. Pho French dip, Vietnamese carbonara, and a wine list that surprises. Book ahead."
+        },
+        {
+          "name": "Alan Wong's",
+          "type": "Hawaii Regional",
+          "price": "$$$",
+          "whyGo": "The godfather of Hawaii Regional Cuisine. Classic, refined, impeccably sourced. A true milestone dining experience."
+        }
+      ],
+      "casual": [
+        {
+          "name": "KCC Farmers Market",
+          "type": "Market",
+          "price": "$",
+          "whyGo": "Saturday mornings only. Maui onion chips, fresh coconuts, lilikoi curd, and the best people-watching in Honolulu."
+        },
+        {
+          "name": "Kalapawai Market",
+          "type": "Deli & Market",
+          "price": "$",
+          "whyGo": "Kailua's beloved neighborhood deli. Excellent sandwiches, local coffee, and the energy of a real community gathering spot."
+        },
+        {
+          "name": "Liliha Bakery",
+          "type": "Bakery & Diner",
+          "price": "$",
+          "whyGo": "Open 24 hours. The coco puffs (choux filled with Chantilly cream) are life-changing. Counter seating only — that's the charm."
+        }
+      ]
+    }
+  },
+  "tips": {
+    "title": "Practical Tips",
+    "subtitle": "Everything you need for a smooth, stress-free week on the island.",
+    "items": [
+      {
+        "icon": "Car",
+        "title": "Rent a Car",
+        "body": "Essential for Oahu beyond Waikiki. Book at HNL airport from major agencies. Budget $50–80/day. Reserve in advance — island supply is limited. GPS is reliable; paper maps still useful for North Shore back roads."
+      },
+      {
+        "icon": "MapPin",
+        "title": "Parking Strategy",
+        "body": "Waikiki's municipal lots are your best friend ($1–2/hour vs. $35+ hotel valet). Most North Shore beaches have free lots — arrive by 9am on weekends. Lanikai has street parking only."
+      },
+      {
+        "icon": "CreditCard",
+        "title": "Payment",
+        "body": "Credit cards accepted nearly everywhere. Keep $40–60 cash for trucks, markets, and parking meters. Visa/MC universally accepted; Amex varies at smaller spots."
+      },
+      {
+        "icon": "Sun",
+        "title": "Sun Safety",
+        "body": "Oahu's UV index is extreme year-round. Apply SPF 50+ every 2 hours. Hawaii law requires reef-safe sunscreen (no oxybenzone or octinoxate) — look for zinc oxide-based products."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Reef-Safe Sunscreen",
+        "body": "Hawaii banned chemical sunscreens in 2021. Bring reef-safe (mineral/zinc) from home — they're available on-island but more expensive. Raw Elements, Thinksport, and Badger are good brands."
+      },
+      {
+        "icon": "Package",
+        "title": "Packing Essentials",
+        "body": "Reef-safe sunscreen, rash guard, water shoes (for rocky entries), reusable water bottle, light rain layer (windward side), snorkel gear (or rent at Hanauma Bay), and a tote for farmers markets."
+      }
+    ]
+  },
+  "chat": {
+    "title": "Ask Your Guide",
+    "placeholder": "Ask anything about your Oahu trip...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "error": "Something went wrong. Please try again.",
+    "greeting": "Hi! I'm your personal Oahu guide. Ask me anything about your trip — beaches, restaurants, logistics, or local tips."
+  }
+}
