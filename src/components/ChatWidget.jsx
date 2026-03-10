@@ -267,14 +267,16 @@ export default function ChatWidget() {
                       placeholder={t("chat.placeholder")}
                       disabled={loading}
                       maxLength={500}
-                      className="w-full bg-white rounded-2xl px-4 py-2.5 text-sm outline-none"
+                      className={`w-full rounded-2xl px-4 py-2.5 text-sm outline-none transition-colors ${loading ? "cursor-not-allowed" : ""}`}
                       style={{
-                        border: "1px solid rgba(27,79,107,0.15)",
-                        color: "var(--ink)",
+                        background: loading ? "var(--mist)" : "white",
+                        border: `1px solid ${loading ? "rgba(27,79,107,0.08)" : "rgba(27,79,107,0.15)"}`,
+                        color: loading ? "rgba(26,26,26,0.4)" : "var(--ink)",
                         fontFamily: isJa
                           ? "'Hiragino Kaku Gothic ProN', sans-serif"
                           : "var(--font-body)",
                         fontSize: "0.875rem",
+                        transition: "background 0.2s, border-color 0.2s, color 0.2s",
                       }}
                     />
                     {input.length > 400 && (
