@@ -68,33 +68,33 @@
       },
       {
         "day": "Day 03",
-        "title": "Rainforest and Chinatown",
-        "focus": "Food",
-        "budget": "$$$",
-        "morning": "Manoa Falls Trail: a lush rainforest hike to a cascading waterfall, about 1.6 miles round trip with no park admission fee. Arrive by 8 AM for cooler temps and fewer crowds. Bring bug spray and shoes with traction, as the trail can be muddy after rain. After the hike, head to Koko Head Cafe in Kaimuki for creative island-style brunch. Open Monday through Thursday from 8 AM and Friday through Sunday from 7 AM.",
-        "afternoon": "Stop by Leonard's Bakery for fresh malasadas, hot and cinnamon-sugared. Swing through Liliha Bakery for the legendary coco puffs, then cool down with Waiola Shave Ice. Afterward, stroll Chinatown's galleries, shops, and side streets before dinner.",
-        "evening": "Dinner at Senia in Chinatown, widely considered one of Honolulu's top restaurants. Expect polished small plates like smoked ahi cigars, refined pastas, and local seasonal ingredients. Open Tuesday through Saturday from 5:30 PM. Reservations are essential.",
-        "tip": "Senia is closed Sunday and Monday, so plan your week around it if this is a must-do. The chef's counter tasting menu on select nights books out weeks ahead, so reserve early if you want the full experience."
+        "title": "Kualoa Ranch and the East Coast",
+        "focus": "Culture",
+        "budget": "$$",
+        "morning": "Head to Kualoa Ranch, a famous filming location for Jurassic Park, Lost, and many others. Book a UTV Raptor tour, movie sites tour, or zipline combo for a half-day in the valley. The scenery is lush and dramatic, and popular time slots often book up well in advance.",
+        "afternoon": "Drive south along the coast to Waimanalo Beach Park, one of Oahu's longest and less-crowded beaches. Enjoy soft sand and a Ko'olau mountain backdrop. A great spot to bodyboard or simply decompress before heading back.",
+        "evening": "Dinner at Roy's Hawaii Kai (6600 Kalanianaole Hwy, Honolulu). Roy Yamaguchi's original Hawaiian fusion restaurant with Maunalua Bay views. Open daily 4:30 PM to 9 PM (9:30 PM Fri-Sat). Happy hour 4:30 to 5:30 PM Mon-Thu. Reservations via OpenTable or royyamaguchi.com. Located on the drive back to Waikiki from Waimanalo, about 20 minutes from the beach.",
+        "tip": "Kualoa Ranch tours sell out weeks ahead, book online early. Roy's takes reservations and they go fast for weekend evenings. Hawaii Kai is about 30 minutes from Waikiki."
       },
       {
         "day": "Day 04",
-        "title": "Diamond Head and Kaimuki",
+        "title": "Diamond Head and Kakaako",
         "focus": "Culture",
         "budget": "$$",
-        "morning": "Hike Diamond Head crater at 6 AM, before the heat and crowds arrive. The 1.6-mile round trip passes through old military tunnels and ends with panoramic summit views of Waikiki and the Pacific. Book tickets online in advance ($5 per person plus $10 parking). The park opens at 6 AM.",
-        "afternoon": "On your way back, stop at the KCC Farmers Market near Diamond Head on Saturday mornings for local produce, Maui onion chips, fresh coconuts, and great people-watching. If visiting on another day, head into Kaimuki instead: browse the Waialae Avenue shops, grab coffee at a local cafe, and take the neighborhood at a slower pace.",
+        "morning": "Hike Diamond Head crater at 6 AM, before the heat and crowds arrive. The 1.6-mile round trip passes through old military tunnels and ends with panoramic summit views of Waikiki and the Pacific. Book tickets online in advance ($5 per person plus $10 parking). The park opens at 6 AM. After the hike, head toward Kakaako.",
+        "afternoon": "Explore Kakaako, Honolulu's arts and culture hub. Stop by Liliha Bakery for the legendary coco puffs. Walk the mural-lined streets (POW! WOW! Hawaii brings international artists here each February), browse SALT at Our Kakaako and Ward Village for boutiques and galleries, and take in the waterfront at Kakaako Waterfront Park.",
         "evening": "Dinner at The Pig and The Lady in Kaimuki at Civil Beat Plaza (3650 Waialae Ave). Chef Andrew Le's celebrated modern Vietnamese restaurant moved here from Chinatown in late 2025. The pho French dip, ahi tataki toast, and Le fried chicken wings are must-orders. Lunch Wednesday through Sunday, dinner Tuesday through Saturday from 5 PM. Closed Mondays. Reservations strongly recommended.",
-        "tip": "Diamond Head tickets sell out, so book online before your trip. The Pig and The Lady is very popular and reservations can be hard to secure on short notice: book as far ahead as you can."
+        "tip": "Diamond Head tickets sell out, so book online before your trip. Kakaako is about 15 minutes from Waikiki by car. The Pig and The Lady is very popular and reservations can be hard to secure on short notice: book as far ahead as you can."
       },
       {
         "day": "Day 05",
-        "title": "North Shore",
+        "title": "Hanauma Bay and North Shore",
         "focus": "Beach",
         "budget": "$",
-        "morning": "Drive the H-2 north. Stop at Shark's Cove for snorkeling, one of the best reef spots on the North Shore when surf is calm. Bring water shoes for the rocky entry. In summer the cove is typically gentle and suitable for most swimmers. In winter, always check conditions before getting in the water.",
-        "afternoon": "Head to Laniakea Beach, known as Turtle Beach, where Hawaiian green sea turtles often come ashore to rest. Volunteers are on-site daily to educate visitors and keep everyone at a respectful distance. Then explore Haleiwa town for surf shops and murals. Seven Brothers is a local favorite for burgers (the paniolo burger and fries are standout) but is only open for dinner Monday through Thursday and all day Friday through Sunday. Finish with a swim or wave watching at Waimea Bay depending on the season.",
+        "morning": "Start at Hanauma Bay Nature Preserve for snorkeling in a protected marine sanctuary. Reservations are required and open two days in advance at 7 AM HST at web5.hnl.info. They often sell out within minutes. Entry is $25 per person plus $3 parking (cash only). The bay is open Wednesday through Sunday, 6:45 AM to 4 PM with last entry at 1:30 PM. Closed Mondays and Tuesdays. Arrive early for parking. All visitors watch a mandatory reef education video before entering.",
+        "afternoon": "Drive north to Laniakea Beach, known as Turtle Beach, where Hawaiian green sea turtles often come ashore to rest. Volunteers are on-site daily to educate visitors and keep everyone at a respectful distance. Then explore Haleiwa town for surf shops and murals. Stop at Giovanni's Shrimp Truck for garlic shrimp plates over rice. The original North Shore shrimp truck since 1993, open daily 10:30 AM to 5 PM at the Haleiwa location (66-472 Kamehameha Hwy, across from McDonald's). Expect lines at peak lunch. Finish with a swim or wave watching at Waimea Bay depending on the season.",
         "evening": "Dinner at Haleiwa Joe's on the North Shore for fresh seafood in a relaxed, waterfront setting. Open daily from 4:30 PM Monday through Thursday and from 11 AM Friday through Sunday. No reservations taken, so arrive early to avoid a wait.",
-        "tip": "North Shore parking lots can fill by about 9 AM on weekends at Shark's Cove and Waimea Bay. Arrive early and never leave valuables visible in your car. Seven Brothers is closed Sundays."
+        "tip": "Book Hanauma Bay reservations as soon as the window opens, two days before your visit. North Shore parking lots at Laniakea and Waimea Bay can fill by 9 AM on weekends. Arrive early and never leave valuables visible in your car."
       },
       {
         "day": "Day 06",
@@ -103,18 +103,18 @@
         "budget": "$$",
         "morning": "Drive the Pali Highway through the Ko'olau Mountains and stop at Nu'uanu Pali Lookout. The wind is intense and the views of the windward coast are incredible. Continue to Ho'omaluhia Botanical Garden, about 400 acres of landscaped grounds and a lake with a dramatic Ko'olau backdrop. Entry is free. Note: typically closed on Thursdays.",
         "afternoon": "Head into Kailua town for lunch at Kalapawai Market, then spend the afternoon at Kailua Beach Park, a long crescent of powdery sand and turquoise water. Before heading back, drive or walk south a short distance to Lanikai Beach, one of the most beautiful and least-crowded stretches of sand in the state. You can also rent kayaks nearby and paddle out toward the Mokulua islands if conditions allow.",
-        "evening": "Dinner at Haleiwa Joe's at Haiku Gardens in Kaneohe on the way back. The setting inside a koi pond garden with Ko'olau mountain views is stunning. Open nightly from 4 PM. Alternatively, head back to Waikiki for a relaxed evening.",
-        "tip": "Aim to reach Kailua Beach before late morning for easier parking. Lanikai has street parking only along Mokulua Drive with posted restrictions. For kayaking to the Mokulua islands, check wind and surf conditions with the rental shop before heading out. Ho'omaluhia is closed Thursdays."
+        "evening": "Dinner at Buzz's Original Steakhouse (413 Kawailoa Rd, Kailua). Family-owned since 1962. Steaks and fresh seafood. Open daily 11 AM to 2:45 PM and 3:30 PM to 9 PM. Right near Lanikai on the way back. No reservations needed for the bar area; call ahead for a table.",
+        "tip": "Aim to reach Kailua Beach before late morning for easier parking. Lanikai has street parking only along Mokulua Drive with posted restrictions. For kayaking to the Mokulua islands, check wind and surf conditions with the rental shop before heading out. Ho'omaluhia is closed Thursdays. Buzz's fills up fast on weekends, so call ahead if you want a table."
       },
       {
         "day": "Day 07",
-        "title": "Kualoa Ranch and the East Coast",
-        "focus": "Culture",
-        "budget": "$$",
-        "morning": "Head to Kualoa Ranch, a famous filming location for Jurassic Park, Lost, and many others. Book a UTV Raptor tour, movie sites tour, or zipline combo for a half-day in the valley. The scenery is lush and dramatic, and popular time slots often book up well in advance.",
-        "afternoon": "Drive south along the coast to Waimanalo Beach Park, one of Oahu's longest and less-crowded beaches. Enjoy soft sand and a Ko'olau mountain backdrop. A great spot to bodyboard or simply decompress before heading back.",
-        "evening": "Farewell dinner: Azure at the Royal Hawaiian for oceanfront fine dining, open Wednesday through Sunday from 5:30 PM (five-course tasting menu, reservations required). Or a more relaxed goodbye at Duke's Waikiki, open daily with no reservation needed for bar seating.",
-        "tip": "Kualoa Ranch tours, especially UTV and zipline, can sell out weeks ahead in peak season. Reserve online as soon as your travel dates are set. Plan to arrive at HNL about 2.5 hours before your domestic flight."
+        "title": "Rainforest Morning and Departure",
+        "focus": "Nature",
+        "budget": "$",
+        "morning": "Manoa Falls Trail for a final rainforest hike. The parking lot (Paradise Park) opens at 8 AM with a $7 fee; free street parking is available on Waakaua Street if arriving early. About 1.6 miles round trip through lush jungle, taking 1 to 1.5 hours. Bring bug spray and shoes with traction, as the trail can be muddy. After the hike, grab brunch at Koko Head Cafe in Kaimuki (about 10 minutes away). Open Mon-Thu from 8 AM, Fri-Sun from 7 AM.",
+        "afternoon": "Back to the hotel to pack and check out. Low-key afternoon in Waikiki if time allows. Head to HNL at least 2.5 hours before your domestic flight.",
+        "evening": "Safe travels. You are on the plane home.",
+        "tip": "Manoa Falls parking opens at 8 AM. Go early before the heat and crowds build. Plan to be at HNL 2.5 hours before departure. Return your rental car before the terminal."
       }
     ]
   },
@@ -164,7 +164,7 @@
         "bestFor": "Snorkeling, marine life, sea turtles",
         "crowd": 3,
         "difficulty": "Easy",
-        "desc": "A protected marine sanctuary in an ancient volcanic crater with excellent snorkeling and frequent turtle and reef-fish sightings. Closed Monday and Tuesday. Reservations open 48 hours in advance at exactly 7 AM HST and sell out within minutes. Entry fee plus parking required.",
+        "desc": "A protected marine sanctuary in an ancient volcanic crater with excellent snorkeling and frequent turtle and reef-fish sightings. Closed Monday and Tuesday. Reservations required at web5.hnl.info, open two days ahead at 7 AM HST. Entry $25 per person plus $3 parking (cash only). Last entry 1:30 PM.",
         "photo": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
@@ -175,15 +175,6 @@
         "difficulty": "Moderate",
         "desc": "A dramatic bay that changes with the seasons. Generally calm and swimmable in summer with the famous rock jump for thrill-seekers. In winter, huge swells and big-wave surf are best admired from shore.",
         "photo": "https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Shark's Cove",
-        "location": "North Shore",
-        "bestFor": "Snorkeling, reef fish, tide pools",
-        "crowd": 2,
-        "difficulty": "Moderate",
-        "desc": "One of the best snorkeling spots on the North Shore when surf is down. A rocky cove teeming with reef fish and sometimes turtles. Bring water shoes for the rock entry and go only in calm conditions if you are not experienced in the ocean.",
-        "photo": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=80&h=80&fit=crop&crop=center&auto=format"
       },
       {
         "name": "Waimanalo Beach Park",
@@ -282,6 +273,22 @@
         "desc": "Open-air shopping and dining promenade just off the sand. Restaurants, boutiques, and frequent live entertainment within a few minutes walk of the beach.",
         "highlights": "Shopping, dining, live music, waterfront stroll",
         "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "SALT at Our Kakaako",
+        "aliases": ["SALT", "Kakaako"],
+        "location": "Kakaako, Honolulu",
+        "desc": "Boutique shopping and dining hub in Kakaako. Local brands, galleries, and restaurants in a walkable urban district. Part of Honolulu's arts and culture neighborhood with mural-lined streets.",
+        "highlights": "Boutiques, galleries, dining, street art",
+        "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+      },
+      {
+        "name": "Merriman's Honolulu",
+        "aliases": ["Merriman's"],
+        "location": "1108 Auahi St, Kakaako, Honolulu",
+        "desc": "Farm-to-table Hawaii Regional Cuisine in a neighborhood bistro. Honolulu Magazine Best Oahu Restaurant. Open daily 11 AM to 9 PM. Happy hour 3 to 5 PM. Reservations recommended via OpenTable.",
+        "highlights": "Hawaii Regional Cuisine, farm-to-table, Kakaako dining",
+        "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
       }
     ]
   },
@@ -321,17 +328,8 @@
           "type": "Shrimp Plate",
           "price": "$",
           "location": "North Shore",
-          "whyGo": "The original North Shore shrimp truck. Garlicky shrimp plates piled over rice in a casual roadside setting. Lines can be long at peak lunch, but the garlic butter is worth it.",
+          "whyGo": "The original North Shore shrimp truck since 1993. Garlic shrimp plates over rice. Haleiwa location at 66-472 Kamehameha Hwy (across from McDonald's), open daily 10:30 AM to 5 PM. Kahuku location 10:30 AM to 6:30 PM. Expect lines at peak lunch.",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "Seven Brothers (Haleiwa)",
-          "aliases": ["Seven Brothers"],
-          "type": "Burgers",
-          "price": "$",
-          "location": "Haleiwa, North Shore",
-          "whyGo": "A local favorite burger spot on the North Shore. The paniolo burger and fries are the go-to order. Open all day Friday through Sunday, dinner only Monday through Thursday. Closed Sundays.",
-          "photo": "https://images.unsplash.com/photo-1550317138-10000687a72b?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Waiola Shave Ice",
@@ -354,12 +352,12 @@
       ],
       "splurge": [
         {
-          "name": "Senia",
-          "aliases": [],
-          "type": "Contemporary American and Hawaii Regional",
+          "name": "Merriman's Honolulu",
+          "aliases": ["Merriman's"],
+          "type": "Hawaii Regional Cuisine",
           "price": "$$$",
-          "location": "75 N King St, Chinatown, Honolulu",
-          "whyGo": "Widely considered one of Oahu's best restaurants. Chef Anthony Rush's polished small plates blend local ingredients with precise technique: smoked ahi cigars, seasonal pastas, refined local produce. Open Tuesday through Saturday from 5:30 PM. Reservations essential.",
+          "location": "1108 Auahi St, Kakaako, Honolulu",
+          "whyGo": "Farm-to-table Hawaii Regional Cuisine in a neighborhood bistro. Honolulu Magazine Best Oahu Restaurant. Open daily 11 AM to 9 PM. Happy hour 3 to 5 PM. Reservations recommended. Free parking at Ward Village garages.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
@@ -390,15 +388,6 @@
           "location": "Waikiki",
           "whyGo": "The classic Waikiki beachfront dinner. Right on the sand with live music and a lively crowd. Go for huli huli chicken, fresh fish, and Hula Pie. Bar seating is often available without a reservation. Open daily.",
           "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "Fete",
-          "aliases": [],
-          "type": "New American Bistro",
-          "price": "$$",
-          "location": "2 N Hotel St, Chinatown, Honolulu",
-          "whyGo": "A James Beard-recognized Chinatown bistro with thoughtful farm-to-table cooking. Known for the Korean bavette, twice-fried chicken, seasonal pastas, and house-made rocky road ice cream. Open Monday through Saturday from 11 AM, Sunday from 4 PM for dinner only.",
-          "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
           "name": "Kalapawai Market",
@@ -456,7 +445,7 @@
       {
         "icon": "Calendar",
         "title": "Book These in Advance",
-        "body": "Some experiences require early planning: Diamond Head hiking reservations (sell out, book online), Hanauma Bay snorkeling (reservations open exactly 48 hours ahead at 7 AM HST and sell out within minutes), Kualoa Ranch tours, Ke Kai and Holokai catamarans, and dinner reservations at Senia, Azure, and The Pig and The Lady."
+        "body": "Some experiences require early planning: Diamond Head hiking reservations (sell out, book online), Hanauma Bay snorkeling (reservations at web5.hnl.info open two days ahead at 7 AM HST and sell out within minutes), Kualoa Ranch tours, Ke Kai catamaran, and dinner reservations at Merriman's Honolulu, Azure, and The Pig and The Lady."
       },
       {
         "icon": "CreditCard",
@@ -471,7 +460,7 @@
       {
         "icon": "Package",
         "title": "Packing Essentials",
-        "body": "Reef-safe sunscreen, a long-sleeve rash guard, water shoes for Shark's Cove and rocky North Shore entries, a reusable water bottle, a light rain or wind layer for the windward side, basic snorkel gear if you have it, and a foldable tote or daypack for markets and beach days."
+        "body": "Reef-safe sunscreen, a long-sleeve rash guard, water shoes for Hanauma Bay and rocky North Shore entries, a reusable water bottle, a light rain or wind layer for the windward side, basic snorkel gear if you have it, and a foldable tote or daypack for markets and beach days."
       }
     ]
   },

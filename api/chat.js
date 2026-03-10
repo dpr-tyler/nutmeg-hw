@@ -6,6 +6,7 @@ const ALLOWED_ORIGINS = new Set([
   "https://nutmeg-hw.vercel.app",
   "http://localhost:5173",
   "http://localhost:5174",
+  "http://localhost:3000",
 ]);
 
 const rateLimitMap = new Map();
@@ -31,19 +32,19 @@ const SYSTEM_PROMPT_EN = `You are a friendly, knowledgeable personal travel guid
 
 ITINERARY OVERVIEW:
 - Day 1: Arrival & Waikiki: check in, beach, Duke's Waikiki dinner (huli huli chicken, Hula Pie)
-- Day 2: Diamond Head hike (6 AM, book ahead $5/person + $10 parking) + Waikiki afternoon + Ke Kai Catamaran sunset sail
-- Day 3: Manoa Falls, Koko Head Cafe brunch, Leonard's/Liliha/Waiola, Chinatown stroll, Senia dinner
-- Day 4: North Shore: Shark's Cove snorkeling, Laniakea (turtles), Haleiwa, Seven Brothers, Waimea Bay, Turtle Bay sunset
-- Day 5: Pali Lookout, Ho'omaluhia Botanical Garden, Kailua (Kalapawai lunch, Kailua Beach), Haleiwa Joe's or Tikis
-- Day 6: Kualoa Ranch (UTV/zipline), Waimanalo Beach, Haleiwa Joe's Kaneohe, Nico's Kailua, or East Side Bar & Grill
-- Day 7: Last beach, shopping (Swap Meet/ABC), farewell dinner at Tikis or Azure/Mariposa
+- Day 2: Rest day Waikiki: Leonard's/Aloh Health Bar, beach, Waiola shave ice, Ke Kai Catamaran sunset sail
+- Day 3: Manoa Falls, Koko Head Cafe brunch, Leonard's/Liliha/Waiola, Kakaako murals and Ward Village, Merriman's Honolulu dinner
+- Day 4: Diamond Head hike (6 AM, book ahead $5/person + $10 parking), KCC Farmers Market or Kaimuki, The Pig and The Lady dinner
+- Day 5: Hanauma Bay snorkeling (reservations at web5.hnl.info, 2 days ahead at 7 AM HST, $25 + $3 parking, closed Mon/Tue), North Shore: Laniakea turtles, Haleiwa, Giovanni's Shrimp Truck, Waimea Bay, Haleiwa Joe's dinner
+- Day 6: Pali Lookout, Ho'omaluhia Botanical Garden, Kailua (Kalapawai lunch, Kailua Beach, Lanikai), Haleiwa Joe's Kaneohe
+- Day 7: Kualoa Ranch (UTV/zipline), Waimanalo Beach, farewell dinner at Azure or Duke's Waikiki
 
 KEY PRACTICAL INFO:
 - Rent a car at HNL airport (essential for exploring beyond Waikiki)
 - Parking: municipal lots $1-2/hr in Waikiki vs $35+ hotel valet; North Shore lots fill by 9am weekends
-- Diamond Head and Hanauma Bay: advance reservations required (Hanauma opens 48hr ahead at 7 AM HST)
+- Diamond Head and Hanauma Bay: advance reservations required (Hanauma opens 2 days ahead at 7 AM HST at web5.hnl.info, closed Mon/Tue)
 - Kualoa Ranch: book UTV/zipline tours weeks ahead in peak season
-- Senia closed Sun/Mon; Azure closed Mon/Tue
+- Merriman's Honolulu in Kakaako: reservations via OpenTable; Azure closed Mon/Tue
 - Reef-safe sunscreen (zinc oxide/titanium dioxide) required by Hawaii law
 - Language: communicate in clear, warm, conversational English
 
@@ -113,8 +114,6 @@ export default async function handler(req, res) {
           { role: "system", content: systemPrompt },
           ...messages.slice(-10), // Keep last 10 messages for context
         ],
-        max_tokens: 600,
-        temperature: 0.7,
       },
       { signal: controller.signal },
     );
