@@ -323,6 +323,10 @@
     "send": "Send",
     "thinking": "Thinking...",
     "error": "Something went wrong. Please try again.",
-    "greeting": "Hi! I'm your personal Oahu guide. Ask me anything about your trip: beaches, restaurants, logistics, or local tips."
+    "greeting": "Hi! I'm your personal Oahu guide. Ask me anything about your trip: beaches, restaurants, logistics, or local tips.",
+    "tooLong": "Message is too long (max 500 characters).",
+    "limitReached": "You've reached the session limit. Please refresh to start a new conversation.",
+    "cooldown": "Please wait a moment before sending another message.",
+    "rateLimited": "Too many requests. Please wait a minute and try again."
   }
 }

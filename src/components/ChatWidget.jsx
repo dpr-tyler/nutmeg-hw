@@ -38,7 +38,7 @@ function Message({ msg, isJa }) {
 export default function ChatWidget() {
   const { t, i18n } = useTranslation()
   const isJa = i18n.language === 'ja'
-  const { messages, loading, error, send } = useChat(i18n.language)
+  const { messages, loading, error, limitError, send } = useChat(i18n.language)
   const [open, setOpen] = useState(false)
   const [input, setInput] = useState('')
   const messagesEndRef = useRef(null)
@@ -213,45 +213,67 @@ export default function ChatWidget() {
               </div>
 
               {/* Input */}
-              <form
-                onSubmit={handleSubmit}
-                className="flex items-center gap-2 px-4 py-3"
+              <div
                 style={{
                   borderTop: '1px solid rgba(27,79,107,0.08)',
                   flexShrink: 0,
                   background: 'var(--ivory)',
                 }}
               >
-                <input
-                  ref={inputRef}
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  onKeyDown={handleKeyDown}
-                  placeholder={t('chat.placeholder')}
-                  disabled={loading}
-                  className="flex-1 bg-white rounded-xl px-4 py-2.5 text-sm outline-none"
-                  style={{
-                    border: '1px solid rgba(27,79,107,0.15)',
-                    color: 'var(--ink)',
-                    fontFamily: isJa
-                      ? "'Hiragino Kaku Gothic ProN', sans-serif"
-                      : 'var(--font-body)',
-                    fontSize: '0.875rem',
-                  }}
-                />
+              {limitError && (
+                <p
+                  className="text-xs px-4 pt-2"
+                  style={{ color: 'var(--coral)', fontFamily: 'var(--font-mono)' }}
+                >
+                  {t(`chat.${limitError}`)}
+                </p>
+              )}
+              <form
+                onSubmit={handleSubmit}
+                className="flex items-center gap-2 px-4 py-3"
+              >
+                <div className="flex-1 relative">
+                  <input
+                    ref={inputRef}
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    onKeyDown={handleKeyDown}
+                    placeholder={t('chat.placeholder')}
+                    disabled={loading}
+                    maxLength={500}
+                    className="w-full bg-white rounded-xl px-4 py-2.5 text-sm outline-none"
+                    style={{
+                      border: '1px solid rgba(27,79,107,0.15)',
+                      color: 'var(--ink)',
+                      fontFamily: isJa
+                        ? "'Hiragino Kaku Gothic ProN', sans-serif"
+                        : 'var(--font-body)',
+                      fontSize: '0.875rem',
+                    }}
+                  />
+                  {input.length > 400 && (
+                    <span
+                      className="absolute right-2 bottom-1 text-xs"
+                      style={{ color: input.length >= 500 ? 'var(--coral)' : 'var(--sand)' }}
+                    >
+                      {input.length}/500
+                    </span>
+                  )}
+                </div>
                 <button
                   type="submit"
-                  disabled={loading || !input.trim()}
+                  disabled={loading || !input.trim() || limitError === 'limitReached'}
                   className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 transition-all cursor-pointer"
                   style={{
-                    background: input.trim() && !loading ? 'var(--coral)' : 'rgba(27,79,107,0.1)',
+                    background: input.trim() && !loading && limitError !== 'limitReached' ? 'var(--coral)' : 'rgba(27,79,107,0.1)',
                     border: 'none',
                   }}
                   aria-label={t('chat.send')}
                 >
-                  <Send size={15} color={input.trim() && !loading ? 'white' : 'var(--ocean)'} />
+                  <Send size={15} color={input.trim() && !loading && limitError !== 'limitReached' ? 'white' : 'var(--ocean)'} />
                 </button>
               </form>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
