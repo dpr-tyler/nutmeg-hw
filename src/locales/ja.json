@@ -5,305 +5,340 @@
     "beaches": "ビーチ",
     "locations": "スポット",
     "food": "グルメ",
-    "tips": "旅のヒント"
+    "tips": "ヒント"
   },
   "hero": {
-    "title": "あなたのオアフ、ハワイの一週間",
-    "subtitle": "ハワイで最も活気ある島を、二人のために丁寧に編んだ旅のガイド。",
+    "title": "オアフ島で過ごす1週間",
+    "subtitle": "ハワイで最も活気あふれる島を巡る、厳選された旅。\nふたりのために。",
     "cta": "ガイドを見る"
   },
   "overview": {
     "title": "旅行概要",
     "bestTime": {
       "title": "ベストシーズン",
-      "body": "4〜6月と9〜11月は気候が最適で、観光客も少なめです。12月のホリデーシーズンは混雑と高値に注意。"
+      "body": "気候が最も快適なのは4月から6月、そして9月から11月です。暖かく、比較的乾燥していて、混雑も少なめです。より手頃な価格で滞在したいなら、12月下旬のホリデーシーズンは避けるのがおすすめです。"
     },
     "getting": {
       "title": "LAからのアクセス",
-      "body": "LAXからの直行便で約5時間半。ハワイアン航空やアラスカ航空が頻繁に運航しています。6〜8週前の予約で往復$300〜$500台を目安に。"
+      "body": "LAXからHNL空港までは直行便で約5.5時間です。Hawaiian Airlines、Alaska Airlines などの主要航空会社が頻繁に直行便を運航しています。最安値を狙うなら6〜8週間前の予約がおすすめで、閑散期なら往復300〜500ドルほどのことが多いです。"
     },
     "neighborhoods": {
-      "title": "おすすめエリア",
+      "title": "滞在エリア",
       "waikiki": {
-        "name": "ワイキキ",
-        "desc": "初めてのオアフに最適な便利で活気あるエリア。ビーチへのアクセスも飲食店も充実しています。"
+        "name": "Waikiki",
+        "desc": "便利でにぎやか、徒歩でも動きやすく、初めての滞在に最適です。ビーチへのアクセスがよく、大型リゾートの設備も充実し、レストランやバーも密集しています。"
       },
       "kailua": {
-        "name": "カイルア",
-        "desc": "ウィンドワード側のこじんまりとした町。地元感あふれるブティックや穏やかなビーチが魅力。"
+        "name": "Kailua",
+        "desc": "ウィンドワード側にある、魅力的で小さな町の雰囲気。ローカルブティックや静かなビーチがあり、オアフのより暮らしに近い、自然体の魅力を感じられます。"
       },
       "northShore": {
-        "name": "ノースショア",
-        "desc": "サーファー文化、農場直送の食事、ダイナミックな景観。冬の大波は圧巻。"
+        "name": "North Shore",
+        "desc": "サーフカルチャー、フードトラック、そしてドラマチックな景色が魅力。冬は伝説的なビッグウェーブ、夏は穏やかな海水浴やシュノーケリングが楽しめます。"
       }
     }
   },
   "itinerary": {
     "title": "7日間の旅程",
-    "subtitle": "ビーチ、グルメ、文化体験をバランスよく組み合わせた一週間。",
-    "morning": "午前",
+    "subtitle": "ビーチ時間、ローカルグルメ、本物の発見をほどよく織り交ぜた、ゆったりペースの1週間。",
+    "morning": "朝",
     "afternoon": "午後",
-    "evening": "夕方・夜",
+    "evening": "夜",
     "localTip": "プロのヒント",
     "days": [
       {
         "day": "1日目",
-        "title": "到着 & ワイキキ",
+        "title": "ワイキキに到着",
         "focus": "ビーチ",
         "budget": "$$",
-        "morning": "HNL空港に到着後、レンタカーを受け取りワイキキのホテルへチェックイン。身支度を整えてから近くを散策しましょう。",
-        "afternoon": "ワイキキビーチを端から端まで歩き、サーフボードをレンタルするか地元のビーチボーイからレッスンを受けてみましょう。",
-        "evening": "ビーチで夕日を眺め、その後ロイヤルハワイアンホテルの「アズール・レストラン」へ。オーシャンフロントの上質なディナーを。要事前予約。",
-        "tip": "デュークスのバー席は予約不可—砂の上で席を確保したいなら早めに、または夕日後の落ち着いた時間帯を狙いましょう。"
+        "morning": "HNL空港に到着したらレンタカーを受け取り、ワイキキのホテルへチェックイン。身支度を整えて荷ほどきをしたら、まずは近所を軽く歩いて土地勘をつかみましょう。",
+        "afternoon": "Waikiki Beachを端から端まで歩き、サーフボードをレンタルするか、ビーチボーイのレッスンを受けてみましょう。穏やかで暖かい海に入り、島時間にゆっくりなじんでいけます。",
+        "evening": "砂浜、もしくはRoyal Hawaiian近くのシーウォールから夕日を眺めたあと、ビーチ沿いの Duke's Waikiki でディナーを。毎日営業していて、バー席なら予約なしでも座れることが多いです。",
+        "tip": "Duke's のバー席は予約できません。砂浜に近い席を狙うなら、日没前の早めの到着がおすすめです。"
       },
       {
         "day": "2日目",
-        "title": "イーストサイドのビーチ",
+        "title": "ワイキキでのんびり休息日",
         "focus": "ビーチ",
         "budget": "$",
-        "morning": "ハナウマ湾には午前7時着が理想（9時頃には入場制限がかかります）。オンラインで事前予約必須（$25/人）。ウミガメや熱帯魚と一緒にシュノーケリングを楽しみましょう。",
-        "afternoon": "北へ向かいラニカイビーチへ。全米ベストビーチの常連。白く細かな砂と透明なターコイズ色の海。カイルアタウンの「カラパワイマーケット」でランチ。",
-        "evening": "カイルアのブティックを散策後、「オーバーイージー」で夕食か、「タムラス」でポケ丼をテイクアウト。",
-        "tip": "ラニカイには公共駐車場がありません。モクルア・ドライブ沿いに路駐し、小道を徒歩で抜けましょう（合法です）。"
+        "morning": "朝はゆっくり起きて、自分のペースで。Leonard's Bakery で揚げたてのマラサダを買うか、Seaside Ave の Aloh Health Bar でアサイーボウルをどうぞ。今日は特に予定を詰め込まない日です。",
+        "afternoon": "午後はWaikiki Beachで思い思いに過ごしましょう。泳いだり、パドルボードを借りたり、Island Vintage Shave Ice でひんやり休憩したり、木陰でのんびりするのもおすすめです。気が向けば Waikiki Beach Walk のショップをのぞいてみても。",
+        "evening": "Waikiki Beach から出る Ke Kai Waikiki Sunset Sail へ。チェックインは17時、出航は17時30分で、クルーズは90分。ドリンク付きで、イルカやウミガメに出会えることも多い、海の上の理想的な夕暮れ時間です。",
+        "tip": "Ke Kai Waikiki Sunset Sail は、特に週末枠が埋まりやすいので数日前の予約がおすすめです。出発場所は Outrigger Waikiki の Duke's Restaurant 前のビーチ。出航30分前までにチェックインしないと予約が無効になることがあります。"
       },
       {
         "day": "3日目",
-        "title": "熱帯雨林とグルメ",
-        "focus": "グルメ",
-        "budget": "$$$",
-        "morning": "マノア・フォールズ・トレイル。鬱蒼とした熱帯雨林を歩き、滝まで（往復約2.6km、無料）。8時前着で涼しく人も少ない。虫除け必須。ハイク後はココヘッド・カフェでブランチ（リー・アン・ウォンシェフの島風スタイル、平日は予約不要）。",
-        "afternoon": "レナードのマラサダ（毎日営業、現金のみ（シナモンシュガーをまぶしたホカホカを））。リリハベーカリーで有名なココパフ。ワイオラ・シェイブアイスか島津ストアで本格的な地元のシェイブアイス。ディナー前にチャイナタウンを散策。",
-        "evening": "チャイナタウンの「ザ・ピッグ・アンド・ザ・レディ」でディナー。ベトナム料理にインスパイアされた独創的な料理が人気。要予約。",
-        "tip": "マノア・フォールズは雨後ぬかるみやすい（グリップのある靴で）。レナードは現金のみ。午前中は開店直後のラッシュより行列が短い。"
+        "title": "クアロアランチと東海岸",
+        "focus": "文化",
+        "budget": "$$",
+        "morning": "ジュラシック・パークや LOST などのロケ地として有名な Kualoa Ranch へ。UTV Raptor ツアー、映画ロケ地ツアー、ジップライン付きのプランなどで、半日たっぷり渓谷を楽しめます。風景は緑豊かで迫力があり、人気の時間帯はかなり早く埋まります。",
+        "afternoon": "海岸沿いを南へ下り、オアフでも長くて比較的人が少ない Waimanalo Beach Park へ。やわらかな砂浜とコオラウ山脈の景色が魅力で、ボディボードを楽しむにも、ただのんびりするにもぴったりです。",
+        "evening": "夕食は Roy's Hawaii Kai で。Roy Yamaguchi のオリジナル店で、Maunalua Bay を望むハワイアンフュージョンの名店です。予約推奨。Waimanalo からワイキキへ戻る途中にあり、ビーチからは車で約20分です。",
+        "tip": "Kualoa Ranch のツアーは数週間前に完売することもあるので、オンラインで早めに予約を。Roy's も週末の夜は予約が取りづらくなります。Hawaii Kai はワイキキから車で約30分です。"
       },
       {
         "day": "4日目",
-        "title": "ノースショア",
-        "focus": "ビーチ",
-        "budget": "$",
-        "morning": "H-2を北上。ワイメアベイへ。夏は穏やかなビーチ、有名な岩から飛び込んで。11〜4月は20〜30フィート級の巨大波を岸から観覧。",
-        "afternoon": "ハレイワタウンでサーフショップやギャラリーを巡り、「ジョバンニズ・シュリンプ・トラック」でガーリックバターエビとライスのランチ。",
-        "evening": "サンセットビーチで夕日を。帰路はドール・プランテーションに立ち寄っても。",
-        "tip": "ノースショアの駐車場は週末の9時には満車になります。早めに到着するか、ハレイワタウンのシャトルを利用しましょう。"
+        "title": "ダイヤモンドヘッドとカカアコ",
+        "focus": "文化",
+        "budget": "$$",
+        "morning": "暑さと混雑を避けて、朝6時に Diamond Head のクレーター登山へ。往復約1.6マイルの道のりは、旧軍用トンネルを通り抜け、最後はワイキキと太平洋を一望する絶景の山頂へと続きます。チケットは事前オンライン予約制で、料金は1人5ドル＋駐車10ドル。公園は朝6時オープンです。ハイク後はカカアコ方面へ。",
+        "afternoon": "ホノルルのアートとカルチャーの中心地、Kakaako を散策。Liliha Bakery で名物のココパフを味わい、壁画が並ぶ通りを歩きながら、SALT at Our Kakaako や Ward Village のブティック、ギャラリーをのぞきましょう。Kakaako Waterfront Park で海辺の景色を楽しむのもおすすめです。",
+        "evening": "夜は Kaimuki の Civil Beat Plaza にある The Pig and The Lady でディナー。pho French dip、ahi tataki toast、Le fried chicken wings は特に人気のメニューです。予約はかなり推奨です。",
+        "tip": "Diamond Head のチケットは売り切れやすいので、旅行前に予約しておくのが安心です。Kakaako はワイキキから車で約15分。The Pig and The Lady も非常に人気があるので、できるだけ早めの予約がおすすめです。"
       },
       {
         "day": "5日目",
-        "title": "ダイヤモンドヘッド & ワイキキ",
-        "focus": "文化",
-        "budget": "$$",
-        "morning": "ダイヤモンドヘッドのクレーターハイク（往復約2.6km、入場$5）。早朝6時開場、涼しい時間帯がベスト。ワイキキと東部オアフを一望できます。",
-        "afternoon": "ワイキキでリラックス。ビーチタイム、泳ぎ、日光浴、またはウォーターフロント散歩。ワイキキビーチウォークのロイズでランチ。",
-        "evening": "アラモアナセンター。ハワイ最大のオープンエアモール、350以上のショップとレストラン。夕日を眺めながらウォーターフロントでディナー。",
-        "tip": "アラモアナセンターは無料駐車場あり、ワイキキから車で近い。海側から夕日が美しい。"
+        "title": "ハナウマ湾とノースショア",
+        "focus": "ビーチ",
+        "budget": "$",
+        "morning": "朝は Hanauma Bay Nature Preserve で、保護された海洋保護区のシュノーケリングへ。予約は必須で、訪問2日前の午前7時 HST に受付開始。数分で埋まることも多いです。駐車場確保のためにも早めの到着を。入場前には全員が必須のリーフ保護ビデオを視聴します。",
+        "afternoon": "その後は北へ向かい、ハワイアオウミガメが浜辺で休むことで知られる Laniakea Beach へ。現地には毎日ボランティアがいて、訪問者への案内と距離の確保をサポートしています。続いて Haleiwa の街でサーフショップや壁画を楽しみ、Giovanni's Shrimp Truck でガーリックシュリンププレートを。1993年創業の元祖ノースショアシュリンプトラックです。ランチピークは行列覚悟。最後は季節に応じて Waimea Bay で遊泳、もしくは波見物を楽しみましょう。",
+        "evening": "夜はノースショアの Haleiwa Joe's で、新鮮なシーフードをカジュアルなウォーターフロントの雰囲気の中で。予約は受け付けていないため、待ち時間を避けたいなら早めの来店がおすすめです。",
+        "tip": "Hanauma Bay の予約は受付開始と同時に取るのが基本です。週末は Laniakea Beach と Waimea Bay の駐車場が朝9時までに満車になることも。早めに動き、車内に貴重品を見える状態で置かないようにしましょう。"
       },
       {
         "day": "6日目",
-        "title": "ウィンドワードコースト",
+        "title": "ウィンドワードコーストとカイルア",
         "focus": "自然",
         "budget": "$$",
-        "morning": "パリ・ハイウェイでコオラウ山脈を越え、ヌウアヌ・パリ展望台から絶景を。クアロア・ランチでATVや乗馬ツアーも可能。",
-        "afternoon": "カアアワの地元レストランでランチ後、カネオヘ湾へ。干潮時には砂洲に上陸（カヤックまたはツアーボートが必要）。",
-        "evening": "ウィンドワード側でディナーを。カネオヘのハレイワ・ジョーズはハイク・ガーデンズにあり、コオラウ山脈の眺めと鯉の池が魅力。カイルアのニコス・カイルアはホノルル魚市場直送の新鮮なシーフード。カジュアルな地元の雰囲気ならカネオヘのイーストサイド・バー＆グリル：ポケナチョスやプレフ・ショートリブが人気。",
-        "tip": "カネオヘ湾の砂洲ツアーは夏場すぐ満員になります。ヘエイア・ケア小型ボート港近くのオペレーターに数日前から予約を。"
+        "morning": "Pali Highway を通ってコオラウ山脈を越え、Nu'uanu Pali Lookout に立ち寄りましょう。風はかなり強いですが、ウィンドワードコーストの景色は圧巻です。続いて Ho'omaluhia Botanical Garden へ。約400エーカーの庭園と湖があり、コオラウ山脈を背景にした景色が見事です。入場無料。通常は木曜休園です。",
+        "afternoon": "Kailua の街へ移動して Kalapawai Market でランチ。その後は、きめ細かな白砂とターコイズの海が広がる Kailua Beach Park で午後を過ごしましょう。帰る前には少し南へ歩くか車で移動して、州内でも特に美しく、人も比較的少ない Lanikai Beach へ。条件が良ければ近くでカヤックを借りて Mokulua Islands を目指すこともできます。",
+        "evening": "夕食は 1962年創業、家族経営の名店 Buzz's Original Steakhouse で。ステーキ、新鮮なシーフード、そして評判の良いマイタイが楽しめます。ランチもディナーも毎日営業。バーエリアはウォークイン可能で、テーブル席は事前連絡がおすすめです。",
+        "tip": "Kailua Beach は午前遅めになる前に着くと駐車しやすいです。Lanikai Beach は Mokulua Drive 沿いの路上駐車のみで、規制標識があります。Mokulua Islands へのカヤックは、出発前にレンタルショップで風と波の状況を確認しましょう。Ho'omaluhia Botanical Garden は木曜休園です。Buzz's は週末かなり混みます。"
       },
       {
         "day": "7日目",
-        "title": "のんびりお別れの日",
-        "focus": "ビーチ",
-        "budget": "$$$",
-        "morning": "最後のビーチタイム。思い出のビーチでゆっくり過ごしましょう。アロハスタジアム・スワップミート（土日開催）やワイキキのABCストアでマカダミアナッツやコナコーヒーを購入。",
-        "afternoon": "レンタカーを返却し、ホテルで荷物を預けて空港へ。HNL空港のセキュリティは混雑することがあるので余裕を持って。",
-        "evening": "お別れディナー：「アラン・ウォンズ」（ハワイ・リージョナル・キュイジーヌの金字塔、要早期予約）またはアラモアナのニーマンマーカス内「マリポサ」でオープンエアの優雅なひとときを。",
-        "tip": "HNL空港のセキュリティは混雑時に45〜60分かかります。国内線は出発の2時間半前には到着を。"
+        "title": "雨林の朝と出発",
+        "focus": "自然",
+        "budget": "$",
+        "morning": "締めくくりは Manoa Falls Trail で熱帯雨林ハイク。駐車場の Paradise Park は朝8時オープンで7ドル、早ければ Waakaua Street の路上駐車は無料で使えることもあります。往復約1.6マイル、所要1〜1.5時間。虫除けと、ぬかるみに対応できるグリップのある靴を忘れずに。ハイク後は Kaimuki の Koko Head Cafe でブランチをどうぞ。",
+        "afternoon": "ホテルに戻って荷造りとチェックアウト。時間があればワイキキでゆったり過ごしてから、国内線なら少なくとも2時間半前には HNL 空港へ向かいましょう。",
+        "evening": "どうぞ良い旅を。充実した1週間の締めくくりです。",
+        "tip": "Manoa Falls の駐車場は朝8時オープン。暑くなる前、混む前の早い時間がおすすめです。HNL 空港へは出発の2時間半前到着を目安に。レンタカーはターミナルへ行く前に返却しておきましょう。"
       }
     ]
   },
   "beaches": {
     "title": "ビーチガイド",
-    "subtitle": "オアフのベストビーチ：特徴、評価、正直なレビューをお届けします。",
+    "subtitle": "オアフのベストビーチを、ランキング感覚で分かりやすく正直にご紹介。",
     "bestFor": "おすすめの楽しみ方",
     "crowdLevel": "混雑度",
     "difficulty": "難易度",
-    "low": "少ない",
+    "low": "低い",
     "medium": "普通",
-    "high": "多い",
-    "easy": "簡単",
-    "moderate": "やや難しい",
+    "high": "高い",
+    "easy": "やさしい",
+    "moderate": "普通",
     "viewOnMap": "地図で見る",
     "list": [
       {
-        "name": "ワイキキビーチ",
+        "name": "Waikiki Beach",
         "location": "2259 Kalakaua Ave, Honolulu",
         "mapUrl": "https://maps.app.goo.gl/mjta8wZbTwedpLCU8",
-        "bestFor": "水泳、サーフィン体験、夕日散策",
+        "bestFor": "海水浴、サーフレッスン、夕暮れの散歩",
         "crowd": 3,
         "difficulty": "Easy",
-        "desc": "誰もが知る絵葉書のビーチ。穏やかな波で初心者にも最適。観光地らしさはあるものの、黄金色の夕暮れ時は格別の美しさ。",
+        "desc": "絵葉書のように象徴的なビーチ。穏やかで守られた海は初心者やサーフレッスンに最適です。とても観光地らしい雰囲気ですが、ゴールデンアワーの美しさはやはり格別です。",
         "photo": "/images/waikiki-beach.jpg"
       },
       {
-        "name": "ラニカイビーチ",
+        "name": "Kailua Beach Park",
+        "aliases": [
+          "Kailua Beach"
+        ],
+        "location": "526 Kawailoa Rd, Kailua",
+        "bestFor": "モクルア諸島へのカヤック、ウィンドサーフィン、長い散歩",
+        "crowd": 1,
+        "difficulty": "Easy",
+        "desc": "約2マイル続く白くきめ細かな砂浜と、ターコイズブルーの海、安定した貿易風が魅力のビーチ。オアフでも特に美しいビーチのひとつで、条件が良ければ沖合のモクルア諸島まで行けるカヤックレンタルも近くにあります。",
+        "photo": "/images/kailua-beach-park.jpg"
+      },
+      {
+        "name": "Lanikai Beach",
         "location": "Mokulua Dr, Kailua",
-        "bestFor": "水泳、モクルア島へのカヤック",
+        "bestFor": "海水浴、写真撮影、静かな朝時間",
         "crowd": 2,
         "difficulty": "Easy",
-        "desc": "サラサラの白砂と信じられないほど青い海。設備なし。必要なものは全て持参で。全米屈指の美しさと称される隠れた名ビーチ。",
+        "desc": "特に日の出の時間帯に映える、白くさらさらの砂と鮮やかな青い海が魅力。設備はないので必要なものは持参を。アメリカでも屈指の写真映えするビーチで、駐車は規制付きの Mokulua Drive 沿いの路上のみです。",
         "photo": "/images/lanikai-beach.jpg"
       },
       {
-        "name": "ハナウマ湾",
+        "name": "Hanauma Bay",
         "location": "100 Hanauma Bay Rd, Honolulu",
         "mapUrl": "https://maps.app.goo.gl/6cBXinjARSK9aeyq6",
         "bestFor": "シュノーケリング、海洋生物観察、ウミガメ",
         "crowd": 3,
         "difficulty": "Easy",
-        "desc": "古代の噴火口の中にある保護された海洋保護区。世界レベルのシュノーケリングスポット。チケットはオンラインで事前予約必須。",
+        "desc": "古代の火山クレーター内にある保護海洋区で、シュノーケリングに非常に優れたスポット。ウミガメやリーフフィッシュに出会えることも多いです。月曜と火曜は休業。予約はオンライン必須で、2日前の朝7時 HST に受付開始。入場料は1人25ドル、駐車場は3ドルで現金のみ。最終入場は13時30分です。",
         "photo": "/images/hanauma-bay.jpg"
       },
       {
-        "name": "ワイメアベイ",
+        "name": "Waimea Bay",
         "location": "61-031 Kamehameha Hwy, Haleiwa",
         "mapUrl": "https://maps.app.goo.gl/2HDtbKcNNYRtkMqCA",
-        "bestFor": "岩からのジャンプ（夏）、波の観覧（冬）",
+        "bestFor": "岩からのジャンプ（夏）、波見物（冬）",
         "crowd": 2,
         "difficulty": "Moderate",
-        "desc": "季節によって全く異なる表情を見せるドラマチックな湾。6〜9月は穏やかで遊泳可能、10〜4月は20〜30フィートの巨大波が押し寄せます。",
+        "desc": "季節によって表情が大きく変わるドラマチックな湾。夏は比較的穏やかで泳ぎやすく、有名な岩ジャンプも人気。冬は巨大なうねりとビッグウェーブサーフィンを、岸から安全に眺めるのがベストです。",
         "photo": "/images/waimea-bay.jpg"
       },
       {
-        "name": "サンセットビーチ",
-        "location": "59-104 Kamehameha Hwy, Haleiwa",
-        "bestFor": "夕日鑑賞、ビッグウェーブ観覧、写真撮影",
+        "name": "Waimanalo Beach Park",
+        "location": "41-1013 Laumilo St, Waimanalo, HI 96795",
+        "mapUrl": "https://maps.app.goo.gl/5FBDZzjsTcARgrus9",
+        "bestFor": "ボディボード、長い散歩、人の少ない海水浴",
         "crowd": 1,
         "difficulty": "Easy",
-        "desc": "オアフ最長の天然ビーチ。伝説的な冬のうねりで世界的に知られています。黄金時間帯の光は他では得られない絶景。",
-        "photo": "https://images.unsplash.com/photo-1455156218388-5e61b526818b?w=80&h=80&fit=crop&crop=center&auto=format"
+        "desc": "オアフでも特に長く、比較的人の少ないビーチのひとつ。やわらかな砂、澄んだ海、そして美しいコオラウ山脈の背景が魅力です。ワイキキやノースショアの人気スポットより落ち着いた雰囲気で、地元の人にも愛されています。",
+        "photo": "/images/waimanalo-beach-park.jpg"
       },
       {
-        "name": "カイルアビーチ",
-        "location": "526 Kawailoa Rd, Kailua",
-        "bestFor": "ウィンドサーフィン、カイトボーディング、散策",
-        "crowd": 1,
+        "name": "Laniakea Beach",
+        "location": "61-676 Kamehameha Hwy, Haleiwa",
+        "bestFor": "ウミガメ観察、野生動物の撮影、ノースショア散策",
+        "crowd": 2,
         "difficulty": "Easy",
-        "desc": "貿易風が吹き抜ける2マイルの弧状白砂ビーチ。地元の人々とウォータースポーツファンに愛されています。駐車場完備。",
-        "photo": "/images/kailua-beach-park.jpg"
+        "desc": "ハワイアオウミガメが砂浜に上がって休むことで有名なノースショアのビーチ。ボランティア団体が常駐し、訪問者への案内と適切な距離の確保をサポートしています。高確率で自然のウミガメに出会える、印象に残るスポットです。",
+        "photo": "/images/laniakea-beach.jpg"
       }
     ]
   },
   "locations": {
-    "label": "探索",
-    "title": "スポット & アトラクション",
-    "subtitle": "旅程に登場するランドマーク、ショップ、体験スポットをご紹介。",
+    "label": "見る",
+    "title": "注目スポット",
+    "subtitle": "旅程に登場するランドマーク、ショップ、体験スポットをまとめました。",
     "viewOnMap": "地図で見る",
     "highlights": "見どころ",
     "nature": "自然・アウトドア",
-    "experiences": "体験・アクティビティ",
+    "experiences": "体験",
     "shopping": "ショッピング・街歩き",
     "items": {
       "nature": [
         {
-          "name": "ダイヤモンドヘッド",
-          "aliases": ["Diamond Head"],
+          "name": "Diamond Head",
+          "aliases": [],
           "location": "4204 Diamond Head Rd, Honolulu",
-          "desc": "象徴的なクレーターハイク、往復約2.6km、入場$5。6時開場。早朝が涼しく光もベスト。ワイキキと東部オアフを360度一望。事前オンライン予約必須。",
-          "highlights": "ハイキング、パノラマ、軍用トンネル、日の出",
+          "desc": "象徴的なクレーター登山スポット。往復約1.6マイルで、有料入場（1人5ドル＋駐車10ドル）です。朝6時オープン。オンライン事前予約が必要で、売り切れやすいです。山頂からはワイキキとオアフ南東部を360度見渡せます。",
+          "highlights": "ハイキング、絶景、軍用トンネル、日の出",
           "photo": "/images/diamond-head.jpg"
         },
         {
-          "name": "ヌウアヌ・パリ展望台",
-          "aliases": ["パリ展望台", "ヌウアヌパリ", "Nu'uanu Pali Lookout"],
+          "name": "Nu'uanu Pali Lookout",
+          "aliases": [
+            "Pali Lookout",
+            "Nuuanu Pali"
+          ],
           "location": "Nuuanu Pali Dr, Honolulu",
           "mapUrl": "https://maps.app.goo.gl/TD4QxpF2V2QF3VrU9",
-          "desc": "パリ・ハイウェイからのウィンドワード絶景。1795年カメハメハ大王のオアフ征服の歴史的戦場。常に強風なので帽子やバッグに注意。駐車料金あり。",
-          "highlights": "パノラマ、コオラウ山脈、ウィンドワード、歴史",
+          "desc": "Pali Highway 沿いの断崖にある展望スポットで、ウィンドワード側の壮大な景色を一望できます。1795年、カメハメハ大王によるオアフ征服の歴史的戦地としても有名。非常に風が強いことが多いので、帽子や荷物には注意を。小額の駐車料金がかかります。",
+          "highlights": "パノラマビュー、コオラウ山脈、ウィンドワード海岸、歴史",
           "photo": "/images/nu'uanu-pali-lookout.jpg"
         },
         {
-          "name": "ホオマルヒア植物園",
-          "aliases": ["Hoomaluhia", "Ho'omaluhia Botanical Garden"],
+          "name": "Ho'omaluhia Botanical Garden",
+          "aliases": [
+            "Hoomaluhia"
+          ],
           "location": "45-680 Luluku Rd, Kaneohe",
-          "desc": "約160ヘクタールの植物園。湖とコオラウ山脈を背景にした絶景が広がります。無料入場。島内でも屈指の撮影スポット。通常木曜定休。",
-          "highlights": "無料入場、コオラウ山脈の眺め、湖、散策、写真撮影",
+          "desc": "約400エーカーに広がる植物園で、湖とコオラウ山脈のドラマチックな背景が魅力。入場無料。静かな散歩や写真撮影にぴったりで、島内でも屈指のフォトジェニックスポットです。通常は木曜休園です。",
+          "highlights": "無料入場、コオラウ山脈の景色、湖、景観散歩、写真撮影",
           "photo": "/images/ho'omaluhia-botanical-garden.jpg"
         },
         {
-          "name": "マノア・フォールズ・トレイル",
-          "aliases": ["Manoa Falls Trail", "Manoa Falls", "マノア・フォールズ"],
+          "name": "Manoa Falls Trail",
+          "aliases": [
+            "Manoa Falls"
+          ],
           "location": "3860 Manoa Rd, Honolulu",
           "mapUrl": "https://maps.app.goo.gl/JBX3Run2kWq5HYtQ7",
-          "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、入場無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
-          "highlights": "熱帯雨林ハイク、滝、入場無料、早朝がおすすめ",
+          "desc": "ホノルル近郊で楽しめる、滝へ続く緑豊かな熱帯雨林トレイル。往復約1.6マイルで入園料は不要。涼しく湿ったジャングルの雰囲気が魅力で、早い時間ほど快適です。虫除け持参がおすすめで、道はぬかるむことがあります。",
+          "highlights": "熱帯雨林ハイク、滝、入場無料、朝の静けさ",
           "photo": "/images/manoa-falls-trail.jpg"
         },
         {
-          "name": "カカアコ・ウォーターフロント・パーク",
-          "aliases": ["Kakaako Waterfront Park"],
+          "name": "Kakaako Waterfront Park",
+          "aliases": [],
           "location": "102 Ohe St, Honolulu",
-          "desc": "カカアコの海沿いにある無料の公園。広々とした芝生、遊具、遮るもののない太平洋の眺め。壁画やギャラリーを楽しんだ後のひと休みに最適。",
-          "highlights": "無料入場、海の眺め、芝生広場、ウォーターフロント",
+          "desc": "カカアコの端にある無料の海沿い公園。広い芝生、遊び場、そして太平洋を遮るものなく見渡せる景色が魅力です。Kewalo Basin に隣接していて、周辺の壁画やギャラリーを巡ったあとに一息つくのにぴったりの場所です。",
+          "highlights": "無料入場、海の景色、広い芝生、ウォーターフロント、Kewalo Basin",
           "photo": "/images/kakaako-waterfront-park.jpg"
         },
         {
-          "name": "モクルア諸島",
-          "aliases": ["ナ・モクルア", "Mokulua Islands", "Na Mokulua"],
+          "name": "Mokulua Islands",
+          "aliases": [
+            "Na Mokulua",
+            "the Mokulua Islands"
+          ],
           "location": "Kailua Bay, Windward Oahu",
-          "desc": "ラニカイビーチ沖に浮かぶ2つの小さな離島（モクヌイとモクイキ）。どちらも海鳥の保護区。モクヌイには砂浜と景観トレイルがあります。カイルアビーチまたはラニカイからカヤックで約30〜45分。",
-          "highlights": "カヤック、海鳥保護区、モクヌイの砂浜と景観トレイル",
+          "desc": "Lanikai Beach の沖に浮かぶ2つの小島、Moku Nui と Moku Iki。どちらも州指定の海鳥保護区で、Moku Nui には砂浜と絶景が楽しめる短いトレイルがあります。Moku Iki は立ち入り不可。Kailua Beach Park や Lanikai から、好条件ならカヤックで片道30〜45分ほどです。",
+          "highlights": "カヤック目的地、海鳥保護区、Moku Nui の砂浜、絶景トレイル",
           "photo": "/images/mokulua-islands.jpg"
         }
       ],
       "experiences": [
         {
-          "name": "クアロア・ランチ",
-          "aliases": ["クアロア", "Kualoa Ranch"],
+          "name": "Kualoa Ranch",
+          "aliases": [
+            "Kualoa"
+          ],
           "location": "49-560 Kamehameha Hwy, Kaneohe",
           "mapUrl": "https://maps.app.goo.gl/2VWkFMHRCrzZN1oi8",
-          "desc": "映画・TVの撮影地（ジュラシック・パーク、ロスト、ゴジラ）。UTVラプターツアー、ジップライン、映画ロケ地ツアーで緑豊かな渓谷を巡る。人気時間帯は早めの事前予約を。",
-          "highlights": "UTVツアー、ジップライン、映画ロケ地、渓谷の絶景",
+          "desc": "ジュラシック・パーク、LOST、ゴジラなど数多くの作品のロケ地として有名。緑豊かな渓谷を巡る UTV Raptor ツアー、ジップライン、映画ロケ地ツアーなどが楽しめます。人気のツアーは売り切れやすいので早めの予約を。",
+          "highlights": "UTVツアー、ジップライン、映画ロケ地、渓谷の景色",
           "photo": "/images/kualoa-ranch.jpg"
         },
         {
-          "name": "ケ・カイ・カタマラン",
-          "aliases": ["Ke Kai Waikiki Sunset Sail", "Ke Kai Catamaran Waikiki Sunset Sail", "Ke Kai Catamaran", "Ke Kai"],
+          "name": "Ke Kai Catamaran Waikiki Sunset Sail",
+          "aliases": [
+            "Ke Kai",
+            "Ke Kai Catamaran",
+            "Ke Kai Waikiki Sunset Sail"
+          ],
           "mapUrl": "https://maps.app.goo.gl/BBULZnwNrXuyHJWt9",
           "location": "2335 Kalakaua Ave, Honolulu",
-          "desc": "ワイキキの夕日カタマランクルーズ。17時チェックイン、17時30分出発、90分間のクルーズ。ドリンク無料。ウミガメやイルカの目撃多数。出発30分前には必ずチェックインを。毎日運航。",
-          "highlights": "サンセットセール、無料ドリンク、ウミガメ・イルカ遭遇、毎日出航",
+          "desc": "ワイキキで人気のサンセットカタマラン。17時乗船開始、17時30分出航、所要90分でドリンク付き。ウミガメやイルカが見られることも多く、出航30分前までのチェックインが必要です。毎日運航しています。",
+          "highlights": "サンセットクルーズ、無料ドリンク、ウミガメ・イルカ、毎日運航",
           "photo": "/images/ke-kai-catamaran-waikiki-sunset-sail.jpg"
         },
         {
-          "name": "ロイヤルハワイアンホテル",
-          "aliases": ["Royal Hawaiian Hotel", "Royal Hawaiian", "ロイヤルハワイアン"],
+          "name": "Royal Hawaiian Hotel",
+          "aliases": [
+            "Royal Hawaiian"
+          ],
           "location": "2259 Kalakaua Ave, Honolulu",
-          "desc": "太平洋のピンクの宮殿。1927年築の歴史的ランドマーク、スペイン・モーロ風建築。アズール・レストラン（水〜日ディナー）とマイタイバー（毎日営業）を擁し、ワイキキビーチの最前線に位置。",
-          "highlights": "歴史的ホテル、アズール・レストラン、マイタイバー、オーシャンフロント",
+          "desc": "1927年開業の歴史あるホテルで、『太平洋のピンクパレス』として知られるワイキキの象徴。スペイン・モーロ風建築、美しい中庭、そしてビーチ最前列の立地が魅力です。Azure Restaurant は水曜から日曜の夜営業、伝説的な Mai Tai Bar は毎日営業しています。",
+          "highlights": "歴史的ホテル、Azure Restaurant、Mai Tai Bar、オーシャンフロント、ワイキキの象徴",
           "photo": "/images/royal-hawaiian-hotel.jpg"
         }
       ],
       "shopping": [
         {
-          "name": "ワイキキビーチウォーク",
-          "aliases": ["Waikiki Beach Walk", "Beach Walk", "ビーチウォーク"],
+          "name": "Waikiki Beach Walk",
+          "aliases": [
+            "Beach Walk"
+          ],
           "location": "227 Lewers St, Honolulu",
           "mapUrl": "https://maps.app.goo.gl/bpDVqdVK3hZE84Nn9",
-          "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ワイキキの人気店が軒を連ねる。",
-          "highlights": "ショッピング、ダイニング、ライブ音楽、ウォーターフロント散策",
+          "desc": "ビーチからすぐの場所にある、屋外型のショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテインメントがそろい、砂浜から徒歩数分で楽しめます。",
+          "highlights": "ショッピング、食事、ライブ音楽、海辺の散歩",
           "photo": "/images/waikiki-beach-walk.jpg"
         },
         {
-          "name": "SALTアット・アワー・カカアコ",
-          "aliases": ["SALT", "SALT at Our Kakaako"],
+          "name": "SALT at Our Kakaako",
+          "aliases": [
+            "SALT"
+          ],
           "location": "691 Auahi St, Honolulu",
-          "desc": "カカアコのブティック、ギャラリー、レストランが集まるショッピング＆ダイニングハブ。地元ブランドが揃うウォーカブルなアーツ地区の中心。壁画アートも必見。",
-          "highlights": "ブティック、ギャラリー、ダイニング、ストリートアート",
+          "desc": "カカアコにあるブティックとグルメの集まる人気スポット。地元ブランド、ギャラリー、レストランが徒歩で回れるエリアに集まり、壁画で彩られたホノルルのアート地区の一部を成しています。",
+          "highlights": "ブティック、ギャラリー、食事、ストリートアート",
           "photo": "/images/SALT-at-Our-Kakaako.jpg"
         },
         {
-          "name": "ワード・ビレッジ",
-          "aliases": ["Ward Village"],
+          "name": "Ward Village",
+          "aliases": [],
           "location": "1240 Ala Moana Blvd, Honolulu",
-          "desc": "カカアコの洗練されたウォーカブル複合施設。上質なレストラン、ブティック、ウォード・エンタテインメント・センターが揃う。アーツ地区とウォーターフロントをつなぐハブ。",
-          "highlights": "ブティック、ダイニング、ウォード・エンタテインメント・センター、カカアコ・アーツ地区",
+          "desc": "Howard Hughes Corporation によって開発された、カカアコの計画都市型エリア。2016年以降段階的に整備され、高級レジデンスとともに、厳選されたショップ、レストラン、Ward Entertainment Center を備えています。カカアコのアート地区と海辺をつなぐ歩きやすい拠点です。",
+          "highlights": "ブティック、食事、Ward Entertainment Center、カカアコのアート地区",
           "photo": "/images/ward-village.jpg"
         }
       ]
@@ -311,203 +346,194 @@
   },
   "food": {
     "title": "グルメガイド",
-    "subtitle": "屋台のガーリックシュリンプから洗練されたコース料理まで。オアフの食の奥深さを探る。",
+    "subtitle": "トラックのガーリックシュリンプから洗練されたコースまで。オアフの食の幅広さは驚くほどです。",
     "localGems": "地元の名店",
-    "splurge": "特別な一食",
-    "casual": "絶対外せないカジュアル",
-    "whyGo": "なぜここへ",
+    "splurge": "贅沢",
+    "casual": "カジュアル",
+    "whyGo": "おすすめ理由",
     "price": "価格帯",
     "type": "ジャンル",
     "viewOnMap": "地図で見る",
     "items": {
       "localGems": [
         {
-          "name": "タムラス・ファイン・ワイン＆リカーズ",
-          "aliases": ["タムラス"],
-          "type": "ポケ",
-          "price": "$",
-          "location": "3496 Waialae Ave, Honolulu",
-          "whyGo": "見た目はリカーショップですが、オアフ最高のポケカウンターが。超新鮮なアヒ（マグロ）で自分好みのボウルを作りましょう。",
-          "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "レナードズ・ベーカリー",
-          "aliases": ["レナードのマラサダ", "レナード"],
-          "type": "マラサダ・ペストリー",
+          "name": "Leonard's Bakery",
+          "aliases": [
+            "Leonard's",
+            "Leonard's Malasadas"
+          ],
+          "type": "マラサダとペストリー",
           "price": "$",
           "location": "933 Kapahulu Ave, Honolulu",
-          "whyGo": "1952年創業。ポルトガル風ドーナツ「マラサダ」は数分おきに揚げたてが登場。シナモンシュガーをまぶしてどうぞ。",
+          "whyGo": "1952年創業。揚げたてのマラサダが数分おきに並びます。プレーンでもシナモンシュガーでもおいしく、熱いうちに食べるのがいちばん。現金もカードも利用できます。",
           "photo": "/images/leonard's-bakery.jpg"
         },
         {
-          "name": "ジョバンニズ・シュリンプ・トラック",
-          "type": "エビのプレート",
+          "name": "Island Vintage Shave Ice",
+          "aliases": [
+            "Island Vintage"
+          ],
+          "type": "シェイブアイス",
+          "price": "$",
+          "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
+          "whyGo": "ワイキキ中心部で楽しめる上質なシェイブアイス。自然なフルーツフレーバー、自家製シロップ、あずきやもち、リヒンパウダーなどのトッピングが魅力です。ビーチ帰りの立ち寄り先として人気です。",
+          "photo": "/images/island-vintage-shave-ice.jpg"
+        },
+        {
+          "name": "Giovanni's Shrimp Truck",
+          "aliases": [
+            "Giovanni's"
+          ],
+          "type": "シュリンププレート",
           "price": "$",
           "location": "66-472 Kamehameha Hwy, Haleiwa",
-          "whyGo": "ノースショアで最初のシュリンプトラック。ガーリックバターエビとライスの組み合わせ。オアフを語る上で欠かせない一軒。",
+          "whyGo": "1993年創業、ノースショア元祖のシュリンプトラック。ガーリックシュリンププレートとライスの定番コンビが味わえます。ランチのピーク時は行列覚悟です。",
           "photo": "/images/giovanni's-shrimp-truck.jpg"
         },
         {
-          "name": "ワイオラ・シェイブアイス",
-          "aliases": ["Waiola Shave Ice", "Waiola", "ワイオラ"],
-          "type": "シェイブアイス",
+          "name": "Aloh Health Bar and Cafe",
+          "aliases": [
+            "Aloh",
+            "Aloh Health Bar",
+            "Aloh Cafe"
+          ],
+          "type": "アサイーボウルとヘルシーフード",
           "price": "$",
-          "location": "2135 Waiola St, Honolulu",
-          "whyGo": "1940年創業の本格派シェイブアイス。細かくふわふわの氷にトロピカルフレーバー。地元にも観光客にも愛されるホノルルの名店。",
-          "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "島津ストア",
-          "aliases": ["Shimazu Store", "Shimazu", "シマヅ"],
-          "type": "シェイブアイス",
-          "price": "$",
-          "location": "3111 Castle St, Honolulu",
-          "whyGo": "ホノルルの定番シェイブアイス店。大盛り、地元のフレーバーコンボ、本格ハワイアンおやつ体験。無駄のない、美味しい氷。",
-          "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
+          "location": "407 Seaside Ave, Waikiki",
+          "whyGo": "アサイーボウル、抹茶ラテ、アボカドトースト、ジュース、コーヒーで評判のプラントベース系カフェ。ビーチ前の朝ごはんにぴったりです。",
+          "photo": "/images/aloh-health-bar-and-cafe.jpg"
         }
       ],
       "splurge": [
         {
-          "name": "アズール・レストラン",
-          "aliases": ["Azure Restaurant", "Azure"],
-          "type": "ファインダイニング",
+          "name": "Merriman's Honolulu",
+          "aliases": [
+            "Merriman's"
+          ],
+          "type": "ハワイリージョナルキュイジーヌ",
           "price": "$$$",
-          "location": "2259 Kalakaua Ave, Honolulu",
-          "whyGo": "ロイヤルハワイアンホテル内の世界クラスのファインダイニング。オーシャンフロントの眺望、スペイン・モーロ風の建築美。水〜日曜のディナー。要事前予約。",
-          "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
+          "location": "1108 Auahi St, Kakaako, Honolulu",
+          "whyGo": "地元食材を活かしたハワイリージョナルキュイジーヌを楽しめる近所のビストロ。Honolulu Magazine の Best Oahu Restaurant にも選ばれた人気店です。予約推奨。Ward Village の駐車場が無料で使えます。",
+          "photo": "/images/merriman's-honolulu.jpg"
         },
         {
-          "name": "ザ・ピッグ・アンド・ザ・レディ",
-          "type": "ベトナム・インスパイア",
+          "name": "Roy's Hawaii Kai",
+          "aliases": [
+            "Roy's"
+          ],
+          "type": "ハワイアンフュージョン",
           "price": "$$$",
+          "location": "6600 Kalanianaole Hwy, Honolulu",
+          "whyGo": "1988年開業、Roy Yamaguchi のオリジナル店。Hawaii Kai の Maunalua Bay 沿いにあり、Waimanalo からワイキキへ戻る途中、ワイキキからは約20分です。味噌焼きバターフィッシュやブラックンドアヒなどの看板料理と、充実したワインリストで知られています。予約がおすすめです。",
+          "photo": "/images/roy's-hawaii-kai.jpg"
+        },
+        {
+          "name": "The Pig and The Lady",
+          "aliases": [],
+          "type": "モダンベトナム料理",
+          "price": "$$",
           "location": "3650 Waialae Ave, Kaimuki",
-          "whyGo": "シェフ・アンドリュー・レのチャイナタウンの名店。フォー・フレンチディップ、ベトナム風カルボナーラなど独創性が光ります。要予約。",
+          "whyGo": "Andrew Le シェフの人気モダンベトナム料理店。2025年に Chinatown から明るい新しい Kaimuki 店舗へ移転しました。pho French dip、ahi tataki toast、Le fried chicken wings は必食です。ランチは水曜から日曜、ディナーは火曜から土曜、月曜定休。予約強く推奨です。",
           "photo": "/images/the-pig and-the-lady.jpg"
-        },
-        {
-          "name": "アラン・ウォンズ",
-          "type": "ハワイ・リージョナル",
-          "price": "$$$",
-          "location": "5000 Kahala Ave, Honolulu",
-          "whyGo": "ハワイ・リージョナル・キュイジーヌの開拓者。クラシックで洗練され、素材の調達にこだわった、まさにマイルストーンと呼べる食体験。",
-          "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "マリポサ",
-          "aliases": ["Mariposa"],
-          "type": "ファインダイニング",
-          "price": "$$$",
-          "location": "1450 Ala Moana Blvd, Honolulu",
-          "whyGo": "ニーマンマーカス内の洗練されたオープンエア・ダイニング。アラモアナを眺めるハワイ・リージョナル・キュイジーヌ。お別れディナーや特別な日に。",
-          "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         }
       ],
       "casual": [
         {
-          "name": "KCCファーマーズマーケット",
-          "type": "マーケット",
-          "price": "$",
-          "location": "4303 Diamond Head Rd, Honolulu",
-          "whyGo": "土曜朝のみ開催。マウイオニオンチップス、新鮮なヤシの実、リリコイ（パッションフルーツ）カード。ホノルル最高の朝市体験。",
-          "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
+          "name": "Duke's Waikiki",
+          "aliases": [
+            "Duke's"
+          ],
+          "type": "ハワイ料理とシーフード",
+          "price": "$$",
+          "location": "2335 Kalakaua Ave, Honolulu",
+          "whyGo": "ワイキキの王道ビーチフロントディナー。砂浜すぐそばで、ライブ音楽とにぎやかな雰囲気が楽しめます。huli huli chicken、フレッシュフィッシュ、Hula Pie が人気。バー席は予約なしでも座れることが多く、毎日営業しています。",
+          "photo": "/images/duke's-waikiki.jpg"
         },
         {
-          "name": "カラパワイマーケット",
-          "type": "デリ & マーケット",
+          "name": "Kalapawai Market",
+          "aliases": [],
+          "type": "デリとマーケット",
           "price": "$",
           "location": "306 S Kalaheo Ave, Kailua",
-          "whyGo": "カイルアで最も愛されている地元のデリ。サンドイッチ、地元のコーヒー、そして生き生きとしたコミュニティの雰囲気。",
+          "whyGo": "Kailua で愛される地元のデリ兼ゼネラルストア。サンドイッチ、コーヒー、持ち帰りやすい軽食が充実していて、Kailua Beach の前後にぴったりです。",
           "photo": "/images/kalapawai-market.jpg"
         },
         {
-          "name": "リリハ・ベーカリー",
-          "type": "ベーカリー & ダイナー",
+          "name": "Liliha Bakery",
+          "aliases": [],
+          "type": "ベーカリーとダイナー",
           "price": "$",
           "location": "515 N Kuakini St, Honolulu",
-          "whyGo": "24時間営業。シャンティリークリームを詰めたココパフは人生を変える美味しさ。カウンター席のみ。それがまた趣ある佇まい。",
+          "whyGo": "ココパフで有名な、地元定番のベーカリー兼ダイナー。シュー生地にシャンティリークリームを詰めた名物は必食。カウンター席ならではのローカル感があり、夜食にも朝食にもおすすめです。",
           "photo": "/images/liliha-bakery.jpg"
         },
         {
-          "name": "オーバーイージー",
-          "aliases": ["Over Easy"],
-          "type": "朝食 & ブランチ",
-          "price": "$$",
-          "location": "418 Kuulei Rd, Kailua",
-          "whyGo": "カイルアで人気の朝食スポット。クリエイティブな卵料理、地元食材、リラックスした雰囲気。ラニカイやカイルアビーチの朝の後に最適。",
-          "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "ココヘッド・カフェ",
-          "aliases": ["Koko Head Cafe", "Koko Head", "ココヘッド"],
+          "name": "Koko Head Cafe",
+          "aliases": [
+            "Koko Head"
+          ],
           "type": "ブランチ",
           "price": "$$",
-          "location": "1120 12th Ave, Honolulu",
-          "whyGo": "リー・アン・ウォンシェフの島風ブランチスポット。地元の味を活かした独創的な料理。",
+          "location": "1120 12th Ave, Kaimuki, Honolulu",
+          "whyGo": "Lee Anne Wong シェフによる、島らしいひねりを加えたブランチスポット。Breakfast Bibimbap や Cornflake French Toast など、創造的な料理で知られています。",
           "photo": "/images/koko-head-cafe.jpg"
         },
         {
-          "name": "ロイズ",
-          "aliases": ["Roy's", "ロイズ"],
-          "type": "ハワイアン・フュージョン",
+          "name": "Haleiwa Joe's",
+          "aliases": [],
+          "type": "シーフードとハワイ料理",
           "price": "$$",
-          "location": "226 Lewers St, Honolulu",
-          "whyGo": "ロイ・ヤマグチのハワイアン・フュージョンがワイキキビーチウォークに。シーフードと島の味わいが絶品。ランチもディナーもおすすめ。",
-          "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
+          "location": "66-011 Kamehameha Hwy, Haleiwa",
+          "whyGo": "店舗は2か所あり、ノースショア店は Haleiwa ハーバーを望み、Kaneohe 店は Haiku Gardens の鯉の池とコオラウ山脈の景色に囲まれています。新鮮な魚、ボリュームのある料理、気取らない雰囲気が魅力。どちらの店舗も予約不可です。",
+          "photo": "/images/haleiwa-joe's.jpg"
         },
         {
-          "name": "シュリンプ・シャック",
-          "aliases": ["Shrimp Shack", "シュリンプシャック"],
-          "type": "エビのプレート",
-          "price": "$",
-          "location": "53-360 Kamehameha Hwy, Hauula",
-          "whyGo": "ウィンドワードコーストの路傍の地元エビスポット。新鮮なガーリックエビとライス、カアアワののんびりした雰囲気。クアロア行き帰りに立ち寄りたい。",
-          "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
-        },
-        {
-          "name": "アンティ・パッツ",
-          "aliases": ["Aunty Pat's", "Aunty Pat", "アンティパット"],
-          "type": "地元プレートランチ",
-          "price": "$",
-          "location": "49-560 Kamehameha Hwy, Kaneohe",
-          "whyGo": "ウィンドワードコーストの本格地元スポット。プレートランチ、ハワイアン定番、心からのアロハ。カアアワの常連に愛される名店。",
-          "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
+          "name": "Buzz's Original Steakhouse",
+          "aliases": [
+            "Buzz's"
+          ],
+          "type": "ステーキハウスとシーフード",
+          "price": "$$",
+          "location": "413 Kawailoa Rd, Kailua",
+          "whyGo": "1962年創業、Lanikai Beach のすぐそばにある Kailua の名物店。60年以上続く家族経営で、上質なステーキ、新鮮な地元シーフード、力強いマイタイで知られています。バーエリアはウォークイン可ですが、テーブル席は特に週末すぐ埋まります。毎日ランチとディナー営業です。",
+          "photo": "/images/buzz's-original-steakhouse.jpg"
         }
       ]
     }
   },
   "tips": {
-    "title": "旅のヒント",
-    "subtitle": "快適で充実した一週間を過ごすための実用的なアドバイス。",
+    "title": "実用ヒント",
+    "subtitle": "島での1週間をスムーズに楽しむための大事なポイント。",
     "items": [
       {
         "icon": "Car",
-        "title": "レンタカーは必須",
-        "body": "ワイキキ以外を回るには車が不可欠です。HNL空港の大手レンタカー会社で予約を（1日$50〜$80）。島内の供給は限られているため、事前予約が必須。"
+        "title": "レンタカーを借りる",
+        "body": "ワイキキ以外のオアフも楽しみたいなら、車はほぼ必須です。HNL 空港で大手レンタカー会社から借りられ、目安は季節や車種によって1日50〜80ドルほど。ホリデーや学校休暇中は在庫が少なくなるので、早めの予約がおすすめです。"
       },
       {
         "icon": "MapPin",
-        "title": "駐車戦略",
-        "body": "ワイキキの市営駐車場は1〜2時間で$1〜$2（ホテルのバレー$35以上と雲泥の差）。ノースショアの大半のビーチに無料駐車場あり。週末は9時前着が鉄則。"
+        "title": "駐車のコツ",
+        "body": "ワイキキの市営・公共駐車場は1時間1〜2ドルほどで、35ドル以上かかるホテルのバレーパーキングよりかなりお得です。ノースショアのビーチ駐車場は午前遅くには満車になることも多いので、早めの到着を。車内に貴重品を残さないこと。Lanikai は Mokulua Drive 沿いの限られた路上駐車のみで、標識による制限があります。"
+      },
+      {
+        "icon": "Calendar",
+        "title": "事前予約しておきたいもの",
+        "body": "いくつかの体験は早めの計画が必要です。Diamond Head の登山予約（売り切れやすくオンライン予約制）、Hanauma Bay のシュノーケリング（2日前の午前7時 HST に予約開始、数分で満席になることも）、Kualoa Ranch のツアー、Ke Kai Waikiki Sunset Sail、そして Merriman's Honolulu、Roy's Hawaii Kai、The Pig and The Lady のディナー予約は事前手配がおすすめです。"
       },
       {
         "icon": "CreditCard",
-        "title": "支払い方法",
-        "body": "ほぼ全ての店でカードが使えます。屋台、市場、パーキングメーター用に$40〜$60の現金を用意しておきましょう。"
+        "title": "支払い",
+        "body": "オアフではほとんどの場所でクレジットカードが使えます。ただし、フードトラックやマーケット、一部の駐車場用に40〜60ドルほど現金があると安心です。Leonard's Bakery や多くのシェイブアイス店は現金にも強いですが、主要カード対応の店も多いです。"
       },
       {
         "icon": "Sun",
-        "title": "日焼け対策",
-        "body": "オアフはUV指数が年間を通じて高め。SPF50+を2時間おとに塗り直してください。ハワイ法ではリーフセーフ（サンゴに優しい）日焼け止めの使用が義務付けられています。"
-      },
-      {
-        "icon": "ShieldCheck",
-        "title": "リーフセーフ日焼け止め",
-        "body": "ハワイでは2021年から化学系日焼け止め（オキシベンゾン等）が禁止。ジンクオキサイドベースの製品を日本から持参を。現地でも購入できますが割高です。"
+        "title": "日差しとリーフ保護",
+        "body": "オアフの UV 指数は一年を通して強めです。曇りの日でも2時間おきに SPF30〜50以上を塗り直しましょう。ハワイでは oxybenzone や octinoxate を含まないリーフセーフ日焼け止めが求められるため、zinc oxide や titanium dioxide ベースのミネラル処方を選ぶのがおすすめです。使い慣れたものを日本から持参すると、現地価格より安く済むことがあります。"
       },
       {
         "icon": "Package",
-        "title": "持ち物チェックリスト",
-        "body": "リーフセーフ日焼け止め、ラッシュガード、マリンシューズ（岩場の出入りに）、水筒、軽いレインジャケット（ウィンドワード側用）、シュノーケルセット、エコバッグ（市場用）。"
+        "title": "持ち物の必需品",
+        "body": "リーフセーフの日焼け止め、長袖ラッシュガード、Hanauma Bay や岩場の多いノースショアで役立つウォーターシューズ、再利用できる水筒、ウィンドワード側向けの薄手の雨風よけ、持っていれば基本的なシュノーケル用品、そしてマーケットやビーチ用の折りたたみトートやデイパックがあると便利です。"
       }
     ]
   },
@@ -516,11 +542,11 @@
     "placeholder": "オアフ旅行について何でも聞いてください...",
     "send": "送信",
     "thinking": "考え中...",
-    "error": "エラーが発生しました。もう一度お試しください。",
-    "greeting": "こんにちは！あなたのオアフ専属ガイドです。旅行について何でもお気軽に：ビーチ、レストラン、移動手段、地元のヒントなど、何でもどうぞ。",
+    "error": "問題が発生しました。もう一度お試しください。",
+    "greeting": "私はあなたのオアフガイドです。旅行について何でも聞いてください。ビーチ、レストラン、移動のこと、ローカルなヒントまで何でもどうぞ。",
     "tooLong": "メッセージが長すぎます（最大500文字）。",
-    "limitReached": "セッションの上限に達しました。新しい会話を始めるにはページを更新してください。",
-    "cooldown": "次のメッセージを送信する前に少しお待ちください。",
-    "rateLimited": "リクエストが多すぎます。1分ほど待ってからお試しください。"
+    "limitReached": "このセッションの上限に達しました。新しい会話を始めるにはページを更新してください。",
+    "cooldown": "続けて送信する前に、少しだけお待ちください。",
+    "rateLimited": "リクエストが多すぎます。1分ほど待ってからもう一度お試しください。"
   }
 }

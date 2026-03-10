@@ -71,7 +71,7 @@ export default function Hero() {
           style={{
             fontFamily: "var(--font-display)",
             fontSize: "clamp(3rem, 7vw, 5rem)",
-            fontWeight: 300,
+            fontWeight: isJa ? 500 : 300,
             letterSpacing: "-0.02em",
             lineHeight: 1.05,
           }}

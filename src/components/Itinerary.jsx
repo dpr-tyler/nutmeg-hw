@@ -59,7 +59,8 @@ function TimeBlock({ icon: Icon, label, content, onEntityClick, isLast }) {
 }
 
 function DayCard({ day, isOpen, onToggle, onEntityClick }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isJa = i18n.language === "ja";
 
   return (
     <div
@@ -79,7 +80,7 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
         className="w-full flex items-center justify-between p-6 text-left cursor-pointer"
         style={{ background: "transparent", border: "none" }}
       >
-        <div className="flex items-center gap-5">
+        <div className={`flex items-center ${isJa ? "gap-0" : "gap-5"}`}>
           <span
             className="font-mono-accent text-xs tracking-widest"
             style={{
@@ -94,7 +95,7 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
           </span>
           <div>
             <h3
-              className="font-display text-xl leading-snug"
+              className={`font-display leading-snug ${isJa ? "text-lg" : "text-xl"}`}
               style={{
                 fontFamily: "var(--font-display)",
                 color: "var(--ink)",
