@@ -1,13 +1,7 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import {
-  UtensilsCrossed,
-  Star,
-  MapPin,
-  ExternalLink,
-  Lightbulb,
-} from "lucide-react";
+import { MapPin, ExternalLink, Lightbulb } from "lucide-react";
 import { getGoogleMapsUrl } from "../utils/mapsUrl";
 import ImageLightbox from "./ImageLightbox";
 
@@ -134,7 +128,7 @@ export function FoodCard({
         </div>
       </div>
 
-      <div className="rounded-2xl p-4" style={{ background: "var(--mist)" }}>
+      <div className="rounded-2xl p-4" style={{ background: "var(--mist-card)", border: "1px solid var(--mist-card-border)" }}>
         <div className="flex items-start gap-2">
           <Lightbulb
             size={13}
@@ -167,9 +161,8 @@ export function FoodCard({
       variants={compact ? {} : fadeUp}
       className={`rounded-3xl ${wrapperClass}`}
       style={{
-        background: "white",
-        border: "1px solid rgba(27,79,107,0.08)",
-        boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
+        background: "#FAFAFA",
+        border: "2px solid var(--card-border)",
       }}
     >
       {content}
@@ -177,17 +170,11 @@ export function FoodCard({
   );
 }
 
-function FoodCategory({ labelKey, items, accent, icon: Icon, onImageClick }) {
+function FoodCategory({ labelKey, items, accent, onImageClick }) {
   const { t } = useTranslation();
   return (
     <div className="mb-16">
       <div className="flex items-center gap-3 mb-6">
-        <div
-          className="w-8 h-8 rounded-xl flex items-center justify-center"
-          style={{ background: `${accent}15` }}
-        >
-          <Icon size={16} color={accent} strokeWidth={1.5} />
-        </div>
         <h3
           className="font-display text-2xl"
           style={{
@@ -281,7 +268,6 @@ export default function FoodGuide() {
                 labelKey="food.localGems"
                 items={foodItems.localGems || []}
                 accent="var(--sand)"
-                icon={Star}
                 onImageClick={(photo, name) =>
                   setLightbox({ url: photo, alt: name })
                 }
@@ -290,7 +276,6 @@ export default function FoodGuide() {
                 labelKey="food.splurge"
                 items={foodItems.splurge || []}
                 accent="var(--coral)"
-                icon={UtensilsCrossed}
                 onImageClick={(photo, name) =>
                   setLightbox({ url: photo, alt: name })
                 }
@@ -299,7 +284,6 @@ export default function FoodGuide() {
                 labelKey="food.casual"
                 items={foodItems.casual || []}
                 accent="var(--ocean)"
-                icon={MapPin}
                 onImageClick={(photo, name) =>
                   setLightbox({ url: photo, alt: name })
                 }

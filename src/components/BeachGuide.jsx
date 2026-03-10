@@ -128,7 +128,7 @@ export function BeachCard({
 
       <div
         className="rounded-2xl p-4 flex flex-col gap-3"
-        style={{ background: "var(--mist)" }}
+        style={{ background: "var(--mist-card)", border: "1px solid var(--mist-card-border)" }}
       >
         <div>
           <span
@@ -180,9 +180,8 @@ export function BeachCard({
       variants={compact ? {} : fadeUp}
       className="rounded-3xl overflow-hidden flex flex-col"
       style={{
-        background: "white",
-        border: "1px solid rgba(27,79,107,0.08)",
-        boxShadow: "0 2px 12px rgba(0,0,0,0.05)",
+        background: "#FAFAFA",
+        border: "2px solid var(--card-border)",
       }}
     >
       {content}

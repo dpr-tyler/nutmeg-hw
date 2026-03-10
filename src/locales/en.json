@@ -133,7 +133,7 @@
     "list": [
       {
         "name": "Waikiki Beach",
-        "location": "Honolulu",
+        "location": "2259 Kalakaua Ave, Honolulu",
         "bestFor": "Swimming, surfing lessons, sunset strolls",
         "crowd": 3,
         "difficulty": "Easy",
@@ -142,7 +142,7 @@
       },
       {
         "name": "Kailua Beach Park",
-        "location": "Kailua",
+        "location": "526 Kawailoa Rd, Kailua",
         "bestFor": "Kayaking to Mokulua Islands, windsurfing, long walks",
         "crowd": 1,
         "difficulty": "Easy",
@@ -151,7 +151,7 @@
       },
       {
         "name": "Lanikai Beach",
-        "location": "Kailua",
+        "location": "Mokulua Dr, Kailua",
         "bestFor": "Swimming, photography, quiet mornings",
         "crowd": 2,
         "difficulty": "Easy",
@@ -160,7 +160,7 @@
       },
       {
         "name": "Hanauma Bay",
-        "location": "East Honolulu",
+        "location": "100 Hanauma Bay Rd, Honolulu",
         "bestFor": "Snorkeling, marine life, sea turtles",
         "crowd": 3,
         "difficulty": "Easy",
@@ -169,7 +169,7 @@
       },
       {
         "name": "Waimea Bay",
-        "location": "North Shore",
+        "location": "61-031 Kamehameha Hwy, Haleiwa",
         "bestFor": "Rock jumping (summer), wave watching (winter)",
         "crowd": 2,
         "difficulty": "Moderate",
@@ -178,7 +178,7 @@
       },
       {
         "name": "Waimanalo Beach Park",
-        "location": "Waimanalo",
+        "location": "41-415 Hihimanu St, Waimanalo",
         "bestFor": "Bodyboarding, long walks, uncrowded swimming",
         "crowd": 1,
         "difficulty": "Easy",
@@ -197,7 +197,7 @@
       {
         "name": "Diamond Head",
         "aliases": [],
-        "location": "Honolulu",
+        "location": "4204 Diamond Head Rd, Honolulu",
         "desc": "Iconic crater hike, about 1.6 miles round trip with paid entry ($5 per person plus $10 parking). Opens at 6 AM. Advance online reservations are required and sell out. The summit offers 360-degree views of Waikiki and southeast Oahu.",
         "highlights": "Hiking, panoramic views, military tunnels, sunrise",
         "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -205,7 +205,7 @@
       {
         "name": "Kualoa Ranch",
         "aliases": ["Kualoa"],
-        "location": "Kaneohe",
+        "location": "49-560 Kamehameha Hwy, Kaneohe",
         "desc": "Famous filming location for Jurassic Park, Lost, Godzilla, and dozens of other productions. Offers UTV Raptor tours, ziplines, and movie site tours through a lush valley. Book popular tours well in advance as they sell out.",
         "highlights": "UTV tours, ziplines, movie sites, valley views",
         "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -213,7 +213,7 @@
       {
         "name": "Nu'uanu Pali Lookout",
         "aliases": ["Pali Lookout", "Nuuanu Pali"],
-        "location": "Windward Oahu",
+        "location": "Nuuanu Pali Dr, Honolulu",
         "desc": "Panoramic windward views from a cliffside viewpoint along the Pali Highway. Historic battle site of King Kamehameha's 1795 conquest of Oahu. Almost always extremely windy, so secure hats and bags. Small parking fee required.",
         "highlights": "Panoramic views, Ko'olau Mountains, windward coast, history",
         "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -221,7 +221,7 @@
       {
         "name": "Ho'omaluhia Botanical Garden",
         "aliases": ["Hoomaluhia"],
-        "location": "Kaneohe",
+        "location": "45-680 Luluku Rd, Kaneohe",
         "desc": "A roughly 400-acre botanical garden with a lake and a jaw-dropping Ko'olau mountain backdrop. Free entry. One of the most photogenic spots on the island for quiet walks and photos. Typically closed Thursdays.",
         "highlights": "Free entry, Ko'olau backdrop, lake, scenic walks, photography",
         "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -229,7 +229,7 @@
       {
         "name": "Ke Kai Catamaran",
         "aliases": ["Ke Kai"],
-        "location": "Waikiki Beach (in front of Duke's at Outrigger Waikiki)",
+        "location": "2335 Kalakaua Ave, Honolulu",
         "desc": "Popular Waikiki sunset catamaran. Boards at 5 PM, departs at 5:30 PM, runs 90 minutes with complimentary drinks. Sea turtles and dolphins are frequently spotted. Check in at least 30 minutes early or you may lose your reservation. Operates daily.",
         "highlights": "Sunset sail, complimentary drinks, turtle and dolphin sightings, daily departures",
         "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -237,7 +237,7 @@
       {
         "name": "Laniakea Beach",
         "aliases": [],
-        "location": "North Shore",
+        "location": "61-676 Kamehameha Hwy, Haleiwa",
         "desc": "Famous North Shore beach where Hawaiian green sea turtles often haul out on the sand to rest. Volunteer groups help educate visitors and keep everyone at a respectful distance. A memorable and reliable wildlife encounter.",
         "highlights": "Sea turtle sightings, volunteers, North Shore, wildlife",
         "photo": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -245,7 +245,7 @@
       {
         "name": "Manoa Falls Trail",
         "aliases": ["Manoa Falls"],
-        "location": "Manoa Valley, Honolulu",
+        "location": "3860 Manoa Rd, Honolulu",
         "desc": "A lush rainforest trail to a waterfall just above Honolulu. About 1.6 miles round trip with no park admission fee. Cool, misty, and jungle-dense. Go early for cooler temps, bring bug spray, and expect some mud.",
         "highlights": "Rainforest hike, waterfall, no admission fee, uncrowded mornings",
         "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -253,7 +253,7 @@
       {
         "name": "Royal Hawaiian Hotel",
         "aliases": ["Royal Hawaiian"],
-        "location": "Waikiki",
+        "location": "2259 Kalakaua Ave, Honolulu",
         "desc": "The historic Pink Palace of the Pacific, opened in 1927. Spanish-Moorish architecture, lush courtyards, and prime oceanfront real estate on Waikiki Beach. Home to Azure Restaurant (Wednesday through Sunday evenings) and the legendary Mai Tai Bar, open daily.",
         "highlights": "Historic hotel, Azure restaurant, Mai Tai Bar, oceanfront, Waikiki landmark",
         "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -261,7 +261,7 @@
       {
         "name": "Waikiki Beach Walk",
         "aliases": ["Beach Walk"],
-        "location": "Waikiki",
+        "location": "227 Lewers St, Honolulu",
         "desc": "Open-air shopping and dining promenade just off the sand. Restaurants, boutiques, and frequent live entertainment within a few minutes walk of the beach.",
         "highlights": "Shopping, dining, live music, waterfront stroll",
         "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -269,7 +269,7 @@
       {
         "name": "SALT at Our Kakaako",
         "aliases": ["SALT"],
-        "location": "Kakaako, Honolulu",
+        "location": "691 Auahi St, Honolulu",
         "desc": "Boutique shopping and dining hub in Kakaako. Local brands, galleries, and restaurants in a walkable urban district. Part of Honolulu's arts and culture neighborhood with mural-lined streets.",
         "highlights": "Boutiques, galleries, dining, street art",
         "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -277,7 +277,7 @@
       {
         "name": "Ward Village",
         "aliases": [],
-        "location": "Kakaako, Honolulu",
+        "location": "1240 Ala Moana Blvd, Honolulu",
         "desc": "A master-planned urban neighborhood in Kakaako developed by Howard Hughes Corporation. Opened in phases from 2016, it features luxury residences alongside curated retail, restaurants, and the Ward Entertainment Center. A walkable hub connecting Kakaako's arts district to the waterfront.",
         "highlights": "Boutiques, dining, Ward Entertainment Center, Kakaako arts district",
         "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -285,7 +285,7 @@
       {
         "name": "Kakaako Waterfront Park",
         "aliases": [],
-        "location": "Kakaako, Honolulu",
+        "location": "102 Ohe St, Honolulu",
         "desc": "A free, open oceanside park at the edge of Kakaako, with expansive lawn, a playground, and unobstructed views of the Pacific. Adjacent to Kewalo Basin, it's a relaxed spot to decompress after exploring the neighborhood's murals and galleries.",
         "highlights": "Free entry, ocean views, open lawn, waterfront, Kewalo Basin",
         "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -317,7 +317,7 @@
           "aliases": ["Leonard's", "Leonard's Malasadas"],
           "type": "Malasadas and Pastries",
           "price": "$",
-          "location": "Honolulu",
+          "location": "933 Kapahulu Ave, Honolulu",
           "whyGo": "Since 1952. Fresh malasadas come out every few minutes. Get them plain or cinnamon-sugared and eat them hot. Cash and cards accepted.",
           "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -326,7 +326,7 @@
           "aliases": ["Giovanni's"],
           "type": "Shrimp Plate",
           "price": "$",
-          "location": "North Shore",
+          "location": "66-472 Kamehameha Hwy, Haleiwa",
           "whyGo": "The original North Shore shrimp truck since 1993. Garlic shrimp plates over rice. Haleiwa location at 66-472 Kamehameha Hwy (across from McDonald's), open daily 10:30 AM to 5 PM. Kahuku location 10:30 AM to 6:30 PM. Expect lines at peak lunch.",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -355,7 +355,7 @@
           "aliases": ["Roy's"],
           "type": "Hawaiian Fusion",
           "price": "$$$",
-          "location": "Hawaii Kai, Honolulu",
+          "location": "6600 Kalanianaole Hwy, Honolulu",
           "whyGo": "Roy Yamaguchi's original Hawaiian fusion restaurant, opened in 1988. Situated on Maunalua Bay in Hawaii Kai, about 20 minutes from Waikiki on the drive back from Waimanalo. Known for signature dishes like misoyaki butterfish and blackened ahi, with an extensive wine list. Open daily for dinner from 4:30 PM (to 9 PM, 9:30 PM Fri–Sat). Happy hour Mon–Thu 4:30–5:30 PM. Reservations recommended.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -364,7 +364,7 @@
           "aliases": [],
           "type": "Modern Vietnamese",
           "price": "$$",
-          "location": "Civil Beat Plaza, 3650 Waialae Ave, Kaimuki",
+          "location": "3650 Waialae Ave, Kaimuki",
           "whyGo": "Chef Andrew Le's celebrated modern Vietnamese restaurant, now in a bright new Kaimuki space (moved from Chinatown in 2025). The pho French dip, ahi tataki toast, and Le fried chicken wings are iconic. Lunch Wednesday through Sunday, dinner Tuesday through Saturday. Closed Mondays. Reservations strongly recommended.",
           "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -375,7 +375,7 @@
           "aliases": ["Duke's"],
           "type": "Hawaiian and Seafood",
           "price": "$$",
-          "location": "Waikiki",
+          "location": "2335 Kalakaua Ave, Honolulu",
           "whyGo": "The classic Waikiki beachfront dinner. Right on the sand with live music and a lively crowd. Go for huli huli chicken, fresh fish, and Hula Pie. Bar seating is often available without a reservation. Open daily.",
           "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -384,7 +384,7 @@
           "aliases": [],
           "type": "Deli and Market",
           "price": "$",
-          "location": "Kailua",
+          "location": "306 S Kalaheo Ave, Kailua",
           "whyGo": "Kailua's beloved neighborhood deli and general store. Excellent sandwiches, coffee, and grab-and-go items. Perfect before or after Kailua Beach.",
           "photo": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -393,7 +393,7 @@
           "aliases": [],
           "type": "Bakery and Diner",
           "price": "$",
-          "location": "Honolulu",
+          "location": "515 N Kuakini St, Honolulu",
           "whyGo": "Classic local bakery-diner famous for coco puffs, choux pastry filled with Chantilly cream. Counter seating captures a genuinely local feel. A good stop for late-night cravings or an early breakfast.",
           "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -411,7 +411,7 @@
           "aliases": [],
           "type": "Seafood and Hawaiian",
           "price": "$$",
-          "location": "North Shore (66-011 Kamehameha Hwy) and Kaneohe at Haiku Gardens (46-336 Haiku Rd)",
+          "location": "66-011 Kamehameha Hwy, Haleiwa",
           "whyGo": "Two locations: the North Shore spot overlooks Haleiwa harbor, and the Kaneohe location sits inside Haiku Gardens with koi ponds and Ko'olau mountain views. Fresh fish, hearty portions, relaxed vibe. North Shore opens at 4:30 PM daily. Kaneohe opens at 4 PM daily. No reservations taken at either location.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -420,7 +420,7 @@
           "aliases": ["Buzz's"],
           "type": "Steakhouse and Seafood",
           "price": "$$",
-          "location": "Kailua",
+          "location": "413 Kawailoa Rd, Kailua",
           "whyGo": "A beloved Kailua institution since 1962, steps from Lanikai Beach. Family-owned for over six decades, known for prime steaks, fresh local seafood, and strong mai tais. The bar area is walk-in; tables fill quickly, especially on weekends. Open daily for lunch and dinner.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         }

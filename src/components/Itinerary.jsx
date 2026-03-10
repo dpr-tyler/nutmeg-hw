@@ -65,11 +65,11 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
     <div
       className="rounded-3xl overflow-hidden"
       style={{
-        background: "white",
-        border: "1px solid rgba(27,79,107,0.1)",
+        background: "#FAFAFA",
+        border: "2px solid var(--card-border)",
         boxShadow: isOpen
-          ? "0 8px 40px rgba(27,79,107,0.12)"
-          : "0 2px 8px rgba(0,0,0,0.04)",
+          ? "0 4px 24px -4px rgba(27,79,107,0.08)"
+          : "none",
         transition: "box-shadow 0.3s ease",
       }}
     >

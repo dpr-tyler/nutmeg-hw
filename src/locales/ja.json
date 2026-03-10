@@ -133,7 +133,7 @@
     "list": [
       {
         "name": "ワイキキビーチ",
-        "location": "ホノルル",
+        "location": "2259 Kalakaua Ave, Honolulu",
         "bestFor": "水泳、サーフィン体験、夕日散策",
         "crowd": 3,
         "difficulty": "Easy",
@@ -142,7 +142,7 @@
       },
       {
         "name": "ラニカイビーチ",
-        "location": "カイルア",
+        "location": "Mokulua Dr, Kailua",
         "bestFor": "水泳、モクルア島へのカヤック",
         "crowd": 2,
         "difficulty": "Easy",
@@ -151,7 +151,7 @@
       },
       {
         "name": "ハナウマ湾",
-        "location": "東ホノルル",
+        "location": "100 Hanauma Bay Rd, Honolulu",
         "bestFor": "シュノーケリング、海洋生物観察、ウミガメ",
         "crowd": 3,
         "difficulty": "Easy",
@@ -160,7 +160,7 @@
       },
       {
         "name": "ワイメアベイ",
-        "location": "ノースショア",
+        "location": "61-031 Kamehameha Hwy, Haleiwa",
         "bestFor": "岩からのジャンプ（夏）、波の観覧（冬）",
         "crowd": 2,
         "difficulty": "Moderate",
@@ -169,7 +169,7 @@
       },
       {
         "name": "サンセットビーチ",
-        "location": "ノースショア",
+        "location": "59-104 Kamehameha Hwy, Haleiwa",
         "bestFor": "夕日鑑賞、ビッグウェーブ観覧、写真撮影",
         "crowd": 1,
         "difficulty": "Easy",
@@ -178,7 +178,7 @@
       },
       {
         "name": "カイルアビーチ",
-        "location": "カイルア",
+        "location": "526 Kawailoa Rd, Kailua",
         "bestFor": "ウィンドサーフィン、カイトボーディング、散策",
         "crowd": 1,
         "difficulty": "Easy",
@@ -197,7 +197,7 @@
       {
         "name": "アラモアナセンター",
         "aliases": ["アラモアナ", "Ala Moana Center"],
-        "location": "ホノルル",
+        "location": "1450 Ala Moana Blvd, Honolulu",
         "desc": "ハワイ最大のオープンエアモール。350以上のショップとレストラン。無料駐車場、ワイキキから車で近い。海側から夕日が美しい。",
         "highlights": "ショッピング、ダイニング、夕日、無料駐車",
         "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -209,7 +209,7 @@
           "マツモトのシェイブアイス",
           "Matsumoto Shave Ice"
         ],
-        "location": "ハレイワ、ノースショア",
+        "location": "66-111 Kamehameha Hwy, Haleiwa",
         "desc": "1951年創業のノースショアの名店。定番のシェイブアイスとトロピカルフレーバー。行列覚悟で。近くの青木も同品質で待ち時間短め。",
         "highlights": "シェイブアイス、ノースショアの定番",
         "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -217,7 +217,7 @@
       {
         "name": "ドール・プランテーション",
         "aliases": ["ドール", "Dole Plantation"],
-        "location": "ワヒアワ",
+        "location": "64-1550 Kamehameha Hwy, Wahiawa",
         "desc": "パイナップル迷路、観光列車、トロピカルガーデン。ノースショア帰りにH-1海岸ルートで立ち寄り。ギフトショップでパイナップルお土産。",
         "highlights": "パイナップル迷路、列車ツアー、ガーデン",
         "photo": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -225,7 +225,7 @@
       {
         "name": "ダイヤモンドヘッド",
         "aliases": ["Diamond Head"],
-        "location": "ホノルル",
+        "location": "4204 Diamond Head Rd, Honolulu",
         "desc": "象徴的なクレーターハイク、往復約2.6km、入場$5。6時開場。早朝が涼しく光もベスト。ワイキキと東部オアフを360度一望。",
         "highlights": "ハイキング、パノラマ、日の出・夕日",
         "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -233,7 +233,7 @@
       {
         "name": "クアロア・ランチ",
         "aliases": ["クアロア", "Kualoa Ranch"],
-        "location": "カネオヘ",
+        "location": "49-560 Kamehameha Hwy, Kaneohe",
         "desc": "映画・TVの撮影地（ジュラシック・パーク、ロスト）。ATVや乗馬ツアーでドラマチックな渓谷を巡る。人気時間帯は事前予約を。",
         "highlights": "ATVツアー、乗馬、映画ロケ地、渓谷",
         "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -241,7 +241,7 @@
       {
         "name": "ヌウアヌ・パリ展望台",
         "aliases": ["パリ展望台", "ヌウアヌパリ", "Nu'uanu Pali Lookout"],
-        "location": "ウィンドワード・オアフ",
+        "location": "Nuuanu Pali Dr, Honolulu",
         "desc": "パリ・ハイウェイからのウィンドワード絶景。歴史的な戦いの舞台。風が強いので帽子に注意。オアフ屈指の絶景ポイント。",
         "highlights": "パノラマ、パリハイウェイ、ウィンドワード",
         "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -253,7 +253,7 @@
           "スワップミート",
           "Aloha Stadium Swap Meet"
         ],
-        "location": "ハラワ",
+        "location": "99-500 Salt Lake Blvd, Aiea",
         "desc": "ハワイ最大のフリーマーケット。土日開催。お土産、地元クラフト、マカダミアナッツ、コナコーヒー。多くの店舗は現金推奨。",
         "highlights": "お土産、地元クラフト、週末のみ",
         "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -261,7 +261,7 @@
       {
         "name": "ロイヤルハワイアンホテル",
         "aliases": ["Royal Hawaiian Hotel", "Royal Hawaiian", "ロイヤルハワイアン"],
-        "location": "ワイキキ",
+        "location": "2259 Kalakaua Ave, Honolulu",
         "desc": "太平洋のピンクの宮殿。1927年築の歴史的ランドマーク、スペイン・モーロ風建築。アズール・レストランを擁し、ワイキキビーチの最前線に位置。",
         "highlights": "歴史的ホテル、オーシャンフロント・ダイニング、ワイキキの象徴",
         "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -269,7 +269,7 @@
       {
         "name": "マノア・フォールズ・トレイル",
         "aliases": ["Manoa Falls Trail", "Manoa Falls", "マノア・フォールズ"],
-        "location": "マノア渓谷、ホノルル",
+        "location": "3860 Manoa Rd, Honolulu",
         "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
         "highlights": "熱帯雨林ハイク、滝、ファミリー向け",
         "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -277,7 +277,7 @@
       {
         "name": "ワイキキビーチウォーク",
         "aliases": ["Waikiki Beach Walk", "Beach Walk", "ビーチウォーク"],
-        "location": "ワイキキ",
+        "location": "227 Lewers St, Honolulu",
         "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ロイズなどワイキキの人気店が並ぶ。",
         "highlights": "ショッピング、ダイニング、ウォーターフロント散策",
         "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -317,7 +317,7 @@
           "aliases": ["タムラス"],
           "type": "ポケ",
           "price": "$",
-          "location": "ホノルル",
+          "location": "3496 Waialae Ave, Honolulu",
           "whyGo": "見た目はリカーショップですが、オアフ最高のポケカウンターが。超新鮮なアヒ（マグロ）で自分好みのボウルを作りましょう。",
           "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -326,7 +326,7 @@
           "aliases": ["レナードのマラサダ", "レナード"],
           "type": "マラサダ・ペストリー",
           "price": "$",
-          "location": "ホノルル",
+          "location": "933 Kapahulu Ave, Honolulu",
           "whyGo": "1952年創業。ポルトガル風ドーナツ「マラサダ」は数分おきに揚げたてが登場。シナモンシュガーをまぶしてどうぞ。",
           "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -334,7 +334,7 @@
           "name": "ジョバンニズ・シュリンプ・トラック",
           "type": "エビのプレート",
           "price": "$",
-          "location": "ノースショア",
+          "location": "66-472 Kamehameha Hwy, Haleiwa",
           "whyGo": "ノースショアで最初のシュリンプトラック。ガーリックバターエビとライスの組み合わせ。オアフを語る上で欠かせない一軒。",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -343,7 +343,7 @@
           "aliases": ["Waiola Shave Ice", "Waiola", "ワイオラ"],
           "type": "シェイブアイス",
           "price": "$",
-          "location": "ホノルル",
+          "location": "2135 Waiola St, Honolulu",
           "whyGo": "1940年創業の本格派シェイブアイス。細かくふわふわの氷にトロピカルフレーバー。地元にも観光客にも愛されるホノルルの名店。",
           "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -352,7 +352,7 @@
           "aliases": ["Shimazu Store", "Shimazu", "シマヅ"],
           "type": "シェイブアイス",
           "price": "$",
-          "location": "ホノルル",
+          "location": "3111 Castle St, Honolulu",
           "whyGo": "ホノルルの定番シェイブアイス店。大盛り、地元のフレーバーコンボ、本格ハワイアンおやつ体験。無駄のない、美味しい氷。",
           "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -363,7 +363,7 @@
           "aliases": ["Azure Restaurant", "Azure"],
           "type": "ファインダイニング",
           "price": "$$$",
-          "location": "ロイヤルハワイアンホテル、ワイキキ",
+          "location": "2259 Kalakaua Ave, Honolulu",
           "whyGo": "ロイヤルハワイアンホテル内の世界クラスのファインダイニング。オーシャンフロントの眺望、スペイン・モーロ風の建築美。水〜日曜のディナー。要事前予約。",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -371,7 +371,7 @@
           "name": "ザ・ピッグ・アンド・ザ・レディ",
           "type": "ベトナム・インスパイア",
           "price": "$$$",
-          "location": "ホノルル",
+          "location": "3650 Waialae Ave, Kaimuki",
           "whyGo": "シェフ・アンドリュー・レのチャイナタウンの名店。フォー・フレンチディップ、ベトナム風カルボナーラなど独創性が光ります。要予約。",
           "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -379,7 +379,7 @@
           "name": "アラン・ウォンズ",
           "type": "ハワイ・リージョナル",
           "price": "$$$",
-          "location": "ホノルル",
+          "location": "5000 Kahala Ave, Honolulu",
           "whyGo": "ハワイ・リージョナル・キュイジーヌの開拓者。クラシックで洗練され、素材の調達にこだわった、まさにマイルストーンと呼べる食体験。",
           "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -388,7 +388,7 @@
           "aliases": ["Mariposa"],
           "type": "ファインダイニング",
           "price": "$$$",
-          "location": "ニーマンマーカス・アラモアナ、ホノルル",
+          "location": "1450 Ala Moana Blvd, Honolulu",
           "whyGo": "ニーマンマーカス内の洗練されたオープンエア・ダイニング。アラモアナを眺めるハワイ・リージョナル・キュイジーヌ。お別れディナーや特別な日に。",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -398,7 +398,7 @@
           "name": "KCCファーマーズマーケット",
           "type": "マーケット",
           "price": "$",
-          "location": "ホノルル",
+          "location": "4303 Diamond Head Rd, Honolulu",
           "whyGo": "土曜朝のみ開催。マウイオニオンチップス、新鮮なヤシの実、リリコイ（パッションフルーツ）カード。ホノルル最高の朝市体験。",
           "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -406,7 +406,7 @@
           "name": "カラパワイマーケット",
           "type": "デリ & マーケット",
           "price": "$",
-          "location": "カイルア",
+          "location": "306 S Kalaheo Ave, Kailua",
           "whyGo": "カイルアで最も愛されている地元のデリ。サンドイッチ、地元のコーヒー、そして生き生きとしたコミュニティの雰囲気。",
           "photo": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -414,7 +414,7 @@
           "name": "リリハ・ベーカリー",
           "type": "ベーカリー & ダイナー",
           "price": "$",
-          "location": "ホノルル",
+          "location": "515 N Kuakini St, Honolulu",
           "whyGo": "24時間営業。シャンティリークリームを詰めたココパフは人生を変える美味しさ。カウンター席のみ。それがまた趣ある佇まい。",
           "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -423,7 +423,7 @@
           "aliases": ["Over Easy"],
           "type": "朝食 & ブランチ",
           "price": "$$",
-          "location": "カイルア",
+          "location": "418 Kuulei Rd, Kailua",
           "whyGo": "カイルアで人気の朝食スポット。クリエイティブな卵料理、地元食材、リラックスした雰囲気。ラニカイやカイルアビーチの朝の後に最適。",
           "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -432,7 +432,7 @@
           "aliases": ["Koko Head Cafe", "Koko Head", "ココヘッド"],
           "type": "ブランチ",
           "price": "$$",
-          "location": "ホノルル",
+          "location": "1120 12th Ave, Honolulu",
           "whyGo": "リー・アン・ウォンシェフの島風ブランチスポット。8時開店。平日は予約不要。地元の味を活かした独創的な料理。",
           "photo": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -441,7 +441,7 @@
           "aliases": ["Roy's", "ロイズ"],
           "type": "ハワイアン・フュージョン",
           "price": "$$",
-          "location": "ワイキキビーチウォーク",
+          "location": "226 Lewers St, Honolulu",
           "whyGo": "ロイ・ヤマグチのハワイアン・フュージョンがワイキキビーチウォークに。シーフードと島の味わいが絶品。ランチもディナーもおすすめ。",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -450,7 +450,7 @@
           "aliases": ["Shrimp Shack", "シュリンプシャック"],
           "type": "エビのプレート",
           "price": "$",
-          "location": "カアアワ",
+          "location": "53-360 Kamehameha Hwy, Hauula",
           "whyGo": "ウィンドワードコーストの路傍の地元エビスポット。新鮮なガーリックエビとライス、カアアワののんびりした雰囲気。クアロア行き帰りに立ち寄りたい。",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -459,7 +459,7 @@
           "aliases": ["Aunty Pat's", "Aunty Pat", "アンティパット"],
           "type": "地元プレートランチ",
           "price": "$",
-          "location": "カアアワ",
+          "location": "49-560 Kamehameha Hwy, Kaneohe",
           "whyGo": "ウィンドワードコーストの本格地元スポット。プレートランチ、ハワイアン定番、心からのアロハ。カアアワの常連に愛される名店。",
           "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         }

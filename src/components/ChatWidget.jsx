@@ -19,7 +19,7 @@ function Message({ msg, isJa }) {
       <div
         className="max-w-[80%] px-4 py-3 rounded-3xl"
         style={{
-          background: isUser ? "var(--ocean)" : "var(--mist)",
+          background: isUser ? "var(--ocean)" : "var(--mist-card)",
           color: isUser ? "white" : "var(--ink)",
           fontSize: "0.875rem",
           lineHeight: 1.65,
@@ -140,10 +140,8 @@ export default function ChatWidget() {
               style={{
                 width: "350px",
                 height: "500px",
-                background: "white",
-                boxShadow:
-                  "0 20px 60px rgba(0,0,0,0.18), 0 4px 16px rgba(0,0,0,0.08)",
-                border: "1px solid rgba(27,79,107,0.1)",
+                background: "#FAFAFA",
+                border: "2px solid var(--card-border)",
                 position: "absolute",
                 bottom: 0,
                 right: 0,
@@ -201,7 +199,7 @@ export default function ChatWidget() {
                     </div>
                     <div
                       className="px-4 py-3 rounded-3xl"
-                      style={{ background: "var(--mist)" }}
+                      style={{ background: "var(--mist-card)" }}
                     >
                       <div className="flex gap-1 items-center h-4">
                         {[0, 0.15, 0.3].map((delay, i) => (

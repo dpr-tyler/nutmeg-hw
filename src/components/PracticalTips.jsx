@@ -40,14 +40,13 @@ function TipCard({ item }) {
       variants={fadeUp}
       className="flex flex-col gap-4 p-6 rounded-3xl"
       style={{
-        background: "white",
-        border: "1px solid rgba(27,79,107,0.08)",
-        boxShadow: "0 2px 10px rgba(0,0,0,0.04)",
+        background: "#FAFAFA",
+        border: "2px solid var(--card-border)",
       }}
     >
       <div className="flex gap-5 items-center">
         <div
-          className="w-11 h-11 rounded-2xl flex items-center justify-center shrink-0"
+          className="w-11 h-11 rounded-full flex items-center justify-center shrink-0"
           style={{ background: "rgba(27,79,107,0.08)" }}
         >
           <Icon size={20} color="var(--ocean)" strokeWidth={1.5} />

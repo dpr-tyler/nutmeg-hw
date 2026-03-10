@@ -110,7 +110,10 @@ export function LocationCard({
       </p>
 
       {location.highlights && (
-        <div className="rounded-2xl p-4" style={{ background: "var(--mist)" }}>
+        <div
+          className="rounded-2xl p-4"
+          style={{ background: "var(--mist-card)", border: "1px solid var(--mist-card-border)" }}
+        >
           <span
             className="text-xs uppercase tracking-widest block mb-1"
             style={{
@@ -146,9 +149,8 @@ export function LocationCard({
       variants={compact ? {} : fadeUp}
       className="rounded-3xl overflow-hidden flex flex-col"
       style={{
-        background: "white",
-        border: "1px solid rgba(27,79,107,0.08)",
-        boxShadow: "0 2px 12px rgba(0,0,0,0.05)",
+        background: "#FAFAFA",
+        border: "2px solid var(--card-border)",
       }}
     >
       {content}

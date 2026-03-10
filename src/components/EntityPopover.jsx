@@ -50,8 +50,8 @@ export default function EntityPopover({ entity, onClose }) {
           transition={{ duration: 0.2 }}
           className="relative max-w-md w-full max-h-[85vh] overflow-y-auto rounded-3xl"
           style={{
-            background: "white",
-            boxShadow: "0 24px 48px rgba(0,0,0,0.2)",
+            background: "#FAFAFA",
+            border: "2px solid var(--card-border)",
           }}
           onClick={(e) => e.stopPropagation()}
         >
