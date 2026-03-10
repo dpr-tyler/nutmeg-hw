@@ -94,7 +94,7 @@ export function BeachCard({
                 </span>
               </div>
               <a
-                href={getGoogleMapsUrl(beach.name, beach.location)}
+                href={beach.mapUrl || getGoogleMapsUrl(beach.name, beach.location)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"

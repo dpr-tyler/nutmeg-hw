@@ -134,6 +134,7 @@
       {
         "name": "ワイキキビーチ",
         "location": "2259 Kalakaua Ave, Honolulu",
+        "mapUrl": "https://maps.app.goo.gl/mjta8wZbTwedpLCU8",
         "bestFor": "水泳、サーフィン体験、夕日散策",
         "crowd": 3,
         "difficulty": "Easy",
@@ -152,6 +153,7 @@
       {
         "name": "ハナウマ湾",
         "location": "100 Hanauma Bay Rd, Honolulu",
+        "mapUrl": "https://maps.app.goo.gl/6cBXinjARSK9aeyq6",
         "bestFor": "シュノーケリング、海洋生物観察、ウミガメ",
         "crowd": 3,
         "difficulty": "Easy",
@@ -161,6 +163,7 @@
       {
         "name": "ワイメアベイ",
         "location": "61-031 Kamehameha Hwy, Haleiwa",
+        "mapUrl": "https://maps.app.goo.gl/2HDtbKcNNYRtkMqCA",
         "bestFor": "岩からのジャンプ（夏）、波の観覧（冬）",
         "crowd": 2,
         "difficulty": "Moderate",
@@ -210,6 +213,7 @@
           "name": "ヌウアヌ・パリ展望台",
           "aliases": ["パリ展望台", "ヌウアヌパリ", "Nu'uanu Pali Lookout"],
           "location": "Nuuanu Pali Dr, Honolulu",
+          "mapUrl": "https://maps.app.goo.gl/TD4QxpF2V2QF3VrU9",
           "desc": "パリ・ハイウェイからのウィンドワード絶景。1795年カメハメハ大王のオアフ征服の歴史的戦場。常に強風なので帽子やバッグに注意。駐車料金あり。",
           "highlights": "パノラマ、コオラウ山脈、ウィンドワード、歴史",
           "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -226,6 +230,7 @@
           "name": "マノア・フォールズ・トレイル",
           "aliases": ["Manoa Falls Trail", "Manoa Falls", "マノア・フォールズ"],
           "location": "3860 Manoa Rd, Honolulu",
+          "mapUrl": "https://maps.app.goo.gl/JBX3Run2kWq5HYtQ7",
           "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、入場無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
           "highlights": "熱帯雨林ハイク、滝、入場無料、早朝がおすすめ",
           "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -258,7 +263,8 @@
         },
         {
           "name": "ケ・カイ・カタマラン",
-          "aliases": ["Ke Kai Catamaran", "Ke Kai"],
+          "aliases": ["Ke Kai Waikiki Sunset Sail", "Ke Kai Catamaran Waikiki Sunset Sail", "Ke Kai Catamaran", "Ke Kai"],
+          "mapUrl": "https://maps.app.goo.gl/BBULZnwNrXuyHJWt9",
           "location": "2335 Kalakaua Ave, Honolulu",
           "desc": "ワイキキの夕日カタマランクルーズ。17時チェックイン、17時30分出発、90分間のクルーズ。ドリンク無料。ウミガメやイルカの目撃多数。出発30分前には必ずチェックインを。毎日運航。",
           "highlights": "サンセットセール、無料ドリンク、ウミガメ・イルカ遭遇、毎日出航",
@@ -278,6 +284,7 @@
           "name": "ワイキキビーチウォーク",
           "aliases": ["Waikiki Beach Walk", "Beach Walk", "ビーチウォーク"],
           "location": "227 Lewers St, Honolulu",
+          "mapUrl": "https://maps.app.goo.gl/bpDVqdVK3hZE84Nn9",
           "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ワイキキの人気店が軒を連ねる。",
           "highlights": "ショッピング、ダイニング、ライブ音楽、ウォーターフロント散策",
           "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"

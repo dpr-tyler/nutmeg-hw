@@ -32,7 +32,7 @@ const SYSTEM_PROMPT_EN = `You are a calm, attentive concierge at a luxury resort
 
 ITINERARY OVERVIEW:
 - Day 1: Arrival & Waikiki: check in, beach, Duke's Waikiki dinner (huli huli chicken, Hula Pie)
-- Day 2: Rest day Waikiki: Leonard's/Aloh Health Bar, beach, Waiola shave ice, Ke Kai Catamaran sunset sail
+- Day 2: Rest day Waikiki: Leonard's/Aloh Health Bar, beach, Waiola shave ice, Ke Kai Waikiki Sunset Sail
 - Day 3: Manoa Falls, Koko Head Cafe brunch, Leonard's/Liliha/Waiola, Kakaako murals and Ward Village, Merriman's Honolulu dinner
 - Day 4: Diamond Head hike (6 AM, book ahead $5/person + $10 parking), KCC Farmers Market or Kaimuki, The Pig and The Lady dinner
 - Day 5: Hanauma Bay snorkeling (reservations online, 2 days ahead at 7 AM HST, $25 + $3 parking, closed Mon/Tue), North Shore: Laniakea turtles, Haleiwa, Giovanni's Shrimp Truck, Waimea Bay, Haleiwa Joe's dinner

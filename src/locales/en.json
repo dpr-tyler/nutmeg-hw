@@ -63,8 +63,8 @@
         "budget": "$",
         "morning": "Sleep in and take your time. Pick up fresh malasadas from Leonard's Bakery or grab an acai bowl from Aloh Health Bar on Seaside Ave. No agenda today.",
         "afternoon": "Spend the afternoon at Waikiki Beach at your own pace. Swim, rent a paddleboard, grab a shave ice from Island Vintage Shave Ice in Waikiki, or simply find a spot in the shade. Browse the Waikiki Beach Walk shops if you feel like moving around.",
-        "evening": "Catch the Ke Kai Catamaran sunset sail from Waikiki Beach. Check-in is at 5 PM with a 5:30 PM departure, and the sail runs 90 minutes. Drinks are complimentary. Dolphin and sea turtle sightings are common. A perfect evening on the water.",
-        "tip": "Book the Ke Kai sail a few days ahead, especially for weekend slots. The boat departs from the beach in front of Duke's Restaurant at the Outrigger Waikiki. Check in 30 minutes before departure or you may lose your spot."
+        "evening": "Catch the Ke Kai Waikiki Sunset Sail from Waikiki Beach. Check-in is at 5 PM with a 5:30 PM departure, and the sail runs 90 minutes. Drinks are complimentary. Dolphin and sea turtle sightings are common. A perfect evening on the water.",
+        "tip": "Book the Ke Kai Waikiki Sunset Sail a few days ahead, especially for weekend slots. The boat departs from the beach in front of Duke's Restaurant at the Outrigger Waikiki. Check in 30 minutes before departure or you may lose your spot."
       },
       {
         "day": "Day 03",
@@ -134,6 +134,7 @@
       {
         "name": "Waikiki Beach",
         "location": "2259 Kalakaua Ave, Honolulu",
+        "mapUrl": "https://maps.app.goo.gl/mjta8wZbTwedpLCU8",
         "bestFor": "Swimming, surfing lessons, sunset strolls",
         "crowd": 3,
         "difficulty": "Easy",
@@ -162,6 +163,7 @@
       {
         "name": "Hanauma Bay",
         "location": "100 Hanauma Bay Rd, Honolulu",
+        "mapUrl": "https://maps.app.goo.gl/6cBXinjARSK9aeyq6",
         "bestFor": "Snorkeling, marine life, sea turtles",
         "crowd": 3,
         "difficulty": "Easy",
@@ -171,6 +173,7 @@
       {
         "name": "Waimea Bay",
         "location": "61-031 Kamehameha Hwy, Haleiwa",
+        "mapUrl": "https://maps.app.goo.gl/2HDtbKcNNYRtkMqCA",
         "bestFor": "Rock jumping (summer), wave watching (winter)",
         "crowd": 2,
         "difficulty": "Moderate",
@@ -179,7 +182,8 @@
       },
       {
         "name": "Waimanalo Beach Park",
-        "location": "41-415 Hihimanu St, Waimanalo",
+        "location": "41-1013 Laumilo St, Waimanalo, HI 96795",
+        "mapUrl": "https://maps.app.goo.gl/5FBDZzjsTcARgrus9",
         "bestFor": "Bodyboarding, long walks, uncrowded swimming",
         "crowd": 1,
         "difficulty": "Easy",
@@ -220,6 +224,7 @@
           "name": "Nu'uanu Pali Lookout",
           "aliases": ["Pali Lookout", "Nuuanu Pali"],
           "location": "Nuuanu Pali Dr, Honolulu",
+          "mapUrl": "https://maps.app.goo.gl/TD4QxpF2V2QF3VrU9",
           "desc": "Panoramic windward views from a cliffside viewpoint along the Pali Highway. Historic battle site of King Kamehameha's 1795 conquest of Oahu. Almost always extremely windy, so secure hats and bags. Small parking fee required.",
           "highlights": "Panoramic views, Ko'olau Mountains, windward coast, history",
           "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -236,6 +241,7 @@
           "name": "Manoa Falls Trail",
           "aliases": ["Manoa Falls"],
           "location": "3860 Manoa Rd, Honolulu",
+          "mapUrl": "https://maps.app.goo.gl/JBX3Run2kWq5HYtQ7",
           "desc": "A lush rainforest trail to a waterfall just above Honolulu. About 1.6 miles round trip with no park admission fee. Cool, misty, and jungle-dense. Go early for cooler temps, bring bug spray, and expect some mud.",
           "highlights": "Rainforest hike, waterfall, no admission fee, uncrowded mornings",
           "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -267,8 +273,9 @@
           "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
         },
         {
-          "name": "Ke Kai Catamaran",
-          "aliases": ["Ke Kai"],
+          "name": "Ke Kai Catamaran Waikiki Sunset Sail",
+          "aliases": ["Ke Kai", "Ke Kai Catamaran", "Ke Kai Waikiki Sunset Sail"],
+          "mapUrl": "https://maps.app.goo.gl/BBULZnwNrXuyHJWt9",
           "location": "2335 Kalakaua Ave, Honolulu",
           "desc": "Popular Waikiki sunset catamaran. Boards at 5 PM, departs at 5:30 PM, runs 90 minutes with complimentary drinks. Sea turtles and dolphins are frequently spotted. Check in at least 30 minutes early or you may lose your reservation. Operates daily.",
           "highlights": "Sunset sail, complimentary drinks, turtle and dolphin sightings, daily departures",
@@ -288,6 +295,7 @@
           "name": "Waikiki Beach Walk",
           "aliases": ["Beach Walk"],
           "location": "227 Lewers St, Honolulu",
+          "mapUrl": "https://maps.app.goo.gl/bpDVqdVK3hZE84Nn9",
           "desc": "Open-air shopping and dining promenade just off the sand. Restaurants, boutiques, and frequent live entertainment within a few minutes walk of the beach.",
           "highlights": "Shopping, dining, live music, waterfront stroll",
           "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
@@ -464,7 +472,7 @@
       {
         "icon": "Calendar",
         "title": "Book These in Advance",
-        "body": "Some experiences require early planning: Diamond Head hiking reservations (sell out, book online), Hanauma Bay snorkeling (reservations online open two days ahead at 7 AM HST and sell out within minutes), Kualoa Ranch tours, Ke Kai catamaran, and dinner reservations at Merriman's Honolulu, Roy's Hawaii Kai, and The Pig and The Lady."
+        "body": "Some experiences require early planning: Diamond Head hiking reservations (sell out, book online), Hanauma Bay snorkeling (reservations online open two days ahead at 7 AM HST and sell out within minutes), Kualoa Ranch tours, Ke Kai Waikiki Sunset Sail, and dinner reservations at Merriman's Honolulu, Roy's Hawaii Kai, and The Pig and The Lady."
       },
       {
         "icon": "CreditCard",
