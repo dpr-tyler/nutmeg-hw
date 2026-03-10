@@ -1,5 +1,4 @@
 practical tips remove url, check accuracy
+itenerary as well
 
 interactive island?
-
-~~move Laniakea Beach to beach section~~

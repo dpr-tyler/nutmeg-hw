@@ -193,112 +193,113 @@
     "subtitle": "旅程に登場するランドマーク、ショップ、体験スポットをご紹介。",
     "viewOnMap": "地図で見る",
     "highlights": "見どころ",
-    "list": [
-      {
-        "name": "アラモアナセンター",
-        "aliases": ["アラモアナ", "Ala Moana Center"],
-        "location": "1450 Ala Moana Blvd, Honolulu",
-        "desc": "ハワイ最大のオープンエアモール。350以上のショップとレストラン。無料駐車場、ワイキキから車で近い。海側から夕日が美しい。",
-        "highlights": "ショッピング、ダイニング、夕日、無料駐車",
-        "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "マツモト・シェイブアイス",
-        "aliases": [
-          "マツモト",
-          "マツモトのシェイブアイス",
-          "Matsumoto Shave Ice"
-        ],
-        "location": "66-111 Kamehameha Hwy, Haleiwa",
-        "desc": "1951年創業のノースショアの名店。定番のシェイブアイスとトロピカルフレーバー。行列覚悟で。近くの青木も同品質で待ち時間短め。",
-        "highlights": "シェイブアイス、ノースショアの定番",
-        "photo": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "ドール・プランテーション",
-        "aliases": ["ドール", "Dole Plantation"],
-        "location": "64-1550 Kamehameha Hwy, Wahiawa",
-        "desc": "パイナップル迷路、観光列車、トロピカルガーデン。ノースショア帰りにH-1海岸ルートで立ち寄り。ギフトショップでパイナップルお土産。",
-        "highlights": "パイナップル迷路、列車ツアー、ガーデン",
-        "photo": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "ダイヤモンドヘッド",
-        "aliases": ["Diamond Head"],
-        "location": "4204 Diamond Head Rd, Honolulu",
-        "desc": "象徴的なクレーターハイク、往復約2.6km、入場$5。6時開場。早朝が涼しく光もベスト。ワイキキと東部オアフを360度一望。",
-        "highlights": "ハイキング、パノラマ、日の出・夕日",
-        "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "クアロア・ランチ",
-        "aliases": ["クアロア", "Kualoa Ranch"],
-        "location": "49-560 Kamehameha Hwy, Kaneohe",
-        "desc": "映画・TVの撮影地（ジュラシック・パーク、ロスト）。ATVや乗馬ツアーでドラマチックな渓谷を巡る。人気時間帯は事前予約を。",
-        "highlights": "ATVツアー、乗馬、映画ロケ地、渓谷",
-        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "ヌウアヌ・パリ展望台",
-        "aliases": ["パリ展望台", "ヌウアヌパリ", "Nu'uanu Pali Lookout"],
-        "location": "Nuuanu Pali Dr, Honolulu",
-        "desc": "パリ・ハイウェイからのウィンドワード絶景。歴史的な戦いの舞台。風が強いので帽子に注意。オアフ屈指の絶景ポイント。",
-        "highlights": "パノラマ、パリハイウェイ、ウィンドワード",
-        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "アロハスタジアム・スワップミート",
-        "aliases": [
-          "アロハスタジアム",
-          "スワップミート",
-          "Aloha Stadium Swap Meet"
-        ],
-        "location": "99-500 Salt Lake Blvd, Aiea",
-        "desc": "ハワイ最大のフリーマーケット。土日開催。お土産、地元クラフト、マカダミアナッツ、コナコーヒー。多くの店舗は現金推奨。",
-        "highlights": "お土産、地元クラフト、週末のみ",
-        "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "ロイヤルハワイアンホテル",
-        "aliases": ["Royal Hawaiian Hotel", "Royal Hawaiian", "ロイヤルハワイアン"],
-        "location": "2259 Kalakaua Ave, Honolulu",
-        "desc": "太平洋のピンクの宮殿。1927年築の歴史的ランドマーク、スペイン・モーロ風建築。アズール・レストランを擁し、ワイキキビーチの最前線に位置。",
-        "highlights": "歴史的ホテル、オーシャンフロント・ダイニング、ワイキキの象徴",
-        "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "マノア・フォールズ・トレイル",
-        "aliases": ["Manoa Falls Trail", "Manoa Falls", "マノア・フォールズ"],
-        "location": "3860 Manoa Rd, Honolulu",
-        "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
-        "highlights": "熱帯雨林ハイク、滝、ファミリー向け",
-        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "ワイキキビーチウォーク",
-        "aliases": ["Waikiki Beach Walk", "Beach Walk", "ビーチウォーク"],
-        "location": "227 Lewers St, Honolulu",
-        "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ロイズなどワイキキの人気店が並ぶ。",
-        "highlights": "ショッピング、ダイニング、ウォーターフロント散策",
-        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "コオラウ山脈",
-        "aliases": ["Ko'olau Mountains", "Ko'olau", "Ko'olau range", "コオラウ"],
-        "location": "ウィンドワード・オアフ",
-        "desc": "オアフのウィンドワード側を形作るドラマチックな緑の断崖。パリ・ハイウェイとH-3が山脈を貫き、アメリカで最も美しいドライブルートのひとつ。霧に包まれた峰と緑の渓谷。",
-        "highlights": "絶景ドライブ、断崖、ウィンドワードの眺望",
-        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "カネオヘ湾",
-        "aliases": ["Kaneohe Bay", "Kaneohe Bay sandbar", "カネオヘ湾砂洲"],
-        "location": "ウィンドワード・オアフ",
-        "desc": "干潮時に現れる有名な砂洲がある保護された湾。ヘエイア・ケア小型ボート港からカヤックまたはツアーボートで。砂洲ツアーは夏場すぐ満員（事前予約を）。",
-        "highlights": "砂洲、カヤック、シュノーケリング、干潮",
-        "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
-      }
-    ]
+    "nature": "自然・アウトドア",
+    "experiences": "体験・アクティビティ",
+    "shopping": "ショッピング・街歩き",
+    "items": {
+      "nature": [
+        {
+          "name": "ダイヤモンドヘッド",
+          "aliases": ["Diamond Head"],
+          "location": "4204 Diamond Head Rd, Honolulu",
+          "desc": "象徴的なクレーターハイク、往復約2.6km、入場$5。6時開場。早朝が涼しく光もベスト。ワイキキと東部オアフを360度一望。事前オンライン予約必須。",
+          "highlights": "ハイキング、パノラマ、軍用トンネル、日の出",
+          "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ヌウアヌ・パリ展望台",
+          "aliases": ["パリ展望台", "ヌウアヌパリ", "Nu'uanu Pali Lookout"],
+          "location": "Nuuanu Pali Dr, Honolulu",
+          "desc": "パリ・ハイウェイからのウィンドワード絶景。1795年カメハメハ大王のオアフ征服の歴史的戦場。常に強風なので帽子やバッグに注意。駐車料金あり。",
+          "highlights": "パノラマ、コオラウ山脈、ウィンドワード、歴史",
+          "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ホオマルヒア植物園",
+          "aliases": ["Hoomaluhia", "Ho'omaluhia Botanical Garden"],
+          "location": "45-680 Luluku Rd, Kaneohe",
+          "desc": "約160ヘクタールの植物園。湖とコオラウ山脈を背景にした絶景が広がります。無料入場。島内でも屈指の撮影スポット。通常木曜定休。",
+          "highlights": "無料入場、コオラウ山脈の眺め、湖、散策、写真撮影",
+          "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "マノア・フォールズ・トレイル",
+          "aliases": ["Manoa Falls Trail", "Manoa Falls", "マノア・フォールズ"],
+          "location": "3860 Manoa Rd, Honolulu",
+          "desc": "鬱蒼とした熱帯雨林を歩き、滝へ。往復約2.6km、入場無料。8時前着で涼しく人も少ない。虫除け必須。雨後はぬかるみやすいのでグリップのある靴で。",
+          "highlights": "熱帯雨林ハイク、滝、入場無料、早朝がおすすめ",
+          "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "カカアコ・ウォーターフロント・パーク",
+          "aliases": ["Kakaako Waterfront Park"],
+          "location": "102 Ohe St, Honolulu",
+          "desc": "カカアコの海沿いにある無料の公園。広々とした芝生、遊具、遮るもののない太平洋の眺め。壁画やギャラリーを楽しんだ後のひと休みに最適。",
+          "highlights": "無料入場、海の眺め、芝生広場、ウォーターフロント",
+          "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "モクルア諸島",
+          "aliases": ["ナ・モクルア", "Mokulua Islands", "Na Mokulua"],
+          "location": "Kailua Bay, Windward Oahu",
+          "desc": "ラニカイビーチ沖に浮かぶ2つの小さな離島（モクヌイとモクイキ）。どちらも海鳥の保護区。モクヌイには砂浜と景観トレイルがあります。カイルアビーチまたはラニカイからカヤックで約30〜45分。",
+          "highlights": "カヤック、海鳥保護区、モクヌイの砂浜と景観トレイル",
+          "photo": "https://images.unsplash.com/photo-1559827260-d66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
+        }
+      ],
+      "experiences": [
+        {
+          "name": "クアロア・ランチ",
+          "aliases": ["クアロア", "Kualoa Ranch"],
+          "location": "49-560 Kamehameha Hwy, Kaneohe",
+          "desc": "映画・TVの撮影地（ジュラシック・パーク、ロスト、ゴジラ）。UTVラプターツアー、ジップライン、映画ロケ地ツアーで緑豊かな渓谷を巡る。人気時間帯は早めの事前予約を。",
+          "highlights": "UTVツアー、ジップライン、映画ロケ地、渓谷の絶景",
+          "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ケ・カイ・カタマラン",
+          "aliases": ["Ke Kai Catamaran", "Ke Kai"],
+          "location": "2335 Kalakaua Ave, Honolulu",
+          "desc": "ワイキキの夕日カタマランクルーズ。17時チェックイン、17時30分出発、90分間のクルーズ。ドリンク無料。ウミガメやイルカの目撃多数。出発30分前には必ずチェックインを。毎日運航。",
+          "highlights": "サンセットセール、無料ドリンク、ウミガメ・イルカ遭遇、毎日出航",
+          "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ロイヤルハワイアンホテル",
+          "aliases": ["Royal Hawaiian Hotel", "Royal Hawaiian", "ロイヤルハワイアン"],
+          "location": "2259 Kalakaua Ave, Honolulu",
+          "desc": "太平洋のピンクの宮殿。1927年築の歴史的ランドマーク、スペイン・モーロ風建築。アズール・レストラン（水〜日ディナー）とマイタイバー（毎日営業）を擁し、ワイキキビーチの最前線に位置。",
+          "highlights": "歴史的ホテル、アズール・レストラン、マイタイバー、オーシャンフロント",
+          "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
+        }
+      ],
+      "shopping": [
+        {
+          "name": "ワイキキビーチウォーク",
+          "aliases": ["Waikiki Beach Walk", "Beach Walk", "ビーチウォーク"],
+          "location": "227 Lewers St, Honolulu",
+          "desc": "砂浜からすぐのオープンエアのショッピング＆ダイニングプロムナード。レストラン、ブティック、ライブエンターテイメント。ワイキキの人気店が軒を連ねる。",
+          "highlights": "ショッピング、ダイニング、ライブ音楽、ウォーターフロント散策",
+          "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "SALTアット・アワー・カカアコ",
+          "aliases": ["SALT", "SALT at Our Kakaako"],
+          "location": "691 Auahi St, Honolulu",
+          "desc": "カカアコのブティック、ギャラリー、レストランが集まるショッピング＆ダイニングハブ。地元ブランドが揃うウォーカブルなアーツ地区の中心。壁画アートも必見。",
+          "highlights": "ブティック、ギャラリー、ダイニング、ストリートアート",
+          "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "ワード・ビレッジ",
+          "aliases": ["Ward Village"],
+          "location": "1240 Ala Moana Blvd, Honolulu",
+          "desc": "カカアコの洗練されたウォーカブル複合施設。上質なレストラン、ブティック、ウォード・エンタテインメント・センターが揃う。アーツ地区とウォーターフロントをつなぐハブ。",
+          "highlights": "ブティック、ダイニング、ウォード・エンタテインメント・センター、カカアコ・アーツ地区",
+          "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+        }
+      ]
+    }
   },
   "food": {
     "title": "グルメガイド",

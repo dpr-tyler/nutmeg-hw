@@ -202,104 +202,113 @@
     "subtitle": "Landmarks, shops, and experiences from your itinerary.",
     "viewOnMap": "View on map",
     "highlights": "Highlights",
-    "list": [
-      {
-        "name": "Diamond Head",
-        "aliases": [],
-        "location": "4204 Diamond Head Rd, Honolulu",
-        "desc": "Iconic crater hike, about 1.6 miles round trip with paid entry ($5 per person plus $10 parking). Opens at 6 AM. Advance online reservations are required and sell out. The summit offers 360-degree views of Waikiki and southeast Oahu.",
-        "highlights": "Hiking, panoramic views, military tunnels, sunrise",
-        "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Kualoa Ranch",
-        "aliases": ["Kualoa"],
-        "location": "49-560 Kamehameha Hwy, Kaneohe",
-        "desc": "Famous filming location for Jurassic Park, Lost, Godzilla, and dozens of other productions. Offers UTV Raptor tours, ziplines, and movie site tours through a lush valley. Book popular tours well in advance as they sell out.",
-        "highlights": "UTV tours, ziplines, movie sites, valley views",
-        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Nu'uanu Pali Lookout",
-        "aliases": ["Pali Lookout", "Nuuanu Pali"],
-        "location": "Nuuanu Pali Dr, Honolulu",
-        "desc": "Panoramic windward views from a cliffside viewpoint along the Pali Highway. Historic battle site of King Kamehameha's 1795 conquest of Oahu. Almost always extremely windy, so secure hats and bags. Small parking fee required.",
-        "highlights": "Panoramic views, Ko'olau Mountains, windward coast, history",
-        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Ho'omaluhia Botanical Garden",
-        "aliases": ["Hoomaluhia"],
-        "location": "45-680 Luluku Rd, Kaneohe",
-        "desc": "A roughly 400-acre botanical garden with a lake and a dramatic Ko'olau mountain backdrop. Free entry. One of the most photogenic spots on the island for quiet walks and photos. Typically closed Thursdays.",
-        "highlights": "Free entry, Ko'olau backdrop, lake, scenic walks, photography",
-        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Ke Kai Catamaran",
-        "aliases": ["Ke Kai"],
-        "location": "2335 Kalakaua Ave, Honolulu",
-        "desc": "Popular Waikiki sunset catamaran. Boards at 5 PM, departs at 5:30 PM, runs 90 minutes with complimentary drinks. Sea turtles and dolphins are frequently spotted. Check in at least 30 minutes early or you may lose your reservation. Operates daily.",
-        "highlights": "Sunset sail, complimentary drinks, turtle and dolphin sightings, daily departures",
-        "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Manoa Falls Trail",
-        "aliases": ["Manoa Falls"],
-        "location": "3860 Manoa Rd, Honolulu",
-        "desc": "A lush rainforest trail to a waterfall just above Honolulu. About 1.6 miles round trip with no park admission fee. Cool, misty, and jungle-dense. Go early for cooler temps, bring bug spray, and expect some mud.",
-        "highlights": "Rainforest hike, waterfall, no admission fee, uncrowded mornings",
-        "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Royal Hawaiian Hotel",
-        "aliases": ["Royal Hawaiian"],
-        "location": "2259 Kalakaua Ave, Honolulu",
-        "desc": "The historic Pink Palace of the Pacific, opened in 1927. Spanish-Moorish architecture, lush courtyards, and prime oceanfront real estate on Waikiki Beach. Home to Azure Restaurant (Wednesday through Sunday evenings) and the legendary Mai Tai Bar, open daily.",
-        "highlights": "Historic hotel, Azure restaurant, Mai Tai Bar, oceanfront, Waikiki landmark",
-        "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Waikiki Beach Walk",
-        "aliases": ["Beach Walk"],
-        "location": "227 Lewers St, Honolulu",
-        "desc": "Open-air shopping and dining promenade just off the sand. Restaurants, boutiques, and frequent live entertainment within a few minutes walk of the beach.",
-        "highlights": "Shopping, dining, live music, waterfront stroll",
-        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "SALT at Our Kakaako",
-        "aliases": ["SALT"],
-        "location": "691 Auahi St, Honolulu",
-        "desc": "Boutique shopping and dining hub in Kakaako. Local brands, galleries, and restaurants in a walkable urban district. Part of Honolulu's arts and culture neighborhood with mural-lined streets.",
-        "highlights": "Boutiques, galleries, dining, street art",
-        "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Ward Village",
-        "aliases": [],
-        "location": "1240 Ala Moana Blvd, Honolulu",
-        "desc": "A master-planned urban neighborhood in Kakaako developed by Howard Hughes Corporation. Opened in phases from 2016, it features luxury residences alongside curated retail, restaurants, and the Ward Entertainment Center. A walkable hub connecting Kakaako's arts district to the waterfront.",
-        "highlights": "Boutiques, dining, Ward Entertainment Center, Kakaako arts district",
-        "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Kakaako Waterfront Park",
-        "aliases": [],
-        "location": "102 Ohe St, Honolulu",
-        "desc": "A free, open oceanside park at the edge of Kakaako, with expansive lawn, a playground, and unobstructed views of the Pacific. Adjacent to Kewalo Basin, it's a relaxed spot to decompress after exploring the neighborhood's murals and galleries.",
-        "highlights": "Free entry, ocean views, open lawn, waterfront, Kewalo Basin",
-        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
-      },
-      {
-        "name": "Mokulua Islands",
-        "aliases": ["Na Mokulua", "the Mokulua Islands"],
-        "location": "Kailua Bay, Windward Oahu",
-        "desc": "Two small offshore islands (Moku Nui and Moku Iki) sitting just off Lanikai Beach. Both are state seabird sanctuaries. Moku Nui has a sandy beach and a short trail with sweeping views; Moku Iki is closed to visitors. Reach them by kayak from Kailua Beach Park or Lanikai in good conditions (typically 30–45 minutes each way).",
-        "highlights": "Kayak destination, seabird sanctuary, sandy beach on Moku Nui, scenic trail",
-        "photo": "https://images.unsplash.com/photo-1559827260-d66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
-      }
-    ]
+    "nature": "Nature & Outdoors",
+    "experiences": "Experiences",
+    "shopping": "Shopping & Neighborhoods",
+    "items": {
+      "nature": [
+        {
+          "name": "Diamond Head",
+          "aliases": [],
+          "location": "4204 Diamond Head Rd, Honolulu",
+          "desc": "Iconic crater hike, about 1.6 miles round trip with paid entry ($5 per person plus $10 parking). Opens at 6 AM. Advance online reservations are required and sell out. The summit offers 360-degree views of Waikiki and southeast Oahu.",
+          "highlights": "Hiking, panoramic views, military tunnels, sunrise",
+          "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Nu'uanu Pali Lookout",
+          "aliases": ["Pali Lookout", "Nuuanu Pali"],
+          "location": "Nuuanu Pali Dr, Honolulu",
+          "desc": "Panoramic windward views from a cliffside viewpoint along the Pali Highway. Historic battle site of King Kamehameha's 1795 conquest of Oahu. Almost always extremely windy, so secure hats and bags. Small parking fee required.",
+          "highlights": "Panoramic views, Ko'olau Mountains, windward coast, history",
+          "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Ho'omaluhia Botanical Garden",
+          "aliases": ["Hoomaluhia"],
+          "location": "45-680 Luluku Rd, Kaneohe",
+          "desc": "A roughly 400-acre botanical garden with a lake and a dramatic Ko'olau mountain backdrop. Free entry. One of the most photogenic spots on the island for quiet walks and photos. Typically closed Thursdays.",
+          "highlights": "Free entry, Ko'olau backdrop, lake, scenic walks, photography",
+          "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Manoa Falls Trail",
+          "aliases": ["Manoa Falls"],
+          "location": "3860 Manoa Rd, Honolulu",
+          "desc": "A lush rainforest trail to a waterfall just above Honolulu. About 1.6 miles round trip with no park admission fee. Cool, misty, and jungle-dense. Go early for cooler temps, bring bug spray, and expect some mud.",
+          "highlights": "Rainforest hike, waterfall, no admission fee, uncrowded mornings",
+          "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Kakaako Waterfront Park",
+          "aliases": [],
+          "location": "102 Ohe St, Honolulu",
+          "desc": "A free, open oceanside park at the edge of Kakaako, with expansive lawn, a playground, and unobstructed views of the Pacific. Adjacent to Kewalo Basin, it's a relaxed spot to decompress after exploring the neighborhood's murals and galleries.",
+          "highlights": "Free entry, ocean views, open lawn, waterfront, Kewalo Basin",
+          "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Mokulua Islands",
+          "aliases": ["Na Mokulua", "the Mokulua Islands"],
+          "location": "Kailua Bay, Windward Oahu",
+          "desc": "Two small offshore islands (Moku Nui and Moku Iki) sitting just off Lanikai Beach. Both are state seabird sanctuaries. Moku Nui has a sandy beach and a short trail with sweeping views; Moku Iki is closed to visitors. Reach them by kayak from Kailua Beach Park or Lanikai in good conditions (typically 30–45 minutes each way).",
+          "highlights": "Kayak destination, seabird sanctuary, sandy beach on Moku Nui, scenic trail",
+          "photo": "https://images.unsplash.com/photo-1559827260-d66d52bef19?w=80&h=80&fit=crop&crop=center&auto=format"
+        }
+      ],
+      "experiences": [
+        {
+          "name": "Kualoa Ranch",
+          "aliases": ["Kualoa"],
+          "location": "49-560 Kamehameha Hwy, Kaneohe",
+          "desc": "Famous filming location for Jurassic Park, Lost, Godzilla, and dozens of other productions. Offers UTV Raptor tours, ziplines, and movie site tours through a lush valley. Book popular tours well in advance as they sell out.",
+          "highlights": "UTV tours, ziplines, movie sites, valley views",
+          "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Ke Kai Catamaran",
+          "aliases": ["Ke Kai"],
+          "location": "2335 Kalakaua Ave, Honolulu",
+          "desc": "Popular Waikiki sunset catamaran. Boards at 5 PM, departs at 5:30 PM, runs 90 minutes with complimentary drinks. Sea turtles and dolphins are frequently spotted. Check in at least 30 minutes early or you may lose your reservation. Operates daily.",
+          "highlights": "Sunset sail, complimentary drinks, turtle and dolphin sightings, daily departures",
+          "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Royal Hawaiian Hotel",
+          "aliases": ["Royal Hawaiian"],
+          "location": "2259 Kalakaua Ave, Honolulu",
+          "desc": "The historic Pink Palace of the Pacific, opened in 1927. Spanish-Moorish architecture, lush courtyards, and prime oceanfront real estate on Waikiki Beach. Home to Azure Restaurant (Wednesday through Sunday evenings) and the legendary Mai Tai Bar, open daily.",
+          "highlights": "Historic hotel, Azure restaurant, Mai Tai Bar, oceanfront, Waikiki landmark",
+          "photo": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=80&h=80&fit=crop&crop=center&auto=format"
+        }
+      ],
+      "shopping": [
+        {
+          "name": "Waikiki Beach Walk",
+          "aliases": ["Beach Walk"],
+          "location": "227 Lewers St, Honolulu",
+          "desc": "Open-air shopping and dining promenade just off the sand. Restaurants, boutiques, and frequent live entertainment within a few minutes walk of the beach.",
+          "highlights": "Shopping, dining, live music, waterfront stroll",
+          "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "SALT at Our Kakaako",
+          "aliases": ["SALT"],
+          "location": "691 Auahi St, Honolulu",
+          "desc": "Boutique shopping and dining hub in Kakaako. Local brands, galleries, and restaurants in a walkable urban district. Part of Honolulu's arts and culture neighborhood with mural-lined streets.",
+          "highlights": "Boutiques, galleries, dining, street art",
+          "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+        },
+        {
+          "name": "Ward Village",
+          "aliases": [],
+          "location": "1240 Ala Moana Blvd, Honolulu",
+          "desc": "A master-planned urban neighborhood in Kakaako developed by Howard Hughes Corporation. Opened in phases from 2016, it features luxury residences alongside curated retail, restaurants, and the Ward Entertainment Center. A walkable hub connecting Kakaako's arts district to the waterfront.",
+          "highlights": "Boutiques, dining, Ward Entertainment Center, Kakaako arts district",
+          "photo": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=80&h=80&fit=crop&crop=center&auto=format"
+        }
+      ]
+    }
   },
   "food": {
     "title": "Food Guide",
