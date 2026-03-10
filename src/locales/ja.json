@@ -128,6 +128,7 @@
     "high": "多い",
     "easy": "簡単",
     "moderate": "やや難しい",
+    "viewOnMap": "地図で見る",
     "list": [
       {
         "name": "ワイキキビーチ",
@@ -194,6 +195,7 @@
     "whyGo": "なぜここへ",
     "price": "価格帯",
     "type": "ジャンル",
+    "viewOnMap": "地図で見る",
     "items": {
       "localGems": [
         {
@@ -201,6 +203,7 @@
           "aliases": ["タムラス"],
           "type": "ポケ",
           "price": "$",
+          "location": "ホノルル",
           "whyGo": "見た目はリカーショップですが、オアフ最高のポケカウンターが。超新鮮なアヒ（マグロ）で自分好みのボウルを作りましょう。",
           "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -209,6 +212,7 @@
           "aliases": ["レナードのマラサダ", "レナード"],
           "type": "マラサダ・ペストリー",
           "price": "$",
+          "location": "ホノルル",
           "whyGo": "1952年創業。ポルトガル風ドーナツ「マラサダ」は数分おきに揚げたてが登場。シナモンシュガーをまぶしてどうぞ。",
           "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -216,6 +220,7 @@
           "name": "ジョバンニズ・シュリンプ・トラック",
           "type": "エビのプレート",
           "price": "$",
+          "location": "ノースショア",
           "whyGo": "ノースショアで最初のシュリンプトラック。ガーリックバターエビとライスの組み合わせ。オアフを語る上で欠かせない一軒。",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -225,6 +230,7 @@
           "name": "ノブ・ホノルル",
           "type": "日本・ペルー料理",
           "price": "$$$",
+          "location": "ホノルル",
           "whyGo": "世界的なノブが誇るホノルル店。味噌漬け黒鱈とイエローテール・ハラペーニョは必注文の定番メニュー。",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -232,6 +238,7 @@
           "name": "ザ・ピッグ・アンド・ザ・レディ",
           "type": "ベトナム・インスパイア",
           "price": "$$$",
+          "location": "ホノルル",
           "whyGo": "シェフ・アンドリュー・レのチャイナタウンの名店。フォー・フレンチディップ、ベトナム風カルボナーラなど独創性が光ります。要予約。",
           "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -239,6 +246,7 @@
           "name": "アラン・ウォンズ",
           "type": "ハワイ・リージョナル",
           "price": "$$$",
+          "location": "ホノルル",
           "whyGo": "ハワイ・リージョナル・キュイジーヌの開拓者。クラシックで洗練され、素材の調達にこだわった、まさにマイルストーンと呼べる食体験。",
           "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -248,6 +256,7 @@
           "name": "KCCファーマーズマーケット",
           "type": "マーケット",
           "price": "$",
+          "location": "ホノルル",
           "whyGo": "土曜朝のみ開催。マウイオニオンチップス、新鮮なヤシの実、リリコイ（パッションフルーツ）カード。ホノルル最高の朝市体験。",
           "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -255,6 +264,7 @@
           "name": "カラパワイマーケット",
           "type": "デリ & マーケット",
           "price": "$",
+          "location": "カイルア",
           "whyGo": "カイルアで最も愛されている地元のデリ。サンドイッチ、地元のコーヒー、そして生き生きとしたコミュニティの雰囲気。",
           "photo": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -262,6 +272,7 @@
           "name": "リリハ・ベーカリー",
           "type": "ベーカリー & ダイナー",
           "price": "$",
+          "location": "ホノルル",
           "whyGo": "24時間営業。シャンティリークリームを詰めたココパフは人生を変える美味しさ。カウンター席のみ。それがまた趣ある佇まい。",
           "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
         }

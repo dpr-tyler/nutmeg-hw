@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { UtensilsCrossed, Star, MapPin } from 'lucide-react'
+import { UtensilsCrossed, Star, MapPin, ExternalLink } from 'lucide-react'
+import { getGoogleMapsUrl } from '../utils/mapsUrl'
 import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
@@ -67,6 +68,25 @@ export function FoodCard({ item, accent, onImageClick, compact = false, contentO
                   {item.price}
                 </span>
               </div>
+              {item.location && (
+                <div className="flex items-center gap-1.5 mt-1">
+                  <MapPin size={12} color="var(--coral)" />
+                  <span style={{ fontSize: '0.78rem', color: 'var(--ink)', opacity: 0.5, fontFamily: 'var(--font-mono)' }}>
+                    {item.location}
+                  </span>
+                </div>
+              )}
+              <a
+                href={getGoogleMapsUrl(item.name, item.location)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
+                style={{ fontSize: '0.8rem', color: 'var(--ocean)', fontFamily: 'var(--font-mono)', textDecoration: 'underline' }}
+                aria-label={`${t('food.viewOnMap')} - ${item.name}`}
+              >
+                <ExternalLink size={12} />
+                {t('food.viewOnMap')}
+              </a>
             </div>
           </div>
         </div>

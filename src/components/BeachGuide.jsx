@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { MapPin } from 'lucide-react'
+import { MapPin, ExternalLink } from 'lucide-react'
+import { getGoogleMapsUrl } from '../utils/mapsUrl'
 import ImageLightbox from './ImageLightbox'
 
 const fadeUp = {
@@ -72,6 +73,17 @@ export function BeachCard({ beach, onImageClick, compact = false, contentOnly = 
                     {beach.location}
                   </span>
                 </div>
+                <a
+                  href={getGoogleMapsUrl(beach.name, beach.location)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mt-2 hover:opacity-80 transition-opacity"
+                  style={{ fontSize: '0.8rem', color: 'var(--ocean)', fontFamily: 'var(--font-mono)', textDecoration: 'underline' }}
+                  aria-label={`${t('beaches.viewOnMap')} - ${beach.name}`}
+                >
+                  <ExternalLink size={12} />
+                  {t('beaches.viewOnMap')}
+                </a>
               </div>
             </div>
           </div>

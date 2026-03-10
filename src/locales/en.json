@@ -128,6 +128,7 @@
     "high": "High",
     "easy": "Easy",
     "moderate": "Moderate",
+    "viewOnMap": "View on map",
     "list": [
       {
         "name": "Waikiki Beach",
@@ -194,6 +195,7 @@
     "whyGo": "Why Go",
     "price": "Price",
     "type": "Type",
+    "viewOnMap": "View on map",
     "items": {
       "localGems": [
         {
@@ -201,6 +203,7 @@
           "aliases": ["Tamura's"],
           "type": "Poke",
           "price": "$",
+          "location": "Honolulu",
           "whyGo": "Counterintuitively, a liquor store with Oahu's best poke counter. Build your own bowl with ultra-fresh ahi.",
           "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -209,6 +212,7 @@
           "aliases": ["Leonard's", "Leonard's Malasadas"],
           "type": "Malasadas & Pastries",
           "price": "$",
+          "location": "Honolulu",
           "whyGo": "Since 1952. The malasadas (Portuguese doughnuts) come out fresh every few minutes. Get them plain and cinnamon-sugared.",
           "photo": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -216,6 +220,7 @@
           "name": "Giovanni's Shrimp Truck",
           "type": "Shrimp Plate",
           "price": "$",
+          "location": "North Shore",
           "whyGo": "The original North Shore shrimp truck. Garlic butter shrimp with rice. Everyone who's been to Oahu has eaten here.",
           "photo": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -225,6 +230,7 @@
           "name": "Nobu Honolulu",
           "type": "Japanese-Peruvian",
           "price": "$$$",
+          "location": "Honolulu",
           "whyGo": "The Oahu outpost of Nobu's legendary global empire. Miso-glazed black cod and yellowtail jalapeño are essential orders.",
           "photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -232,6 +238,7 @@
           "name": "The Pig & The Lady",
           "type": "Vietnamese-Inspired",
           "price": "$$$",
+          "location": "Honolulu",
           "whyGo": "Chef Andrew Le's Chinatown institution. Pho French dip, Vietnamese carbonara, and a wine list that surprises. Book ahead.",
           "photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -240,6 +247,7 @@
           "aliases": ["Alan Wong's Restaurant"],
           "type": "Hawaii Regional",
           "price": "$$$",
+          "location": "Honolulu",
           "whyGo": "The godfather of Hawaii Regional Cuisine. Classic, refined, impeccably sourced. A true milestone dining experience.",
           "photo": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=80&h=80&fit=crop&crop=center&auto=format"
         }
@@ -249,6 +257,7 @@
           "name": "KCC Farmers Market",
           "type": "Market",
           "price": "$",
+          "location": "Honolulu",
           "whyGo": "Saturday mornings only. Maui onion chips, fresh coconuts, lilikoi curd, and the best people-watching in Honolulu.",
           "photo": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -256,6 +265,7 @@
           "name": "Kalapawai Market",
           "type": "Deli & Market",
           "price": "$",
+          "location": "Kailua",
           "whyGo": "Kailua's beloved neighborhood deli. Excellent sandwiches, local coffee, and the energy of a real community gathering spot.",
           "photo": "https://images.unsplash.com/photo-1567521464027-f127ff144326?w=80&h=80&fit=crop&crop=center&auto=format"
         },
@@ -263,6 +273,7 @@
           "name": "Liliha Bakery",
           "type": "Bakery & Diner",
           "price": "$",
+          "location": "Honolulu",
           "whyGo": "Open 24 hours. The coco puffs (choux filled with Chantilly cream) are life-changing. Counter seating only. That's the charm.",
           "photo": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=80&h=80&fit=crop&crop=center&auto=format"
         }
