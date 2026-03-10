@@ -65,7 +65,7 @@ export default function EntityPopover({ entity, onClose }) {
             <X size={20} strokeWidth={1.5} />
           </button>
 
-          <div className="p-6 pt-14">
+          <div className="p-4 pt-12">
             {entity.type === "beach" && (
               <BeachCard
                 beach={entity.data}

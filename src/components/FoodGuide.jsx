@@ -25,6 +25,7 @@ const priceColor = {
   $: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
   $$: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
   $$$: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
+  $$$$: { fg: "var(--sand)", bg: "rgba(198, 169, 107, 0.25)" },
 };
 
 export function FoodCard({

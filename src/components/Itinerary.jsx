@@ -15,7 +15,7 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.08 } },
 };
 
-function TimeBlock({ icon: Icon, label, content, onEntityClick }) {
+function TimeBlock({ icon: Icon, label, content, onEntityClick, isLast }) {
   return (
     <div className="flex gap-4">
       <div className="flex flex-col items-center pt-1">
@@ -25,12 +25,14 @@ function TimeBlock({ icon: Icon, label, content, onEntityClick }) {
         >
           <Icon size={15} color="var(--ocean)" strokeWidth={1.5} />
         </div>
-        <div
-          className="w-px flex-1 mt-2"
-          style={{ background: "rgba(27,79,107,0.1)" }}
-        />
+        {!isLast && (
+          <div
+            className="w-px flex-1 mt-2"
+            style={{ background: "rgba(27,79,107,0.1)" }}
+          />
+        )}
       </div>
-      <div className="pb-6">
+      <div className={isLast ? "pb-2" : "pb-6"}>
         <span
           className="text-xs uppercase tracking-widest block mb-2"
           style={{
@@ -145,6 +147,7 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
                   label={t("itinerary.evening")}
                   content={day.evening}
                   onEntityClick={onEntityClick}
+                  isLast
                 />
 
                 {/* Local tip */}
