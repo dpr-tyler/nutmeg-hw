@@ -190,6 +190,7 @@ export function BeachCard({
       style={{
         background: "#FAFAFA",
         border: "2px solid var(--card-border)",
+        boxShadow: "var(--card-shadow)",
       }}
     >
       {content}

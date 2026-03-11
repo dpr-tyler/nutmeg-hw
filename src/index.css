@@ -12,6 +12,8 @@
   --mist-card-border: rgba(27, 79, 107, 0.1);
   --card-fill: #fafafa;
   --card-border: #e8e8e8;
+  --card-shadow: 0 4px 20px -4px rgba(27, 79, 107, 0.14);
+  --card-shadow-elevated: 0 8px 32px -4px rgba(27, 79, 107, 0.18);
 
   --font-display: "Cormorant Garamond", "Georgia", serif;
   --font-body: "DM Sans", system-ui, sans-serif;

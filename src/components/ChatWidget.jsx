@@ -143,6 +143,7 @@ export default function ChatWidget() {
                 height: "min(500px, calc(100vh - 80px))",
                 background: "#FAFAFA",
                 border: "2px solid var(--card-border)",
+                boxShadow: "var(--card-shadow-elevated)",
               }}
             >
               {/* Header */}

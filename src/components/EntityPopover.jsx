@@ -55,6 +55,7 @@ export default function EntityPopover({ entity, onClose }) {
           style={{
             background: "#FAFAFA",
             border: "2px solid var(--card-border)",
+            boxShadow: "var(--card-shadow-elevated)",
           }}
           onClick={(e) => e.stopPropagation()}
         >

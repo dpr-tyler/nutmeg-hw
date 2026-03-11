@@ -44,6 +44,7 @@ function TipCard({ item, onEntityClick }) {
       style={{
         background: "#FAFAFA",
         border: "2px solid var(--card-border)",
+        boxShadow: "var(--card-shadow)",
       }}
     >
       <div className="flex gap-5 items-center">

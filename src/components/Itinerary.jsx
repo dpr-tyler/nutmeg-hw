@@ -69,8 +69,8 @@ function DayCard({ day, isOpen, onToggle, onEntityClick }) {
         background: "#FAFAFA",
         border: "2px solid var(--card-border)",
         boxShadow: isOpen
-          ? "0 4px 24px -4px rgba(27,79,107,0.08)"
-          : "none",
+          ? "var(--card-shadow-elevated)"
+          : "var(--card-shadow)",
         transition: "box-shadow 0.3s ease",
       }}
     >
