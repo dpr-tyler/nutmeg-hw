@@ -126,25 +126,23 @@ export default function ChatWidget() {
             </motion.button>
           )}
         </AnimatePresence>
+      </div>
 
-        {/* Chat panel */}
-        <AnimatePresence>
-          {open && (
+      {/* Chat panel */}
+      <AnimatePresence>
+        {open && (
+          <div className="fixed z-50 bottom-4 sm:bottom-6 left-2 right-2 sm:left-auto sm:right-6 flex justify-center sm:block">
             <motion.div
               key="chat-panel"
               initial={{ opacity: 0, y: 20, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0.95 }}
               transition={{ duration: 0.25, ease: [0.25, 0.1, 0.25, 1] }}
-              className="flex flex-col rounded-3xl overflow-hidden"
+              className="flex flex-col rounded-3xl overflow-hidden w-full max-w-[350px] sm:w-[350px]"
               style={{
-                width: "350px",
-                height: "500px",
+                height: "min(500px, calc(100vh - 80px))",
                 background: "#FAFAFA",
                 border: "2px solid var(--card-border)",
-                position: "absolute",
-                bottom: 0,
-                right: 0,
               }}
             >
               {/* Header */}
@@ -182,8 +180,8 @@ export default function ChatWidget() {
 
               {/* Messages */}
               <div
-                className="flex-1 overflow-y-auto px-4 py-4"
-                style={{ scrollbarWidth: "thin" }}
+                className="flex-1 overflow-y-auto scrollbar-hide px-4 py-4"
+                style={{}}
               >
                 {allMessages.map((msg, i) => (
                   <Message key={i} msg={msg} isJa={isJa} />
@@ -324,9 +322,9 @@ export default function ChatWidget() {
                 </form>
               </div>
             </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
+          </div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

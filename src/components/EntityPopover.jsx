@@ -51,7 +51,7 @@ export default function EntityPopover({ entity, onClose }) {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 0.2 }}
-          className="relative max-w-md w-full max-h-[85vh] overflow-y-auto rounded-3xl"
+          className="relative max-w-md w-full max-h-[85vh] overflow-y-auto scrollbar-hide rounded-3xl"
           style={{
             background: "#FAFAFA",
             border: "2px solid var(--card-border)",

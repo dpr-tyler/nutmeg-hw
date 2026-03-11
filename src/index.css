@@ -18,6 +18,13 @@
   --font-mono: "DM Mono", monospace;
 }
 
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 [lang="ja"] {
   --font-display: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
 }

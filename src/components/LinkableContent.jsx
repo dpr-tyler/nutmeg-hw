@@ -39,13 +39,14 @@ export default function LinkableContent({ text, onEntityClick }) {
                 onEntityClick?.(entity)
               }
             }}
-            className="inline cursor-pointer border-b border-current hover:opacity-80 transition-opacity"
+            className="inline cursor-pointer hover:opacity-80 transition-opacity"
             style={{
               color: 'var(--ocean)',
               background: 'none',
               padding: 0,
               font: 'inherit',
-              textDecoration: 'none',
+              textDecoration: 'underline',
+              textAlign: 'left',
             }}
             aria-label={t('ui.aria.viewDetails', { name: entity.name })}
           >
