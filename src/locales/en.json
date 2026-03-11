@@ -492,12 +492,12 @@
     ]
   },
   "chat": {
-    "title": "Ask Your Guide",
+    "title": "Ask Your Assistant",
     "placeholder": "Ask anything about your Oahu trip...",
     "send": "Send",
     "thinking": "Thinking...",
     "error": "Something went wrong. Please try again.",
-    "greeting": "I'm your Oahu guide. Ask me anything about your trip: beaches, restaurants, logistics, or local tips.",
+    "greeting": "I'm your Oahu assistant. Ask me anything about your trip: beaches, restaurants, logistics, or local tips.",
     "tooLong": "Message is too long (max 500 characters).",
     "limitReached": "You've reached the session limit. Please refresh to start a new conversation.",
     "cooldown": "Please wait a moment before sending another message.",
