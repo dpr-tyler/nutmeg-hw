@@ -28,14 +28,29 @@ export function useChat(lang = 'en') {
     setError(null)
 
     try {
-      const res = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: newMessages, lang }),
-      })
+      const fetchWithRetry = async () => {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages: newMessages, lang }),
+        })
+        if (res.status === 429) { setLimitError('rateLimited'); return null }
+        if (res.status >= 500) {
+          await new Promise(r => setTimeout(r, 1500))
+          const retry = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ messages: newMessages, lang }),
+          })
+          if (!retry.ok) throw new Error(`HTTP ${retry.status}`)
+          return retry
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res
+      }
 
-      if (res.status === 429) { setLimitError('rateLimited'); return }
-      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      const res = await fetchWithRetry()
+      if (!res) return
 
       const data = await res.json()
       setMessages([...newMessages, { role: 'assistant', content: data.reply }])
