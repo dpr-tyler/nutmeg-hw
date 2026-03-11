@@ -139,7 +139,7 @@
         "crowd": 3,
         "difficulty": "Easy",
         "desc": "絵葉書のような王道ビーチ。波は比較的穏やかで、海水浴やサーフレッスンの入門にぴったりです。観光客は多いものの、夕方の光の美しさはやはり格別。",
-        "photo": "/images/waikiki-beach.jpg"
+        "photo": "/images/waikiki-beach.webp"
       },
       {
         "name": "Kailua Beach Park",
@@ -151,7 +151,7 @@
         "crowd": 1,
         "difficulty": "Easy",
         "desc": "約2マイルにわたって白砂が続く、開放感たっぷりのビーチ。エメラルドブルーの海と安定した貿易風が心地よく、気候が良ければ近くから Mokulua Islands 方面へのカヤックも楽しめます。",
-        "photo": "/images/kailua-beach-park.jpg"
+        "photo": "/images/kailua-beach-park.webp"
       },
       {
         "name": "Lanikai Beach",
@@ -160,7 +160,7 @@
         "crowd": 2,
         "difficulty": "Easy",
         "desc": "さらさらの白砂と澄んだ青のコントラストが美しいビーチ。特に朝の空気が気持ちよく、写真好きにも人気です。設備はないので必要なものは持参を。駐車は Mokulua Drive 沿いの路上のみです。",
-        "photo": "/images/lanikai-beach.jpg"
+        "photo": "/images/lanikai-beach.webp"
       },
       {
         "name": "Hanauma Bay",
@@ -170,7 +170,7 @@
         "crowd": 3,
         "difficulty": "Easy",
         "desc": "古代の火山クレーターに抱かれた海洋保護区で、シュノーケリング目当てなら外せない場所。リーフフィッシュやウミガメに出会えることも多く、透明度の高い日には特に印象的です。月曜と火曜は休業。予約はオンライン必須で、2日前の朝7時 HST に受付開始。入場料は1人25ドル、駐車場は3ドルで現金のみ。最終入場は13時30分です。",
-        "photo": "/images/hanauma-bay.jpg"
+        "photo": "/images/hanauma-bay.webp"
       },
       {
         "name": "Waimea Bay",
@@ -180,7 +180,7 @@
         "crowd": 2,
         "difficulty": "Moderate",
         "desc": "季節でまるで表情が変わるドラマチックな湾。夏は比較的穏やかで泳ぎやすく、有名な岩からのジャンプも人気。冬は大きなうねりが入るので、岸から波を眺める時間がよく似合います。",
-        "photo": "/images/waimea-bay.jpg"
+        "photo": "/images/waimea-bay.webp"
       },
       {
         "name": "Waimanalo Beach Park",
@@ -190,7 +190,7 @@
         "crowd": 1,
         "difficulty": "Easy",
         "desc": "長く続く砂浜と透明感のある海、背後に広がるコオラウ山脈の景色まで気持ちいいビーチ。ワイキキほどの賑わいはなく、のんびり過ごしたい日に向いています。",
-        "photo": "/images/waimanalo-beach-park.jpg"
+        "photo": "/images/waimanalo-beach-park.webp"
       },
       {
         "name": "Laniakea Beach",
@@ -199,7 +199,7 @@
         "crowd": 2,
         "difficulty": "Easy",
         "desc": "浜で休むハワイアオウミガメで知られるノースショアの名所。ボランティアの案内があるので、適切な距離を保ちながら観察できます。自然のままの出会いを味わえる、記憶に残りやすい場所です。",
-        "photo": "/images/laniakea-beach.jpg"
+        "photo": "/images/laniakea-beach.webp"
       }
     ]
   },
@@ -219,7 +219,7 @@
           "location": "4204 Diamond Head Rd, Honolulu",
           "desc": "オアフを象徴するクレーター・ハイク。往復約1.6マイルで、入場は1人5ドル、駐車は10ドル。朝6時オープンで事前予約制です。山頂からはワイキキとオアフ南東部をぐるりと見渡せます。",
           "highlights": "ハイキング、絶景、軍用トンネル、日の出",
-          "photo": "/images/diamond-head.jpg"
+          "photo": "/images/diamond-head.webp"
         },
         {
           "name": "Nu'uanu Pali Lookout",
@@ -231,7 +231,7 @@
           "mapUrl": "https://maps.app.goo.gl/TD4QxpF2V2QF3VrU9",
           "desc": "Pali Highway 沿いにある展望スポットで、ウィンドワード側の眺めが一気に開けます。1795年の歴史的な戦地としても知られ、景色と歴史の両方を感じられる場所。風が非常に強いことが多いので、帽子や荷物には注意を。",
           "highlights": "パノラマビュー、コオラウ山脈、ウィンドワード海岸、歴史",
-          "photo": "/images/nu'uanu-pali-lookout.jpg"
+          "photo": "/images/nu'uanu-pali-lookout.webp"
         },
         {
           "name": "Ho'omaluhia Botanical Garden",
@@ -241,7 +241,7 @@
           "location": "45-680 Luluku Rd, Kaneohe",
           "desc": "約400エーカーに広がる植物園で、湖とコオラウ山脈の景色がとにかく印象的。入場無料で、静かな散歩や写真時間に向いています。通常は木曜休園です。",
           "highlights": "無料入場、コオラウ山脈の景色、湖、景観散歩、写真撮影",
-          "photo": "/images/ho'omaluhia-botanical-garden.jpg"
+          "photo": "/images/ho'omaluhia-botanical-garden.webp"
         },
         {
           "name": "Manoa Falls Trail",
@@ -252,7 +252,7 @@
           "mapUrl": "https://maps.app.goo.gl/JBX3Run2kWq5HYtQ7",
           "desc": "ホノルル近郊で気軽に行ける、滝を目指す熱帯雨林トレイル。往復約1.6マイルで入場料は不要です。涼しく湿った空気が心地よく、朝のほうが歩きやすめ。虫除けと泥対策はあると安心です。",
           "highlights": "熱帯雨林ハイク、滝、入場無料、朝の静けさ",
-          "photo": "/images/manoa-falls-trail.jpg"
+          "photo": "/images/manoa-falls-trail.webp"
         },
         {
           "name": "Kakaako Waterfront Park",
@@ -260,7 +260,7 @@
           "location": "102 Ohe St, Honolulu",
           "desc": "カカアコの端にある海沿いの公園。芝生が広く、太平洋を遮るものなく眺められます。壁画やギャラリーを見て歩いたあと、少し深呼吸したくなったときにちょうどいい場所です。",
           "highlights": "無料入場、海の景色、広い芝生、ウォーターフロント、Kewalo Basin",
-          "photo": "/images/kakaako-waterfront-park.jpg"
+          "photo": "/images/kakaako-waterfront-park.webp"
         },
         {
           "name": "Mokulua Islands",
@@ -271,7 +271,7 @@
           "location": "Kailua Bay, Windward Oahu",
           "desc": "Lanikai Beach の沖に浮かぶ2つの小島、Moku Nui と Moku Iki。どちらも海鳥保護区で、上陸できるのは Moku Nui のみです。Kailua Beach Park や Lanikai から、気候が良ければカヤックで片道30〜45分ほど。",
           "highlights": "カヤック目的地、海鳥保護区、Moku Nui の砂浜、絶景トレイル",
-          "photo": "/images/mokulua-islands.jpg"
+          "photo": "/images/mokulua-islands.webp"
         },
         {
           "name": "Kualoa Ranch",
@@ -282,7 +282,7 @@
           "mapUrl": "https://maps.app.goo.gl/2VWkFMHRCrzZN1oi8",
           "desc": "Jurassic Park、LOST、Godzilla などのロケ地として有名なクアロアの谷。UTV Raptor ツアーやジップライン、映画ロケ地ツアーが人気で、緑のスケール感も圧倒的です。人気プランは早めの予約が基本。",
           "highlights": "UTVツアー、ジップライン、映画ロケ地、渓谷の景色",
-          "photo": "/images/kualoa-ranch.jpg"
+          "photo": "/images/kualoa-ranch.webp"
         },
         {
           "name": "Ke Kai Catamaran Waikiki Sunset Sail",
@@ -295,7 +295,7 @@
           "location": "2335 Kalakaua Ave, Honolulu",
           "desc": "ワイキキで人気のサンセットカタマラン。17時乗船開始、17時30分出航、所要90分でドリンク付きです。ウミガメやイルカに出会えることも多く、出航30分前までのチェックインが必要です。",
           "highlights": "サンセットクルーズ、無料ドリンク、ウミガメ・イルカ、毎日運航",
-          "photo": "/images/ke-kai-catamaran-waikiki-sunset-sail.jpg"
+          "photo": "/images/ke-kai-catamaran-waikiki-sunset-sail.webp"
         }
       ],
       "shopping": [
@@ -308,7 +308,7 @@
           "mapUrl": "https://maps.app.goo.gl/bpDVqdVK3hZE84Nn9",
           "desc": "ビーチからすぐの屋外型ショッピング＆ダイニングエリア。食事も買い物も気軽に楽しめて、ライブ演奏に出会うこともあります。ワイキキ散歩の途中に立ち寄りやすい場所です。",
           "highlights": "ショッピング、食事、ライブ音楽、海辺の散歩",
-          "photo": "/images/waikiki-beach-walk.jpg"
+          "photo": "/images/waikiki-beach-walk.webp"
         },
         {
           "name": "SALT at Our Kakaako",
@@ -318,7 +318,7 @@
           "location": "691 Auahi St, Honolulu",
           "desc": "カカアコらしい感度の高いショップやレストランが集まるエリア。ローカルブランドやギャラリーも多く、壁画のある街並みと合わせて歩くのが楽しい場所です。",
           "highlights": "ブティック、ギャラリー、食事、ストリートアート",
-          "photo": "/images/SALT-at-Our-Kakaako.jpg"
+          "photo": "/images/SALT-at-Our-Kakaako.webp"
         },
         {
           "name": "Ward Village",
@@ -326,7 +326,7 @@
           "location": "1240 Ala Moana Blvd, Honolulu",
           "desc": "カカアコの海側に広がる、洗練された街並みのエリア。ショップやレストランがまとまっていて歩きやすく、アート地区とウォーターフロントをつなぐ拠点としても便利です。",
           "highlights": "ブティック、食事、Ward Entertainment Center、カカアコのアート地区",
-          "photo": "/images/ward-village.jpg"
+          "photo": "/images/ward-village.webp"
         },
         {
           "name": "Royal Hawaiian Hotel",
@@ -336,7 +336,7 @@
           "location": "2259 Kalakaua Ave, Honolulu",
           "desc": "1927年開業の歴史あるホテルで、「太平洋のピンクパレス」と呼ばれるワイキキの象徴。建築や中庭の美しさはもちろん、Azure Restaurant や名物の Mai Tai Bar も旅気分を高めてくれます。",
           "highlights": "歴史的ホテル、Azure Restaurant、Mai Tai Bar、オーシャンフロント、ワイキキの象徴",
-          "photo": "/images/royal-hawaiian-hotel.jpg"
+          "photo": "/images/royal-hawaiian-hotel.webp"
         }
       ]
     }
@@ -363,7 +363,7 @@
           "price": "$",
           "location": "933 Kapahulu Ave, Honolulu",
           "whyGo": "1952年創業の老舗。揚げたてのマラサダが次々に並び、シンプルなプレーンでも十分においしい一軒です。熱いうちに頬張るのがいちばん。",
-          "photo": "/images/leonard's-bakery.jpg"
+          "photo": "/images/leonard's-bakery.webp"
         },
         {
           "name": "Kalapawai Market",
@@ -372,7 +372,7 @@
           "price": "$",
           "location": "306 S Kalaheo Ave, Kailua",
           "whyGo": "Kailua で長く親しまれている、地元密着のデリ兼マーケット。サンドイッチやコーヒー、持ち歩きしやすい軽食が揃っていて、ビーチ前後の一食にぴったりです。",
-          "photo": "/images/kalapawai-market.jpg"
+          "photo": "/images/kalapawai-market.webp"
         },
         {
           "name": "Liliha Bakery",
@@ -381,7 +381,7 @@
           "price": "$",
           "location": "515 N Kuakini St, Honolulu",
           "whyGo": "ココパフで知られる、ホノルルの定番ベーカリー。シャンティリークリームを詰めた名物はもちろん、カウンター席の空気感まで含めてローカルらしさがあります。朝にも夜食にも使いやすい一軒です。",
-          "photo": "/images/liliha-bakery.jpg"
+          "photo": "/images/liliha-bakery.webp"
         },
         {
           "name": "Buzz's Original Steakhouse",
@@ -392,7 +392,7 @@
           "price": "$$",
           "location": "413 Kawailoa Rd, Kailua",
           "whyGo": "1962年創業、Lanikai Beach 近くの老舗ステーキハウス。家族経営ならではの落ち着きがあり、ステーキもシーフードも外しません。マイタイ目当てで立ち寄る人も多い一軒です。",
-          "photo": "/images/buzz's-original-steakhouse.jpg"
+          "photo": "/images/buzz's-original-steakhouse.webp"
         }
       ],
       "splurge": [
@@ -405,7 +405,7 @@
           "price": "$$$",
           "location": "1108 Auahi St, Kakaako, Honolulu",
           "whyGo": "地元食材を生かしたハワイリージョナルキュイジーヌを、肩肘張りすぎず楽しめる一軒。Honolulu Magazine の Best Oahu Restaurant に選ばれたことでも知られ、記念日ディナーにも向いています。",
-          "photo": "/images/merriman's-honolulu.jpg"
+          "photo": "/images/merriman's-honolulu.webp"
         },
         {
           "name": "Roy's Hawaii Kai",
@@ -416,7 +416,7 @@
           "price": "$$$",
           "location": "6600 Kalanianaole Hwy, Honolulu",
           "whyGo": "Roy Yamaguchi のオリジナル店で、Maunalua Bay を眺めながら食事ができる名店。味噌焼きバターフィッシュやブラックンドアヒなどの看板料理に加え、ワインリストの充実ぶりも魅力です。",
-          "photo": "/images/roy's-hawaii-kai.jpg"
+          "photo": "/images/roy's-hawaii-kai.webp"
         },
         {
           "name": "The Pig and The Lady",
@@ -425,7 +425,7 @@
           "price": "$$",
           "location": "3650 Waialae Ave, Kaimuki",
           "whyGo": "Andrew Le シェフの人気店。2025年に Chinatown から Kaimuki の新店舗へ移転し、よりゆったり楽しめる雰囲気になりました。pho French dip、ahi tataki toast、Le fried chicken wings は特に人気です。",
-          "photo": "/images/the-pig and-the-lady.jpg"
+          "photo": "/images/the-pig and-the-lady.webp"
         }
       ],
       "casual": [
@@ -438,7 +438,7 @@
           "price": "$$",
           "location": "2335 Kalakaua Ave, Honolulu",
           "whyGo": "ワイキキらしさをそのまま味わえる、王道のビーチフロントディナー。ライブ音楽と賑わいがあり、huli huli chicken やフレッシュフィッシュ、Hula Pie も人気。バー席は比較的入りやすいです。",
-          "photo": "/images/duke's-waikiki.jpg"
+          "photo": "/images/duke's-waikiki.webp"
         },
         {
           "name": "Koko Head Cafe",
@@ -449,7 +449,7 @@
           "price": "$$",
           "location": "1120 12th Ave, Kaimuki, Honolulu",
           "whyGo": "Lee Anne Wong シェフによる人気ブランチスポット。Breakfast Bibimbap や Cornflake French Toast など、島らしい遊び心のあるメニューが揃っています。",
-          "photo": "/images/koko-head-cafe.jpg"
+          "photo": "/images/koko-head-cafe.webp"
         },
         {
           "name": "Haleiwa Joe's",
@@ -458,7 +458,7 @@
           "price": "$$",
           "location": "66-011 Kamehameha Hwy, Haleiwa",
           "whyGo": "ボリュームのある料理と、肩の力が抜けた雰囲気で人気の一軒。ノースショア店は港沿い、Kaneohe 店は Haiku Gardens の景色が魅力です。どちらも予約不可なので、少し早めが安心です。",
-          "photo": "/images/haleiwa-joe's.jpg"
+          "photo": "/images/haleiwa-joe's.webp"
         },
         {
           "name": "Island Vintage Shave Ice",
@@ -469,7 +469,7 @@
           "price": "$",
           "location": "2201 Kalakaua Ave, Royal Hawaiian Center, Waikiki",
           "whyGo": "ワイキキ中心部で立ち寄りやすい、上質なシェイブアイス店。フルーツ感のあるシロップや、あずき、もち、リヒンパウダーなどのトッピングも楽しく、ビーチ帰りの一休みにちょうどいいです。",
-          "photo": "/images/island-vintage-shave-ice.jpg"
+          "photo": "/images/island-vintage-shave-ice.webp"
         },
         {
           "name": "Giovanni's Shrimp Truck",
@@ -480,7 +480,7 @@
           "price": "$",
           "location": "66-472 Kamehameha Hwy, Haleiwa",
           "whyGo": "1993年創業、ノースショア名物として長く愛されるシュリンプトラック。ガーリックシュリンプとライスの組み合わせは鉄板で、ランチのピークは行列覚悟です。",
-          "photo": "/images/giovanni's-shrimp-truck.jpg"
+          "photo": "/images/giovanni's-shrimp-truck.webp"
         },
         {
           "name": "Aloh Health Bar and Cafe",
@@ -493,7 +493,7 @@
           "price": "$",
           "location": "407 Seaside Ave, Waikiki",
           "whyGo": "アサイーボウルや抹茶ラテ、アボカドトーストで人気のプラントベース系カフェ。重すぎない朝食を取りたい日にちょうどよく、ビーチ前にも立ち寄りやすい一軒です。",
-          "photo": "/images/aloh-health-bar-and-cafe.jpg"
+          "photo": "/images/aloh-health-bar-and-cafe.webp"
         }
       ]
     }
